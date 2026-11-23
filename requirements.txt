@@ -1,0 +1,25 @@
+# Dependencies for the comorbidity risk scoring and subgraph retrieval project
+# Install: pip install -r requirements.txt
+# For core features only (snapshot browsing + search + HTML report), skip the optional section below.
+
+flask>=3.0.0
+flask-cors>=4.0.0
+pandas>=1.5.0
+numpy>=1.24.0
+scipy>=1.10.0
+networkx>=3.0
+matplotlib>=3.7.0
+python-dotenv>=1.0.0
+requests>=2.28.0
+openai>=1.0.0
+tqdm>=4.65.0
+Pillow>=9.0.0
+
+# ---------- Optional: direct SQL Server access (only needed when SNAPSHOT_MODE=0) ----------
+# Prebuilt wheels exist for Windows/Linux; not needed in snapshot mode.
+pymssql>=2.2.0
+
+# ---------- Optional: PDF rendering (only needed when REPORT_RENDER_PDF=1) ----------
+# Windows also requires the GTK3 runtime, which is cumbersome;
+# if PDF is not needed, set REPORT_RENDER_PDF=0 in .env and skip this line.
+weasyprint>=60.0

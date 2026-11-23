@@ -1,0 +1,2764 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multimorbidity Early Warning System - Knowledge Graph-Enhanced Personalized Prevention</title>
+  <script src="/vue.global.prod.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/report_viewer.css">
+  <style>
+    :root {
+      --primary-blue: #2b85e4;
+      --primary-hover: #57a3f3;
+      --bg-gray: #eff2f7;
+      --card-bg: #ffffff;
+      --text-main: #303133;
+      --text-regular: #606266;
+      --text-secondary: #909399;
+      --border-color: #e4e7ed;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Microsoft YaHei", sans-serif;
+      background-color: var(--bg-gray);
+      color: var(--text-main);
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Top Navigation Bar */
+    .top-header {
+      height: 62px;
+      background-color: var(--card-bg);
+      box-shadow: 0 2px 6px rgba(0, 21, 41, 0.06);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 24px;
+      z-index: 20;
+    }
+
+    .brand-title {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--primary-blue);
+      letter-spacing: 1px;
+      width: 200px;
+    }
+
+    .top-right-info {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      font-size: 12px;
+      color: var(--text-regular);
+    }
+
+    .weather-box {
+      text-align: right;
+      line-height: 1.35;
+      color: #409eff;
+      border-right: 1px solid var(--border-color);
+      padding-right: 14px;
+    }
+
+    /* Main Structure */
+    .main-container {
+      display: flex;
+      flex: 1;
+      overflow: hidden;
+    }
+
+    .sidebar {
+      width: 210px;
+      background-color: var(--card-bg);
+      border-right: 1px solid var(--border-color);
+      display: flex;
+      flex-direction: column;
+      user-select: none;
+    }
+
+    .menu-group-title {
+      padding: 14px 18px;
+      font-size: 13px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .menu-group-title i.lead-icon { margin-right: 8px; color: #3b5998; }
+
+    .submenu-list { list-style: none; }
+    .submenu-item {
+      padding: 11px 18px 11px 40px;
+      font-size: 13px;
+      color: var(--text-regular);
+      cursor: pointer;
+    }
+    .submenu-item:hover { color: var(--primary-blue); background: #f5f9ff; }
+    .submenu-item.active { background: var(--primary-blue); color: #fff; font-weight: 500; }
+
+    /* Right content area */
+    .content-wrapper {
+      flex: 1;
+      padding: 14px 20px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .breadcrumb-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13px;
+      color: var(--text-regular);
+    }
+
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 12px;
+      border-radius: 12px;
+      font-size: 12px;
+      background-color: #e6f7ff;
+      color: #1890ff;
+      border: 1px solid #91d5ff;
+    }
+
+    /* Top Statistics Cards */
+    .stat-row {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+    }
+
+    .stat-card {
+      background: var(--card-bg);
+      border-radius: 4px;
+      padding: 12px 18px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+    }
+
+    .stat-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      flex-shrink: 0;
+    }
+    .stat-icon.orange { border: 2px solid #ffba00; color: #ffba00; background: #fff9e6; }
+    .stat-icon.green { border: 2px solid #52c41a; color: #52c41a; background: #f6ffed; }
+    .stat-icon.purple { border: 2px solid #722ed1; color: #722ed1; background: #f9f0ff; }
+    .stat-icon.blue { border: 2px solid #2b85e4; color: #2b85e4; background: #f0f7ff; }
+
+    .stat-info .label { font-size: 12px; color: var(--text-secondary); margin-bottom: 2px; }
+    .stat-info .val { font-size: 20px; font-weight: 700; }
+    .stat-info .val span { font-size: 12px; font-weight: normal; margin-left: 3px; }
+
+    /* Card container */
+    .panel-card {
+      background: var(--card-bg);
+      border-radius: 4px;
+      padding: 14px 18px;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+    }
+
+    .panel-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 10px;
+      margin-bottom: 12px;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .panel-title {
+      font-size: 14px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .panel-title i { color: var(--primary-blue); }
+
+    /* Advanced search condition list */
+    .condition-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .condition-block {
+      background: #fafbfc;
+      border: 1px solid #ebeef5;
+      border-radius: 6px;
+      padding: 10px 12px;
+      transition: border-color 0.2s;
+    }
+    .condition-block:hover {
+      border-color: #c6e2ff;
+    }
+
+    .condition-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .form-select, .form-input {
+      height: 34px;
+      padding: 0 10px;
+      border: 1px solid #dcdfe6;
+      border-radius: 4px;
+      font-size: 13px;
+      color: var(--text-main);
+      background-color: #fff;
+      outline: none;
+    }
+    .form-select:focus, .form-input:focus { border-color: var(--primary-blue); }
+
+    .logic-select { width: 92px; font-weight: 600; color: var(--primary-blue); }
+    .logic-placeholder { width: 92px; text-align: center; font-size: 12px; color: var(--text-secondary); font-weight: 600; }
+    .category-select { width: 230px; font-weight: 500; }
+    .op-select { width: 155px; }
+    .val-input { flex: 1; min-width: 170px; }
+
+    /* Secondary field proximity-match dropdown search box */
+    .sub-field-wrapper {
+      position: relative;
+      width: 270px;
+    }
+
+    .sub-field-input {
+      width: 100%;
+      padding-right: 28px;
+      border-color: #91d5ff;
+      background-color: #f0f9ff;
+      font-weight: 500;
+    }
+
+    .sub-field-icon {
+      position: absolute;
+      right: 9px;
+      top: 9px;
+      color: var(--primary-blue);
+      pointer-events: none;
+      font-size: 13px;
+    }
+
+    .dropdown-popover {
+      position: absolute;
+      top: 38px;
+      left: 0;
+      width: 380px;
+      max-height: 260px;
+      overflow-y: auto;
+      background: #fff;
+      border: 1px solid #dcdfe6;
+      border-radius: 6px;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+      z-index: 99;
+    }
+
+    .dropdown-header {
+      padding: 6px 12px;
+      background: #f5f7fa;
+      font-size: 11px;
+      color: var(--text-secondary);
+      border-bottom: 1px solid #ebeef5;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .dropdown-item {
+      padding: 8px 12px;
+      font-size: 13px;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #f5f7fa;
+    }
+    .dropdown-item:hover, .dropdown-item.selected {
+      background-color: #ecf5ff;
+      color: var(--primary-blue);
+    }
+
+    .dept-badge {
+      font-size: 11px;
+      padding: 1px 6px;
+      border-radius: 3px;
+      background: #f0f2f5;
+      color: #606266;
+    }
+
+    /* Field result and unit example hint box */
+    .sample-preview-bar {
+      margin-top: 8px;
+      margin-left: 100px;
+      padding: 7px 12px;
+      background: #f0f7ff;
+      border-left: 3px solid var(--primary-blue);
+      border-radius: 0 4px 4px 0;
+      font-size: 12px;
+      color: #303133;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .sample-tag {
+      background: #ffffff;
+      border: 1px solid #d9ecff;
+      color: #1890ff;
+      padding: 2px 8px;
+      border-radius: 3px;
+      font-family: monospace;
+      font-size: 12px;
+    }
+
+    .type-pill {
+      padding: 2px 7px;
+      border-radius: 3px;
+      font-weight: 600;
+      font-size: 11px;
+    }
+    .type-pill.numeric { background: #f6ffed; color: #52c41a; border: 1px solid #b7eb8f; }
+    .type-pill.text { background: #fff7e6; color: #fa8c16; border: 1px solid #ffd591; }
+
+    /* Button style */
+    .btn {
+      height: 34px;
+      padding: 0 14px;
+      border-radius: 4px;
+      font-size: 13px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      border: 1px solid transparent;
+      transition: all 0.2s;
+    }
+    .btn-primary { background-color: var(--primary-blue); color: #fff; }
+    .btn-primary:hover { background-color: var(--primary-hover); }
+    .btn-outline { background-color: #fff; border-color: #dcdfe6; color: var(--text-regular); }
+    .btn-outline:hover { color: var(--primary-blue); border-color: #c6e2ff; background-color: #ecf5ff; }
+    .btn-danger-icon { color: #f56c6c; background: #fef0f0; border-color: #fbc4c4; padding: 0 10px; }
+    .btn-danger-icon:hover { background: #f56c6c; color: #fff; }
+
+    .search-actions {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 12px;
+      padding-top: 10px;
+      border-top: 1px dashed var(--border-color);
+    }
+
+    /* Table area */
+    .table-panel {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      min-height: 290px;
+    }
+
+    .table-container {
+      flex: 1;
+      overflow: auto;
+      border: 1px solid var(--border-color);
+      border-radius: 4px;
+    }
+
+    table.data-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+      text-align: left;
+    }
+
+    table.data-table th {
+      background-color: #f7f9fc;
+      color: var(--text-regular);
+      font-weight: 600;
+      padding: 9px 12px;
+      border-bottom: 1px solid var(--border-color);
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      white-space: nowrap;
+    }
+
+    table.data-table td {
+      padding: 8px 12px;
+      border-bottom: 1px solid #ebeef5;
+      white-space: nowrap;
+    }
+
+    table.data-table tbody tr:hover { background-color: #f5f9ff; }
+
+    .sex-tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 3px;
+      font-size: 12px;
+      font-family: monospace;
+    }
+    .sex-tag.male { background: #e6f7ff; color: #1890ff; }
+    .sex-tag.female { background: #fff0f6; color: #eb2f96; }
+
+    .matched-item-chip {
+      display: inline-block;
+      background: #f0f9eb;
+      border: 1px solid #e1f3d8;
+      color: #67c23a;
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-size: 12px;
+      margin-right: 4px;
+    }
+
+    /* Pagination bar */
+    .pagination-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 12px;
+      font-size: 13px;
+      color: var(--text-regular);
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .page-controls { display: flex; align-items: center; gap: 6px; }
+
+    .page-btn {
+      min-width: 30px;
+      height: 30px;
+      padding: 0 8px;
+      border: 1px solid #dcdfe6;
+      background: #fff;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 13px;
+    }
+    .page-btn.active { background: var(--primary-blue); color: #fff; border-color: var(--primary-blue); }
+    .page-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+    .jump-input {
+      width: 54px;
+      height: 30px;
+      text-align: center;
+      border: 1px solid #dcdfe6;
+      border-radius: 4px;
+    }
+
+    /* Details Dialog */
+    .modal-mask {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.45);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 200;
+    }
+
+    .modal-card {
+      background: #fff;
+      width: 820px;
+      max-width: 94vw;
+      max-height: 86vh;
+      overflow-y: auto;
+      border-radius: 6px;
+      padding: 20px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+    }
+
+    .sub-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12px;
+      margin-top: 8px;
+    }
+    .sub-table th, .sub-table td {
+      border: 1px solid #ebeef5;
+      padding: 6px 10px;
+      text-align: left;
+    }
+    .sub-table th { background: #f7f9fc; }
+
+    /* ===================== Select and Export ===================== */
+    .checkbox-col { width: 40px; text-align: center; }
+    .checkbox-col input { width: 15px; height: 15px; cursor: pointer; vertical-align: middle; }
+
+    .selection-bar {
+      position: fixed;
+      left: 50%;
+      bottom: 18px;
+      transform: translateX(-50%);
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      background: #ffffff;
+      border: 1px solid #dcdfe6;
+      border-radius: 10px;
+      box-shadow: 0 6px 24px rgba(0, 0, 0, 0.14);
+      padding: 10px 18px;
+      z-index: 100;
+    }
+    .selection-info { font-size: 13px; color: #606266; white-space: nowrap; }
+    .selection-count { color: #409eff; font-size: 15px; margin: 0 2px; }
+    .selection-source { color: #909399; }
+    .selection-actions { display: flex; gap: 8px; align-items: center; }
+    .decide-toggle {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      color: #606266;
+      cursor: pointer;
+      user-select: none;
+      padding: 6px 10px;
+      border: 1px dashed #c0c4cc;
+      border-radius: 6px;
+      background: #fafafa;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    .decide-toggle input { cursor: pointer; margin: 0; }
+    .sel-btn {
+      padding: 6px 14px;
+      font-size: 13px;
+      border: 1px solid #dcdfe6;
+      border-radius: 6px;
+      background: #fff;
+      color: #606266;
+      cursor: pointer;
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .sel-btn:hover:not(:disabled) { border-color: #409eff; color: #409eff; }
+    .sel-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+    .sel-btn-primary { background: #409eff; border-color: #409eff; color: #fff; }
+    .sel-btn-primary:hover:not(:disabled) { background: #66b1ff; border-color: #66b1ff; color: #fff; }
+
+    .panel-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px; }
+    .panel-title { font-size: 15px; font-weight: 600; color: #303133; }
+    .close-btn {
+      border: none; background: none; font-size: 20px; color: #909399; cursor: pointer; line-height: 1;
+      padding: 0 4px;
+    }
+    .close-btn:hover { color: #606266; }
+    .modal-actions { display: flex; justify-content: flex-end; gap: 10px; padding-top: 12px; }
+
+    .range-card { width: 440px; }
+    .range-body { padding: 14px 4px 4px; }
+    .range-hint { font-size: 12px; color: #909399; margin: 0 0 14px; line-height: 1.7; }
+    .range-inputs { display: flex; align-items: center; gap: 10px; font-size: 13px; color: #606266; }
+    .range-inputs input {
+      width: 84px; padding: 6px 10px; border: 1px solid #dcdfe6; border-radius: 6px; font-size: 13px;
+    }
+
+    .export-card { width: 880px; max-width: 94vw; max-height: 88vh; display: flex; flex-direction: column; }
+    .export-task-id { font-size: 11px; color: #909399; margin-left: 10px; font-family: monospace; font-weight: 400; }
+    .export-progress-wrap { padding: 12px 0 6px; }
+    .export-progress-bar { height: 8px; background: #ebeef5; border-radius: 4px; overflow: hidden; }
+    .export-progress-inner { height: 100%; background: linear-gradient(90deg, #409eff, #66b1ff); transition: width 0.3s; }
+    .export-progress-text { display: flex; justify-content: space-between; font-size: 12px; color: #606266; margin-top: 6px; }
+    .export-stage { font-family: monospace; color: #409eff; }
+    .export-message { font-size: 12px; color: #909399; margin-top: 4px; }
+    .export-log {
+      margin: 8px 0; padding: 8px 12px; background: #f5f7fa; border-radius: 6px;
+      font-family: monospace; font-size: 11px; color: #606266; max-height: 96px; overflow-y: auto;
+    }
+    .export-error {
+      margin: 8px 0; padding: 10px 12px; background: #fef0f0; border: 1px solid #fbc4c4;
+      border-radius: 6px; color: #f56c6c; font-size: 12px; white-space: pre-wrap; max-height: 200px; overflow: auto;
+    }
+    .export-results { overflow-y: auto; }
+    .export-summary { display: flex; gap: 18px; font-size: 13px; color: #606266; padding: 6px 0; flex-wrap: wrap; }
+    .export-summary .ok { color: #67c23a; }
+    .export-output-dir { font-size: 12px; color: #909399; font-family: monospace; padding-bottom: 8px; word-break: break-all; }
+    .export-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+    .export-table th, .export-table td { border: 1px solid #ebeef5; padding: 6px 8px; text-align: left; vertical-align: top; }
+    .export-table th { background: #f5f7fa; color: #606266; white-space: nowrap; }
+    .export-table .mono { font-family: monospace; }
+    .risk-tags { display: flex; flex-wrap: wrap; gap: 4px; }
+    .risk-tag { background: #ecf5ff; color: #409eff; border-radius: 4px; padding: 1px 6px; font-size: 11px; white-space: nowrap; }
+    /* Diseases below medium risk under unified stratification with no subgraph search entered */
+    .risk-tag-excluded { background: #f4f4f5; color: #909399; opacity: .75; }
+    /* Diseases included by high-risk veto protection */
+    .risk-tag-protected { background: #fdf6ec; color: #e6a23c; }
+    .risk-none { color: #c0c4cc; }
+    .status-badge { display: inline-block; border-radius: 4px; padding: 1px 8px; font-size: 11px; }
+    .status-SUCCESS { background: #f0f9eb; color: #67c23a; }
+    .status-NO_RISK_RESULT, .status-NO_STACKING_SCORE { background: #fdf6ec; color: #e6a23c; }
+    .status-ERROR, .status-INCOHERENT { background: #fef0f0; color: #f56c6c; }
+    .hit-module { font-size: 11px; color: #909399; margin-top: 3px; max-width: 220px; word-break: break-all; }
+    .files-cell .file-tag {
+      display: inline-block; background: #f4f4f5; color: #909399; border-radius: 3px;
+      padding: 0 5px; font-size: 10px; margin: 1px 2px;
+    }
+  </style>
+</head>
+<body>
+<div id="app" style="display: flex; flex-direction: column; height: 100vh;" @click="closeAllDropdowns">
+  <!-- Top Navigation Bar -->
+  <header class="top-header">
+    <div class="brand-title">Multimorbidity Early Warning System</div>
+    <div class="top-right-info">
+      <div class="weather-box">
+        <div><i class="fa-solid fa-database"></i> Data Source: Local De-identified Demo Snapshot</div>
+        <div>Parsed secondary lab/exam dictionary: {{ labFieldCatalog.length + descFieldCatalog.length }} items</div>
+      </div>
+      <div style="color: var(--primary-blue); font-weight: 600;">
+        <i class="fa-solid fa-user"></i> Administrator
+      </div>
+    </div>
+  </header>
+
+  <div class="main-container">
+    <!-- Left Menu -->
+    <aside class="sidebar">
+      <div>
+        <div class="menu-group-title">
+          <span><i class="fa-solid fa-notes-medical lead-icon"></i>Patient Health Profile Explorer</span>
+          <i class="fa-solid fa-caret-down"></i>
+        </div>
+        <ul class="submenu-list">
+          <li
+            class="submenu-item"
+            :class="{ active: activeModule === 'search' }"
+            @click="switchModule('search')"
+          >
+            1. Clinical Indicator Search
+          </li>
+          <li
+            class="submenu-item"
+            :class="{ active: activeModule === 'watch' }"
+            @click="switchModule('watch')"
+          >
+            2. Patient Intake Monitor (app_no)
+          </li>
+          <li
+            class="submenu-item"
+            :class="{ active: activeModule === 'reports' }"
+            @click="switchModule('reports')"
+          >
+            3. Prevention Report Center
+          </li>
+          <li
+            class="submenu-item"
+            :class="{ active: activeModule === 'tasks' }"
+            @click="switchModule('tasks')"
+          >
+            4. Early Warning Pipeline
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- Main Workspace -->
+    <main class="content-wrapper">
+      <!-- ==================== Module 1: Clinical Indicator Search ==================== -->
+      <template v-if="activeModule === 'search'">
+      <!-- Breadcrumb and Data Source Status -->
+      <div class="breadcrumb-bar">
+        <div>Patient Health Profile Explorer &gt; <strong>Basic info + lab/exam clinical indicator search</strong></div>
+        <div class="status-badge">
+          <i class="fa-solid fa-clock"></i>
+          <span>{{ dataSourceStatus }}</span>
+          <!-- Timing hint label -->
+          <span v-if="queryTiming.totalClientMs > 0" style="margin-left: 10px; padding: 2px 8px; background: #fff; border-radius: 4px; font-weight: 600; color: #fa8c16; border: 1px solid #ffd591;">
+            End-to-end total time: {{ queryTiming.totalClientMs }}ms (Database SQL: {{ queryTiming.dbMs }}ms | Network and Rendering: {{ Math.max(0, queryTiming.totalClientMs - queryTiming.serverTotalMs) }}ms)
+          </span>
+        </div>
+      </div>
+
+      <!-- Statistics cards (sex strictly by 1=Male, 2=Female statistics) -->
+      <div class="stat-row">
+        <div class="stat-card">
+          <div class="stat-icon orange"><i class="fa-solid fa-users"></i></div>
+          <div class="stat-info">
+            <div class="label">Total screening records in current result set</div>
+            <div class="val" style="color: #ffba00;">{{ totalCount }}<span>records</span></div>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon green"><i class="fa-solid fa-mars"></i></div>
+          <div class="stat-info">
+            <div class="label">Male subjects (pat_sex = 1)</div>
+            <div class="val" style="color: #52c41a;">{{ maleCount }}<span>persons</span></div>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon purple"><i class="fa-solid fa-venus"></i></div>
+          <div class="stat-info">
+            <div class="label">Female subjects (pat_sex = 2)</div>
+            <div class="val" style="color: #722ed1;">{{ femaleCount }}<span>persons</span></div>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon blue"><i class="fa-solid fa-flask-vial"></i></div>
+          <div class="stat-info">
+            <div class="label">Average Screening Age</div>
+            <div class="val" style="color: #2b85e4;">{{ avgAge }}<span>years</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Advanced search panel -->
+      <section class="panel-card">
+        <div class="panel-header">
+          <div class="panel-title">
+            <i class="fa-solid fa-filter"></i>
+            <span>Clinical indicator selection (basic info + lab/exam fields with proximity matching and live value preview)</span>
+          </div>
+          <div style="font-size: 12px; color: #909399;">
+            Sex Code: <strong>1 = Male, 2 = Female</strong> | Lab field name prefers <code>det_com_name</code>, if empty use <code>res_itm_name</code>
+          </div>
+        </div>
+
+        <div class="condition-list">
+          <div class="condition-block" v-for="(cond, idx) in conditions" :key="cond.id">
+            <div class="condition-row">
+              <!-- 1. Logical connector -->
+              <div v-if="idx === 0" class="logic-placeholder">Matching conditions</div>
+              <select v-else v-model="cond.logic" class="form-select logic-select">
+                <option value="AND">AND</option>
+                <option value="OR">OR</option>
+              </select>
+
+              <!-- 2. Primary category / basic field selection -->
+              <select v-model="cond.category" @change="onCategoryChange(cond)" class="form-select category-select">
+                <optgroup label="1. Dynamic Lab/Exam Fields (secondary search)">
+                  <option value="LAB_EXAM">[Lab/Exam Items](res_value)</option>
+                  <option value="DESC_EXAM">[Descriptive Exam Report](res_result)</option>
+                </optgroup>
+                <optgroup label="2. Patient Basic Information Fields (base)">
+                  <option value="pat_sex">Sex (pat_sex: 1=Male, 2=Female)</option>
+                  <option value="app_pat_age">Screening Age (app_pat_age)</option>
+                  <option value="pat_name">Patient Name (pat_name)</option>
+                  <option value="app_no">Screening Application No. (app_no)</option>
+                  <option value="pat_id">Patient ID (pat_id)</option>
+                  <option value="pat_nation">Ethnicity (pat_nation)</option>
+                  <option value="pat_address">Address (pat_address)</option>
+                </optgroup>
+              </select>
+
+              <!-- 3. Secondary field search box (only when LAB is selected_EXAM or DESC_EXAM shown when, click to expand all & input character proximity match) -->
+              <div
+                v-if="cond.category === 'LAB_EXAM' || cond.category === 'DESC_EXAM'"
+                class="sub-field-wrapper"
+                @click.stop
+              >
+                <input
+                  type="text"
+                  v-model="cond.subFieldQuery"
+                  @focus="openSubDropdown(cond)"
+                  @input="openSubDropdown(cond)"
+                  :placeholder="cond.category === 'LAB_EXAM' ? 'Click to expand or type to match lab/exam items...' : 'Click to expand or type to match descriptive exam items...'"
+                  class="form-input sub-field-input"
+                />
+                <i class="fa-solid fa-magnifying-glass sub-field-icon"></i>
+
+                <!-- Secondary unique field dropdown -->
+                <div v-if="cond.dropdownOpen" class="dropdown-popover">
+                  <div class="dropdown-header">
+                    <span>Total matched {{ getFilteredSubFields(cond).length }}  unique fields (sorted by proximity)</span>
+                    <span>Source column priority: det_com_name &gt; res_itm_name</span>
+                  </div>
+                  <div
+                    v-if="getFilteredSubFields(cond).length === 0"
+                    style="padding: 14px; text-align: center; color: #909399; font-size: 12px;"
+                  >
+                    No matching lab/exam field
+                  </div>
+                  <div
+                    v-for="item in getFilteredSubFields(cond)"
+                    :key="item.fieldName"
+                    class="dropdown-item"
+                    :class="{ selected: cond.subField === item.fieldName }"
+                    @click="selectSubField(cond, item)"
+                  >
+                    <div>
+                      <strong>{{ item.fieldName }}</strong>
+                      <span style="font-size: 11px; color: #909399; margin-left: 6px;">({{ item.sourceCol }})</span>
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 6px;">
+                      <span class="dept-badge">{{ item.dept }}</span>
+                      <span class="type-pill" :class="item.valueType === 'number' ? 'numeric' : 'text'">
+                        {{ item.valueType === 'number' ? 'Numeric' : 'Text' }}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 4. Condition operator -->
+              <select v-model="cond.operator" class="form-select op-select">
+                <option v-for="op in getOperatorsForCondition(cond)" :key="op.value" :value="op.value">
+                  {{ op.label }}
+                </option>
+              </select>
+
+              <!-- 5. Condition value input -->
+              <input
+                v-if="!['is_null', 'is_not_null'].includes(cond.operator)"
+                v-model="cond.value"
+                type="text"
+                :placeholder="getValuePlaceholder(cond)"
+                class="form-input val-input"
+                @keyup.enter="triggerSearch(1)"
+              />
+              <div v-else class="val-input" style="font-size: 12px; color: #909399; line-height: 34px;">
+                No comparison value needed
+              </div>
+
+              <!-- Delete button -->
+              <button
+                class="btn btn-danger-icon"
+                @click="removeCondition(idx)"
+                :disabled="conditions.length === 1"
+                title="Delete this condition"
+              >
+                <i class="fa-solid fa-trash-can"></i>
+              </button>
+            </div>
+
+            <!-- 6. Secondary field (or specific enum field) result and unit example hint bar -->
+            <div v-if="getConditionSampleInfo(cond)" class="sample-preview-bar">
+              <i class="fa-solid fa-lightbulb" style="color: #2b85e4;"></i>
+              <strong>Field[{{ getConditionSampleInfo(cond).title }}]Type and result example: </strong>
+              <span class="type-pill" :class="getConditionSampleInfo(cond).valueType === 'number' ? 'numeric' : 'text'">
+                {{ getConditionSampleInfo(cond).typeText }}
+              </span>
+              <span v-if="getConditionSampleInfo(cond).unit" style="color: #606266;">
+                Common units (res_unit): <strong>{{ getConditionSampleInfo(cond).unit }}</strong>
+              </span>
+              <span v-if="getConditionSampleInfo(cond).refRange" style="color: #606266;">
+                Common reference ranges (res)_exp): <strong>{{ getConditionSampleInfo(cond).refRange }}</strong>
+              </span>
+              <span style="color: #606266;">Real value example from database: </span>
+              <span
+                v-for="(samp, sIdx) in getConditionSampleInfo(cond).samples"
+                :key="sIdx"
+                class="sample-tag"
+                @click="cond.value = samp.rawValue"
+                style="cursor: pointer;"
+                title="Click to fill this example value into the input box"
+              >
+                {{ samp.display }}
+              </span>
+              <span style="font-size: 11px; color: #909399;">(click an example to fill quickly)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Search action buttons -->
+        <div class="search-actions">
+          <div style="display: flex; gap: 10px;">
+            <button class="btn btn-outline" @click="addCondition('LAB_EXAM')">
+              <i class="fa-solid fa-plus"></i> Add[Lab/Exam]Condition
+            </button>
+            <button class="btn btn-outline" @click="addCondition('DESC_EXAM')">
+              <i class="fa-solid fa-plus"></i> Add[Descriptive Exam]Condition
+            </button>
+            <button class="btn btn-outline" @click="addCondition('pat_sex')">
+              <i class="fa-solid fa-plus"></i> Add[Basic Information]Condition
+            </button>
+            <button class="btn btn-outline" @click="loadPresetDemo">
+              <i class="fa-solid fa-wand-magic-sparkles"></i> fill in "Male (1) + Fasting Glucose > 6.1 + Ultrasound with fatty liver" example
+            </button>
+          </div>
+          <div style="display: flex; gap: 10px;">
+            <button class="btn btn-outline" @click="resetToPreload">
+              <i class="fa-solid fa-rotate-left"></i> Reset to 5000 preloaded records
+            </button>
+            <button class="btn btn-primary" @click="triggerSearch(1)" :disabled="loading">
+              <i class="fa-solid" :class="loading ? 'fa-spinner fa-spin' : 'fa-paper-plane'"></i>
+              <span>{{ loading ? 'Searching...' : 'Run database search' }}</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Search results table -->
+      <section class="panel-card table-panel">
+        <div class="panel-header" style="margin-bottom: 8px;">
+          <div class="panel-title">
+            <i class="fa-solid fa-table-list"></i>
+            <span>Basic info and matched clinical findings</span>
+          </div>
+          <div style="font-size: 12px; color: #606266;">
+            Currently showing page <strong>{{ startRowIndex }} - {{ endRowIndex }}</strong> records, total <strong>{{ totalCount }}</strong> screening visit records
+          </div>
+        </div>
+
+        <div class="table-container">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th class="checkbox-col" title="Select/Deselect current page">
+                  <input type="checkbox" :checked="isAllCurrentPageSelected"
+                         @change="toggleCurrentPage">
+                </th>
+                <th style="width: 55px;">No.</th>
+                <th>Screening Application No. (app_no)</th>
+                <th>Patient ID (pat_id)</th>
+                <th>Name (pat_name)</th>
+                <th>Sex (pat_sex)</th>
+                <th>Age (app_pat_age)</th>
+                <th>Ethnicity (pat_nation)</th>
+                <th>Lab/Exam Item Summary (det_com_name / res_itm_name : res_value)</th>
+                <th>Descriptive Exam Summary (det_com_name : res_result)</th>
+                <th>Address (pat_address)</th>
+                <th style="width: 80px;">Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-if="paginatedList.length === 0">
+                <td colspan="11" style="text-align: center; padding: 36px; color: #909399;">
+                  No records match all the above clinical conditions
+                </td>
+              </tr>
+              <tr v-for="(row, idx) in paginatedList" :key="row.app_no">
+                <td class="checkbox-col">
+                  <input type="checkbox" :checked="isSelected(row.app_no)" @change="toggleSelect(row.app_no)">
+                </td>
+                <td>{{ (currentPage - 1) * pageSize + idx + 1 }}</td>
+                <td style="font-family: monospace; font-weight: 600; color: #2b85e4;">{{ row.app_no }}</td>
+                <td style="font-family: monospace;">{{ row.pat_id }}</td>
+                <td><strong>{{ row.pat_name }}</strong></td>
+                <td>
+                  <span class="sex-tag" :class="String(row.pat_sex) === '1' ? 'male' : 'female'">
+                    {{ row.pat_sex }} ({{ String(row.pat_sex) === '1' ? 'Male' : 'Female' }})
+                  </span>
+                </td>
+                <td>{{ row.app_pat_age }} years</td>
+                <td>{{ row.pat_nation }}</td>
+                <td style="max-width: 300px; overflow: hidden; text-overflow: ellipsis;">
+                  <span
+                    v-for="(itm, iIdx) in getDisplayLabItems(row)"
+                    :key="iIdx"
+                    class="matched-item-chip"
+                  >
+                    {{ itm.fieldName }}: <strong>{{ itm.res_value }}</strong> {{ itm.res_unit }}<span v-if="itm.res_exp"> (Reference Value {{ itm.res_exp }})</span>
+                  </span>
+                </td>
+                <td style="max-width: 260px; overflow: hidden; text-overflow: ellipsis;" :title="getDisplayDescSummary(row)">
+                  {{ getDisplayDescSummary(row) }}
+                </td>
+                <td style="max-width: 150px; overflow: hidden; text-overflow: ellipsis;" :title="row.pat_address">
+                  {{ row.pat_address }}
+                </td>
+                <td>
+                  <button class="btn btn-outline" style="height: 26px; padding: 0 8px; font-size: 12px;" @click="openRecordDetail(row)">
+                    Full Record
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Pagination control bar -->
+        <div class="pagination-bar">
+          <div style="display: flex; align-items: center; gap: 8px;">
+            <span>Show per page</span>
+            <select v-model.number="pageSize" @change="handlePageSizeChange" class="form-select" style="width: 95px; height: 30px;">
+              <option :value="10">10 records/page</option>
+              <option :value="20">20 records/page</option>
+              <option :value="50">50 records/page</option>
+              <option :value="100">100 records/page</option>
+              <option :value="200">200 records/page</option>
+            </select>
+            <span>Total {{ totalPages }} </span>
+          </div>
+
+          <div class="page-controls">
+            <button class="page-btn" :disabled="currentPage === 1" @click="goToPage(1)">Home</button>
+            <button class="page-btn" :disabled="currentPage === 1" @click="goToPage(currentPage - 1)">Previous</button>
+            <button
+              v-for="p in visiblePageNumbers"
+              :key="p"
+              class="page-btn"
+              :class="{ active: p === currentPage }"
+              @click="goToPage(p)"
+            >
+              {{ p }}
+            </button>
+            <button class="page-btn" :disabled="currentPage === totalPages" @click="goToPage(currentPage + 1)">Next</button>
+            <button class="page-btn" :disabled="currentPage === totalPages" @click="goToPage(totalPages)">Last Page</button>
+
+            <span style="margin-left: 8px;">Go to</span>
+            <input type="number" v-model.number="jumpPageInput" @keyup.enter="handleJumpPage" class="jump-input" min="1" :max="totalPages" />
+            <span></span>
+            <button class="btn btn-outline" style="height: 30px; padding: 0 10px;" @click="handleJumpPage">OK</button>
+          </div>
+        </div>
+      </section>
+      </template>
+
+      <!-- ==================== Module 2: Specific-path app_no Auto-monitoring and basic info sync ==================== -->
+      <template v-else-if="activeModule === 'watch'">
+        <div class="breadcrumb-bar">
+          <div>Patient Health Profile Explorer &gt; <strong>Patient intake: app_no auto-monitoring and basic info store (local persistence)</strong></div>
+          <div class="status-badge">
+            <i class="fa-solid fa-satellite-dish" :class="{ 'fa-fade': watchAutoPoll }"></i>
+            <span>Watch path: <code>{{ watchMeta.watch_dir || './watched_app_nos' }}</code></span>
+            <span style="margin-left: 8px; font-weight: 600; color: #52c41a;">
+              [Scan Duration: {{ watchMeta.scan_ms }}ms | Last Scan: {{ watchMeta.last_scan_time || '-' }}]
+            </span>
+          </div>
+        </div>
+
+        <div class="stat-row">
+          <div class="stat-card">
+            <div class="stat-icon blue"><i class="fa-solid fa-file-lines"></i></div>
+            <div class="stat-info">
+              <div class="label">Total .txt files in watch directory</div>
+              <div class="val" style="color: #2b85e4;">{{ watchMeta.txt_file_count }}<span> files</span></div>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon orange"><i class="fa-solid fa-barcode"></i></div>
+            <div class="stat-info">
+              <div class="label">txt  apps parsed cumulatively within_no</div>
+              <div class="val" style="color: #ffba00;">{{ watchMeta.total_txt_app_nos }}<span> order numbers</span></div>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon green"><i class="fa-solid fa-database"></i></div>
+            <div class="stat-info">
+              <div class="label">Total basic info persisted locally</div>
+              <div class="val" style="color: #52c41a;">{{ watchTotalCount }}<span>persons</span></div>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon purple"><i class="fa-solid fa-bolt"></i></div>
+            <div class="stat-info">
+              <div class="label">Newly added persons in this scan</div>
+              <div class="val" style="color: #722ed1;">+{{ watchMeta.newly_synced_count }}<span>persons</span></div>
+            </div>
+          </div>
+        </div>
+
+        <section class="panel-card">
+          <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
+            <div style="display: flex; align-items: center; gap: 10px; flex: 1;">
+              <i class="fa-solid fa-magnifying-glass" style="color: var(--primary-blue);"></i>
+              <input
+                type="text"
+                v-model="watchKeyword"
+                @keyup.enter="fetchWatchSync(1)"
+                placeholder="Filter apps in synced local basic info app_no / Name / source txt filename..."
+                class="form-input"
+                style="width: 380px;"
+              />
+              <button class="btn btn-outline" @click="fetchWatchSync(1)">Filter Query</button>
+              <button v-if="watchKeyword" class="btn btn-outline" @click="watchKeyword = ''; fetchWatchSync(1)">Clear</button>
+            </div>
+
+            <div style="display: flex; align-items: center; gap: 10px;">
+              <label style="font-size: 13px; display: flex; align-items: center; gap: 6px; cursor: pointer;">
+                <input type="checkbox" v-model="watchAutoPoll" @change="toggleWatchPolling" />
+                <span>Backend auto-scans for new txt every 5 seconds</span>
+              </label>
+              <button class="btn btn-outline" @click="simulateDropTxt" title="Randomly sample 15 apps from the database_noGenerate a new txt into the watch directory">
+                <i class="fa-solid fa-file-circle-plus"></i> Simulate dropping a new txt file
+              </button>
+              <button class="btn btn-primary" @click="fetchWatchSync(watchPage)" :disabled="watchLoading">
+                <i class="fa-solid" :class="watchLoading ? 'fa-spinner fa-spin' : 'fa-rotate'"></i>
+                <span>Scan and Sync Now</span>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel-card table-panel">
+          <div class="panel-header" style="margin-bottom: 8px;">
+            <div class="panel-title">
+              <i class="fa-solid fa-address-card"></i>
+              <span>Synced patient basic info list (local file: <code>synced_base_info.csv</code>)</span>
+            </div>
+            <div style="font-size: 12px; color: #606266;">
+              Currently showing page <strong>{{ watchStartRow }} - {{ watchEndRow }}</strong> records, total <strong>{{ watchTotalCount }}</strong>  basic info records
+            </div>
+          </div>
+
+          <div class="table-container">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th class="checkbox-col" title="Select/Deselect current page">
+                    <input type="checkbox" :checked="isAllCurrentPageSelected"
+                           @change="toggleCurrentPage">
+                  </th>
+                  <th style="width: 55px;">No.</th>
+                  <th>Screening Application No. (app_no)</th>
+                  <th>Patient ID (pat_id)</th>
+                  <th>Name (pat_name)</th>
+                  <th>Sex (pat_sex)</th>
+                  <th>Age (app_pat_age)</th>
+                  <th>Ethnicity (pat_nation)</th>
+                  <th>Address (pat_address)</th>
+                  <th>Source txt file</th>
+                  <th>Sync Time</th>
+                  <th style="width: 110px;">Actions (on-site lookup)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-if="watchRecords.length === 0">
+                  <td colspan="12" style="text-align: center; padding: 40px; color: #909399;">
+                    Watch Directory <code>{{ watchMeta.watch_dir }}</code> has no matching app_no records; you can drop a .txt into this directory or click the top-right "Simulate dropping a new txt file"
+                  </td>
+                </tr>
+                <tr v-for="(row, idx) in watchRecords" :key="row.app_no">
+                  <td class="checkbox-col">
+                    <input type="checkbox" :checked="isSelected(row.app_no)" @change="toggleSelect(row.app_no)">
+                  </td>
+                  <td>{{ (watchPage - 1) * watchPageSize + idx + 1 }}</td>
+                  <td style="font-family: monospace; font-weight: 600; color: #2b85e4;">{{ row.app_no }}</td>
+                  <td style="font-family: monospace;">{{ row.pat_id }}</td>
+                  <td><strong>{{ row.pat_name }}</strong></td>
+                  <td>
+                    <span class="sex-tag" :class="String(row.pat_sex) === '1' ? 'male' : 'female'">
+                      {{ row.pat_sex }} ({{ String(row.pat_sex) === '1' ? 'Male' : 'Female' }})
+                    </span>
+                  </td>
+                  <td>{{ row.app_pat_age }} years</td>
+                  <td>{{ row.pat_nation }}</td>
+                  <td style="max-width: 220px; overflow: hidden; text-overflow: ellipsis;" :title="row.pat_address">
+                    {{ row.pat_address }}
+                  </td>
+                  <td><span class="dept-badge">{{ row.source_txt || '-' }}</span></td>
+                  <td style="font-size: 12px; color: #909399;">{{ row.sync_time || '-' }}</td>
+                  <td>
+                    <button
+                      class="btn btn-outline"
+                      style="height: 26px; padding: 0 8px; font-size: 12px;"
+                      @click="openRecordDetail(row)"
+                    >
+                      <i class="fa-solid fa-magnifying-glass-plus"></i> Full Record
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="pagination-bar">
+            <div style="display: flex; align-items: center; gap: 8px;">
+              <span>Show per page</span>
+              <select v-model.number="watchPageSize" @change="fetchWatchSync(1)" class="form-select" style="width: 95px; height: 30px;">
+                <option :value="10">10 records/page</option>
+                <option :value="20">20 records/page</option>
+                <option :value="50">50 records/page</option>
+                <option :value="100">100 records/page</option>
+              </select>
+              <span>Total {{ watchTotalPages }} </span>
+            </div>
+            <div class="page-controls">
+              <button class="page-btn" :disabled="watchPage === 1" @click="fetchWatchSync(1)">Home</button>
+              <button class="page-btn" :disabled="watchPage === 1" @click="fetchWatchSync(watchPage - 1)">Previous</button>
+              <span style="padding: 0 8px;">Page  <strong>{{ watchPage }}</strong> / {{ watchTotalPages }} </span>
+              <button class="page-btn" :disabled="watchPage === watchTotalPages" @click="fetchWatchSync(watchPage + 1)">Next</button>
+              <button class="page-btn" :disabled="watchPage === watchTotalPages" @click="fetchWatchSync(watchTotalPages)">Last Page</button>
+            </div>
+          </div>
+        </section>
+      </template>
+
+      <!-- ===================== 3. Prevention Report Center ===================== -->
+      <template v-else-if="activeModule === 'reports'">
+        <section class="panel">
+          <div class="panel-header">
+            <div class="panel-title">
+              Prevention Report Center
+              <span class="export-task-id">Total {{ reportList.length }} reports</span>
+            </div>
+            <button class="sel-btn" @click="loadReports">Refresh</button>
+          </div>
+          <div class="panel-body">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>app_no</th><th>Name</th><th>Sex</th><th>Age</th>
+                  <th>Task</th><th>Generated At</th><th>Report Scope</th><th>Actions</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for="r in reportList" :key="r.task_id + r.app_no">
+                  <td>{{ r.app_no }}</td>
+                  <td>{{ r.patient.name || '-' }}</td>
+                  <td>{{ r.patient.sex || '-' }}</td>
+                  <td>{{ r.patient.age || '-' }}</td>
+                  <td style="font-size:11px;color:#7a8a9c;">{{ r.task_id }}</td>
+                  <td>{{ r.generated_at || '-' }}</td>
+                  <td>{{ r.md_chars || 0 }} chars / {{ r.spec_elements || 0 }} elements</td>
+                  <td>
+                    <button class="sel-btn sel-btn-primary" style="padding:4px 10px;font-size:12px;" @click="openReportFromList(r)">Visual version</button>
+                    <button class="sel-btn" style="padding:4px 10px;font-size:12px;" @click="openMarkdown(r)">Text version</button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div v-if="reportList.length === 0" class="empty-tip">No reports yet (reports generated in the Early Warning Pipeline will appear here automatically)</div>
+          </div>
+        </section>
+      </template>
+
+      <!-- ===================== 4. Early Warning Pipeline ===================== -->
+      <template v-else-if="activeModule === 'tasks'">
+        <section class="panel">
+          <div class="panel-header">
+            <div class="panel-title">
+              Early Warning Pipeline
+              <span class="export-task-id">Total {{ taskList.length }} batches</span>
+            </div>
+            <button class="sel-btn" @click="loadTasks">Refresh</button>
+          </div>
+          <div class="panel-body">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Task</th><th>Created At</th><th>Source</th><th>Count</th>
+                  <th>app_no Range</th><th>Edge Scoring/Report</th><th>Success</th><th>Actions</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for="t in taskList" :key="t.task_id">
+                  <td style="font-size:12px;">{{ t.task_id }}</td>
+                  <td>{{ t.created_at || '-' }}</td>
+                  <td>{{ t.source || '-' }}</td>
+                  <td>{{ t.count }}</td>
+                  <td>{{ t.app_no_range || '-' }}</td>
+                  <td>{{ t.enable_decide ? 'Scoring' : '—' }} / {{ t.enable_report ? 'Report' : '—' }}</td>
+                  <td>Search {{ t.retrieval_success }} / Report {{ t.report_success }}</td>
+                  <td>
+                    <a class="sel-btn" style="padding:4px 10px;font-size:12px;text-decoration:none;" :href="'/api/tasks/' + t.task_id + '/download'">Download Batch</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div v-if="taskList.length === 0" class="empty-tip">No export records yet</div>
+          </div>
+        </section>
+      </template>
+    </main>
+  </div>
+
+  <!-- ===================== Selection toolbar ===================== -->
+  <div class="selection-bar" v-if="activeModule === 'search' || activeModule === 'watch'">
+    <div class="selection-info">
+      Selected <b class="selection-count">{{ selectedCount }}</b>  apps_no
+      <span class="selection-source" v-if="selectedCount > 0">(Current module: {{ activeModule === 'search' ? 'Data Search' : 'Directory Sync' }})</span>
+    </div>
+    <div class="selection-actions">
+      <button class="sel-btn" @click="selectCurrentPage" :disabled="currentPageAppNos.length === 0">Select current page</button>
+      <button class="sel-btn" @click="openRangeDialog">Select Range</button>
+      <button class="sel-btn" @click="selectAllAppNos" :disabled="selectAllLoading">{{ selectAllLoading ? 'Collecting...' : 'Select All' }}</button>
+      <button class="sel-btn" @click="clearSelection" :disabled="selectedCount === 0">Deselect</button>
+      <label class="decide-toggle" title="After selection: subgraph retrieval complete → JEV-27B per-edge scoring (slower); unchecked: output as soon as subgraph retrieval completes">
+        <input type="checkbox" v-model="enableDecide">
+        Enable knowledge-graph edge scoring
+      </label>
+      <label class="decide-toggle" title="After selection: generate Markdown report and render it as a visual prevention report (json-render)">
+        <input type="checkbox" v-model="enableReport">
+        Generate Prevention Report
+      </label>
+      <button class="sel-btn sel-btn-primary" @click="exportSelected" :disabled="selectedCount === 0 || exporting">
+        {{ exporting ? 'Submitting...' : 'Run Early Warning' }}
+      </button>
+    </div>
+  </div>
+
+  <!-- Select page range dialog -->
+  <div class="modal-mask" v-if="rangeDialogVisible" @click.self="rangeDialogVisible = false">
+    <div class="modal-card range-card">
+      <div class="panel-header">
+        <div class="panel-title">Select Page Range</div>
+        <button class="close-btn" @click="rangeDialogVisible = false">×</button>
+      </div>
+      <div class="range-body">
+        <p class="range-hint">
+          will apply to current {{ activeModule === 'search' ? 'Search Results' : 'Watch List' }}. Collect apps within the specified page range and add to selection
+          (Per page {{ activeModule === 'search' ? pageSize : watchPageSize }} records, max 200 pages per batch)
+        </p>
+        <div class="range-inputs">
+          <label>Start Page <input type="number" min="1" v-model.number="rangeFrom"></label>
+          <span>~</span>
+          <label>End Page <input type="number" min="1" v-model.number="rangeTo"></label>
+        </div>
+      </div>
+      <div class="modal-actions">
+        <button class="sel-btn" @click="rangeDialogVisible = false">Cancel</button>
+        <button class="sel-btn sel-btn-primary" @click="confirmSelectRange" :disabled="rangeLoading">
+          {{ rangeLoading ? 'Collecting...' : 'Confirm Selection' }}
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Export pipeline progress / result dialog -->
+  <div class="modal-mask" v-if="exportTask" @click.self="closeExportPanel">
+    <div class="modal-card export-card">
+      <div class="panel-header">
+        <div class="panel-title">
+          Risk Scoring and Subgraph Retrieval{{ exportTask.status === 'done' ? 'Result' : 'Progress' }}
+          <span class="export-task-id">{{ exportTask.task_id }}</span>
+        </div>
+        <button class="close-btn" @click="closeExportPanel">×</button>
+      </div>
+
+      <div class="export-progress-wrap">
+        <div class="export-progress-bar">
+          <div class="export-progress-inner" :style="{ width: (exportTask.progress || 0) + '%' }"></div>
+        </div>
+        <div class="export-progress-text">
+          <span class="export-stage">{{ exportTask.stage }}</span>
+          <span>{{ exportTask.progress || 0 }}%</span>
+        </div>
+        <div class="export-message">{{ exportTask.message }}</div>
+      </div>
+
+      <div class="export-log" v-if="exportTask.log && exportTask.log.length">
+        <div v-for="(line, i) in exportTask.log.slice(-8)" :key="i">{{ line }}</div>
+      </div>
+
+      <div class="export-error" v-if="exportTask.status === 'error'">{{ exportTask.error }}</div>
+
+      <div class="export-results" v-if="exportTask.status === 'done' && exportTask.result">
+        <div class="export-summary">
+          <span>Requested: {{ exportTask.result.total_requested }}</span>
+          <span>With valid risk vector: {{ exportTask.result.total_with_vector }}</span>
+          <span class="ok">Subgraph retrieval succeeded: {{ exportTask.result.total_retrieval_success }}</span>
+        </div>
+        <div class="export-output-dir">Output directory: {{ exportTask.result.output_dir }}</div>
+        <table class="export-table">
+          <thead>
+            <tr>
+              <th>app_no</th>
+              <th>pat_id</th>
+              <th>Risk Vector / RWR Weights</th>
+              <th>Search Status</th>
+              <th>Risk-driven Subgraph Retrieval</th>
+              <th>Edge Scoring (JEV-27B)</th>
+              <th>Report</th>
+              <th>Subgraph File</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="p in exportTask.result.patients" :key="p.app_no">
+              <td class="mono">{{ p.app_no }}</td>
+              <td class="mono">{{ p.pat_id || '-' }}</td>
+              <td>
+                <div class="risk-tags">
+                  <template v-for="d in p.diseases" :key="d.disease_name">
+                    <span class="risk-tag" :class="{ 'risk-tag-excluded': d.selected === false, 'risk-tag-protected': d.selected && d.tier_source === 'protect' }"
+                          v-if="d.risk_tier > 0"
+                          :title="tierTitle(d)">
+                      {{ d.english_name || d.disease_name }}: {{ tierLabel(d.risk_tier) }}<template v-if="d.selected"> · {{ fmtWeight(d.risk_weight) }}</template>
+                    </span>
+                  </template>
+                  <span class="risk-none" v-if="!p.diseases.some(d => d.risk_tier > 0)">None</span>
+                </div>
+              </td>
+              <td>
+                <span :class="'status-badge status-' + (p.status_class || 'warn')">{{ p.retrieval_status }}</span>
+                <div class="hit-module" v-if="p.hit_module">Matched Module: {{ p.hit_module }}</div>
+              </td>
+              <td>
+                <template v-if="p.compression && p.compression.status === 'SUCCESS'">
+                  <span class="status-badge status-ok">docs {{ p.compression.docs_before }}→{{ p.compression.docs_after }}</span>
+                  <div class="hit-module">Volume -{{ p.compression.size_reduction_percent }}%</div>
+                </template>
+                <span v-else class="status-badge status-warn">{{ (p.compression && p.compression.status) || '-' }}</span>
+              </td>
+              <td>
+                <template v-if="p.decision_status === 'SUCCESS' && p.decision_model">
+                  <span class="status-badge status-ok">Scored {{ p.decision_model.scored_edges }} records</span>
+                  <div class="hit-module">
+                    PASS {{ p.decision_model.pass }} · REVIEW {{ p.decision_model.review }} · BLOCK {{ p.decision_model.block }}
+                  </div>
+                </template>
+                <span v-else-if="exportTask.result.enable_decide === false" class="status-badge">Disabled</span>
+                <span v-else class="status-badge status-warn">{{ p.decision_status || 'Not Scored' }}</span>
+              </td>
+              <td>
+                <button v-if="p.report_files" class="sel-btn sel-btn-primary" style="padding:4px 10px; font-size:12px;" @click="openReport(p)">View Report</button>
+                <a v-if="p.report_files && p.report_files.html" class="sel-btn" style="padding:4px 8px; font-size:12px; margin-left:4px; text-decoration:none;" :href="`/api/report/${exportTaskId}/${p.app_no}/html`" target="_blank">HTML</a>
+                <a v-if="p.report_files && p.report_files.pdf" class="sel-btn" style="padding:4px 8px; font-size:12px; margin-left:4px; text-decoration:none;" :href="`/api/report/${exportTaskId}/${p.app_no}/pdf`" target="_blank">PDF</a>
+                <span v-if="!p.report_files" class="status-badge status-warn">{{ p.report_status || 'Not Generated' }}</span>
+              </td>
+              <td class="files-cell">
+                <span class="file-tag" v-for="(v, k) in p.subgraph_files" :key="k">{{ k }}</span>
+                <span v-if="!p.subgraph_files || Object.keys(p.subgraph_files).length === 0">-</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="modal-actions">
+        <button class="sel-btn sel-btn-primary" @click="closeExportPanel">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Full record dialog: shows base + item_result + desc_item Three-table merged details -->
+  <div class="modal-mask" v-if="activeRecord" @click.self="activeRecord = null">
+    <div class="modal-card">
+      <div class="panel-header">
+        <div class="panel-title">
+          <i class="fa-solid fa-file-medical"></i>
+          <span>Complete subject data view — {{ activeRecord.pat_name }} (app_no: {{ activeRecord.app_no }} | Sex Code: {{ activeRecord.pat_sex }})</span>
+        </div>
+        <button class="btn btn-outline" style="height: 28px; padding: 0 10px;" @click="activeRecord = null">Close</button>
+      </div>
+
+      <div style="font-size: 13px; margin-bottom: 12px;">
+        <strong>1. Basic Information (base.csv):</strong>
+        Patient ID: <code>{{ activeRecord.pat_id }}</code> | Name: {{ activeRecord.pat_name }} | Sex: <code>{{ activeRecord.pat_sex }}</code> ({{ String(activeRecord.pat_sex) === '1' ? 'Male' : 'Female' }}) | Age: {{ activeRecord.app_pat_age }}years | Ethnicity: {{ activeRecord.pat_nation }} | Address: {{ activeRecord.pat_address }}
+      </div>
+
+      <div style="font-size: 13px; font-weight: 600; margin-top: 10px;">
+        2. Lab and Routine Exam Details (item_result.csv — prefer det_com_name, if empty use res_itm_name): 
+      </div>
+      <table class="sub-table">
+        <thead>
+          <tr>
+            <th>Detail ID (detail_id)</th>
+            <th>Department (det_dep_name)</th>
+            <th>Group Name (det_com_name)</th>
+            <th>Sub-item Name (res_itm_name)</th>
+            <th>Parsed search field name</th>
+            <th>Result (res_value)</th>
+            <th>Unit (res_unit)</th>
+            <th>Reference Range (res_exp)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="itm in activeRecord.lab_items" :key="itm.detail_id">
+            <td>{{ itm.detail_id }}</td>
+            <td>{{ itm.det_dep_name }}</td>
+            <td>{{ itm.det_com_name || '(empty)' }}</td>
+            <td>{{ itm.res_itm_name || '(empty)' }}</td>
+            <td><strong style="color: #2b85e4;">{{ itm.fieldName }}</strong></td>
+            <td><strong>{{ itm.res_value }}</strong></td>
+            <td>{{ itm.res_unit }}</td>
+            <td>{{ itm.res_exp || '-' }}</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div style="font-size: 13px; font-weight: 600; margin-top: 14px;">
+        3. Descriptive Exam Report Details (desc_item.csv — field name is det_com_name, content is res_result): 
+      </div>
+      <table class="sub-table">
+        <thead>
+          <tr>
+            <th style="width: 90px;">Detail ID</th>
+            <th style="width: 110px;">Exam Department</th>
+            <th style="width: 160px;">Descriptive Field Name (det_com_name)</th>
+            <th>Exam description text (res_result)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="desc in activeRecord.desc_items" :key="desc.detail_id">
+            <td>{{ desc.detail_id }}</td>
+            <td>{{ desc.det_dep_name }}</td>
+            <td><strong style="color: #2b85e4;">{{ desc.det_com_name }}</strong></td>
+            <td style="white-space: normal; line-height: 1.5;">{{ desc.res_result }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- ===================== Visual report dialog (json-render) ===================== -->
+  <div class="modal-mask" v-if="reportVisible" @click.self="closeReport">
+    <div class="modal-card jr-modal">
+      <div class="panel-header">
+        <div class="panel-title">
+          Prevention Report
+          <span class="export-task-id" v-if="reportPatient">{{ reportPatient }}</span>
+        </div>
+        <div style="display:flex; gap:8px; align-items:center;">
+          <button class="sel-btn" @click="downloadReportMd" :disabled="!reportMdUrl">Download Markdown</button>
+          <button class="close-btn" @click="closeReport">×</button>
+        </div>
+      </div>
+      <div class="jr-scroll">
+        <div v-if="reportLoading" class="jr-loading">Loading report…</div>
+        <div v-else-if="reportError" class="jr-error">{{ reportError }}</div>
+        <div v-else-if="reportSpec" class="jr-root">
+          <div class="jr-page">
+            <header class="jr-page-head">
+              <div class="jr-page-title">{{ reportPageProps.title }}</div>
+              <div class="jr-page-sub" v-if="reportPageProps.subtitle">{{ reportPageProps.subtitle }}</div>
+              <div class="jr-page-meta">
+                <span v-if="reportPageProps.patient">{{ reportPageProps.patient }}</span>
+                <span v-if="reportPageProps.generatedAt">Generated At: {{ reportPageProps.generatedAt }}</span>
+              </div>
+            </header>
+            <jr-node v-for="cid in currentPageChildren" :key="cid" :id="cid"></jr-node>
+          </div>
+          <div class="jr-pager" v-if="reportPages.length > 1">
+            <button class="sel-btn" :disabled="reportPage === 0" @click="reportPage--">Previous</button>
+            <span class="jr-pager-info">Page  {{ reportPage + 1 }} / {{ reportPages.length }} </span>
+            <button class="sel-btn" :disabled="reportPage >= reportPages.length - 1" @click="reportPage++">Next</button>
+          </div>
+        </div>
+        <div v-else class="jr-loading">No reports yet</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="/report_viewer.js"></script>
+<script>
+const { createApp } = Vue;
+
+const app = createApp({
+  data() {
+    return {
+      // When the page is served by this service (Flask), use same-origin relative paths to avoid hard-coded ports;
+      // If opened directly via file:// If web.html is opened directly, fall back to the service default port 5001
+      apiBaseUrl: location.protocol.startsWith('http') ? '/api' : 'http://127.0.0.1:5001/api',
+      loading: false,
+      dataSourceStatus: 'Preloaded 5,000 health-check visits with basic info and linked lab/exam data',
+      activeRecord: null,
+
+      // Secondary unique field dictionary: from item_result (prefer det_com_name otherwise res_itm_name) Build
+      labFieldCatalog: [
+        {
+          fieldName: 'Glucose (GLU)',
+          det_com_name: 'Glucose (GLU)',
+          res_itm_name: 'Glucose',
+          sourceCol: 'det_com_name',
+          dept: 'Clinical Laboratory',
+          valueType: 'number',
+          unit: 'mmol/L',
+          refRange: '3.90-6.10',
+          samples: [
+            { rawValue: '5.12', display: '5.12 mmol/L' },
+            { rawValue: '6.45', display: '6.45 mmol/L' },
+            { rawValue: '4.78', display: '4.78 mmol/L' },
+            { rawValue: '7.80', display: '7.80 mmol/L' }
+          ]
+        },
+        {
+          fieldName: 'Total Cholesterol (TC)',
+          det_com_name: 'Total Cholesterol (TC)',
+          res_itm_name: 'Total Cholesterol',
+          sourceCol: 'det_com_name',
+          dept: 'Clinical Laboratory',
+          valueType: 'number',
+          unit: 'mmol/L',
+          refRange: '3.00-5.20',
+          samples: [
+            { rawValue: '4.35', display: '4.35 mmol/L' },
+            { rawValue: '5.82', display: '5.82 mmol/L' },
+            { rawValue: '6.20', display: '6.20 mmol/L' }
+          ]
+        },
+        {
+          fieldName: 'Triglycerides (TG)',
+          det_com_name: 'Triglycerides (TG)',
+          res_itm_name: 'Triglycerides',
+          sourceCol: 'det_com_name',
+          dept: 'Clinical Laboratory',
+          valueType: 'number',
+          unit: 'mmol/L',
+          refRange: '0.40-1.70',
+          samples: [
+            { rawValue: '1.25', display: '1.25 mmol/L' },
+            { rawValue: '2.46', display: '2.46 mmol/L' },
+            { rawValue: '0.92', display: '0.92 mmol/L' }
+          ]
+        },
+        {
+          fieldName: 'Alanine Aminotransferase (ALT)',
+          det_com_name: '', // Demo det_com_name if empty, automatically use res_itm_name
+          res_itm_name: 'Alanine Aminotransferase (ALT)',
+          sourceCol: 'res_itm_name(fallback)',
+          dept: 'Clinical Laboratory',
+          valueType: 'number',
+          unit: 'U/L',
+          refRange: '7-40',
+          samples: [
+            { rawValue: '18', display: '18 U/L' },
+            { rawValue: '42', display: '42 U/L' },
+            { rawValue: '65', display: '65 U/L' }
+          ]
+        },
+        {
+          fieldName: 'Hemoglobin (HGB)',
+          det_com_name: '',
+          res_itm_name: 'Hemoglobin (HGB)',
+          sourceCol: 'res_itm_name(fallback)',
+          dept: 'Clinical Laboratory',
+          valueType: 'number',
+          unit: 'g/L',
+          refRange: '115-150',
+          samples: [
+            { rawValue: '138', display: '138 g/L' },
+            { rawValue: '152', display: '152 g/L' },
+            { rawValue: '115', display: '115 g/L' }
+          ]
+        },
+        {
+          fieldName: 'Hepatitis B Surface Antigen (HBsAg)',
+          det_com_name: 'Hepatitis B Surface Antigen (HBsAg)',
+          res_itm_name: 'HBsAgQualitative',
+          sourceCol: 'det_com_name',
+          dept: 'Clinical Laboratory',
+          valueType: 'text',
+          unit: '',
+          refRange: '',
+          samples: [
+            { rawValue: 'Negative (-)', display: 'Negative (-)' },
+            { rawValue: 'Positive (+)', display: 'Positive (+)' },
+            { rawValue: 'Weakly Positive (±)', display: 'Weakly Positive (±)' }
+          ]
+        },
+        {
+          fieldName: 'Urine Protein (PRO)',
+          det_com_name: 'Urine Protein (PRO)',
+          res_itm_name: 'Urine Protein',
+          sourceCol: 'det_com_name',
+          dept: 'Clinical Laboratory',
+          valueType: 'text',
+          unit: '',
+          refRange: '',
+          samples: [
+            { rawValue: 'Negative (-)', display: 'Negative (-)' },
+            { rawValue: 'Positive (1+)', display: 'Positive (1+)' },
+            { rawValue: 'Positive (2+)', display: 'Positive (2+)' }
+          ]
+        },
+        {
+          fieldName: 'Systolic BP (SBP)',
+          det_com_name: 'Systolic BP (SBP)',
+          res_itm_name: 'Systolic BP',
+          sourceCol: 'det_com_name',
+          dept: 'General Examination Room',
+          valueType: 'number',
+          unit: 'mmHg',
+          refRange: '90-140',
+          samples: [
+            { rawValue: '118', display: '118 mmHg' },
+            { rawValue: '136', display: '136 mmHg' },
+            { rawValue: '152', display: '152 mmHg' }
+          ]
+        }
+      ],
+
+      // Secondary unique field dictionary: from desc_item (det_com_name -> res_result) Build
+      descFieldCatalog: [
+        {
+          fieldName: 'Liver, Gallbladder, Pancreas and Spleen Ultrasound',
+          det_com_name: 'Liver, Gallbladder, Pancreas and Spleen Ultrasound',
+          sourceCol: 'det_com_name',
+          dept: 'Ultrasound',
+          valueType: 'text',
+          unit: '',
+          samples: [
+            { rawValue: 'Fatty Liver', display: '"Liver normal in size and shape, parenchymal echogenicity increased and enhanced, consistent with mild fatty liver..."' },
+            { rawValue: 'Gallbladder Polyp', display: '"A ~4mm lesion visible on the gallbladder wall×3mmHyperechoic protrusion without posterior acoustic shadowing, suggestive of gallbladder polyp..."' },
+            { rawValue: 'No obvious abnormality', display: '"Liver, gallbladder, pancreas and spleen normal in size and shape, smooth capsule, homogeneous internal echogenicity, no obvious abnormality..."' }
+          ]
+        },
+        {
+          fieldName: 'Chest PA DR',
+          det_com_name: 'Chest PA DR',
+          sourceCol: 'det_com_name',
+          dept: 'Radiology',
+          valueType: 'text',
+          unit: '',
+          samples: [
+            { rawValue: 'Increased Lung Markings', display: '"Increased and disordered lung markings, no obvious parenchymal infiltrate, normal heart size..."' },
+            { rawValue: 'Tiny Nodule', display: '"A ~4mm tiny nodule in the right upper lobe with relatively clear margins; periodic chest CT follow-up recommended..."' },
+            { rawValue: 'No abnormality in heart, lungs or diaphragm', display: '"Clear bilateral lung fields, normal hilar shadows, normal heart size and shape, smooth bilateral diaphragms..."' }
+          ]
+        },
+        {
+          fieldName: 'Thyroid and Cervical Lymph Node Ultrasound',
+          det_com_name: 'Thyroid and Cervical Lymph Node Ultrasound',
+          sourceCol: 'det_com_name',
+          dept: 'Ultrasound',
+          valueType: 'text',
+          unit: '',
+          samples: [
+            { rawValue: 'Thyroid Nodule', display: '"A hypoechoic nodule ~5mm in the right thyroid lobe×4mm, clear margins (TI-RADS category 3)..."' },
+            { rawValue: 'Homogeneous Echo', display: '"Bilateral thyroid lobes normal in size and shape, intact capsule, homogeneous parenchymal echogenicity, no abnormal flow on CDFI..."' }
+          ]
+        },
+        {
+          fieldName: '12-Lead Resting ECG',
+          det_com_name: '12-Lead Resting ECG',
+          sourceCol: 'det_com_name',
+          dept: 'ECG Room',
+          valueType: 'text',
+          unit: '',
+          samples: [
+            { rawValue: 'Sinus Rhythm', display: '"Sinus rhythm, heart rate 74 bpm, normal ECG."' },
+            { rawValue: 'ST-TChange', display: '"Sinus rhythm, mild ST-T changes in some leads, correlate with clinical findings."' },
+            { rawValue: 'Sinus Bradycardia', display: '"Sinus bradycardia (heart rate 56 bpm), otherwise no obvious abnormality."' }
+          ]
+        }
+      ],
+
+      // Full operator set (numeric + text)
+      allOperators: {
+        number: [
+          { value: 'gt', label: 'Greater Than (>)' },
+          { value: 'ge', label: 'Greater Than or Equal (>=)' },
+          { value: 'lt', label: 'Less Than (<)' },
+          { value: 'le', label: 'Less Than or Equal (<=)' },
+          { value: 'eq', label: 'Equal (=)' },
+          { value: 'ne', label: 'Not Equal (!=)' },
+          { value: 'contains', label: 'Text Contains (LIKE)' },
+          { value: 'is_null', label: 'Is Null (IS NULL)' },
+          { value: 'is_not_null', label: 'Not Null (NOT NULL)' }
+        ],
+        text: [
+          { value: 'contains', label: 'Contains (LIKE %x%)' },
+          { value: 'not_contains', label: 'Not Contains (NOT LIKE)' },
+          { value: 'eq', label: 'Equal (=)' },
+          { value: 'ne', label: 'Not Equal (!=)' },
+          { value: 'starts_with', label: 'Starts with (x%)' },
+          { value: 'ends_with', label: 'Ends with (%x)' },
+          { value: 'gt', label: 'Numeric Greater Than (>)' },
+          { value: 'lt', label: 'Numeric Less Than (<)' },
+          { value: 'is_null', label: 'Is Null (IS NULL)' },
+          { value: 'is_not_null', label: 'Not Null (NOT NULL)' }
+        ]
+      },
+
+      // Default search condition: demo secondary lab field + preview
+      conditions: [
+        {
+          id: 1,
+          logic: 'AND',
+          category: 'LAB_EXAM',
+          subField: 'Glucose (GLU)',
+          subFieldQuery: 'Glucose (GLU)',
+          dropdownOpen: false,
+          operator: 'gt',
+          value: '6.1'
+        }
+      ],
+
+      preloadedData: [],
+      displayData: [],
+      serverPaginatedMode: false,
+      serverTotalCount: 0,
+
+      currentPage: 1,
+      pageSize: 20,
+      jumpPageInput: 1,
+      // Query timing statistics object
+      queryTiming: {
+        dbMs: 0,
+        serverTotalMs: 0,
+        totalClientMs: 0
+      },
+
+      // Module 2: Directory Auto-Sync Status
+      activeModule: 'search',
+      watchLoading: false,
+      watchAutoPoll: true,
+      watchPollTimer: null,
+      watchKeyword: '',
+      watchRecords: [],
+      watchTotalCount: 0,
+      watchPage: 1,
+      watchPageSize: 20,
+      watchMeta: {
+        watch_dir: '',
+        txt_file_count: 0,
+        total_txt_app_nos: 0,
+        newly_synced_count: 0,
+        scan_ms: 0,
+        last_scan_time: ''
+      },
+      // ===== Selection and Export Status =====
+      selectedAppNos: {},        // {app_no: true}, Shared across pages and modules
+      exporting: false,
+      enableDecide: true,        // Whether to enable JEV-27B decision model scoring (frontend checkbox)
+      enableReport: true,        // Whether to generate a visual report (frontend checkbox)
+      // ===== Visual report (json-render) =====
+      reportVisible: false,
+      reportLoading: false,
+      reportError: '',
+      reportSpec: null,
+      reportPatient: '',
+      reportMdUrl: '',
+      reportPage: 0,
+      reportList: [],
+      taskList: [],
+      exportTaskId: null,
+      exportTask: null,          // Pipeline task status obtained by polling
+      exportPollTimer: null,
+      rangeDialogVisible: false,
+      rangeFrom: 1,
+      rangeTo: 1,
+      rangeLoading: false,
+      selectAllLoading: false
+    };
+  },
+  mounted() {
+    // Support #reports / #tasks Go to
+    const hash = (location.hash || '').replace('#', '');
+    if (['search', 'watch', 'reports', 'tasks'].includes(hash)) {
+      this.switchModule(hash);
+    }
+  },
+  computed: {
+    // ===== Report Pagination =====
+    reportPageProps() {
+      if (!this.reportSpec) return {};
+      const root = this.reportSpec.elements[this.reportSpec.root] || {};
+      return root.props || {};
+    },
+    reportPages() {
+      if (!this.reportSpec) return [];
+      const root = this.reportSpec.elements[this.reportSpec.root] || {};
+      const children = root.children || [];
+      // One page per top-level section
+      return children.map(c => [c]);
+    },
+    currentPageChildren() {
+      return this.reportPages[this.reportPage] || [];
+    },
+
+    // ===== Selection-related computed properties =====
+    selectedCount() {
+      return Object.keys(this.selectedAppNos).length;
+    },
+    selectedList() {
+      return Object.keys(this.selectedAppNos);
+    },
+    currentPageAppNos() {
+      return this.activeModule === 'search'
+        ? this.paginatedList.map(r => r.app_no)
+        : this.watchRecords.map(r => r.app_no);
+    },
+    isAllCurrentPageSelected() {
+      const list = this.currentPageAppNos;
+      if (!list.length) return false;
+      return list.every(a => this.selectedAppNos[a]);
+    },
+    isIndeterminateCurrentPage() {
+      const list = this.currentPageAppNos;
+      if (!list.length) return false;
+      const sel = list.filter(a => this.selectedAppNos[a]).length;
+      return sel > 0 && sel < list.length;
+    },
+    totalCount() {
+      return this.serverPaginatedMode ? this.serverTotalCount : this.displayData.length;
+    },
+    totalPages() {
+      return Math.max(1, Math.ceil(this.totalCount / this.pageSize));
+    },
+    paginatedList() {
+      if (this.serverPaginatedMode) return this.displayData;
+      const start = (this.currentPage - 1) * this.pageSize;
+      return this.displayData.slice(start, start + this.pageSize);
+    },
+    startRowIndex() {
+      if (this.totalCount === 0) return 0;
+      return (this.currentPage - 1) * this.pageSize + 1;
+    },
+    endRowIndex() {
+      return Math.min(this.currentPage * this.pageSize, this.totalCount);
+    },
+    visiblePageNumbers() {
+      const pages = [];
+      let start = Math.max(1, this.currentPage - 3);
+      let end = Math.min(this.totalPages, start + 6);
+      if (end - start < 6) start = Math.max(1, end - 6);
+      for (let i = start; i <= end; i++) pages.push(i);
+      return pages;
+    },
+    maleCount() {
+      return this.displayData.filter(r => String(r.pat_sex) === '1').length;
+    },
+    femaleCount() {
+      return this.displayData.filter(r => String(r.pat_sex) === '2').length;
+    },
+    avgAge() {
+      if (!this.displayData.length) return 0;
+      const sum = this.displayData.reduce((acc, r) => acc + Number(r.app_pat_age || 0), 0);
+      return (sum / this.displayData.length).toFixed(1);
+    },
+    watchTotalPages() {
+      return Math.max(1, Math.ceil(this.watchTotalCount / this.watchPageSize));
+    },
+    watchStartRow() {
+      if (this.watchTotalCount === 0) return 0;
+      return (this.watchPage - 1) * this.watchPageSize + 1;
+    },
+    watchEndRow() {
+      return Math.min(this.watchPage * this.watchPageSize, this.watchTotalCount);
+    }
+  },
+  created() {
+    this.initCatalogAndPreload5000();
+  },
+  methods: {
+    // ===================== Select and Export =====================
+    isSelected(appNo) {
+      return !!this.selectedAppNos[appNo];
+    },
+    toggleSelect(appNo) {
+      // Vue 3 Proxy-based; direct assignment/delete is reactive, no need for $set/$delete
+      if (this.selectedAppNos[appNo]) {
+        delete this.selectedAppNos[appNo];
+      } else {
+        this.selectedAppNos[appNo] = true;
+      }
+    },
+    toggleCurrentPage() {
+      const list = this.currentPageAppNos;
+      if (!list.length) return;
+      if (this.isAllCurrentPageSelected) {
+        list.forEach(a => { delete this.selectedAppNos[a]; });
+      } else {
+        list.forEach(a => { this.selectedAppNos[a] = true; });
+      }
+    },
+    selectCurrentPage() {
+      this.currentPageAppNos.forEach(a => { this.selectedAppNos[a] = true; });
+    },
+    openRangeDialog() {
+      this.rangeFrom = this.activeModule === 'search' ? this.currentPage : this.watchPage;
+      this.rangeTo = this.rangeFrom;
+      this.rangeDialogVisible = true;
+    },
+    async confirmSelectRange() {
+      const from = Math.max(1, parseInt(this.rangeFrom) || 1);
+      const to = Math.max(from, parseInt(this.rangeTo) || from);
+      this.rangeLoading = true;
+      try {
+        let url, options;
+        if (this.activeModule === 'search') {
+          url = '/api/search_page_app_nos';
+          options = {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              conditions: this.activeSearchConditions(),
+              from_page: from,
+              to_page: to,
+              page_size: this.pageSize
+            })
+          };
+        } else {
+          url = `/api/watch_page_app_nos?from_page=${from}&to_page=${to}&page_size=${this.watchPageSize}&keyword=${encodeURIComponent(this.watchKeyword || '')}`;
+          options = {};
+        }
+        const res = await fetch(url, options);
+        const data = await res.json();
+        if (!res.ok) { alert(data.error || 'Collection failed'); return; }
+        (data.app_nos || []).forEach(a => { this.selectedAppNos[a] = true; });
+        this.rangeDialogVisible = false;
+      } catch (e) {
+        alert('Collection failed: ' + e.message);
+      } finally {
+        this.rangeLoading = false;
+      }
+    },
+    async selectAllAppNos() {
+      const label = this.activeModule === 'search' ? 'Current Search Results' : 'Current Watch List';
+      if (!confirm(`Confirm Selection${label} all apps under app_no?`)) return;
+      this.selectAllLoading = true;
+      try {
+        let url, options;
+        if (this.activeModule === 'search') {
+          url = '/api/search_app_nos';
+          options = {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ conditions: this.activeSearchConditions(), limit: 20000 })
+          };
+        } else {
+          url = `/api/watch_all_app_nos?limit=20000&keyword=${encodeURIComponent(this.watchKeyword || '')}`;
+          options = {};
+        }
+        const res = await fetch(url, options);
+        const data = await res.json();
+        if (!res.ok) { alert(data.error || 'Collection failed'); return; }
+        (data.app_nos || []).forEach(a => { this.selectedAppNos[a] = true; });
+        if (data.truncated) {
+          alert(`Note: total ${data.total} records, reached per-batch collection limit ${data.app_nos.length} records, not fully collected`);
+        }
+      } catch (e) {
+        alert('Collection failed: ' + e.message);
+      } finally {
+        this.selectAllLoading = false;
+      }
+    },
+    clearSelection() {
+      this.selectedAppNos = {};
+    },
+    async openReport(p) {
+      this.reportVisible = true;
+      this.reportLoading = true;
+      this.reportError = '';
+      this.reportSpec = null;
+      this.reportPatient = `${p.app_no}${p.pat_id ? ' · ' + p.pat_id : ''}`;
+      this.reportPage = 0;
+      this.reportMdUrl = `/api/report/${this.exportTaskId}/${p.app_no}/markdown`;
+      try {
+        const res = await fetch(`/api/report/${this.exportTaskId}/${p.app_no}`);
+        if (!res.ok) {
+          const err = await res.json().catch(() => ({}));
+          throw new Error(err.error || ('HTTP ' + res.status));
+        }
+        const spec = await res.json();
+        if (window.JR) window.JR.state.spec = spec;
+        this.reportSpec = spec;
+      } catch (e) {
+        this.reportError = 'Failed to load report: ' + e.message;
+      } finally {
+        this.reportLoading = false;
+      }
+    },
+    closeReport() {
+      this.reportVisible = false;
+      this.reportSpec = null;
+      if (window.JR) window.JR.state.spec = null;
+    },
+    downloadReportMd() {
+      if (this.reportMdUrl) window.open(this.reportMdUrl, '_blank');
+    },
+
+    async exportSelected() {
+      if (!this.selectedList.length) { alert('Please select apps first_no'); return; }
+      if (this.selectedList.length > 200) { alert('Export at most 200 apps per batch_no, Please select fewer'); return; }
+      this.exporting = true;
+      try {
+        const res = await fetch('/api/pipeline/export', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ app_nos: this.selectedList, source: this.activeModule, enable_decide: this.enableDecide, enable_report: this.enableReport })
+        });
+        const data = await res.json();
+        if (!res.ok) { alert(data.error || 'Export failed'); return; }
+        this.exportTaskId = data.task_id;
+        this.exportTask = { status: 'queued', stage: 'queued', progress: 0, message: 'Task submitted, waiting to run', log: [] };
+        this.pollExportTask();
+      } catch (e) {
+        alert('Export failed: ' + e.message);
+      } finally {
+        this.exporting = false;
+      }
+    },
+    pollExportTask() {
+      if (this.exportPollTimer) clearInterval(this.exportPollTimer);
+      const poll = async () => {
+        if (!this.exportTaskId) return;
+        try {
+          const res = await fetch(`/api/pipeline/status/${this.exportTaskId}`);
+          const data = await res.json();
+          if (res.ok) {
+            this.exportTask = data;
+            if (data.status === 'done' || data.status === 'error') {
+              clearInterval(this.exportPollTimer);
+              this.exportPollTimer = null;
+            }
+          }
+        } catch (e) { /* Keep polling during network jitter */ }
+      };
+      poll();
+      this.exportPollTimer = setInterval(poll, 2000);
+    },
+    closeExportPanel() {
+      if (this.exportPollTimer) { clearInterval(this.exportPollTimer); this.exportPollTimer = null; }
+      this.exportTask = null;
+      this.exportTaskId = null;
+    },
+    fmtRisk(v) {
+      if (v === null || v === undefined || v === '') return '-';
+      const n = parseFloat(v);
+      if (isNaN(n)) return '-';
+      return (n * 100).toFixed(2) + '%';
+    },
+    tierLabel(t) {
+      const m = { 0: 'No Stratification', 1: 'Low Risk', 2: 'Medium Risk', 3: 'High Risk', 4: 'Very High Risk' };
+      return m[t] || '-';
+    },
+    fmtWeight(w) {
+      if (w === null || w === undefined || w === '') return '-';
+      const n = parseFloat(w);
+      return isNaN(n) ? '-' : n.toFixed(3);
+    },
+    tierTitle(d) {
+      if (d.selected === false) {
+        return 'Unified Stratification"' + this.tierLabel(d.risk_tier) + '"Below medium risk, no subgraph search entered'
+          + '(Valid Votes ' + (d.vote_valid || 0) + ', Support Votes ' + (d.vote_support || 0) + ')';
+      }
+      const src = d.tier_source === 'protect' ? 'Included by high-risk veto protection' : 'Multi-model voting unified';
+      return src + '; Valid Votes ' + (d.vote_valid || 0) + ', Support Votes ' + (d.vote_support || 0)
+        + '; stacking 5-year risk ' + this.fmtRisk(d.risk_5y) + '(for reference only, does not drive search)';
+    },
+    closeAllDropdowns() {
+      this.conditions.forEach(c => { c.dropdownOpen = false; });
+    },
+    openSubDropdown(cond) {
+      this.conditions.forEach(c => {
+        c.dropdownOpen = (c.id === cond.id);
+      });
+    },
+
+    // Compute proximity score between input characters and candidate field names (returns all unique fields when the input box is empty)
+    getFilteredSubFields(cond) {
+      const catalog = cond.category === 'LAB_EXAM' ? this.labFieldCatalog : this.descFieldCatalog;
+      const q = (cond.subFieldQuery || '').trim().toLowerCase();
+
+      // If the user has not typed anything or the input exactly equals the selected field, expand all unique fields for browsing
+      if (!q || q === (cond.subField || '').toLowerCase()) {
+        return catalog;
+      }
+
+      // Proximity score: exact match (100) > Prefix match (80) > Substring contains (60) > Character overlap (10~50)
+      const scored = catalog
+        .map(item => {
+          const name = item.fieldName.toLowerCase();
+          const dept = (item.dept || '').toLowerCase();
+          let score = 0;
+          if (name === q) score = 100;
+          else if (name.startsWith(q)) score = 85;
+          else if (name.includes(q)) score = 65 - name.indexOf(q);
+          else if (dept.includes(q)) score = 45;
+          else {
+            // Compute character proximity overlap
+            let hitChars = 0;
+            for (const ch of q) {
+              if (name.includes(ch)) hitChars++;
+            }
+            if (hitChars > 0) {
+              score = Math.round((hitChars / q.length) * 40);
+            }
+          }
+          return { item, score };
+        })
+        .filter(entry => entry.score > 0)
+        .sort((a, b) => b.score - a.score);
+
+      return scored.map(entry => entry.item);
+    },
+
+    selectSubField(cond, item) {
+      cond.subField = item.fieldName;
+      cond.subFieldQuery = item.fieldName;
+      cond.dropdownOpen = false;
+      // Automatically preset the most suitable operator based on the secondary field example value type
+      cond.operator = item.valueType === 'number' ? 'gt' : 'contains';
+      cond.value = '';
+    },
+
+    onCategoryChange(cond) {
+      cond.value = '';
+      if (cond.category === 'LAB_EXAM') {
+        const first = this.labFieldCatalog[0];
+        cond.subField = first ? first.fieldName : '';
+        cond.subFieldQuery = cond.subField;
+        cond.operator = first && first.valueType === 'number' ? 'gt' : 'contains';
+      } else if (cond.category === 'DESC_EXAM') {
+        const first = this.descFieldCatalog[0];
+        cond.subField = first ? first.fieldName : '';
+        cond.subFieldQuery = cond.subField;
+        cond.operator = 'contains';
+      } else {
+        cond.subField = '';
+        cond.subFieldQuery = '';
+        if (cond.category === 'app_pat_age') cond.operator = 'ge';
+        else if (cond.category === 'pat_sex') cond.operator = 'eq';
+        else cond.operator = 'contains';
+      }
+    },
+
+    getOperatorsForCondition(cond) {
+      if (cond.category === 'LAB_EXAM') {
+        const meta = this.labFieldCatalog.find(x => x.fieldName === cond.subField);
+        if (meta && meta.valueType === 'number') return this.allOperators.number;
+        return this.allOperators.text;
+      }
+      if (cond.category === 'DESC_EXAM') {
+        return this.allOperators.text;
+      }
+      if (cond.category === 'app_pat_age') {
+        return this.allOperators.number;
+      }
+      return this.allOperators.text;
+    },
+
+    // Get example result, unit and type description for the currently selected field
+    getConditionSampleInfo(cond) {
+      if (cond.category === 'LAB_EXAM' && cond.subField) {
+        const meta = this.labFieldCatalog.find(x => x.fieldName === cond.subField);
+        if (!meta) return null;
+        return {
+          title: `${meta.fieldName} (taken from ${meta.sourceCol})`,
+          valueType: meta.valueType,
+          typeText: meta.valueType === 'number' ? 'Quantitative numeric (res_value)' : 'Qualitative text (res_value)',
+          unit: meta.unit || 'No unit / qualitative',
+          refRange: meta.refRange || '',
+          samples: meta.samples
+        };
+      }
+      if (cond.category === 'DESC_EXAM' && cond.subField) {
+        const meta = this.descFieldCatalog.find(x => x.fieldName === cond.subField);
+        if (!meta) return null;
+        return {
+          title: `${meta.fieldName} (det_com_name -> res_result)`,
+          valueType: 'text',
+          typeText: 'Descriptive Report Long Text (res_result)',
+          unit: '',
+          samples: meta.samples
+        };
+      }
+      if (cond.category === 'pat_sex') {
+        return {
+          title: 'Sex Code (pat_sex)',
+          valueType: 'text',
+          typeText: 'Numeric-coded enum',
+          unit: '',
+          samples: [
+            { rawValue: '1', display: '1 (representative: Male)' },
+            { rawValue: '2', display: '2 (representative: Female)' }
+          ]
+        };
+      }
+      return null;
+    },
+
+    getValuePlaceholder(cond) {
+      if (cond.category === 'pat_sex') return 'Enter 1 (Male) or 2 (Female)';
+      if (cond.category === 'app_pat_age') return 'Enter an age value, e.g. 45';
+      if (cond.category === 'LAB_EXAM') {
+        const info = this.getConditionSampleInfo(cond);
+        if (info && info.samples.length) {
+          return `Refer to the example below, e.g.:${info.samples[0].rawValue}`;
+        }
+      }
+      if (cond.category === 'DESC_EXAM') {
+        return 'Enter report description keywords, e.g. fatty liver / nodule / sinus rhythm';
+      }
+      return 'Enter search value...';
+    },
+
+    addCondition(defaultCategory = 'LAB_EXAM') {
+      const newCond = {
+        id: Date.now() + Math.random(),
+        logic: 'AND',
+        category: defaultCategory,
+        subField: '',
+        subFieldQuery: '',
+        dropdownOpen: false,
+        operator: 'contains',
+        value: ''
+      };
+      this.onCategoryChange(newCond);
+      this.conditions.push(newCond);
+    },
+
+    removeCondition(idx) {
+      if (this.conditions.length > 1) {
+        this.conditions.splice(idx, 1);
+      }
+    },
+
+    loadPresetDemo() {
+      this.conditions = [
+        {
+          id: 1,
+          logic: 'AND',
+          category: 'pat_sex',
+          subField: '',
+          subFieldQuery: '',
+          dropdownOpen: false,
+          operator: 'eq',
+          value: '1'
+        },
+        {
+          id: 2,
+          logic: 'AND',
+          category: 'LAB_EXAM',
+          subField: 'Glucose (GLU)',
+          subFieldQuery: 'Glucose (GLU)',
+          dropdownOpen: false,
+          operator: 'gt',
+          value: '6.1'
+        },
+        {
+          id: 3,
+          logic: 'AND',
+          category: 'DESC_EXAM',
+          subField: 'Liver, Gallbladder, Pancreas and Spleen Ultrasound',
+          subFieldQuery: 'Liver, Gallbladder, Pancreas and Spleen Ultrasound',
+          dropdownOpen: false,
+          operator: 'contains',
+          value: 'Fatty Liver'
+        }
+      ];
+    },
+
+    // Initialize secondary field catalog and preload 5000 records with base + item_result + desc_item patient data
+    async initCatalogAndPreload5000() {
+      try {
+        const catRes = await fetch(`${this.apiBaseUrl}/field_catalog`);
+        if (catRes.ok) {
+          const catData = await catRes.json();
+          if (catData.lab_fields && catData.lab_fields.length) this.labFieldCatalog = catData.lab_fields;
+          if (catData.desc_fields && catData.desc_fields.length) this.descFieldCatalog = catData.desc_fields;
+        }
+        const preRes = await fetch(`${this.apiBaseUrl}/preload?limit=5000`);
+        if (preRes.ok) {
+          const preData = await preRes.json();
+          this.preloadedData = preData.records || [];
+          this.displayData = [...this.preloadedData];
+          this.dataSourceStatus = `Preloaded from server ${this.displayData.length} screening records and real secondary field dictionary`;
+          return;
+        }
+      } catch (e) {
+        // When server is not running, generate 5000 fully aligned base.csv + item_result.csv + desc_item.csv  structured preloaded data
+      }
+
+      const surnames = ['Zhang', 'Wang', 'Li', 'Zhao', 'Chen', 'Liu', 'Yang', 'Huang', 'Zhou', 'Wu', 'Xu', 'Sun', 'Hu', 'Zhu', 'Gao', 'Lin', 'He', 'Guo', 'Ma', 'Luo'];
+      const givenNames = ['Wei', 'Fang', 'Na', 'Min', 'Jing', 'Xiuying', 'Li', 'Qiang', 'Lei', 'Jun', 'Yang', 'Yong', 'Yan', 'Jie', 'Juan', 'Tao', 'Ming', 'Chao', 'Ping', 'Gang', 'Jiahao', 'Zixuan'];
+      const nations = ['Han', 'Han', 'Han', 'Zhuang', 'Hui', 'Manchu'];
+      const addresses = ['Guangzhou Avenue North, Baiyun District, Guangzhou', 'Zhongshan Avenue West, Tianhe District, Guangzhou', 'Xianlie South Road, Yuexiu District, Guangzhou', 'Gongye Avenue Middle, Haizhu District, Guangzhou', 'Daliang Street, Shunde District, Foshan'];
+
+      const list = [];
+      for (let i = 1; i <= 5000; i++) {
+        const name = surnames[i % surnames.length] + givenNames[(i * 7) % givenNames.length];
+        // Sex strictly uses '1' (Male) and '2' (Female)
+        const sexCode = (i % 2 === 0) ? '1' : '2';
+        const age = 22 + ((i * 11) % 62);
+        const appNo = `2026${String(i).padStart(6, '0')}`;
+        const patId = `PID${String(800000 + i)}`;
+
+        // Generate lab item details for this subject (simulated item_result.csv, contains, prefer det_com_name and fallback res_itm_name)
+        const fpgVal = (4.4 + ((i * 19) % 38) / 10).toFixed(2);
+        const tcVal = (3.6 + ((i * 13) % 32) / 10).toFixed(2);
+        const altVal = String(14 + ((i * 23) % 58));
+        const hbsagVal = (i % 9 === 0) ? 'Positive (+)' : 'Negative (-)';
+        const sbpVal = String(104 + ((i * 17) % 54));
+
+        const lab_items = [
+          {
+            detail_id: `${i}01`,
+            det_dep_name: 'Clinical Laboratory',
+            det_com_name: 'Glucose (GLU)',
+            res_itm_name: 'Glucose',
+            fieldName: 'Glucose (GLU)',
+            res_value: fpgVal,
+            res_unit: 'mmol/L',
+            res_exp: '3.90-6.10'
+          },
+          {
+            detail_id: `${i}02`,
+            det_dep_name: 'Clinical Laboratory',
+            det_com_name: 'Total Cholesterol (TC)',
+            res_itm_name: 'Total Cholesterol',
+            fieldName: 'Total Cholesterol (TC)',
+            res_value: tcVal,
+            res_unit: 'mmol/L',
+            res_exp: '3.00-5.20'
+          },
+          {
+            detail_id: `${i}03`,
+            det_dep_name: 'Clinical Laboratory',
+            det_com_name: '', // Simulate det_com_name if empty, use res_itm_name
+            res_itm_name: 'Alanine Aminotransferase (ALT)',
+            fieldName: 'Alanine Aminotransferase (ALT)',
+            res_value: altVal,
+            res_unit: 'U/L',
+            res_exp: '7-40'
+          },
+          {
+            detail_id: `${i}04`,
+            det_dep_name: 'Clinical Laboratory',
+            det_com_name: 'Hepatitis B Surface Antigen (HBsAg)',
+            res_itm_name: 'HBsAgQualitative',
+            fieldName: 'Hepatitis B Surface Antigen (HBsAg)',
+            res_value: hbsagVal,
+            res_unit: ''
+          },
+          {
+            detail_id: `${i}05`,
+            det_dep_name: 'General Examination Room',
+            det_com_name: 'Systolic BP (SBP)',
+            res_itm_name: 'Systolic BP',
+            fieldName: 'Systolic BP (SBP)',
+            res_value: sbpVal,
+            res_unit: 'mmHg',
+            res_exp: '90-140'
+          }
+        ];
+
+        // Generate descriptive exam details for this subject (simulated desc_item.csv: det_com_name + res_result)
+        const usDesc = (i % 3 === 0)
+          ? 'Liver normal in size and shape, parenchymal echogenicity increased and enhanced, consistent with mild fatty liver; smooth gallbladder wall, no abnormality in pancreas or spleen.'
+          : (i % 7 === 0)
+            ? 'A ~4mm lesion visible on the gallbladder wall×3mmHyperechoic protrusion without posterior acoustic shadowing, suggestive of gallbladder polyp; no abnormality in liver, pancreas or spleen.'
+            : 'Liver, gallbladder, pancreas and spleen normal in size and shape, smooth capsule, homogeneous internal echogenicity, no obvious abnormality.';
+
+        const drDesc = (i % 5 === 0)
+          ? 'Increased and disordered lung markings; a ~4mm tiny nodule in the right upper lobe, annual follow-up recommended; heart shadow not enlarged.'
+          : 'Clear bilateral lung fields, normal hilar shadows, normal heart size and shape, smooth bilateral diaphragms; no abnormality in heart, lungs or diaphragm.';
+
+        const desc_items = [
+          {
+            detail_id: `${i}81`,
+            det_dep_name: 'Ultrasound',
+            det_com_name: 'Liver, Gallbladder, Pancreas and Spleen Ultrasound',
+            res_result: usDesc
+          },
+          {
+            detail_id: `${i}82`,
+            det_dep_name: 'Radiology',
+            det_com_name: 'Chest PA DR',
+            res_result: drDesc
+          }
+        ];
+
+        list.push({
+          app_no: appNo,
+          pat_id: patId,
+          pat_name: name,
+          app_pat_name: name,
+          pat_sex: sexCode,
+          app_pat_age: age,
+          pat_nation: nations[i % nations.length],
+          pat_address: `${addresses[i % addresses.length]} No. ${(i % 99) + 1}, Demo City`,
+          lab_items,
+          desc_items
+        });
+      }
+
+      this.preloadedData = list;
+      this.displayData = [...list];
+    },
+
+    // Prioritize showing secondary lab items matched by the current search in the table
+    getDisplayLabItems(row) {
+      if (!row.lab_items || !row.lab_items.length) return [];
+      const searchedSubFields = this.conditions
+        .filter(c => c.category === 'LAB_EXAM' && c.subField)
+        .map(c => c.subField);
+      if (searchedSubFields.length) {
+        const prioritized = [...row.lab_items].sort((a, b) => {
+          return (searchedSubFields.includes(b.fieldName) ? 1 : 0) - (searchedSubFields.includes(a.fieldName) ? 1 : 0);
+        });
+        return prioritized.slice(0, 3);
+      }
+      return row.lab_items.slice(0, 3);
+    },
+
+    getDisplayDescSummary(row) {
+      if (!row.desc_items || !row.desc_items.length) return '-';
+      const searchedDescFields = this.conditions
+        .filter(c => c.category === 'DESC_EXAM' && c.subField)
+        .map(c => c.subField);
+      const target = row.desc_items.find(d => searchedDescFields.includes(d.det_com_name)) || row.desc_items[0];
+      return `[${target.det_com_name}] ${target.res_result}`;
+    },
+
+    resetToPreload() {
+      this.conditions = [
+        {
+          id: Date.now(),
+          logic: 'AND',
+          category: 'LAB_EXAM',
+          subField: 'Glucose (GLU)',
+          subFieldQuery: 'Glucose (GLU)',
+          dropdownOpen: false,
+          operator: 'gt',
+          value: '6.1'
+        }
+      ];
+      this.serverPaginatedMode = false;
+      this.displayData = [...this.preloadedData];
+      this.currentPage = 1;
+      this.jumpPageInput = 1;
+      this.dataSourceStatus = `Restored preloaded ${this.preloadedData.length} screening records`;
+    },
+
+    // Valid search conditions: exclude incomplete conditions with no secondary field selected or no comparison value (numeric operators).
+    // Search, range selection and select-all must share this method, otherwise incomplete conditions are sent to the backend as-is,
+ // causing build_value_clause in float('') raise ValueError (500).
+    activeSearchConditions() {
+      return this.conditions.filter(c => {
+        if ((c.category === 'LAB_EXAM' || c.category === 'DESC_EXAM') && !c.subField) return false;
+        return ['is_null', 'is_not_null'].includes(c.operator) || String(c.value).trim() !== '';
+      });
+    },
+    async triggerSearch(targetPage = 1) {
+      const activeConditions = this.activeSearchConditions();
+
+      this.loading = true;
+      const tClientStart = performance.now(); // Frontend timer starts
+
+      try {
+        const response = await fetch(`${this.apiBaseUrl}/search`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            conditions: activeConditions,
+            page: targetPage,
+            page_size: this.pageSize,
+            // When paging with a known total, pass total to the backend to skip the costly COUNT(1)
+            known_total: (targetPage > 1 && this.serverTotalCount > 0) ? this.serverTotalCount : null
+          })
+        });
+
+        if (!response.ok) throw new Error('Backend offline');
+        const resData = await response.json();
+        const tClientEnd = performance.now(); // Frontend received response and finished parsing
+
+        this.serverPaginatedMode = true;
+        this.displayData = resData.records || [];
+        this.serverTotalCount = resData.total || 0;
+        this.currentPage = targetPage;
+        this.jumpPageInput = targetPage;
+
+        // Extract and record timing data returned by backend
+        if (resData.timing) {
+          this.queryTiming.dbMs = resData.timing.db_query_ms;
+          this.queryTiming.serverTotalMs = resData.timing.total_server_ms;
+        }
+        this.queryTiming.totalClientMs = Math.round(tClientEnd - tClientStart);
+
+        this.dataSourceStatus = `Search succeeded: total matched ${this.serverTotalCount} records`;
+      } catch (e) {
+        // Local filtering fallback when backend is offline
+        this.serverPaginatedMode = false;
+        const filtered = this.filterLocally(this.preloadedData, activeConditions);
+        this.displayData = filtered;
+        this.currentPage = 1;
+        this.jumpPageInput = 1;
+        this.queryTiming.totalClientMs = Math.round(performance.now() - tClientStart);
+        this.queryTiming.dbMs = 0;
+        this.dataSourceStatus = `Search complete (offline): matched ${filtered.length} records`;
+      } finally {
+        this.loading = false;
+      }
+    },
+
+    filterLocally(dataset, activeConditions) {
+      if (!activeConditions.length) return [...dataset];
+      return dataset.filter(row => {
+        let result = true;
+        activeConditions.forEach((cond, idx) => {
+          const matched = this.matchSingleCondition(row, cond);
+          if (idx === 0) result = matched;
+          else if (cond.logic === 'AND') result = result && matched;
+          else if (cond.logic === 'OR') result = result || matched;
+        });
+        return result;
+      });
+    },
+
+    matchSingleCondition(row, cond) {
+      if (cond.category === 'LAB_EXAM') {
+        const items = (row.lab_items || []).filter(x => x.fieldName === cond.subField);
+        if (!items.length) return cond.operator === 'is_null';
+        return items.some(x => this.compareValue(x.res_value, cond.operator, cond.value));
+      }
+      if (cond.category === 'DESC_EXAM') {
+        const items = (row.desc_items || []).filter(x => x.det_com_name === cond.subField);
+        if (!items.length) return cond.operator === 'is_null';
+        return items.some(x => this.compareValue(x.res_result, cond.operator, cond.value));
+      }
+      return this.compareValue(row[cond.category], cond.operator, cond.value);
+    },
+
+    compareValue(rawVal, op, targetVal) {
+      if (op === 'is_null') return rawVal === null || rawVal === undefined || String(rawVal).trim() === '';
+      if (op === 'is_not_null') return rawVal !== null && rawVal !== undefined && String(rawVal).trim() !== '';
+
+      if (['gt', 'ge', 'lt', 'le'].includes(op)) {
+        const a = parseFloat(rawVal);
+        const b = parseFloat(targetVal);
+        if (isNaN(a) || isNaN(b)) return false;
+        if (op === 'gt') return a > b;
+        if (op === 'ge') return a >= b;
+        if (op === 'lt') return a < b;
+        if (op === 'le') return a <= b;
+      }
+
+      const aStr = String(rawVal ?? '').trim().toLowerCase();
+      const bStr = String(targetVal ?? '').trim().toLowerCase();
+
+      // For equal/not-equal: if both sides are valid numbers, compare numerically (e.g. 5.10 == 5.1)
+      const aNum = Number(aStr);
+      const bNum = Number(bStr);
+      const bothNumeric = aStr !== '' && bStr !== '' && !isNaN(aNum) && !isNaN(bNum);
+
+      switch (op) {
+        case 'eq': return bothNumeric ? aNum === bNum : aStr === bStr;
+        case 'ne': return bothNumeric ? aNum !== bNum : aStr !== bStr;
+        case 'contains': return aStr.includes(bStr);
+        case 'not_contains': return !aStr.includes(bStr);
+        case 'starts_with': return aStr.startsWith(bStr);
+        case 'ends_with': return aStr.endsWith(bStr);
+        default: return true;
+      }
+    },
+
+    goToPage(page) {
+      const valid = Math.max(1, Math.min(this.totalPages, page));
+      this.currentPage = valid;
+      this.jumpPageInput = valid;
+      if (this.serverPaginatedMode) this.triggerSearch(valid);
+    },
+    handlePageSizeChange() {
+      this.currentPage = 1;
+      this.jumpPageInput = 1;
+      if (this.serverPaginatedMode) this.triggerSearch(1);
+    },
+    handleJumpPage() {
+      const p = parseInt(this.jumpPageInput, 10);
+      if (!isNaN(p)) this.goToPage(p);
+    },
+
+    // ========== Module 2 control and on-site record lookup functions ==========
+    switchModule(modName) {
+      this.activeModule = modName;
+      if (modName === 'watch') {
+        this.fetchWatchSync(1);
+        this.toggleWatchPolling();
+      } else if (this.watchPollTimer) {
+        clearInterval(this.watchPollTimer);
+        this.watchPollTimer = null;
+      }
+      if (modName === 'reports') this.loadReports();
+      if (modName === 'tasks') this.loadTasks();
+    },
+
+    // ========== Module 3: Report Center ==========
+    async loadReports() {
+      try {
+        const res = await fetch('/api/reports');
+        const d = await res.json();
+        this.reportList = d.items || [];
+      } catch (e) {
+        this.reportList = [];
+      }
+    },
+    openReportFromList(r) {
+      this.exportTaskId = r.task_id;
+      this.openReport({ app_no: r.app_no, pat_id: r.patient && r.patient.name });
+    },
+    openMarkdown(r) {
+      window.open(`/api/report/${r.task_id}/${r.app_no}/markdown`, '_blank');
+    },
+
+    // ========== Module 4: Export Queue ==========
+    async loadTasks() {
+      try {
+        const res = await fetch('/api/tasks');
+        const d = await res.json();
+        this.taskList = d.items || [];
+      } catch (e) {
+        this.taskList = [];
+      }
+    },
+
+    toggleWatchPolling() {
+      if (this.watchPollTimer) {
+        clearInterval(this.watchPollTimer);
+        this.watchPollTimer = null;
+      }
+      if (this.watchAutoPoll && this.activeModule === 'watch') {
+        this.watchPollTimer = setInterval(() => {
+          this.fetchWatchSync(this.watchPage, true);
+        }, 5000);
+      }
+    },
+
+    async fetchWatchSync(targetPage = 1, silent = false) {
+      if (!silent) this.watchLoading = true;
+      this.watchPage = targetPage;
+      try {
+        const url = `${this.apiBaseUrl}/watch_sync?page=${targetPage}&page_size=${this.watchPageSize}&keyword=${encodeURIComponent(this.watchKeyword)}`;
+        const res = await fetch(url);
+        if (res.ok) {
+          const data = await res.json();
+          this.watchRecords = data.records || [];
+          this.watchTotalCount = data.total || 0;
+          if (data.meta) this.watchMeta = data.meta;
+        }
+      } catch (e) {
+        console.warn('Directory sync request failed:', e);
+      } finally {
+        if (!silent) this.watchLoading = false;
+      }
+    },
+
+    async simulateDropTxt() {
+      try {
+        const res = await fetch(`${this.apiBaseUrl}/watch_demo_drop`, { method: 'POST' });
+        if (res.ok) {
+          await this.fetchWatchSync(1);
+        }
+      } catch (e) {
+        alert('Failed to simulate txt generation; please confirm the backend is running');
+      }
+    },
+
+    async openRecordDetail(row) {
+      this.activeRecord = { ...row, lab_items: row.lab_items || [], desc_items: row.desc_items || [] };
+      if (!this.activeRecord.lab_items.length && !this.activeRecord.desc_items.length) {
+        try {
+          const res = await fetch(`${this.apiBaseUrl}/patient_detail/${encodeURIComponent(row.app_no)}`);
+          if (res.ok) {
+            const detail = await res.json();
+            this.activeRecord = {
+              ...row,
+              lab_items: detail.lab_items || [],
+              desc_items: detail.desc_items || []
+            };
+          }
+        } catch (e) {
+          console.warn('Failed to query full patient record in real time:', e);
+        }
+      }
+    }
+  }
+});
+
+// Register json-render report components
+if (window.JR) {
+  app.provide('jrState', window.JR.state);
+  Object.entries(window.JR.components).forEach(([name, comp]) => app.component(name, comp));
+}
+app.mount('#app');
+</script>
+</body>
+</html>

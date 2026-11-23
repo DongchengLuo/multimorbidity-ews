@@ -1,0 +1,460 @@
+{
+  "_comment": "Stacking model input score name -> project model result file (without .csv) / score column / scale. scale: percent=percentage value as-is, fraction=percentage string to be divided by 100, raw=raw value. Unlisted input scores are treated as missing and imputed by the stacking model using training medians.",
+  "disease_map": {
+    "COPD": "COPD",
+    "Bronchial Asthma": "Bronchial Asthma",
+    "Obstructive Sleep Apnea (questionnaire)": "OSA",
+    "Hypertension": "Hypertension",
+    "ASCVD": "Coronary Heart Disease",
+    "Stroke": "Stroke",
+    "Heart Failure": "Heart Failure",
+    "GERD": "GERD",
+    "Peptic Ulcer": "Peptic Ulcer",
+    "Fatty Liver Disease": "NAFLD",
+    "Liver Cirrhosis / Fibrosis": "Liver Cirrhosis",
+    "Diabetes Mellitus": "Diabetes Mellitus",
+    "Gout / Hyperuricemia": [
+      "Hyperuricemia_Gout_Gout",
+      "Hyperuricemia_Gout_Hyperuricemia"
+    ],
+    "Metabolic Syndrome": "Metabolic Syndrome",
+    "Osteoporosis": "Osteoporosis",
+    "Dementia": "Alzheimer's Disease",
+    "Chronic Kidney Disease": "Chronic Kidney Disease",
+    "Venous Thromboembolism (VTE)": "VTE",
+    "Breast Cancer": "Breast Cancer",
+    "Gastric Cancer": "Gastric Cancer",
+    "Colorectal Cancer": "Colorectal Cancer",
+    "Lung Cancer": "Lung Cancer",
+    "Liver Cancer": "Liver Cancer",
+    "Prostate Cancer": "Prostate Cancer",
+    "Pancreatic Cancer": "Pancreatic Cancer",
+    "Ovarian Cancer": "Ovarian Cancer",
+    "Cervical Cancer": "Cervical Cancer",
+    "Esophageal Cancer": "Esophageal Cancer",
+    "Thyroid Cancer": "Thyroid Cancer"
+  },
+  "score_map": {
+    "copd_CPH": {
+      "file": "copd_CPH_risk_result",
+      "column": "risk_probability",
+      "scale": "percent"
+    },
+    "copd_SLIM": {
+      "file": "slim_risk_smart_smoking",
+      "column": "risk_probability",
+      "scale": "percent"
+    },
+    "copd_SQ": {
+      "file": "copd_sq_screening_result",
+      "column": "predicted_score",
+      "scale": "raw"
+    },
+    "copd_precopd_lancet": {
+      "file": "lancet_pre_copd_prediction_result",
+      "column": "risk_probability",
+      "scale": "percent"
+    },
+    "nafld_FLI": {
+      "file": "fli_screening_result_perfect",
+      "column": "predicted_score",
+      "scale": "raw"
+    },
+    "nafld_FSI": {
+      "file": "fsi_screening_result_perfect",
+      "column": "predicted_score",
+      "scale": "raw"
+    },
+    "nafld_ZJU": {
+      "file": "zju_nafld_result_perfect",
+      "column": "predicted_score",
+      "scale": "raw"
+    },
+    "osa_NoSAS": {
+      "file": "nosas_screening_result_perfect",
+      "column": "predicted_score",
+      "scale": "raw"
+    },
+    "osa_STOPBang": {
+      "file": "stop_bang_screening_result_perfect",
+      "column": "high_risk_hits",
+      "scale": "raw",
+      "extractor": "count_hits"
+    },
+    "vte_CHICAT": {
+      "file": "chi_cat_vte_risk_result",
+      "column": "predicted_score",
+      "scale": "raw"
+    },
+    "vte_Caprini": {
+      "file": "caprini_vte_assessment_result",
+      "column": "predicted_score",
+      "scale": "raw"
+    },
+    "vte_IMPROVEDD": {
+      "file": "improvedd_vte_77d_results",
+      "column": "predicted_score",
+      "scale": "raw"
+    },
+    "vte_Legend": {
+      "file": "legend_pe_screening_result",
+      "column": "predicted_score",
+      "scale": "raw"
+    },
+    "vte_lungcancer_nomogram": {
+      "file": "lung_cancer_vte_risk_result",
+      "column": "VTE risk probability (6 months after cancer diagnosis and hospitalization)",
+      "scale": "fraction"
+    },
+    "ruxianai_BCSC_density": {
+      "file": "bcsc_risk_final_C50",
+      "column": "risk_probability",
+      "scale": "percent"
+    },
+    "ruxianai_CKB": {
+      "file": "breast_cancer_risk_C50_result",
+      "column": "10-year_absolute_breast_cancer_risk (%)",
+      "scale": "fraction"
+    },
+    "ruxianai_Gail": {
+      "file": "gail_risk_final_C50",
+      "column": "30-year absolute risk",
+      "scale": "percent"
+    },
+    "ruxianai_PRS313": {
+      "file": "breast_cancer_prs_313_eval",
+      "column": "predicted_score",
+      "scale": "raw"
+    },
+    "LAP": {
+      "file": "lap_risk_assessment_result_perfect",
+      "column": "predicted_score",
+      "scale": "raw"
+    },
+    "daixiezonghezheng_Mets": {
+      "file": "mets_assessment_result_perfect",
+      "column": "predicted_score",
+      "scale": "raw"
+    },
+    "guanxinbing_CVD10": {
+      "file": "globorisk_cvd_10yr",
+      "column": "risk_probability",
+      "scale": "percent"
+    },
+    "guanxinbing_Framingham": {
+      "file": "framingham_I25_result",
+      "column": "risk_probability",
+      "scale": "percent"
+    },
+    "guanxinbing_PAR": {
+      "file": "china_PAR_result",
+      "column": "risk_probability",
+      "scale": "percent"
+    },
+    "guanxinbing_PREVENT": {
+      "file": "prevent_ASCVD_output",
+      "column": "risk_probability",
+      "scale": "percent"
+    },
+    "guanxinbing_SCORE2": {
+      "file": "score_china_result",
+      "column": "risk_probability",
+      "scale": "percent"
+    },
+    "guanxinbing_SCORE2diabetes": {
+      "file": "score2_CVD10year_result",
+      "column": "risk_probability",
+      "scale": "percent"
+    },
+    "prostate_CPCC_RC": {
+      "file": "cpcc_rc_risk_analysis",
+      "column": "prostate_cancer_risk",
+      "scale": "fraction"
+    },
+    "prostate_huashan_RC1": {
+      "file": "huashan_rc_assessment_results",
+      "column": "prostate_cancer_risk (RC1)",
+      "scale": "fraction"
+    },
+    "ovary_IOTA_ADNEX": {
+      "file": "iota_adnex_evaluation_C56_results",
+      "column": "risk_probability",
+      "scale": "fraction"
+    },
+    "ovary_ROMA": {
+      "file": "roma_final_results_v4",
+      "column": "risk_probability",
+      "scale": "fraction"
+    },
+    "gongjingai_ASCCP": {
+      "file": "asccp_risk_result",
+      "column": "risk_probability",
+      "scale": "fraction"
+    },
+    "xinshuai_Framingham10year": {
+      "file": "CHF_Framingham_result",
+      "column": "risk_probability",
+      "scale": "percent"
+    },
+    "xinshuai_Framingham2008": {
+      "file": "CHF_Framingham_result",
+      "column": "risk_probability",
+      "scale": "percent"
+    },
+    "xinshuai_PREVENT": {
+      "file": "aha_prevent_hf_result",
+      "column": "risk_probability",
+      "scale": "percent"
+    },
+    "xinshuai_HFAPeff": {
+      "file": "hfa_peff_result",
+      "column": "predicted_score",
+      "scale": "raw"
+    },
+    "ckd_KFRE_acr": {
+      "file": "kfre_kidney_failure_risk_result",
+      "column": "risk_probability",
+      "scale": "fraction"
+    },
+    "ckd_Nelson_acr": {
+      "file": "nelson_ckd_risk_result",
+      "column": "risk_probability",
+      "scale": "fraction"
+    },
+    "ckd_oseaghdha": {
+      "file": "ckd_oseaghdha_risk_N18_result",
+      "column": "total_score",
+      "scale": "raw"
+    },
+    "ckd_score": {
+      "file": "ckd_scored_screening_N18_result",
+      "column": "predicted_score",
+      "scale": "raw"
+    },
+    "xiaochuan_A2_GA2LEN": {
+      "file": "asthma_screening_result",
+      "column": "predicted_score",
+      "scale": "raw"
+    },
+    "xiaochuan_PARS": {
+      "file": "pars_targeted_output",
+      "column": "risk_probability",
+      "scale": "fraction"
+    },
+    "xiaochuan_UCAPQ": {
+      "file": "ucap_q_screening_result",
+      "column": "asthma_probability (%)",
+      "scale": "fraction"
+    },
+    "xiaochuan_mAPI": {
+      "file": "mapi_prediction_result",
+      "column": "predicted_score",
+      "scale": "raw"
+    },
+    "kuiyang_HAMPROW": {
+      "file": "hamprow_ulcer_risk_K27_result",
+      "column": "risk_probability",
+      "scale": "fraction"
+    },
+    "jiazhuangxian_ACR_TIRADS": {
+      "file": "thyroid_ACR_results",
+      "column": "predicted_score",
+      "scale": "raw"
+    },
+    "jiazhuangxian_CTIRADS": {
+      "file": "thyroid_TIRADS_results",
+      "column": "predicted_score",
+      "scale": "raw"
+    },
+    "tangniaobing_ADA": {
+      "file": "ADA_diabetes_screening_result_E14",
+      "column": "predicted_score",
+      "scale": "raw"
+    },
+    "tangniaobing_ModChinese": {
+      "file": "FINDRISC_result_E14",
+      "column": "predicted_score",
+      "scale": "raw"
+    },
+    "tangniaobing_NCDRS": {
+      "file": "diabetes_risk_ncdrs_final",
+      "column": "predicted_score",
+      "scale": "raw"
+    },
+    "tangniaobing_QDiabetes": {
+      "file": "qdiabetes_screening_E14_result",
+      "column": "risk_probability",
+      "scale": "percent"
+    },
+    "tangniaobing_iCARE_DM": {
+      "file": "iCARE_DM_result_E14",
+      "column": "predicted_score",
+      "scale": "raw"
+    },
+    "jiezhichang_AAPCS": {
+      "file": "aapcs_screening_result",
+      "column": "predicted_score",
+      "scale": "raw"
+    },
+    "jiezhichang_CORES": {
+      "file": "ckb_crc_risk_assessment_result",
+      "column": "CKB_total_score",
+      "scale": "raw"
+    },
+    "jiezhichang_Freedman10yr": {
+      "file": "crc_freedman_risk_result",
+      "column": "risk_probability",
+      "scale": "percent"
+    },
+    "jiezhichang_LiFeCRC": {
+      "file": "lifecrc_risk_results",
+      "column": "risk_probability",
+      "scale": "percent"
+    },
+    "ganai_ASAP": {
+      "file": "asap_screening_result_perfect",
+      "column": "risk_probability",
+      "scale": "fraction"
+    },
+    "ganai_HCC_LSM": {
+      "file": "hcc_lsm_final",
+      "column": "HCC-LSM_total_score",
+      "scale": "raw"
+    },
+    "ganai_aMAP": {
+      "file": "amap_hcc_final",
+      "column": "aMAP_score",
+      "scale": "raw"
+    },
+    "ganai_mPAGED_B": {
+      "file": "mpage_b_risk",
+      "column": "predicted_score",
+      "scale": "raw"
+    },
+    "ganyinghua_Agile3plus": {
+      "file": "agile3_result",
+      "column": "predicted_score",
+      "scale": "raw"
+    },
+    "ganyinghua_Agile4": {
+      "file": "agile4_result",
+      "column": "predicted_score",
+      "scale": "raw"
+    },
+    "ganyinghua_CORE_10yr": {
+      "file": "core_liver_risk_result",
+      "column": "risk_probability",
+      "scale": "fraction"
+    },
+    "ganyinghua_FAST": {
+      "file": "fast_nash_result",
+      "column": "predicted_score",
+      "scale": "raw"
+    },
+    "ganyinghua_acFibroMASH": {
+      "file": "acFibroMASH_evaluation_results",
+      "column": "acFibroMASH_probability",
+      "scale": "raw"
+    },
+    "feiai_BrockPancan": {
+      "file": "brock_risk_output",
+      "column": "risk_probability",
+      "scale": "fraction"
+    },
+    "feiai_LCRS": {
+      "file": "lcrs_risk_results_perfect",
+      "column": "risk_probability",
+      "scale": "percent"
+    },
+    "feiai_NCC_LCm2021": {
+      "file": "lung_cancer_risk_perfect",
+      "column": "risk_probability",
+      "scale": "percent"
+    },
+    "weiai_Cai": {
+      "file": "gastric_Cai_screening_result",
+      "column": "predicted_score",
+      "scale": "raw"
+    },
+    "weiai_Hisayama": {
+      "file": "gastric_cancer_risk_result",
+      "column": "predicted_score",
+      "scale": "raw"
+    },
+    "weiai_NGCSS": {
+      "file": "ngcss_gastric_result",
+      "column": "predicted_score",
+      "scale": "raw"
+    },
+    "weishiguanfanliu_GerdQ": {
+      "file": "gerdq_screening_result",
+      "column": "predicted_score",
+      "scale": "raw"
+    },
+    "yixianai_ENDPAC": {
+      "file": "end_pac_screening_result",
+      "column": "predicted_score",
+      "scale": "raw"
+    },
+    "yixianai_NODM_deltaBMI": {
+      "file": "nodm_pancreatic_cancer_risk_result",
+      "column": "risk_probability",
+      "scale": "percent"
+    },
+    "naochuzhong_8plus2": {
+      "file": "stroke_8plus2_screening_result",
+      "column": "predicted_score",
+      "scale": "raw"
+    },
+    "naochuzhong_Framingham": {
+      "file": "framingham_stroke_result",
+      "column": "risk_probability",
+      "scale": "percent"
+    },
+    "naochuzhong_PAR": {
+      "file": "china_par_stroke_result",
+      "column": "risk_probability",
+      "scale": "percent"
+    },
+    "naochuzhong_PREVENT": {
+      "file": "aha_prevent_stroke_results",
+      "column": "risk_probability",
+      "scale": "percent"
+    },
+    "aercihai_AD8": {
+      "file": "ad8_screening_result",
+      "column": "predicted_score",
+      "scale": "raw"
+    },
+    "shiguanai_Chen2021": {
+      "file": "escc_risk_results",
+      "column": "predicted_score",
+      "scale": "raw"
+    },
+    "shiguanai_gaoji_bingbian": {
+      "file": "esophageal_cancer_screening_result",
+      "column": "risk_probability",
+      "scale": "fraction"
+    },
+    "gushusong_OSTA_Asian": {
+      "file": "osta_final_result_M80_",
+      "column": "predicted_score",
+      "scale": "raw"
+    },
+    "tongfeng_METSVF": {
+      "file": "mets_vf_gout_risk_result",
+      "column": "predicted_score",
+      "scale": "raw"
+    },
+    "gaoxueya_Framingham": {
+      "file": "hypertension_framingham_output",
+      "column": "predicted_score",
+      "scale": "percent"
+    },
+    "gaoxueya_young_adults": {
+      "file": "HTN predict for young adults_output",
+      "column": "predicted_score",
+      "scale": "percent"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.log
+batches/
+debug_output/
+.env
+.env.bak.*
+*.zip
+report_preview.html
+batch_results_*.json
+_fullscore_out.json

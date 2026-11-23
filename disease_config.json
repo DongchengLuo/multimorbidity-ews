@@ -1,0 +1,134 @@
+{
+  "J44": {
+    "name": "COPD",
+    "dataset_id": "60e762ba118211f1a09846b7d711cd97"
+  },
+  "J45": {
+    "name": "Bronchial Asthma",
+    "dataset_id": "4c8baa68122e11f1a09846b7d711cd97"
+  },
+  "G47": {
+    "name": "Obstructive Sleep Apnea (questionnaire)",
+    "dataset_id": "02882c2e11e911f1a09846b7d711cd97"
+  },
+  "I10": {
+    "name": "Hypertension",
+    "dataset_id": "9f0056a4124711f1a09846b7d711cd97"
+  },
+  "I25": {
+    "name": "ASCVD",
+    "dataset_id": "a99c7c74124b11f1a09846b7d711cd97"
+  },
+  "I64": {
+    "name": "Stroke",
+    "dataset_id": "ac617066122011f1a09846b7d711cd97"
+  },
+  "I50": {
+    "name": "Heart Failure",
+    "dataset_id": "601fd758122d11f1a09846b7d711cd97"
+  },
+  "K21": {
+    "name": "GERD",
+    "dataset_id": "f94d611e122a11f1a09846b7d711cd97"
+  },
+  "K27": {
+    "name": "Peptic Ulcer",
+    "dataset_id": "8fa718b211ef11f1a09846b7d711cd97"
+  },
+  "K76": {
+    "name": "Fatty Liver Disease",
+    "dataset_id": "e8b97ca405d011f1a09846b7d711cd97"
+  },
+  "K74": {
+    "name": "Liver Cirrhosis / Fibrosis",
+    "dataset_id": "108e1610118211f1a09846b7d711cd97"
+  },
+  "E14": {
+    "name": "Diabetes Mellitus",
+    "dataset_id": "d1bdb16c122011f1a09846b7d711cd97"
+  },
+  "E66": {
+    "name": "Obesity",
+    "dataset_id": "c2c3cf1012bc11f1a09846b7d711cd97"
+  },
+  "M10": {
+    "name": "Gout / Hyperuricemia",
+    "dataset_id": "53efbb8412bd11f1a09846b7d711cd97"
+  },
+  "E70": {
+    "name": "Metabolic Syndrome",
+    "dataset_id": "82b2f41812bd11f1a09846b7d711cd97"
+  },
+  "M80": {
+    "name": "Osteoporosis",
+    "dataset_id": "c9d2ad0212bd11f1a09846b7d711cd97"
+  },
+  "M51": {
+    "name": "Disc Herniation",
+    "dataset_id": "e200ddde12bf11f1a09846b7d711cd97"
+  },
+  "F03": {
+    "name": "Dementia",
+    "dataset_id": "d45cc77a11ec11f1a09846b7d711cd97"
+  },
+  "N18": {
+    "name": "Chronic Kidney Disease",
+    "dataset_id": "1a3934ac123f11f1a09846b7d711cd97"
+  },
+  "D50": {
+    "name": "Iron Deficiency Anemia",
+    "dataset_id": ""
+  },
+  "I82": {
+    "name": "Venous Thromboembolism (VTE)",
+    "dataset_id": "97db1d1c123f11f1a09846b7d711cd97"
+  },
+  "C11": {
+    "name": "Nasopharyngeal Cancer",
+    "dataset_id": "0c37520411f811f1a09846b7d711cd97"
+  },
+  "C15": {
+    "name": "Esophageal Cancer",
+    "dataset_id": "bb4a40ac121711f1a09846b7d711cd97"
+  },
+  "C73": {
+    "name": "Thyroid Cancer",
+    "dataset_id": "69fc03d811fa11f1a09846b7d711cd97"
+  },
+  "C50": {
+    "name": "Breast Cancer",
+    "dataset_id": "6edad84011fd11f1a09846b7d711cd97"
+  },
+  "C16": {
+    "name": "Gastric Cancer",
+    "dataset_id": "f0cfb090121711f1a09846b7d711cd97"
+  },
+  "C18": {
+    "name": "Colorectal Cancer",
+    "dataset_id": "7aad495211fb11f1a09846b7d711cd97"
+  },
+  "C34": {
+    "name": "Lung Cancer",
+    "dataset_id": "d7eb7fd411f711f1a09846b7d711cd97"
+  },
+  "C22": {
+    "name": "Liver Cancer",
+    "dataset_id": "fd43d62e058f11f1a09846b7d711cd97"
+  },
+  "C61": {
+    "name": "Prostate Cancer",
+    "dataset_id": "132a3eb411fd11f1a09846b7d711cd97"
+  },
+  "C25": {
+    "name": "Pancreatic Cancer",
+    "dataset_id": "0ca90384121811f1a09846b7d711cd97"
+  },
+  "C56": {
+    "name": "Ovarian Cancer",
+    "dataset_id": "fcd085d811fc11f1a09846b7d711cd97"
+  },
+  "C53": {
+    "name": "Cervical Cancer",
+    "dataset_id": "3647a78611fa11f1a09846b7d711cd97"
+  }
+}

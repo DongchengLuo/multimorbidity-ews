@@ -1,0 +1,297 @@
+{
+  "format": "fixed_80_20_spline_cox_json_v1",
+  "disease": "VTE",
+  "split": {
+    "train_fraction": 0.8,
+    "validation_fraction": 0.19999999999999996,
+    "random_seed": 20260927,
+    "stratified_by": "event",
+    "training_n": 390806,
+    "validation_n": 97702,
+    "training_events": 9148,
+    "validation_events": 2287
+  },
+  "target_years": 5.0,
+  "node_selection": {
+    "scope": "three_fold_cv_inside_fixed_80pct_training_set_only",
+    "inner_folds": 3,
+    "candidate_internal_knots": [
+      0,
+      1,
+      2
+    ],
+    "selected_internal_knots": 0,
+    "inner_c_by_knots": {
+      "0": [
+        0.650813464384124,
+        0.644486363189332,
+        0.6420684855581095
+      ],
+      "1": [
+        0.6505069694155872,
+        0.6444794801401671,
+        0.6408308601880184
+      ],
+      "2": [
+        0.6507259765089657,
+        0.6443555109479906,
+        0.6408664611397344
+      ]
+    },
+    "inner_mean_c_by_knots": {
+      "0": 0.6457894377105218,
+      "1": 0.6452724365812575,
+      "2": 0.6453159828655636
+    },
+    "inner_diagnostics": {
+      "0": [
+        {
+          "inner_fold": 1,
+          "c_index": 0.650813464384124,
+          "comparable_pairs": 364467647,
+          "fit": {
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "nit": 47,
+            "fun": 12.224620257436717
+          }
+        },
+        {
+          "inner_fold": 2,
+          "c_index": 0.644486363189332,
+          "comparable_pairs": 363356405,
+          "fit": {
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "nit": 48,
+            "fun": 12.223261954956545
+          }
+        },
+        {
+          "inner_fold": 3,
+          "c_index": 0.6420684855581095,
+          "comparable_pairs": 363347028,
+          "fit": {
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "nit": 47,
+            "fun": 12.218900370076835
+          }
+        }
+      ],
+      "1": [
+        {
+          "inner_fold": 1,
+          "c_index": 0.6505069694155872,
+          "comparable_pairs": 364467647,
+          "fit": {
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "nit": 114,
+            "fun": 12.22443411271842
+          }
+        },
+        {
+          "inner_fold": 2,
+          "c_index": 0.6444794801401671,
+          "comparable_pairs": 363356405,
+          "fit": {
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "nit": 104,
+            "fun": 12.223028702061995
+          }
+        },
+        {
+          "inner_fold": 3,
+          "c_index": 0.6408308601880184,
+          "comparable_pairs": 363347028,
+          "fit": {
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "nit": 47,
+            "fun": 12.218674759383333
+          }
+        }
+      ],
+      "2": [
+        {
+          "inner_fold": 1,
+          "c_index": 0.6507259765089657,
+          "comparable_pairs": 364467647,
+          "fit": {
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "nit": 114,
+            "fun": 12.224388012411712
+          }
+        },
+        {
+          "inner_fold": 2,
+          "c_index": 0.6443555109479906,
+          "comparable_pairs": 363356405,
+          "fit": {
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "nit": 145,
+            "fun": 12.222795773887347
+          }
+        },
+        {
+          "inner_fold": 3,
+          "c_index": 0.6408664611397344,
+          "comparable_pairs": 363347028,
+          "fit": {
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "nit": 47,
+            "fun": 12.218649581044678
+          }
+        }
+      ]
+    }
+  },
+  "input_score_columns_in_order": [
+    "vte_CHICAT",
+    "vte_Caprini",
+    "vte_IMPROVEDD",
+    "vte_Legend",
+    "vte_lungcancer_nomogram"
+  ],
+  "structurally_unusable_columns": [],
+  "spline_spec": {
+    "active_idx": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "medians": [
+      2.0,
+      2.0,
+      0.0,
+      0.0,
+      0.0064834367567149
+    ],
+    "mean": [
+      2.4806911869316233,
+      2.1597083975169267,
+      0.5791620394773878,
+      0.0752189065674529,
+      0.008241943429192364
+    ],
+    "sd": [
+      1.3122069438139574,
+      1.3122722720192863,
+      0.7587514149771721,
+      0.26374423721145007,
+      0.0032172902293247283
+    ],
+    "knots": [
+      [
+        -1.8904725345542233,
+        -1.8904725345542233,
+        -1.8904725345542233,
+        -1.8904725345542233,
+        2.6819769775333078,
+        2.6819769775333078,
+        2.6819769775333078,
+        2.6819769775333078
+      ],
+      [
+        -0.88374068571334,
+        -0.88374068571334,
+        -0.88374068571334,
+        -0.88374068571334,
+        3.6884811983682124,
+        3.6884811983682124,
+        3.6884811983682124,
+        3.6884811983682124
+      ],
+      [
+        -0.7633093369516978,
+        -0.7633093369516978,
+        -0.7633093369516978,
+        -0.7633093369516978,
+        3.190554788745199,
+        3.190554788745199,
+        3.190554788745199,
+        3.190554788745199
+      ],
+      [
+        -0.2851963984606348,
+        -0.2851963984606348,
+        -0.2851963984606348,
+        -0.2851963984606348,
+        3.506355639122943,
+        3.506355639122943,
+        3.506355639122943,
+        3.506355639122943
+      ],
+      [
+        -1.5687254609808952,
+        -1.5687254609808952,
+        -1.5687254609808952,
+        -1.5687254609808952,
+        0.9595061023563496,
+        0.9595061023563496,
+        0.9595061023563496,
+        0.9595061023563496
+      ]
+    ],
+    "centers": [
+      [
+        0.33472749622111925,
+        0.25253724211997997,
+        0.13264709960279053
+      ],
+      [
+        0.21767272138917407,
+        0.10815944768295074,
+        0.048200788645553855
+      ],
+      [
+        0.17700399231908412,
+        0.09844725459117117,
+        0.06842117932517368
+      ],
+      [
+        0.0,
+        0.0,
+        0.0752189065674529
+      ],
+      [
+        0.15456813207877476,
+        0.0832519231130692,
+        0.5136614301385177
+      ]
+    ],
+    "degree": 3
+  },
+  "cox_beta": [
+    -0.5438492420099675,
+    -0.25042467818802566,
+    -0.14536527179399483,
+    0.9587242351867518,
+    0.7153876732877739,
+    1.5023637917788384,
+    0.9298426097280641,
+    -0.010021895434305986,
+    0.678529081186277,
+    0.0,
+    0.0,
+    -0.4280013962137442,
+    -5.331216431467521,
+    11.3557542453607,
+    0.48278645659011327
+  ],
+  "baseline_cumulative_hazard_at_5y": 0.005693699018342055,
+  "fit_diagnostics": {
+    "success": true,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "nit": 45,
+    "fun": 12.628004354209697
+  },
+  "prediction_definition": "risk(5y)=1-exp[-H0(5y)*exp(spline_design(scores) dot beta)]"
+}

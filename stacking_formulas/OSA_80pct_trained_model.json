@@ -1,0 +1,234 @@
+{
+  "format": "fixed_80_20_spline_cox_json_v1",
+  "disease": "OSA",
+  "split": {
+    "train_fraction": 0.8,
+    "validation_fraction": 0.19999999999999996,
+    "random_seed": 20260927,
+    "stratified_by": "event",
+    "training_n": 399149,
+    "validation_n": 99788,
+    "training_events": 5676,
+    "validation_events": 1419
+  },
+  "target_years": 5.0,
+  "node_selection": {
+    "scope": "three_fold_cv_inside_fixed_80pct_training_set_only",
+    "inner_folds": 3,
+    "candidate_internal_knots": [
+      0,
+      1,
+      2
+    ],
+    "selected_internal_knots": 1,
+    "inner_c_by_knots": {
+      "0": [
+        0.7229507858103599,
+        0.719018167938797,
+        0.7237967333673618
+      ],
+      "1": [
+        0.7240685148414168,
+        0.7211079549499992,
+        0.7261217299423917
+      ],
+      "2": [
+        0.7238652810173025,
+        0.7196388836690061,
+        0.7260027722491652
+      ]
+    },
+    "inner_mean_c_by_knots": {
+      "0": 0.7219218957055062,
+      "1": 0.7237660665779359,
+      "2": 0.7231689789784913
+    },
+    "inner_diagnostics": {
+      "0": [
+        {
+          "inner_fold": 1,
+          "c_index": 0.7229507858103599,
+          "comparable_pairs": 236835577,
+          "fit": {
+            "success": true,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "nit": 19,
+            "fun": 12.066379836142307
+          }
+        },
+        {
+          "inner_fold": 2,
+          "c_index": 0.719018167938797,
+          "comparable_pairs": 235323503,
+          "fit": {
+            "success": true,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "nit": 19,
+            "fun": 12.068802964309356
+          }
+        },
+        {
+          "inner_fold": 3,
+          "c_index": 0.7237967333673618,
+          "comparable_pairs": 235739272,
+          "fit": {
+            "success": true,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "nit": 18,
+            "fun": 12.070906851658851
+          }
+        }
+      ],
+      "1": [
+        {
+          "inner_fold": 1,
+          "c_index": 0.7240685148414168,
+          "comparable_pairs": 236835577,
+          "fit": {
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "nit": 27,
+            "fun": 12.064166216664434
+          }
+        },
+        {
+          "inner_fold": 2,
+          "c_index": 0.7211079549499992,
+          "comparable_pairs": 235323503,
+          "fit": {
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "nit": 28,
+            "fun": 12.064406372279878
+          }
+        },
+        {
+          "inner_fold": 3,
+          "c_index": 0.7261217299423917,
+          "comparable_pairs": 235739272,
+          "fit": {
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "nit": 27,
+            "fun": 12.068533354936124
+          }
+        }
+      ],
+      "2": [
+        {
+          "inner_fold": 1,
+          "c_index": 0.7238652810173025,
+          "comparable_pairs": 236835577,
+          "fit": {
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "nit": 28,
+            "fun": 12.064642651117575
+          }
+        },
+        {
+          "inner_fold": 2,
+          "c_index": 0.7196388836690061,
+          "comparable_pairs": 235323503,
+          "fit": {
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "nit": 32,
+            "fun": 12.06451203723812
+          }
+        },
+        {
+          "inner_fold": 3,
+          "c_index": 0.7260027722491652,
+          "comparable_pairs": 235739272,
+          "fit": {
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "nit": 29,
+            "fun": 12.069109945672029
+          }
+        }
+      ]
+    }
+  },
+  "input_score_columns_in_order": [
+    "osa_NoSAS",
+    "osa_STOPBang"
+  ],
+  "structurally_unusable_columns": [],
+  "spline_spec": {
+    "active_idx": [
+      0,
+      1
+    ],
+    "medians": [
+      7.0,
+      3.0
+    ],
+    "mean": [
+      6.40434774983778,
+      2.6031206391598123
+    ],
+    "sd": [
+      3.3939570993654327,
+      1.2939896397872992
+    ],
+    "knots": [
+      [
+        -1.886985475165611,
+        -1.886985475165611,
+        -1.886985475165611,
+        -1.886985475165611,
+        0.175503765287307,
+        1.9433516856755224,
+        1.9433516856755224,
+        1.9433516856755224,
+        1.9433516856755224
+      ],
+      [
+        -2.0117012989282532,
+        -2.0117012989282532,
+        -2.0117012989282532,
+        -2.0117012989282532,
+        0.30670984421901953,
+        1.852317272983868,
+        1.852317272983868,
+        1.852317272983868,
+        1.852317272983868
+      ]
+    ],
+    "centers": [
+      [
+        0.23753042743853947,
+        0.2981824735880724,
+        0.25843090552518505,
+        0.07842207444475713
+      ],
+      [
+        0.24674766491725234,
+        0.3019757896045751,
+        0.2506719003023552,
+        0.09227788369756658
+      ]
+    ],
+    "degree": 3
+  },
+  "cox_beta": [
+    0.6649574552239518,
+    2.626913763331904,
+    2.3181887438795603,
+    3.6239752512788477,
+    -0.181835552205558,
+    0.23520551476316193,
+    0.46195451460790166,
+    0.35686849234075585
+  ],
+  "baseline_cumulative_hazard_at_5y": 0.003002354754202267,
+  "fit_diagnostics": {
+    "success": true,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "nit": 26,
+    "fun": 12.471440168613537
+  },
+  "prediction_definition": "risk(5y)=1-exp[-H0(5y)*exp(spline_design(scores) dot beta)]"
+}

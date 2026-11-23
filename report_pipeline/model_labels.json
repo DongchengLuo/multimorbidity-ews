@@ -1,0 +1,15 @@
+{
+  "ADA_diabetes_screening_result_E14": "ADA Diabetes Screening Score (E14)",
+  "aha_prevent_stroke_results": "AHA PREVENT Stroke Risk Prediction",
+  "china_par_stroke_result": "China PAR Stroke Risk Model",
+  "stroke_8plus2_screening_result": "Stroke 8+2 Screening Score",
+  "improvedd_vte_77d_results": "Improved VTE 77-Day Risk Model",
+  "ckd_scored_screening_N18_result": "CKD Scored Screening Model (N18)",
+  "pars_targeted_output": "PARS Targeted Risk Score",
+  "nelson_ckd_risk_result": "Nelson Chronic Kidney Disease Risk Model",
+  "slim_risk_smart_smoking": "SLIM Smoking Risk Model",
+  "lap_risk_assessment_result_perfect": "LAP Fatty Liver Risk Score",
+  "aha_prevent_hf_result": "AHA PREVENT Heart Failure Risk Prediction",
+  "CHF_Framingham_result": "Framingham Heart Failure Risk Model",
+  "framingham_I25_result": "Framingham Ischemic Heart Disease Risk Model"
+}

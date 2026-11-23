@@ -1,0 +1,2715 @@
+{
+ "3_shi_wu_guo_min_yuan_zhi_min_-_bu_er_xing": {
+  "orange": "01_lab_tests/10_allergy_urinalysis/3_shi_wu_guo_min_yuan_zhi_min_bu_er_xing_orange.png",
+  "red": "01_lab_tests/10_allergy_urinalysis/3_shi_wu_guo_min_yuan_zhi_min_bu_er_xing_red.png",
+  "green": "01_lab_tests/10_allergy_urinalysis/3_shi_wu_guo_min_yuan_zhi_min_bu_er_xing_green.png"
+ },
+ "1_dui_≥2_zhong_guo_min_yuan_cheng_yang_xing_（_duo_zhong_zhi_min_）-_er_fen_lei": {
+  "orange": "01_lab_tests/10_allergy_urinalysis/1_dui_2_zhong_guo_min_yuan_cheng_yang_xing_duo_zhong_zhi_min_er_fen_lei_orange.png",
+  "red": "01_lab_tests/10_allergy_urinalysis/1_dui_2_zhong_guo_min_yuan_cheng_yang_xing_duo_zhong_zhi_min_er_fen_lei_red.png",
+  "green": "01_lab_tests/10_allergy_urinalysis/1_dui_2_zhong_guo_min_yuan_cheng_yang_xing_duo_zhong_zhi_min_er_fen_lei_green.png"
+ },
+ "1_dui_≥2_zhong_guo_min_yuan_cheng_yang_xing_（_duo_zhong_zhi_min_）-_bu_er_xing": {
+  "orange": "01_lab_tests/10_allergy_urinalysis/1_dui_2_zhong_guo_min_yuan_cheng_yang_xing_duo_zhong_zhi_min_bu_er_xing_orange.png",
+  "red": "01_lab_tests/10_allergy_urinalysis/1_dui_2_zhong_guo_min_yuan_cheng_yang_xing_duo_zhong_zhi_min_bu_er_xing_red.png",
+  "green": "01_lab_tests/10_allergy_urinalysis/1_dui_2_zhong_guo_min_yuan_cheng_yang_xing_duo_zhong_zhi_min_bu_er_xing_green.png"
+ },
+ "2_xi_ru_xing_guo_min_yuan_zhi_min_-_er_fen_lei": {
+  "orange": "01_lab_tests/10_allergy_urinalysis/2_xi_ru_xing_guo_min_yuan_zhi_min_er_fen_lei_orange.png",
+  "red": "01_lab_tests/10_allergy_urinalysis/2_xi_ru_xing_guo_min_yuan_zhi_min_er_fen_lei_red.png",
+  "green": "01_lab_tests/10_allergy_urinalysis/2_xi_ru_xing_guo_min_yuan_zhi_min_er_fen_lei_green.png"
+ },
+ "2_xi_ru_xing_guo_min_yuan_zhi_min_-_bu_er_xing": {
+  "orange": "01_lab_tests/10_allergy_urinalysis/2_xi_ru_xing_guo_min_yuan_zhi_min_bu_er_xing_orange.png",
+  "red": "01_lab_tests/10_allergy_urinalysis/2_xi_ru_xing_guo_min_yuan_zhi_min_bu_er_xing_red.png",
+  "green": "01_lab_tests/10_allergy_urinalysis/2_xi_ru_xing_guo_min_yuan_zhi_min_bu_er_xing_green.png"
+ },
+ "3_shi_wu_guo_min_yuan_zhi_min_-_er_fen_lei": {
+  "orange": "01_lab_tests/10_allergy_urinalysis/3_shi_wu_guo_min_yuan_zhi_min_er_fen_lei_orange.png",
+  "red": "01_lab_tests/10_allergy_urinalysis/3_shi_wu_guo_min_yuan_zhi_min_er_fen_lei_red.png",
+  "green": "01_lab_tests/10_allergy_urinalysis/3_shi_wu_guo_min_yuan_zhi_min_er_fen_lei_green.png"
+ },
+ "1_niao_dan_bai_-_sheng_hua_nong_du": {
+  "orange": "01_lab_tests/10_allergy_urinalysis/1_niao_dan_bai_sheng_hua_nong_du_orange.png",
+  "red": "01_lab_tests/10_allergy_urinalysis/1_niao_dan_bai_sheng_hua_nong_du_red.png",
+  "green": "01_lab_tests/10_allergy_urinalysis/1_niao_dan_bai_sheng_hua_nong_du_green.png"
+ },
+ "1_niao_dan_bai_-_jue_dui_ji_shu": {
+  "orange": "01_lab_tests/10_allergy_urinalysis/1_niao_dan_bai_jue_dui_ji_shu_orange.png",
+  "red": "01_lab_tests/10_allergy_urinalysis/1_niao_dan_bai_jue_dui_ji_shu_red.png",
+  "green": "01_lab_tests/10_allergy_urinalysis/1_niao_dan_bai_jue_dui_ji_shu_green.png"
+ },
+ "1_niao_dan_bai_-_lian_xu_shu_zhi_xing": {
+  "orange": "01_lab_tests/10_allergy_urinalysis/1_niao_dan_bai_lian_xu_shu_zhi_xing_orange.png",
+  "red": "01_lab_tests/10_allergy_urinalysis/1_niao_dan_bai_lian_xu_shu_zhi_xing_red.png",
+  "green": "01_lab_tests/10_allergy_urinalysis/1_niao_dan_bai_lian_xu_shu_zhi_xing_green.png"
+ },
+ "2_niao_bai_dan_bai_ji_gan_bi_-_zhi_shu": {
+  "orange": "01_lab_tests/10_allergy_urinalysis/2_niao_bai_dan_bai_ji_gan_bi_zhi_shu_orange.png",
+  "red": "01_lab_tests/10_allergy_urinalysis/2_niao_bai_dan_bai_ji_gan_bi_zhi_shu_red.png",
+  "green": "01_lab_tests/10_allergy_urinalysis/2_niao_bai_dan_bai_ji_gan_bi_zhi_shu_green.png"
+ },
+ "2_niao_bai_dan_bai_ji_gan_bi_-_yan_sheng_bi_zhi": {
+  "orange": "01_lab_tests/10_allergy_urinalysis/2_niao_bai_dan_bai_ji_gan_bi_yan_sheng_bi_zhi_orange.png",
+  "red": "01_lab_tests/10_allergy_urinalysis/2_niao_bai_dan_bai_ji_gan_bi_yan_sheng_bi_zhi_red.png",
+  "green": "01_lab_tests/10_allergy_urinalysis/2_niao_bai_dan_bai_ji_gan_bi_yan_sheng_bi_zhi_green.png"
+ },
+ "2_niao_bai_dan_bai_ji_gan_bi_-_lian_xu_shu_zhi_xing": {
+  "orange": "01_lab_tests/10_allergy_urinalysis/2_niao_bai_dan_bai_ji_gan_bi_lian_xu_shu_zhi_xing_orange.png",
+  "red": "01_lab_tests/10_allergy_urinalysis/2_niao_bai_dan_bai_ji_gan_bi_lian_xu_shu_zhi_xing_red.png",
+  "green": "01_lab_tests/10_allergy_urinalysis/2_niao_bai_dan_bai_ji_gan_bi_lian_xu_shu_zhi_xing_green.png"
+ },
+ "2_ti_zhong_-_xing_tai": {
+  "green": "01_lab_tests/12_basic_physical_measurement/2_ti_zhong_xing_tai_green.png",
+  "orange": "01_lab_tests/12_basic_physical_measurement/2_ti_zhong_xing_tai_orange.png",
+  "red": "01_lab_tests/12_basic_physical_measurement/2_ti_zhong_xing_tai_red.png"
+ },
+ "4_yao_wei_-_chi_cun": {
+  "green": "01_lab_tests/12_basic_physical_measurement/4_yao_wei_chi_cun_green.png",
+  "orange": "01_lab_tests/12_basic_physical_measurement/4_yao_wei_chi_cun_orange.png",
+  "red": "01_lab_tests/12_basic_physical_measurement/4_yao_wei_chi_cun_red.png"
+ },
+ "1_shen_gao_-_chi_cun": {
+  "orange": "01_lab_tests/12_basic_physical_measurement/1_shen_gao_chi_cun_orange.png",
+  "red": "01_lab_tests/12_basic_physical_measurement/1_shen_gao_chi_cun_red.png",
+  "green": "01_lab_tests/12_basic_physical_measurement/1_shen_gao_chi_cun_green.png"
+ },
+ "1_shen_gao_-_xing_tai": {
+  "orange": "01_lab_tests/12_basic_physical_measurement/1_shen_gao_xing_tai_orange.png",
+  "red": "01_lab_tests/12_basic_physical_measurement/1_shen_gao_xing_tai_red.png",
+  "green": "01_lab_tests/12_basic_physical_measurement/1_shen_gao_xing_tai_green.png"
+ },
+ "1_shen_gao_-_she_ru_liang": {
+  "orange": "01_lab_tests/12_basic_physical_measurement/1_shen_gao_she_ru_liang_orange.png",
+  "red": "01_lab_tests/12_basic_physical_measurement/1_shen_gao_she_ru_liang_red.png",
+  "green": "01_lab_tests/12_basic_physical_measurement/1_shen_gao_she_ru_liang_green.png"
+ },
+ "1_shen_gao_-_lian_xu_shu_zhi_xing": {
+  "orange": "01_lab_tests/12_basic_physical_measurement/1_shen_gao_lian_xu_shu_zhi_xing_orange.png",
+  "red": "01_lab_tests/12_basic_physical_measurement/1_shen_gao_lian_xu_shu_zhi_xing_red.png",
+  "green": "01_lab_tests/12_basic_physical_measurement/1_shen_gao_lian_xu_shu_zhi_xing_green.png"
+ },
+ "2_ti_zhong_-_chi_cun": {
+  "orange": "01_lab_tests/12_basic_physical_measurement/2_ti_zhong_chi_cun_orange.png",
+  "red": "01_lab_tests/12_basic_physical_measurement/2_ti_zhong_chi_cun_red.png",
+  "green": "01_lab_tests/12_basic_physical_measurement/2_ti_zhong_chi_cun_green.png"
+ },
+ "2_ti_zhong_-_she_ru_liang": {
+  "orange": "01_lab_tests/12_basic_physical_measurement/2_ti_zhong_she_ru_liang_orange.png",
+  "red": "01_lab_tests/12_basic_physical_measurement/2_ti_zhong_she_ru_liang_red.png",
+  "green": "01_lab_tests/12_basic_physical_measurement/2_ti_zhong_she_ru_liang_green.png"
+ },
+ "2_ti_zhong_-_lian_xu_shu_zhi_xing": {
+  "orange": "01_lab_tests/12_basic_physical_measurement/2_ti_zhong_lian_xu_shu_zhi_xing_orange.png",
+  "red": "01_lab_tests/12_basic_physical_measurement/2_ti_zhong_lian_xu_shu_zhi_xing_red.png",
+  "green": "01_lab_tests/12_basic_physical_measurement/2_ti_zhong_lian_xu_shu_zhi_xing_green.png"
+ },
+ "3_ti_zhong_zhi_shu_（BMI）-_zhi_shu": {
+  "orange": "01_lab_tests/12_basic_physical_measurement/3_ti_zhong_zhi_shu_BMI_zhi_shu_orange.png",
+  "red": "01_lab_tests/12_basic_physical_measurement/3_ti_zhong_zhi_shu_BMI_zhi_shu_red.png",
+  "green": "01_lab_tests/12_basic_physical_measurement/3_ti_zhong_zhi_shu_BMI_zhi_shu_green.png"
+ },
+ "3_ti_zhong_zhi_shu_（BMI）-_yan_sheng_bi_zhi": {
+  "orange": "01_lab_tests/12_basic_physical_measurement/3_ti_zhong_zhi_shu_BMI_yan_sheng_bi_zhi_orange.png",
+  "green": "01_lab_tests/12_basic_physical_measurement/3_ti_zhong_zhi_shu_BMI_yan_sheng_bi_zhi_green.png"
+ },
+ "3_ti_zhong_zhi_shu_（BMI）-_lian_xu_shu_zhi_xing": {
+  "orange": "01_lab_tests/12_basic_physical_measurement/3_ti_zhong_zhi_shu_BMI_lian_xu_shu_zhi_xing_orange.png",
+  "red": "01_lab_tests/12_basic_physical_measurement/3_ti_zhong_zhi_shu_BMI_lian_xu_shu_zhi_xing_red.png",
+  "green": "01_lab_tests/12_basic_physical_measurement/3_ti_zhong_zhi_shu_BMI_lian_xu_shu_zhi_xing_green.png"
+ },
+ "4_yao_wei_-_xing_tai": {
+  "orange": "01_lab_tests/12_basic_physical_measurement/4_yao_wei_xing_tai_orange.png",
+  "red": "01_lab_tests/12_basic_physical_measurement/4_yao_wei_xing_tai_red.png",
+  "green": "01_lab_tests/12_basic_physical_measurement/4_yao_wei_xing_tai_green.png"
+ },
+ "4_yao_wei_-_she_ru_liang": {
+  "orange": "01_lab_tests/12_basic_physical_measurement/4_yao_wei_she_ru_liang_orange.png",
+  "red": "01_lab_tests/12_basic_physical_measurement/4_yao_wei_she_ru_liang_red.png",
+  "green": "01_lab_tests/12_basic_physical_measurement/4_yao_wei_she_ru_liang_green.png"
+ },
+ "4_yao_wei_-_lian_xu_shu_zhi_xing": {
+  "orange": "01_lab_tests/12_basic_physical_measurement/4_yao_wei_lian_xu_shu_zhi_xing_orange.png",
+  "red": "01_lab_tests/12_basic_physical_measurement/4_yao_wei_lian_xu_shu_zhi_xing_red.png",
+  "green": "01_lab_tests/12_basic_physical_measurement/4_yao_wei_lian_xu_shu_zhi_xing_green.png"
+ },
+ "5_jing_wei_-_chi_cun": {
+  "orange": "01_lab_tests/12_basic_physical_measurement/5_jing_wei_chi_cun_orange.png",
+  "red": "01_lab_tests/12_basic_physical_measurement/5_jing_wei_chi_cun_red.png",
+  "green": "01_lab_tests/12_basic_physical_measurement/5_jing_wei_chi_cun_green.png"
+ },
+ "5_jing_wei_-_xing_tai": {
+  "orange": "01_lab_tests/12_basic_physical_measurement/5_jing_wei_xing_tai_orange.png",
+  "red": "01_lab_tests/12_basic_physical_measurement/5_jing_wei_xing_tai_red.png",
+  "green": "01_lab_tests/12_basic_physical_measurement/5_jing_wei_xing_tai_green.png"
+ },
+ "5_jing_wei_-_she_ru_liang": {
+  "orange": "01_lab_tests/12_basic_physical_measurement/5_jing_wei_she_ru_liang_orange.png",
+  "red": "01_lab_tests/12_basic_physical_measurement/5_jing_wei_she_ru_liang_red.png",
+  "green": "01_lab_tests/12_basic_physical_measurement/5_jing_wei_she_ru_liang_green.png"
+ },
+ "5_jing_wei_-_lian_xu_shu_zhi_xing": {
+  "orange": "01_lab_tests/12_basic_physical_measurement/5_jing_wei_lian_xu_shu_zhi_xing_orange.png",
+  "red": "01_lab_tests/12_basic_physical_measurement/5_jing_wei_lian_xu_shu_zhi_xing_red.png",
+  "green": "01_lab_tests/12_basic_physical_measurement/5_jing_wei_lian_xu_shu_zhi_xing_green.png"
+ },
+ "6_shou_suo_ya_-_sheng_li_ji_neng_ce_shi": {
+  "orange": "01_lab_tests/12_basic_physical_measurement/6_shou_suo_ya_sheng_li_ji_neng_ce_shi_orange.png",
+  "red": "01_lab_tests/12_basic_physical_measurement/6_shou_suo_ya_sheng_li_ji_neng_ce_shi_red.png",
+  "green": "01_lab_tests/12_basic_physical_measurement/6_shou_suo_ya_sheng_li_ji_neng_ce_shi_green.png"
+ },
+ "6_shou_suo_ya_-_lian_xu_shu_zhi_xing": {
+  "orange": "01_lab_tests/12_basic_physical_measurement/6_shou_suo_ya_lian_xu_shu_zhi_xing_orange.png",
+  "red": "01_lab_tests/12_basic_physical_measurement/6_shou_suo_ya_lian_xu_shu_zhi_xing_red.png",
+  "green": "01_lab_tests/12_basic_physical_measurement/6_shou_suo_ya_lian_xu_shu_zhi_xing_green.png"
+ },
+ "7_shu_zhang_ya_-_sheng_li_ji_neng_ce_shi": {
+  "orange": "01_lab_tests/12_basic_physical_measurement/7_shu_zhang_ya_sheng_li_ji_neng_ce_shi_orange.png",
+  "red": "01_lab_tests/12_basic_physical_measurement/7_shu_zhang_ya_sheng_li_ji_neng_ce_shi_red.png",
+  "green": "01_lab_tests/12_basic_physical_measurement/7_shu_zhang_ya_sheng_li_ji_neng_ce_shi_green.png"
+ },
+ "7_shu_zhang_ya_-_lian_xu_shu_zhi_xing": {
+  "orange": "01_lab_tests/12_basic_physical_measurement/7_shu_zhang_ya_lian_xu_shu_zhi_xing_orange.png",
+  "red": "01_lab_tests/12_basic_physical_measurement/7_shu_zhang_ya_lian_xu_shu_zhi_xing_red.png",
+  "green": "01_lab_tests/12_basic_physical_measurement/7_shu_zhang_ya_lian_xu_shu_zhi_xing_green.png"
+ },
+ "2_qian_lie_xian_qian_hou_jing_-_xing_tai": {
+  "green": "01_lab_tests/13_ultrasound_mri/2_qian_lie_xian_qian_hou_jing_xing_tai_green.png",
+  "orange": "01_lab_tests/13_ultrasound_mri/2_qian_lie_xian_qian_hou_jing_xing_tai_orange.png",
+  "red": "01_lab_tests/13_ultrasound_mri/2_qian_lie_xian_qian_hou_jing_xing_tai_red.png"
+ },
+ "3_qian_lie_xian_heng_jing_-_lian_xu_shu_zhi_xing": {
+  "red": "01_lab_tests/13_ultrasound_mri/3_qian_lie_xian_heng_jing_lian_xu_shu_zhi_xing_red.png",
+  "orange": "01_lab_tests/13_ultrasound_mri/3_qian_lie_xian_heng_jing_lian_xu_shu_zhi_xing_orange.png",
+  "green": "01_lab_tests/13_ultrasound_mri/3_qian_lie_xian_heng_jing_lian_xu_shu_zhi_xing_green.png"
+ },
+ "1_qian_lie_xian_ti_ji_-_chi_cun": {
+  "orange": "01_lab_tests/13_ultrasound_mri/1_qian_lie_xian_ti_ji_chi_cun_orange.png",
+  "red": "01_lab_tests/13_ultrasound_mri/1_qian_lie_xian_ti_ji_chi_cun_red.png",
+  "green": "01_lab_tests/13_ultrasound_mri/1_qian_lie_xian_ti_ji_chi_cun_green.png"
+ },
+ "1_qian_lie_xian_ti_ji_-_xing_tai": {
+  "orange": "01_lab_tests/13_ultrasound_mri/1_qian_lie_xian_ti_ji_xing_tai_orange.png",
+  "red": "01_lab_tests/13_ultrasound_mri/1_qian_lie_xian_ti_ji_xing_tai_red.png",
+  "green": "01_lab_tests/13_ultrasound_mri/1_qian_lie_xian_ti_ji_xing_tai_green.png"
+ },
+ "1_qian_lie_xian_ti_ji_-_she_ru_liang": {
+  "orange": "01_lab_tests/13_ultrasound_mri/1_qian_lie_xian_ti_ji_she_ru_liang_orange.png",
+  "red": "01_lab_tests/13_ultrasound_mri/1_qian_lie_xian_ti_ji_she_ru_liang_red.png",
+  "green": "01_lab_tests/13_ultrasound_mri/1_qian_lie_xian_ti_ji_she_ru_liang_green.png"
+ },
+ "1_qian_lie_xian_ti_ji_-_lian_xu_shu_zhi_xing": {
+  "orange": "01_lab_tests/13_ultrasound_mri/1_qian_lie_xian_ti_ji_lian_xu_shu_zhi_xing_orange.png",
+  "red": "01_lab_tests/13_ultrasound_mri/1_qian_lie_xian_ti_ji_lian_xu_shu_zhi_xing_red.png",
+  "green": "01_lab_tests/13_ultrasound_mri/1_qian_lie_xian_ti_ji_lian_xu_shu_zhi_xing_green.png"
+ },
+ "2_qian_lie_xian_qian_hou_jing_-_chi_cun": {
+  "orange": "01_lab_tests/13_ultrasound_mri/2_qian_lie_xian_qian_hou_jing_chi_cun_orange.png",
+  "red": "01_lab_tests/13_ultrasound_mri/2_qian_lie_xian_qian_hou_jing_chi_cun_red.png",
+  "green": "01_lab_tests/13_ultrasound_mri/2_qian_lie_xian_qian_hou_jing_chi_cun_green.png"
+ },
+ "2_qian_lie_xian_qian_hou_jing_-_she_ru_liang": {
+  "orange": "01_lab_tests/13_ultrasound_mri/2_qian_lie_xian_qian_hou_jing_she_ru_liang_orange.png",
+  "red": "01_lab_tests/13_ultrasound_mri/2_qian_lie_xian_qian_hou_jing_she_ru_liang_red.png",
+  "green": "01_lab_tests/13_ultrasound_mri/2_qian_lie_xian_qian_hou_jing_she_ru_liang_green.png"
+ },
+ "2_qian_lie_xian_qian_hou_jing_-_lian_xu_shu_zhi_xing": {
+  "orange": "01_lab_tests/13_ultrasound_mri/2_qian_lie_xian_qian_hou_jing_lian_xu_shu_zhi_xing_orange.png",
+  "red": "01_lab_tests/13_ultrasound_mri/2_qian_lie_xian_qian_hou_jing_lian_xu_shu_zhi_xing_red.png",
+  "green": "01_lab_tests/13_ultrasound_mri/2_qian_lie_xian_qian_hou_jing_lian_xu_shu_zhi_xing_green.png"
+ },
+ "3_qian_lie_xian_heng_jing_-_chi_cun": {
+  "orange": "01_lab_tests/13_ultrasound_mri/3_qian_lie_xian_heng_jing_chi_cun_orange.png",
+  "red": "01_lab_tests/13_ultrasound_mri/3_qian_lie_xian_heng_jing_chi_cun_red.png",
+  "green": "01_lab_tests/13_ultrasound_mri/3_qian_lie_xian_heng_jing_chi_cun_green.png"
+ },
+ "3_qian_lie_xian_heng_jing_-_xing_tai": {
+  "orange": "01_lab_tests/13_ultrasound_mri/3_qian_lie_xian_heng_jing_xing_tai_orange.png",
+  "red": "01_lab_tests/13_ultrasound_mri/3_qian_lie_xian_heng_jing_xing_tai_red.png",
+  "green": "01_lab_tests/13_ultrasound_mri/3_qian_lie_xian_heng_jing_xing_tai_green.png"
+ },
+ "3_qian_lie_xian_heng_jing_-_she_ru_liang": {
+  "orange": "01_lab_tests/13_ultrasound_mri/3_qian_lie_xian_heng_jing_she_ru_liang_orange.png",
+  "red": "01_lab_tests/13_ultrasound_mri/3_qian_lie_xian_heng_jing_she_ru_liang_red.png",
+  "green": "01_lab_tests/13_ultrasound_mri/3_qian_lie_xian_heng_jing_she_ru_liang_green.png"
+ },
+ "4_qian_lie_xian_zong_jing_-_chi_cun": {
+  "orange": "01_lab_tests/13_ultrasound_mri/4_qian_lie_xian_zong_jing_chi_cun_orange.png",
+  "red": "01_lab_tests/13_ultrasound_mri/4_qian_lie_xian_zong_jing_chi_cun_red.png",
+  "green": "01_lab_tests/13_ultrasound_mri/4_qian_lie_xian_zong_jing_chi_cun_green.png"
+ },
+ "4_qian_lie_xian_zong_jing_-_xing_tai": {
+  "orange": "01_lab_tests/13_ultrasound_mri/4_qian_lie_xian_zong_jing_xing_tai_orange.png",
+  "red": "01_lab_tests/13_ultrasound_mri/4_qian_lie_xian_zong_jing_xing_tai_red.png",
+  "green": "01_lab_tests/13_ultrasound_mri/4_qian_lie_xian_zong_jing_xing_tai_green.png"
+ },
+ "4_qian_lie_xian_zong_jing_-_she_ru_liang": {
+  "orange": "01_lab_tests/13_ultrasound_mri/4_qian_lie_xian_zong_jing_she_ru_liang_orange.png",
+  "red": "01_lab_tests/13_ultrasound_mri/4_qian_lie_xian_zong_jing_she_ru_liang_red.png",
+  "green": "01_lab_tests/13_ultrasound_mri/4_qian_lie_xian_zong_jing_she_ru_liang_green.png"
+ },
+ "4_qian_lie_xian_zong_jing_-_lian_xu_shu_zhi_xing": {
+  "orange": "01_lab_tests/13_ultrasound_mri/4_qian_lie_xian_zong_jing_lian_xu_shu_zhi_xing_orange.png",
+  "red": "01_lab_tests/13_ultrasound_mri/4_qian_lie_xian_zong_jing_lian_xu_shu_zhi_xing_red.png",
+  "green": "01_lab_tests/13_ultrasound_mri/4_qian_lie_xian_zong_jing_lian_xu_shu_zhi_xing_green.png"
+ },
+ "5_qian_lie_xian_MRI PI-RADS_ping_fen_-_you_xu_duo_fen_lei": {
+  "orange": "01_lab_tests/13_ultrasound_mri/5_qian_lie_xian_MRI_PI_RADS_ping_fen_you_xu_duo_fen_lei_orange.png",
+  "red": "01_lab_tests/13_ultrasound_mri/5_qian_lie_xian_MRI_PI_RADS_ping_fen_you_xu_duo_fen_lei_red.png",
+  "green": "01_lab_tests/13_ultrasound_mri/5_qian_lie_xian_MRI_PI_RADS_ping_fen_you_xu_duo_fen_lei_green.png"
+ },
+ "5_qian_lie_xian_MRI PI-RADS_ping_fen_-_deng_ji": {
+  "orange": "01_lab_tests/13_ultrasound_mri/5_qian_lie_xian_MRI_PI_RADS_ping_fen_deng_ji_orange.png",
+  "red": "01_lab_tests/13_ultrasound_mri/5_qian_lie_xian_MRI_PI_RADS_ping_fen_deng_ji_red.png",
+  "green": "01_lab_tests/13_ultrasound_mri/5_qian_lie_xian_MRI_PI_RADS_ping_fen_deng_ji_green.png"
+ },
+ "6_gan_zang_ying_du_wu_chuang_ding_liang_jian_ce_-_sheng_li_ji_neng_ce_shi": {
+  "orange": "01_lab_tests/13_ultrasound_mri/6_gan_zang_ying_du_wu_chuang_ding_liang_jian_ce_sheng_li_ji_neng_ce_shi_orange.png",
+  "red": "01_lab_tests/13_ultrasound_mri/6_gan_zang_ying_du_wu_chuang_ding_liang_jian_ce_sheng_li_ji_neng_ce_shi_red.png",
+  "green": "01_lab_tests/13_ultrasound_mri/6_gan_zang_ying_du_wu_chuang_ding_liang_jian_ce_sheng_li_ji_neng_ce_shi_green.png"
+ },
+ "6_gan_zang_ying_du_wu_chuang_ding_liang_jian_ce_-_lian_xu_shu_zhi_xing": {
+  "orange": "01_lab_tests/13_ultrasound_mri/6_gan_zang_ying_du_wu_chuang_ding_liang_jian_ce_lian_xu_shu_zhi_xing_orange.png",
+  "red": "01_lab_tests/13_ultrasound_mri/6_gan_zang_ying_du_wu_chuang_ding_liang_jian_ce_lian_xu_shu_zhi_xing_red.png",
+  "green": "01_lab_tests/13_ultrasound_mri/6_gan_zang_ying_du_wu_chuang_ding_liang_jian_ce_lian_xu_shu_zhi_xing_green.png"
+ },
+ "7_zhi_fang_shuai_jian_can_shu_-_sheng_li_ji_neng_ce_shi": {
+  "orange": "01_lab_tests/13_ultrasound_mri/7_zhi_fang_shuai_jian_can_shu_sheng_li_ji_neng_ce_shi_orange.png",
+  "red": "01_lab_tests/13_ultrasound_mri/7_zhi_fang_shuai_jian_can_shu_sheng_li_ji_neng_ce_shi_red.png",
+  "green": "01_lab_tests/13_ultrasound_mri/7_zhi_fang_shuai_jian_can_shu_sheng_li_ji_neng_ce_shi_green.png"
+ },
+ "7_zhi_fang_shuai_jian_can_shu_-_lian_xu_shu_zhi_xing": {
+  "orange": "01_lab_tests/13_ultrasound_mri/7_zhi_fang_shuai_jian_can_shu_lian_xu_shu_zhi_xing_orange.png",
+  "red": "01_lab_tests/13_ultrasound_mri/7_zhi_fang_shuai_jian_can_shu_lian_xu_shu_zhi_xing_red.png",
+  "green": "01_lab_tests/13_ultrasound_mri/7_zhi_fang_shuai_jian_can_shu_lian_xu_shu_zhi_xing_green.png"
+ },
+ "2_fei_jie_jie_zhi_jing_-_xing_tai": {
+  "red": "01_lab_tests/14_chest_ct/2_fei_jie_jie_zhi_jing_xing_tai_red.png",
+  "orange": "01_lab_tests/14_chest_ct/2_fei_jie_jie_zhi_jing_xing_tai_orange.png",
+  "green": "01_lab_tests/14_chest_ct/2_fei_jie_jie_zhi_jing_xing_tai_green.png"
+ },
+ "3_jie_jie_shi_fou_wei_yu_shang_ye_-_er_fen_lei": {
+  "orange": "01_lab_tests/14_chest_ct/3_jie_jie_shi_fou_wei_yu_shang_ye_er_fen_lei_orange.png",
+  "red": "01_lab_tests/14_chest_ct/3_jie_jie_shi_fou_wei_yu_shang_ye_er_fen_lei_red.png",
+  "green": "01_lab_tests/14_chest_ct/3_jie_jie_shi_fou_wei_yu_shang_ye_er_fen_lei_green.png"
+ },
+ "1_fei_jie_jie_da_xiao_-_chi_cun": {
+  "orange": "01_lab_tests/14_chest_ct/1_fei_jie_jie_da_xiao_chi_cun_orange.png",
+  "red": "01_lab_tests/14_chest_ct/1_fei_jie_jie_da_xiao_chi_cun_red.png",
+  "green": "01_lab_tests/14_chest_ct/1_fei_jie_jie_da_xiao_chi_cun_green.png"
+ },
+ "1_fei_jie_jie_da_xiao_-_xing_tai": {
+  "orange": "01_lab_tests/14_chest_ct/1_fei_jie_jie_da_xiao_xing_tai_orange.png",
+  "red": "01_lab_tests/14_chest_ct/1_fei_jie_jie_da_xiao_xing_tai_red.png",
+  "green": "01_lab_tests/14_chest_ct/1_fei_jie_jie_da_xiao_xing_tai_green.png"
+ },
+ "1_fei_jie_jie_da_xiao_-_she_ru_liang": {
+  "orange": "01_lab_tests/14_chest_ct/1_fei_jie_jie_da_xiao_she_ru_liang_orange.png",
+  "red": "01_lab_tests/14_chest_ct/1_fei_jie_jie_da_xiao_she_ru_liang_red.png",
+  "green": "01_lab_tests/14_chest_ct/1_fei_jie_jie_da_xiao_she_ru_liang_green.png"
+ },
+ "1_fei_jie_jie_da_xiao_-_lian_xu_shu_zhi_xing": {
+  "orange": "01_lab_tests/14_chest_ct/1_fei_jie_jie_da_xiao_lian_xu_shu_zhi_xing_orange.png",
+  "red": "01_lab_tests/14_chest_ct/1_fei_jie_jie_da_xiao_lian_xu_shu_zhi_xing_red.png",
+  "green": "01_lab_tests/14_chest_ct/1_fei_jie_jie_da_xiao_lian_xu_shu_zhi_xing_green.png"
+ },
+ "2_fei_jie_jie_zhi_jing_-_chi_cun": {
+  "orange": "01_lab_tests/14_chest_ct/2_fei_jie_jie_zhi_jing_chi_cun_orange.png",
+  "red": "01_lab_tests/14_chest_ct/2_fei_jie_jie_zhi_jing_chi_cun_red.png",
+  "green": "01_lab_tests/14_chest_ct/2_fei_jie_jie_zhi_jing_chi_cun_green.png"
+ },
+ "2_fei_jie_jie_zhi_jing_-_she_ru_liang": {
+  "orange": "01_lab_tests/14_chest_ct/2_fei_jie_jie_zhi_jing_she_ru_liang_orange.png",
+  "red": "01_lab_tests/14_chest_ct/2_fei_jie_jie_zhi_jing_she_ru_liang_red.png",
+  "green": "01_lab_tests/14_chest_ct/2_fei_jie_jie_zhi_jing_she_ru_liang_green.png"
+ },
+ "2_fei_jie_jie_zhi_jing_-_lian_xu_shu_zhi_xing": {
+  "orange": "01_lab_tests/14_chest_ct/2_fei_jie_jie_zhi_jing_lian_xu_shu_zhi_xing_orange.png",
+  "red": "01_lab_tests/14_chest_ct/2_fei_jie_jie_zhi_jing_lian_xu_shu_zhi_xing_red.png",
+  "green": "01_lab_tests/14_chest_ct/2_fei_jie_jie_zhi_jing_lian_xu_shu_zhi_xing_green.png"
+ },
+ "1_fei_jie_jie_shi_xing_-_wu_xu_duo_fen_lei": {
+  "orange": "01_lab_tests/14_chest_ct/1_fei_jie_jie_shi_xing_wu_xu_duo_fen_lei_orange.png",
+  "red": "01_lab_tests/14_chest_ct/1_fei_jie_jie_shi_xing_wu_xu_duo_fen_lei_red.png",
+  "green": "01_lab_tests/14_chest_ct/1_fei_jie_jie_shi_xing_wu_xu_duo_fen_lei_green.png"
+ },
+ "2_fei_jie_jie_bu_fen_shi_xing_-_wu_xu_duo_fen_lei": {
+  "orange": "01_lab_tests/14_chest_ct/2_fei_jie_jie_bu_fen_shi_xing_wu_xu_duo_fen_lei_orange.png",
+  "red": "01_lab_tests/14_chest_ct/2_fei_jie_jie_bu_fen_shi_xing_wu_xu_duo_fen_lei_red.png",
+  "green": "01_lab_tests/14_chest_ct/2_fei_jie_jie_bu_fen_shi_xing_wu_xu_duo_fen_lei_green.png"
+ },
+ "3_fei_jie_jie_mo_bo_li_-_wu_xu_duo_fen_lei": {
+  "orange": "01_lab_tests/14_chest_ct/3_fei_jie_jie_mo_bo_li_wu_xu_duo_fen_lei_orange.png",
+  "red": "01_lab_tests/14_chest_ct/3_fei_jie_jie_mo_bo_li_wu_xu_duo_fen_lei_red.png",
+  "green": "01_lab_tests/14_chest_ct/3_fei_jie_jie_mo_bo_li_wu_xu_duo_fen_lei_green.png"
+ },
+ "3_jie_jie_shi_fou_wei_yu_shang_ye_-_bu_er_xing": {
+  "orange": "01_lab_tests/14_chest_ct/3_jie_jie_shi_fou_wei_yu_shang_ye_bu_er_xing_orange.png",
+  "red": "01_lab_tests/14_chest_ct/3_jie_jie_shi_fou_wei_yu_shang_ye_bu_er_xing_red.png",
+  "green": "01_lab_tests/14_chest_ct/3_jie_jie_shi_fou_wei_yu_shang_ye_bu_er_xing_green.png"
+ },
+ "4_quan_fei_jie_jie_zong_shu_-_li_san": {
+  "orange": "01_lab_tests/14_chest_ct/4_quan_fei_jie_jie_zong_shu_li_san_orange.png",
+  "red": "01_lab_tests/14_chest_ct/4_quan_fei_jie_jie_zong_shu_li_san_red.png",
+  "green": "01_lab_tests/14_chest_ct/4_quan_fei_jie_jie_zong_shu_li_san_green.png"
+ },
+ "4_quan_fei_jie_jie_zong_shu_-_ji_suan_xing": {
+  "orange": "01_lab_tests/14_chest_ct/4_quan_fei_jie_jie_zong_shu_ji_suan_xing_orange.png",
+  "red": "01_lab_tests/14_chest_ct/4_quan_fei_jie_jie_zong_shu_ji_suan_xing_red.png",
+  "green": "01_lab_tests/14_chest_ct/4_quan_fei_jie_jie_zong_shu_ji_suan_xing_green.png"
+ },
+ "5_jie_jie_bian_yuan_shi_fou_you_mao_ci_-_er_fen_lei": {
+  "orange": "01_lab_tests/14_chest_ct/5_jie_jie_bian_yuan_shi_fou_you_mao_ci_er_fen_lei_orange.png",
+  "red": "01_lab_tests/14_chest_ct/5_jie_jie_bian_yuan_shi_fou_you_mao_ci_er_fen_lei_red.png",
+  "green": "01_lab_tests/14_chest_ct/5_jie_jie_bian_yuan_shi_fou_you_mao_ci_er_fen_lei_green.png"
+ },
+ "5_jie_jie_bian_yuan_shi_fou_you_mao_ci_-_bu_er_xing": {
+  "orange": "01_lab_tests/14_chest_ct/5_jie_jie_bian_yuan_shi_fou_you_mao_ci_bu_er_xing_orange.png",
+  "red": "01_lab_tests/14_chest_ct/5_jie_jie_bian_yuan_shi_fou_you_mao_ci_bu_er_xing_red.png",
+  "green": "01_lab_tests/14_chest_ct/5_jie_jie_bian_yuan_shi_fou_you_mao_ci_bu_er_xing_green.png"
+ },
+ "1_xin_lv_dou_xing_-_er_fen_lei": {
+  "orange": "01_lab_tests/15_echocardiography/1_xin_lv_dou_xing_er_fen_lei_orange.png",
+  "red": "01_lab_tests/15_echocardiography/1_xin_lv_dou_xing_er_fen_lei_red.png",
+  "green": "01_lab_tests/15_echocardiography/1_xin_lv_dou_xing_er_fen_lei_green.png"
+ },
+ "1_xin_lv_dou_xing_-_bu_er_xing": {
+  "orange": "01_lab_tests/15_echocardiography/1_xin_lv_dou_xing_bu_er_xing_orange.png",
+  "red": "01_lab_tests/15_echocardiography/1_xin_lv_dou_xing_bu_er_xing_red.png",
+  "green": "01_lab_tests/15_echocardiography/1_xin_lv_dou_xing_bu_er_xing_green.png"
+ },
+ "2_xin_lv_fang_chan_-_er_fen_lei": {
+  "orange": "01_lab_tests/15_echocardiography/2_xin_lv_fang_chan_er_fen_lei_orange.png",
+  "red": "01_lab_tests/15_echocardiography/2_xin_lv_fang_chan_er_fen_lei_red.png",
+  "green": "01_lab_tests/15_echocardiography/2_xin_lv_fang_chan_er_fen_lei_green.png"
+ },
+ "2_xin_lv_fang_chan_-_bu_er_xing": {
+  "orange": "01_lab_tests/15_echocardiography/2_xin_lv_fang_chan_bu_er_xing_orange.png",
+  "red": "01_lab_tests/15_echocardiography/2_xin_lv_fang_chan_bu_er_xing_red.png",
+  "green": "01_lab_tests/15_echocardiography/2_xin_lv_fang_chan_bu_er_xing_green.png"
+ },
+ "10_zuo_shi_bi_hou_du_-_chi_cun": {
+  "orange": "01_lab_tests/15_echocardiography/10_zuo_shi_bi_hou_du_chi_cun_orange.png",
+  "red": "01_lab_tests/15_echocardiography/10_zuo_shi_bi_hou_du_chi_cun_red.png",
+  "green": "01_lab_tests/15_echocardiography/10_zuo_shi_bi_hou_du_chi_cun_green.png"
+ },
+ "10_zuo_shi_bi_hou_du_-_xing_tai": {
+  "orange": "01_lab_tests/15_echocardiography/10_zuo_shi_bi_hou_du_xing_tai_orange.png",
+  "green": "01_lab_tests/15_echocardiography/10_zuo_shi_bi_hou_du_xing_tai_green.png",
+  "red": "01_lab_tests/15_echocardiography/10_zuo_shi_bi_hou_du_xing_tai_red.png"
+ },
+ "10_zuo_shi_bi_hou_du_-_she_ru_liang": {
+  "orange": "01_lab_tests/15_echocardiography/10_zuo_shi_bi_hou_du_she_ru_liang_orange.png",
+  "red": "01_lab_tests/15_echocardiography/10_zuo_shi_bi_hou_du_she_ru_liang_red.png",
+  "green": "01_lab_tests/15_echocardiography/10_zuo_shi_bi_hou_du_she_ru_liang_green.png"
+ },
+ "10_zuo_shi_bi_hou_du_-_lian_xu_shu_zhi_xing": {
+  "orange": "01_lab_tests/15_echocardiography/10_zuo_shi_bi_hou_du_lian_xu_shu_zhi_xing_orange.png",
+  "red": "01_lab_tests/15_echocardiography/10_zuo_shi_bi_hou_du_lian_xu_shu_zhi_xing_red.png",
+  "green": "01_lab_tests/15_echocardiography/10_zuo_shi_bi_hou_du_lian_xu_shu_zhi_xing_green.png"
+ },
+ "1_shi_jian_ge_-_sheng_li_ji_neng_ce_shi": {
+  "orange": "01_lab_tests/15_echocardiography/1_shi_jian_ge_sheng_li_ji_neng_ce_shi_orange.png",
+  "red": "01_lab_tests/15_echocardiography/1_shi_jian_ge_sheng_li_ji_neng_ce_shi_red.png",
+  "green": "01_lab_tests/15_echocardiography/1_shi_jian_ge_sheng_li_ji_neng_ce_shi_green.png"
+ },
+ "1_shi_jian_ge_-_lian_xu_shu_zhi_xing": {
+  "orange": "01_lab_tests/15_echocardiography/1_shi_jian_ge_lian_xu_shu_zhi_xing_orange.png",
+  "red": "01_lab_tests/15_echocardiography/1_shi_jian_ge_lian_xu_shu_zhi_xing_red.png",
+  "green": "01_lab_tests/15_echocardiography/1_shi_jian_ge_lian_xu_shu_zhi_xing_green.png"
+ },
+ "2_ce_bi_e'_bo_su_du_-_sheng_li_ji_neng_ce_shi": {
+  "orange": "01_lab_tests/15_echocardiography/2_ce_bi_e_bo_su_du_sheng_li_ji_neng_ce_shi_orange.png",
+  "red": "01_lab_tests/15_echocardiography/2_ce_bi_e_bo_su_du_sheng_li_ji_neng_ce_shi_red.png",
+  "green": "01_lab_tests/15_echocardiography/2_ce_bi_e_bo_su_du_sheng_li_ji_neng_ce_shi_green.png"
+ },
+ "2_ce_bi_e'_bo_su_du_-_lian_xu_shu_zhi_xing": {
+  "red": "01_lab_tests/15_echocardiography/2_ce_bi_e_bo_su_du_lian_xu_shu_zhi_xing_red.png",
+  "green": "01_lab_tests/15_echocardiography/2_ce_bi_e_bo_su_du_lian_xu_shu_zhi_xing_green.png",
+  "orange": "01_lab_tests/15_echocardiography/2_ce_bi_e_bo_su_du_lian_xu_shu_zhi_xing_orange.png"
+ },
+ "1_ping_jun_E-_zhi_shu": {
+  "orange": "01_lab_tests/15_echocardiography/1_ping_jun_E_zhi_shu_orange.png",
+  "red": "01_lab_tests/15_echocardiography/1_ping_jun_E_zhi_shu_red.png",
+  "green": "01_lab_tests/15_echocardiography/1_ping_jun_E_zhi_shu_green.png"
+ },
+ "1_ping_jun_E-_yan_sheng_bi_zhi": {
+  "orange": "01_lab_tests/15_echocardiography/1_ping_jun_E_yan_sheng_bi_zhi_orange.png",
+  "red": "01_lab_tests/15_echocardiography/1_ping_jun_E_yan_sheng_bi_zhi_red.png",
+  "green": "01_lab_tests/15_echocardiography/1_ping_jun_E_yan_sheng_bi_zhi_green.png"
+ },
+ "1_ping_jun_E-_lian_xu_shu_zhi_xing": {
+  "orange": "01_lab_tests/15_echocardiography/1_ping_jun_E_lian_xu_shu_zhi_xing_orange.png",
+  "red": "01_lab_tests/15_echocardiography/1_ping_jun_E_lian_xu_shu_zhi_xing_red.png",
+  "green": "01_lab_tests/15_echocardiography/1_ping_jun_E_lian_xu_shu_zhi_xing_green.png"
+ },
+ "2e'_bi_zhi_-_zhi_shu": {
+  "orange": "01_lab_tests/15_echocardiography/2e_bi_zhi_zhi_shu_orange.png",
+  "red": "01_lab_tests/15_echocardiography/2e_bi_zhi_zhi_shu_red.png",
+  "green": "01_lab_tests/15_echocardiography/2e_bi_zhi_zhi_shu_green.png"
+ },
+ "2e'_bi_zhi_-_yan_sheng_bi_zhi": {
+  "orange": "01_lab_tests/15_echocardiography/2e_bi_zhi_yan_sheng_bi_zhi_orange.png",
+  "red": "01_lab_tests/15_echocardiography/2e_bi_zhi_yan_sheng_bi_zhi_red.png",
+  "green": "01_lab_tests/15_echocardiography/2e_bi_zhi_yan_sheng_bi_zhi_green.png"
+ },
+ "2e'_bi_zhi_-_lian_xu_shu_zhi_xing": {
+  "orange": "01_lab_tests/15_echocardiography/2e_bi_zhi_lian_xu_shu_zhi_xing_orange.png",
+  "red": "01_lab_tests/15_echocardiography/2e_bi_zhi_lian_xu_shu_zhi_xing_red.png",
+  "green": "01_lab_tests/15_echocardiography/2e_bi_zhi_lian_xu_shu_zhi_xing_green.png"
+ },
+ "4_san_jian_ban_fan_liu_su_du_-_sheng_li_ji_neng_ce_shi": {
+  "orange": "01_lab_tests/15_echocardiography/4_san_jian_ban_fan_liu_su_du_sheng_li_ji_neng_ce_shi_orange.png",
+  "red": "01_lab_tests/15_echocardiography/4_san_jian_ban_fan_liu_su_du_sheng_li_ji_neng_ce_shi_red.png",
+  "green": "01_lab_tests/15_echocardiography/4_san_jian_ban_fan_liu_su_du_sheng_li_ji_neng_ce_shi_green.png"
+ },
+ "4_san_jian_ban_fan_liu_su_du_-_lian_xu_shu_zhi_xing": {
+  "orange": "01_lab_tests/15_echocardiography/4_san_jian_ban_fan_liu_su_du_lian_xu_shu_zhi_xing_orange.png",
+  "red": "01_lab_tests/15_echocardiography/4_san_jian_ban_fan_liu_su_du_lian_xu_shu_zhi_xing_red.png",
+  "green": "01_lab_tests/15_echocardiography/4_san_jian_ban_fan_liu_su_du_lian_xu_shu_zhi_xing_green.png"
+ },
+ "5_fei_dong_mai_shou_suo_ya_-_sheng_li_ji_neng_ce_shi": {
+  "orange": "01_lab_tests/15_echocardiography/5_fei_dong_mai_shou_suo_ya_sheng_li_ji_neng_ce_shi_orange.png",
+  "red": "01_lab_tests/15_echocardiography/5_fei_dong_mai_shou_suo_ya_sheng_li_ji_neng_ce_shi_red.png",
+  "green": "01_lab_tests/15_echocardiography/5_fei_dong_mai_shou_suo_ya_sheng_li_ji_neng_ce_shi_green.png"
+ },
+ "5_fei_dong_mai_shou_suo_ya_-_lian_xu_shu_zhi_xing": {
+  "orange": "01_lab_tests/15_echocardiography/5_fei_dong_mai_shou_suo_ya_lian_xu_shu_zhi_xing_orange.png",
+  "red": "01_lab_tests/15_echocardiography/5_fei_dong_mai_shou_suo_ya_lian_xu_shu_zhi_xing_red.png",
+  "green": "01_lab_tests/15_echocardiography/5_fei_dong_mai_shou_suo_ya_lian_xu_shu_zhi_xing_green.png"
+ },
+ "6_zuo_shi_zheng_ti_zong_xiang_ying_bian_-_bai_fen_bi": {
+  "orange": "01_lab_tests/15_echocardiography/6_zuo_shi_zheng_ti_zong_xiang_ying_bian_bai_fen_bi_orange.png",
+  "red": "01_lab_tests/15_echocardiography/6_zuo_shi_zheng_ti_zong_xiang_ying_bian_bai_fen_bi_red.png",
+  "green": "01_lab_tests/15_echocardiography/6_zuo_shi_zheng_ti_zong_xiang_ying_bian_bai_fen_bi_green.png"
+ },
+ "6_zuo_shi_zheng_ti_zong_xiang_ying_bian_-_lian_xu_shu_zhi_xing": {
+  "orange": "01_lab_tests/15_echocardiography/6_zuo_shi_zheng_ti_zong_xiang_ying_bian_lian_xu_shu_zhi_xing_orange.png",
+  "red": "01_lab_tests/15_echocardiography/6_zuo_shi_zheng_ti_zong_xiang_ying_bian_lian_xu_shu_zhi_xing_red.png",
+  "green": "01_lab_tests/15_echocardiography/6_zuo_shi_zheng_ti_zong_xiang_ying_bian_lian_xu_shu_zhi_xing_green.png"
+ },
+ "7_zuo_fang_rong_ji_zhi_shu_-_zhi_shu": {
+  "orange": "01_lab_tests/15_echocardiography/7_zuo_fang_rong_ji_zhi_shu_zhi_shu_orange.png",
+  "red": "01_lab_tests/15_echocardiography/7_zuo_fang_rong_ji_zhi_shu_zhi_shu_red.png",
+  "green": "01_lab_tests/15_echocardiography/7_zuo_fang_rong_ji_zhi_shu_zhi_shu_green.png"
+ },
+ "7_zuo_fang_rong_ji_zhi_shu_-_yan_sheng_bi_zhi": {
+  "orange": "01_lab_tests/15_echocardiography/7_zuo_fang_rong_ji_zhi_shu_yan_sheng_bi_zhi_orange.png",
+  "red": "01_lab_tests/15_echocardiography/7_zuo_fang_rong_ji_zhi_shu_yan_sheng_bi_zhi_red.png",
+  "green": "01_lab_tests/15_echocardiography/7_zuo_fang_rong_ji_zhi_shu_yan_sheng_bi_zhi_green.png"
+ },
+ "7_zuo_fang_rong_ji_zhi_shu_-_lian_xu_shu_zhi_xing": {
+  "orange": "01_lab_tests/15_echocardiography/7_zuo_fang_rong_ji_zhi_shu_lian_xu_shu_zhi_xing_orange.png",
+  "red": "01_lab_tests/15_echocardiography/7_zuo_fang_rong_ji_zhi_shu_lian_xu_shu_zhi_xing_red.png",
+  "green": "01_lab_tests/15_echocardiography/7_zuo_fang_rong_ji_zhi_shu_lian_xu_shu_zhi_xing_green.png"
+ },
+ "8_zuo_shi_zhi_liang_zhi_shu_-_zhi_shu": {
+  "orange": "01_lab_tests/15_echocardiography/8_zuo_shi_zhi_liang_zhi_shu_zhi_shu_orange.png",
+  "red": "01_lab_tests/15_echocardiography/8_zuo_shi_zhi_liang_zhi_shu_zhi_shu_red.png",
+  "green": "01_lab_tests/15_echocardiography/8_zuo_shi_zhi_liang_zhi_shu_zhi_shu_green.png"
+ },
+ "8_zuo_shi_zhi_liang_zhi_shu_-_yan_sheng_bi_zhi": {
+  "orange": "01_lab_tests/15_echocardiography/8_zuo_shi_zhi_liang_zhi_shu_yan_sheng_bi_zhi_orange.png",
+  "red": "01_lab_tests/15_echocardiography/8_zuo_shi_zhi_liang_zhi_shu_yan_sheng_bi_zhi_red.png",
+  "green": "01_lab_tests/15_echocardiography/8_zuo_shi_zhi_liang_zhi_shu_yan_sheng_bi_zhi_green.png"
+ },
+ "8_zuo_shi_zhi_liang_zhi_shu_-_lian_xu_shu_zhi_xing": {
+  "orange": "01_lab_tests/15_echocardiography/8_zuo_shi_zhi_liang_zhi_shu_lian_xu_shu_zhi_xing_orange.png",
+  "red": "01_lab_tests/15_echocardiography/8_zuo_shi_zhi_liang_zhi_shu_lian_xu_shu_zhi_xing_red.png",
+  "green": "01_lab_tests/15_echocardiography/8_zuo_shi_zhi_liang_zhi_shu_lian_xu_shu_zhi_xing_green.png"
+ },
+ "9_xiang_dui_shi_bi_hou_du_-_zhi_shu": {
+  "orange": "01_lab_tests/15_echocardiography/9_xiang_dui_shi_bi_hou_du_zhi_shu_orange.png",
+  "red": "01_lab_tests/15_echocardiography/9_xiang_dui_shi_bi_hou_du_zhi_shu_red.png",
+  "green": "01_lab_tests/15_echocardiography/9_xiang_dui_shi_bi_hou_du_zhi_shu_green.png"
+ },
+ "9_xiang_dui_shi_bi_hou_du_-_yan_sheng_bi_zhi": {
+  "orange": "01_lab_tests/15_echocardiography/9_xiang_dui_shi_bi_hou_du_yan_sheng_bi_zhi_orange.png",
+  "red": "01_lab_tests/15_echocardiography/9_xiang_dui_shi_bi_hou_du_yan_sheng_bi_zhi_red.png",
+  "green": "01_lab_tests/15_echocardiography/9_xiang_dui_shi_bi_hou_du_yan_sheng_bi_zhi_green.png"
+ },
+ "9_xiang_dui_shi_bi_hou_du_-_lian_xu_shu_zhi_xing": {
+  "orange": "01_lab_tests/15_echocardiography/9_xiang_dui_shi_bi_hou_du_lian_xu_shu_zhi_xing_orange.png",
+  "red": "01_lab_tests/15_echocardiography/9_xiang_dui_shi_bi_hou_du_lian_xu_shu_zhi_xing_red.png",
+  "green": "01_lab_tests/15_echocardiography/9_xiang_dui_shi_bi_hou_du_lian_xu_shu_zhi_xing_green.png"
+ },
+ "3-1_fei_gong_neng_bi_zhi_ (FEV1)-_bai_fen_bi": {
+  "green": "01_lab_tests/16_pulmonary_function_specialty/3_1_fei_gong_neng_bi_zhi_FEV1_bai_fen_bi_green.png",
+  "orange": "01_lab_tests/16_pulmonary_function_specialty/3_1_fei_gong_neng_bi_zhi_FEV1_bai_fen_bi_orange.png",
+  "red": "01_lab_tests/16_pulmonary_function_specialty/3_1_fei_gong_neng_bi_zhi_FEV1_bai_fen_bi_red.png"
+ },
+ "1_zui_da_hu_qi_zhong_qi_liu_su_-_sheng_li_ji_neng_ce_shi": {
+  "orange": "01_lab_tests/16_pulmonary_function_specialty/1_zui_da_hu_qi_zhong_qi_liu_su_sheng_li_ji_neng_ce_shi_orange.png",
+  "red": "01_lab_tests/16_pulmonary_function_specialty/1_zui_da_hu_qi_zhong_qi_liu_su_sheng_li_ji_neng_ce_shi_red.png",
+  "green": "01_lab_tests/16_pulmonary_function_specialty/1_zui_da_hu_qi_zhong_qi_liu_su_sheng_li_ji_neng_ce_shi_green.png"
+ },
+ "1_zui_da_hu_qi_zhong_qi_liu_su_-_lian_xu_shu_zhi_xing": {
+  "orange": "01_lab_tests/16_pulmonary_function_specialty/1_zui_da_hu_qi_zhong_qi_liu_su_lian_xu_shu_zhi_xing_orange.png",
+  "red": "01_lab_tests/16_pulmonary_function_specialty/1_zui_da_hu_qi_zhong_qi_liu_su_lian_xu_shu_zhi_xing_red.png",
+  "green": "01_lab_tests/16_pulmonary_function_specialty/1_zui_da_hu_qi_zhong_qi_liu_su_lian_xu_shu_zhi_xing_green.png"
+ },
+ "2_hu_chu_50%_yong_li_fei_huo_liang_shi_de_zui_da_hu_qi_liu_su_-_sheng_li_ji_neng_ce_shi": {
+  "orange": "01_lab_tests/16_pulmonary_function_specialty/2_hu_chu_50_yong_li_fei_huo_liang_shi_de_zui_da_hu_qi_liu_su_sheng_li_ji_neng_ce_shi_orange.png",
+  "red": "01_lab_tests/16_pulmonary_function_specialty/2_hu_chu_50_yong_li_fei_huo_liang_shi_de_zui_da_hu_qi_liu_su_sheng_li_ji_neng_ce_shi_red.png",
+  "green": "01_lab_tests/16_pulmonary_function_specialty/2_hu_chu_50_yong_li_fei_huo_liang_shi_de_zui_da_hu_qi_liu_su_sheng_li_ji_neng_ce_shi_green.png"
+ },
+ "2_hu_chu_50%_yong_li_fei_huo_liang_shi_de_zui_da_hu_qi_liu_su_-_lian_xu_shu_zhi_xing": {
+  "orange": "01_lab_tests/16_pulmonary_function_specialty/2_hu_chu_50_yong_li_fei_huo_liang_shi_de_zui_da_hu_qi_liu_su_lian_xu_shu_zhi_xing_orange.png",
+  "red": "01_lab_tests/16_pulmonary_function_specialty/2_hu_chu_50_yong_li_fei_huo_liang_shi_de_zui_da_hu_qi_liu_su_lian_xu_shu_zhi_xing_red.png",
+  "green": "01_lab_tests/16_pulmonary_function_specialty/2_hu_chu_50_yong_li_fei_huo_liang_shi_de_zui_da_hu_qi_liu_su_lian_xu_shu_zhi_xing_green.png"
+ },
+ "3-1_fei_gong_neng_bi_zhi_ (FEV1)-_lian_xu_shu_zhi_xing": {
+  "orange": "01_lab_tests/16_pulmonary_function_specialty/3_1_fei_gong_neng_bi_zhi_FEV1_lian_xu_shu_zhi_xing_orange.png",
+  "red": "01_lab_tests/16_pulmonary_function_specialty/3_1_fei_gong_neng_bi_zhi_FEV1_lian_xu_shu_zhi_xing_red.png",
+  "green": "01_lab_tests/16_pulmonary_function_specialty/3_1_fei_gong_neng_bi_zhi_FEV1_lian_xu_shu_zhi_xing_green.png"
+ },
+ "3-2_fei_gong_neng_bi_zhi_ (FVC)-_bai_fen_bi": {
+  "orange": "01_lab_tests/16_pulmonary_function_specialty/3_2_fei_gong_neng_bi_zhi_FVC_bai_fen_bi_orange.png",
+  "red": "01_lab_tests/16_pulmonary_function_specialty/3_2_fei_gong_neng_bi_zhi_FVC_bai_fen_bi_red.png",
+  "green": "01_lab_tests/16_pulmonary_function_specialty/3_2_fei_gong_neng_bi_zhi_FVC_bai_fen_bi_green.png"
+ },
+ "3-2_fei_gong_neng_bi_zhi_ (FVC)-_lian_xu_shu_zhi_xing": {
+  "orange": "01_lab_tests/16_pulmonary_function_specialty/3_2_fei_gong_neng_bi_zhi_FVC_lian_xu_shu_zhi_xing_orange.png",
+  "red": "01_lab_tests/16_pulmonary_function_specialty/3_2_fei_gong_neng_bi_zhi_FVC_lian_xu_shu_zhi_xing_red.png",
+  "green": "01_lab_tests/16_pulmonary_function_specialty/3_2_fei_gong_neng_bi_zhi_FVC_lian_xu_shu_zhi_xing_green.png"
+ },
+ "1_zhi_chang_zhi_jian_shi_fou_zheng_chang_-_er_fen_lei": {
+  "orange": "01_lab_tests/16_pulmonary_function_specialty/1_zhi_chang_zhi_jian_shi_fou_zheng_chang_er_fen_lei_orange.png",
+  "red": "01_lab_tests/16_pulmonary_function_specialty/1_zhi_chang_zhi_jian_shi_fou_zheng_chang_er_fen_lei_red.png",
+  "green": "01_lab_tests/16_pulmonary_function_specialty/1_zhi_chang_zhi_jian_shi_fou_zheng_chang_er_fen_lei_green.png"
+ },
+ "1_zhi_chang_zhi_jian_shi_fou_zheng_chang_-_bu_er_xing": {
+  "orange": "01_lab_tests/16_pulmonary_function_specialty/1_zhi_chang_zhi_jian_shi_fou_zheng_chang_bu_er_xing_orange.png",
+  "red": "01_lab_tests/16_pulmonary_function_specialty/1_zhi_chang_zhi_jian_shi_fou_zheng_chang_bu_er_xing_red.png",
+  "green": "01_lab_tests/16_pulmonary_function_specialty/1_zhi_chang_zhi_jian_shi_fou_zheng_chang_bu_er_xing_green.png"
+ },
+ "1_bai_xi_bao_-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/01_blood_routine_coagulation/1_bai_xi_bao_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/01_blood_routine_coagulation/1_bai_xi_bao_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/01_blood_routine_coagulation/1_bai_xi_bao_shu_zhi_lei_xing_green.png"
+ },
+ "1_bai_xi_bao_-_sheng_hua_nong_du": {
+  "orange": "01_lab_tests/01_blood_routine_coagulation/1_bai_xi_bao_sheng_hua_nong_du_orange.png",
+  "red": "01_lab_tests/01_blood_routine_coagulation/1_bai_xi_bao_sheng_hua_nong_du_red.png",
+  "green": "01_lab_tests/01_blood_routine_coagulation/1_bai_xi_bao_sheng_hua_nong_du_green.png"
+ },
+ "1_bai_xi_bao_-_jue_dui_ji_shu": {
+  "orange": "01_lab_tests/01_blood_routine_coagulation/1_bai_xi_bao_jue_dui_ji_shu_orange.png",
+  "red": "01_lab_tests/01_blood_routine_coagulation/1_bai_xi_bao_jue_dui_ji_shu_red.png",
+  "green": "01_lab_tests/01_blood_routine_coagulation/1_bai_xi_bao_jue_dui_ji_shu_green.png"
+ },
+ "2_hong_xi_bao_-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/01_blood_routine_coagulation/2_hong_xi_bao_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/01_blood_routine_coagulation/2_hong_xi_bao_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/01_blood_routine_coagulation/2_hong_xi_bao_shu_zhi_lei_xing_green.png"
+ },
+ "2_hong_xi_bao_-_sheng_hua_nong_du": {
+  "orange": "01_lab_tests/01_blood_routine_coagulation/2_hong_xi_bao_sheng_hua_nong_du_orange.png",
+  "red": "01_lab_tests/01_blood_routine_coagulation/2_hong_xi_bao_sheng_hua_nong_du_red.png",
+  "green": "01_lab_tests/01_blood_routine_coagulation/2_hong_xi_bao_sheng_hua_nong_du_green.png"
+ },
+ "2_hong_xi_bao_-_jue_dui_ji_shu": {
+  "orange": "01_lab_tests/01_blood_routine_coagulation/2_hong_xi_bao_jue_dui_ji_shu_orange.png",
+  "red": "01_lab_tests/01_blood_routine_coagulation/2_hong_xi_bao_jue_dui_ji_shu_red.png",
+  "green": "01_lab_tests/01_blood_routine_coagulation/2_hong_xi_bao_jue_dui_ji_shu_green.png"
+ },
+ "3_xue_hong_dan_bai_-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/01_blood_routine_coagulation/3_xue_hong_dan_bai_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/01_blood_routine_coagulation/3_xue_hong_dan_bai_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/01_blood_routine_coagulation/3_xue_hong_dan_bai_shu_zhi_lei_xing_green.png"
+ },
+ "3_xue_hong_dan_bai_-_sheng_hua_nong_du": {
+  "orange": "01_lab_tests/01_blood_routine_coagulation/3_xue_hong_dan_bai_sheng_hua_nong_du_orange.png",
+  "red": "01_lab_tests/01_blood_routine_coagulation/3_xue_hong_dan_bai_sheng_hua_nong_du_red.png",
+  "green": "01_lab_tests/01_blood_routine_coagulation/3_xue_hong_dan_bai_sheng_hua_nong_du_green.png"
+ },
+ "3_xue_hong_dan_bai_-_jue_dui_ji_shu": {
+  "orange": "01_lab_tests/01_blood_routine_coagulation/3_xue_hong_dan_bai_jue_dui_ji_shu_orange.png",
+  "red": "01_lab_tests/01_blood_routine_coagulation/3_xue_hong_dan_bai_jue_dui_ji_shu_red.png",
+  "green": "01_lab_tests/01_blood_routine_coagulation/3_xue_hong_dan_bai_jue_dui_ji_shu_green.png"
+ },
+ "4_xue_xiao_ban_ji_shu_-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/01_blood_routine_coagulation/4_xue_xiao_ban_ji_shu_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/01_blood_routine_coagulation/4_xue_xiao_ban_ji_shu_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/01_blood_routine_coagulation/4_xue_xiao_ban_ji_shu_shu_zhi_lei_xing_green.png"
+ },
+ "4_xue_xiao_ban_ji_shu_-_sheng_hua_nong_du": {
+  "orange": "01_lab_tests/01_blood_routine_coagulation/4_xue_xiao_ban_ji_shu_sheng_hua_nong_du_orange.png",
+  "red": "01_lab_tests/01_blood_routine_coagulation/4_xue_xiao_ban_ji_shu_sheng_hua_nong_du_red.png",
+  "green": "01_lab_tests/01_blood_routine_coagulation/4_xue_xiao_ban_ji_shu_sheng_hua_nong_du_green.png"
+ },
+ "4_xue_xiao_ban_ji_shu_-_jue_dui_ji_shu": {
+  "orange": "01_lab_tests/01_blood_routine_coagulation/4_xue_xiao_ban_ji_shu_jue_dui_ji_shu_orange.png",
+  "green": "01_lab_tests/01_blood_routine_coagulation/4_xue_xiao_ban_ji_shu_jue_dui_ji_shu_green.png",
+  "red": "01_lab_tests/01_blood_routine_coagulation/4_xue_xiao_ban_ji_shu_jue_dui_ji_shu_red.png"
+ },
+ "5_xue_xiao_ban_ya_ji_-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/01_blood_routine_coagulation/5_xue_xiao_ban_ya_ji_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/01_blood_routine_coagulation/5_xue_xiao_ban_ya_ji_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/01_blood_routine_coagulation/5_xue_xiao_ban_ya_ji_shu_zhi_lei_xing_green.png"
+ },
+ "5_xue_xiao_ban_ya_ji_-_bai_fen_bi": {
+  "orange": "01_lab_tests/01_blood_routine_coagulation/5_xue_xiao_ban_ya_ji_bai_fen_bi_orange.png",
+  "red": "01_lab_tests/01_blood_routine_coagulation/5_xue_xiao_ban_ya_ji_bai_fen_bi_red.png",
+  "green": "01_lab_tests/01_blood_routine_coagulation/5_xue_xiao_ban_ya_ji_bai_fen_bi_green.png"
+ },
+ "6_hong_xi_bao_fen_bu_kuan_du_bian_yi_xi_shu_-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/01_blood_routine_coagulation/6_hong_xi_bao_fen_bu_kuan_du_bian_yi_xi_shu_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/01_blood_routine_coagulation/6_hong_xi_bao_fen_bu_kuan_du_bian_yi_xi_shu_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/01_blood_routine_coagulation/6_hong_xi_bao_fen_bu_kuan_du_bian_yi_xi_shu_shu_zhi_lei_xing_green.png"
+ },
+ "6_hong_xi_bao_fen_bu_kuan_du_bian_yi_xi_shu_-_bai_fen_bi": {
+  "orange": "01_lab_tests/01_blood_routine_coagulation/6_hong_xi_bao_fen_bu_kuan_du_bian_yi_xi_shu_bai_fen_bi_orange.png",
+  "red": "01_lab_tests/01_blood_routine_coagulation/6_hong_xi_bao_fen_bu_kuan_du_bian_yi_xi_shu_bai_fen_bi_red.png",
+  "green": "01_lab_tests/01_blood_routine_coagulation/6_hong_xi_bao_fen_bu_kuan_du_bian_yi_xi_shu_bai_fen_bi_green.png"
+ },
+ "7_shi_suan_xing_li_xi_bao_bai_fen_bi_-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/01_blood_routine_coagulation/7_shi_suan_xing_li_xi_bao_bai_fen_bi_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/01_blood_routine_coagulation/7_shi_suan_xing_li_xi_bao_bai_fen_bi_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/01_blood_routine_coagulation/7_shi_suan_xing_li_xi_bao_bai_fen_bi_shu_zhi_lei_xing_green.png"
+ },
+ "7_shi_suan_xing_li_xi_bao_bai_fen_bi_-_bai_fen_bi": {
+  "red": "01_lab_tests/01_blood_routine_coagulation/7_shi_suan_xing_li_xi_bao_bai_fen_bi_bai_fen_bi_red.png",
+  "green": "01_lab_tests/01_blood_routine_coagulation/7_shi_suan_xing_li_xi_bao_bai_fen_bi_bai_fen_bi_green.png",
+  "orange": "01_lab_tests/01_blood_routine_coagulation/7_shi_suan_xing_li_xi_bao_bai_fen_bi_bai_fen_bi_orange.png"
+ },
+ "8D-_er_ju_ti_-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/01_blood_routine_coagulation/8D_er_ju_ti_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/01_blood_routine_coagulation/8D_er_ju_ti_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/01_blood_routine_coagulation/8D_er_ju_ti_shu_zhi_lei_xing_green.png"
+ },
+ "8D-_er_ju_ti_-_bai_fen_bi": {
+  "orange": "01_lab_tests/01_blood_routine_coagulation/8D_er_ju_ti_bai_fen_bi_orange.png",
+  "red": "01_lab_tests/01_blood_routine_coagulation/8D_er_ju_ti_bai_fen_bi_red.png",
+  "green": "01_lab_tests/01_blood_routine_coagulation/8D_er_ju_ti_bai_fen_bi_green.png"
+ },
+ "8D-_er_ju_ti_-_jue_dui_ji_shu": {
+  "orange": "01_lab_tests/01_blood_routine_coagulation/8D_er_ju_ti_jue_dui_ji_shu_orange.png",
+  "red": "01_lab_tests/01_blood_routine_coagulation/8D_er_ju_ti_jue_dui_ji_shu_red.png",
+  "green": "01_lab_tests/01_blood_routine_coagulation/8D_er_ju_ti_jue_dui_ji_shu_green.png"
+ },
+ "bai_xi_bao_-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/01_blood_routine_coagulation/bai_xi_bao_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/01_blood_routine_coagulation/bai_xi_bao_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/01_blood_routine_coagulation/bai_xi_bao_shu_zhi_lei_xing_green.png"
+ },
+ "bai_xi_bao_-_sheng_hua_nong_du": {
+  "orange": "01_lab_tests/01_blood_routine_coagulation/bai_xi_bao_sheng_hua_nong_du_orange.png",
+  "red": "01_lab_tests/01_blood_routine_coagulation/bai_xi_bao_sheng_hua_nong_du_red.png",
+  "green": "01_lab_tests/01_blood_routine_coagulation/bai_xi_bao_sheng_hua_nong_du_green.png"
+ },
+ "bai_xi_bao_-_jue_dui_ji_shu": {
+  "orange": "01_lab_tests/01_blood_routine_coagulation/bai_xi_bao_jue_dui_ji_shu_orange.png",
+  "red": "01_lab_tests/01_blood_routine_coagulation/bai_xi_bao_jue_dui_ji_shu_red.png",
+  "green": "01_lab_tests/01_blood_routine_coagulation/bai_xi_bao_jue_dui_ji_shu_green.png"
+ },
+ "1_gu_cao_zhuan_an_mei_ (AST)-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/02_liver_function/1_gu_cao_zhuan_an_mei_AST_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/02_liver_function/1_gu_cao_zhuan_an_mei_AST_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/02_liver_function/1_gu_cao_zhuan_an_mei_AST_shu_zhi_lei_xing_green.png"
+ },
+ "1_gu_cao_zhuan_an_mei_ (AST)-_sheng_hua_nong_du": {
+  "orange": "01_lab_tests/02_liver_function/1_gu_cao_zhuan_an_mei_AST_sheng_hua_nong_du_orange.png",
+  "red": "01_lab_tests/02_liver_function/1_gu_cao_zhuan_an_mei_AST_sheng_hua_nong_du_red.png",
+  "green": "01_lab_tests/02_liver_function/1_gu_cao_zhuan_an_mei_AST_sheng_hua_nong_du_green.png"
+ },
+ "1_gu_cao_zhuan_an_mei_ (AST)-_jue_dui_ji_shu": {
+  "orange": "01_lab_tests/02_liver_function/1_gu_cao_zhuan_an_mei_AST_jue_dui_ji_shu_orange.png",
+  "red": "01_lab_tests/02_liver_function/1_gu_cao_zhuan_an_mei_AST_jue_dui_ji_shu_red.png",
+  "green": "01_lab_tests/02_liver_function/1_gu_cao_zhuan_an_mei_AST_jue_dui_ji_shu_green.png"
+ },
+ "2_gu_bing_zhuan_an_mei_ (ALT)-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/02_liver_function/2_gu_bing_zhuan_an_mei_ALT_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/02_liver_function/2_gu_bing_zhuan_an_mei_ALT_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/02_liver_function/2_gu_bing_zhuan_an_mei_ALT_shu_zhi_lei_xing_green.png"
+ },
+ "2_gu_bing_zhuan_an_mei_ (ALT)-_sheng_hua_nong_du": {
+  "orange": "01_lab_tests/02_liver_function/2_gu_bing_zhuan_an_mei_ALT_sheng_hua_nong_du_orange.png",
+  "red": "01_lab_tests/02_liver_function/2_gu_bing_zhuan_an_mei_ALT_sheng_hua_nong_du_red.png",
+  "green": "01_lab_tests/02_liver_function/2_gu_bing_zhuan_an_mei_ALT_sheng_hua_nong_du_green.png"
+ },
+ "2_gu_bing_zhuan_an_mei_ (ALT)-_jue_dui_ji_shu": {
+  "red": "01_lab_tests/02_liver_function/2_gu_bing_zhuan_an_mei_ALT_jue_dui_ji_shu_red.png",
+  "green": "01_lab_tests/02_liver_function/2_gu_bing_zhuan_an_mei_ALT_jue_dui_ji_shu_green.png",
+  "orange": "01_lab_tests/02_liver_function/2_gu_bing_zhuan_an_mei_ALT_jue_dui_ji_shu_orange.png"
+ },
+ "3_zhuan_an_mei_bi_zhi_（AST_ALT）_yan_sheng_bi_zhi": {
+  "orange": "01_lab_tests/02_liver_function/3_zhuan_an_mei_bi_zhi_AST_ALT_yan_sheng_bi_zhi_orange.png",
+  "red": "01_lab_tests/02_liver_function/3_zhuan_an_mei_bi_zhi_AST_ALT_yan_sheng_bi_zhi_red.png",
+  "green": "01_lab_tests/02_liver_function/3_zhuan_an_mei_bi_zhi_AST_ALT_yan_sheng_bi_zhi_green.png"
+ },
+ "3_zhuan_an_mei_bi_zhi_（AST_ALT）_lian_xu_shu_zhi_xing": {
+  "orange": "01_lab_tests/02_liver_function/3_zhuan_an_mei_bi_zhi_AST_ALT_lian_xu_shu_zhi_xing_orange.png",
+  "red": "01_lab_tests/02_liver_function/3_zhuan_an_mei_bi_zhi_AST_ALT_lian_xu_shu_zhi_xing_red.png",
+  "green": "01_lab_tests/02_liver_function/3_zhuan_an_mei_bi_zhi_AST_ALT_lian_xu_shu_zhi_xing_green.png"
+ },
+ "3_zhuan_an_mei_bi_zhi_（AST）_zhi_shu": {
+  "orange": "01_lab_tests/02_liver_function/3_zhuan_an_mei_bi_zhi_AST_zhi_shu_orange.png",
+  "red": "01_lab_tests/02_liver_function/3_zhuan_an_mei_bi_zhi_AST_zhi_shu_red.png",
+  "green": "01_lab_tests/02_liver_function/3_zhuan_an_mei_bi_zhi_AST_zhi_shu_green.png"
+ },
+ "4_zhuan_an_mei_bi_zhi_（ALT）_yan_sheng_bi_zhi": {
+  "orange": "01_lab_tests/02_liver_function/4_zhuan_an_mei_bi_zhi_ALT_yan_sheng_bi_zhi_orange.png",
+  "red": "01_lab_tests/02_liver_function/4_zhuan_an_mei_bi_zhi_ALT_yan_sheng_bi_zhi_red.png",
+  "green": "01_lab_tests/02_liver_function/4_zhuan_an_mei_bi_zhi_ALT_yan_sheng_bi_zhi_green.png"
+ },
+ "4_zhuan_an_mei_bi_zhi_（ALT）_lian_xu_shu_zhi_xing": {
+  "orange": "01_lab_tests/02_liver_function/4_zhuan_an_mei_bi_zhi_ALT_lian_xu_shu_zhi_xing_orange.png",
+  "green": "01_lab_tests/02_liver_function/4_zhuan_an_mei_bi_zhi_ALT_lian_xu_shu_zhi_xing_green.png",
+  "red": "01_lab_tests/02_liver_function/4_zhuan_an_mei_bi_zhi_ALT_lian_xu_shu_zhi_xing_red.png"
+ },
+ "4_zhuan_an_mei_bi_zhi_（AST）_zhi_shu": {
+  "orange": "01_lab_tests/02_liver_function/4_zhuan_an_mei_bi_zhi_AST_zhi_shu_orange.png",
+  "red": "01_lab_tests/02_liver_function/4_zhuan_an_mei_bi_zhi_AST_zhi_shu_red.png",
+  "green": "01_lab_tests/02_liver_function/4_zhuan_an_mei_bi_zhi_AST_zhi_shu_green.png"
+ },
+ "γ-_gu_an_xian_zhuan_yi_mei_ (GGT)-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/02_liver_function/gu_an_xian_zhuan_yi_mei_GGT_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/02_liver_function/gu_an_xian_zhuan_yi_mei_GGT_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/02_liver_function/gu_an_xian_zhuan_yi_mei_GGT_shu_zhi_lei_xing_green.png"
+ },
+ "γ-_gu_an_xian_zhuan_yi_mei_ (GGT)-_sheng_hua_nong_du": {
+  "orange": "01_lab_tests/02_liver_function/gu_an_xian_zhuan_yi_mei_GGT_sheng_hua_nong_du_orange.png",
+  "red": "01_lab_tests/02_liver_function/gu_an_xian_zhuan_yi_mei_GGT_sheng_hua_nong_du_red.png",
+  "green": "01_lab_tests/02_liver_function/gu_an_xian_zhuan_yi_mei_GGT_sheng_hua_nong_du_green.png"
+ },
+ "γ-_gu_an_xian_zhuan_yi_mei_ (GGT)-_jue_dui_ji_shu": {
+  "orange": "01_lab_tests/02_liver_function/gu_an_xian_zhuan_yi_mei_GGT_jue_dui_ji_shu_orange.png",
+  "red": "01_lab_tests/02_liver_function/gu_an_xian_zhuan_yi_mei_GGT_jue_dui_ji_shu_red.png",
+  "green": "01_lab_tests/02_liver_function/gu_an_xian_zhuan_yi_mei_GGT_jue_dui_ji_shu_green.png"
+ },
+ "6_bai_dan_bai_-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/02_liver_function/6_bai_dan_bai_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/02_liver_function/6_bai_dan_bai_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/02_liver_function/6_bai_dan_bai_shu_zhi_lei_xing_green.png"
+ },
+ "6_bai_dan_bai_-_sheng_hua_nong_du": {
+  "red": "01_lab_tests/02_liver_function/6_bai_dan_bai_sheng_hua_nong_du_red.png",
+  "green": "01_lab_tests/02_liver_function/6_bai_dan_bai_sheng_hua_nong_du_green.png",
+  "orange": "01_lab_tests/02_liver_function/6_bai_dan_bai_sheng_hua_nong_du_orange.png"
+ },
+ "6_bai_dan_bai_-_jue_dui_ji_shu": {
+  "orange": "01_lab_tests/02_liver_function/6_bai_dan_bai_jue_dui_ji_shu_orange.png",
+  "red": "01_lab_tests/02_liver_function/6_bai_dan_bai_jue_dui_ji_shu_red.png",
+  "green": "01_lab_tests/02_liver_function/6_bai_dan_bai_jue_dui_ji_shu_green.png"
+ },
+ "7_zong_dan_hong_su_-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/02_liver_function/7_zong_dan_hong_su_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/02_liver_function/7_zong_dan_hong_su_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/02_liver_function/7_zong_dan_hong_su_shu_zhi_lei_xing_green.png"
+ },
+ "7_zong_dan_hong_su_-_sheng_hua_nong_du": {
+  "orange": "01_lab_tests/02_liver_function/7_zong_dan_hong_su_sheng_hua_nong_du_orange.png",
+  "red": "01_lab_tests/02_liver_function/7_zong_dan_hong_su_sheng_hua_nong_du_red.png",
+  "green": "01_lab_tests/02_liver_function/7_zong_dan_hong_su_sheng_hua_nong_du_green.png"
+ },
+ "7_zong_dan_hong_su_-_jue_dui_ji_shu": {
+  "orange": "01_lab_tests/02_liver_function/7_zong_dan_hong_su_jue_dui_ji_shu_orange.png",
+  "red": "01_lab_tests/02_liver_function/7_zong_dan_hong_su_jue_dui_ji_shu_red.png",
+  "green": "01_lab_tests/02_liver_function/7_zong_dan_hong_su_jue_dui_ji_shu_green.png"
+ },
+ "8_zhi_jie_dan_hong_su_-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/02_liver_function/8_zhi_jie_dan_hong_su_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/02_liver_function/8_zhi_jie_dan_hong_su_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/02_liver_function/8_zhi_jie_dan_hong_su_shu_zhi_lei_xing_green.png"
+ },
+ "8_zhi_jie_dan_hong_su_-_sheng_hua_nong_du": {
+  "orange": "01_lab_tests/02_liver_function/8_zhi_jie_dan_hong_su_sheng_hua_nong_du_orange.png",
+  "red": "01_lab_tests/02_liver_function/8_zhi_jie_dan_hong_su_sheng_hua_nong_du_red.png",
+  "green": "01_lab_tests/02_liver_function/8_zhi_jie_dan_hong_su_sheng_hua_nong_du_green.png"
+ },
+ "8_zhi_jie_dan_hong_su_-_jue_dui_ji_shu": {
+  "orange": "01_lab_tests/02_liver_function/8_zhi_jie_dan_hong_su_jue_dui_ji_shu_orange.png",
+  "red": "01_lab_tests/02_liver_function/8_zhi_jie_dan_hong_su_jue_dui_ji_shu_red.png",
+  "green": "01_lab_tests/02_liver_function/8_zhi_jie_dan_hong_su_jue_dui_ji_shu_green.png"
+ },
+ "1_zong_dan_gu_chun_-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/03_lipids_glucose_metabolism/1_zong_dan_gu_chun_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/03_lipids_glucose_metabolism/1_zong_dan_gu_chun_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/03_lipids_glucose_metabolism/1_zong_dan_gu_chun_shu_zhi_lei_xing_green.png"
+ },
+ "1_zong_dan_gu_chun_-_sheng_hua_nong_du": {
+  "orange": "01_lab_tests/03_lipids_glucose_metabolism/1_zong_dan_gu_chun_sheng_hua_nong_du_orange.png",
+  "red": "01_lab_tests/03_lipids_glucose_metabolism/1_zong_dan_gu_chun_sheng_hua_nong_du_red.png",
+  "green": "01_lab_tests/03_lipids_glucose_metabolism/1_zong_dan_gu_chun_sheng_hua_nong_du_green.png"
+ },
+ "1_zong_dan_gu_chun_-_jue_dui_ji_shu": {
+  "orange": "01_lab_tests/03_lipids_glucose_metabolism/1_zong_dan_gu_chun_jue_dui_ji_shu_orange.png",
+  "red": "01_lab_tests/03_lipids_glucose_metabolism/1_zong_dan_gu_chun_jue_dui_ji_shu_red.png",
+  "green": "01_lab_tests/03_lipids_glucose_metabolism/1_zong_dan_gu_chun_jue_dui_ji_shu_green.png"
+ },
+ "2_gan_you_san_zhi_-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/03_lipids_glucose_metabolism/2_gan_you_san_zhi_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/03_lipids_glucose_metabolism/2_gan_you_san_zhi_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/03_lipids_glucose_metabolism/2_gan_you_san_zhi_shu_zhi_lei_xing_green.png"
+ },
+ "2_gan_you_san_zhi_-_sheng_hua_nong_du": {
+  "orange": "01_lab_tests/03_lipids_glucose_metabolism/2_gan_you_san_zhi_sheng_hua_nong_du_orange.png",
+  "red": "01_lab_tests/03_lipids_glucose_metabolism/2_gan_you_san_zhi_sheng_hua_nong_du_red.png",
+  "green": "01_lab_tests/03_lipids_glucose_metabolism/2_gan_you_san_zhi_sheng_hua_nong_du_green.png"
+ },
+ "2_gan_you_san_zhi_-_jue_dui_ji_shu": {
+  "orange": "01_lab_tests/03_lipids_glucose_metabolism/2_gan_you_san_zhi_jue_dui_ji_shu_orange.png",
+  "green": "01_lab_tests/03_lipids_glucose_metabolism/2_gan_you_san_zhi_jue_dui_ji_shu_green.png",
+  "red": "01_lab_tests/03_lipids_glucose_metabolism/2_gan_you_san_zhi_jue_dui_ji_shu_red.png"
+ },
+ "3_gao_mi_du_zhi_dan_bai_dan_gu_chun_-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/03_lipids_glucose_metabolism/3_gao_mi_du_zhi_dan_bai_dan_gu_chun_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/03_lipids_glucose_metabolism/3_gao_mi_du_zhi_dan_bai_dan_gu_chun_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/03_lipids_glucose_metabolism/3_gao_mi_du_zhi_dan_bai_dan_gu_chun_shu_zhi_lei_xing_green.png"
+ },
+ "3_gao_mi_du_zhi_dan_bai_dan_gu_chun_-_sheng_hua_nong_du": {
+  "orange": "01_lab_tests/03_lipids_glucose_metabolism/3_gao_mi_du_zhi_dan_bai_dan_gu_chun_sheng_hua_nong_du_orange.png",
+  "red": "01_lab_tests/03_lipids_glucose_metabolism/3_gao_mi_du_zhi_dan_bai_dan_gu_chun_sheng_hua_nong_du_red.png",
+  "green": "01_lab_tests/03_lipids_glucose_metabolism/3_gao_mi_du_zhi_dan_bai_dan_gu_chun_sheng_hua_nong_du_green.png"
+ },
+ "3_gao_mi_du_zhi_dan_bai_dan_gu_chun_-_jue_dui_ji_shu": {
+  "orange": "01_lab_tests/03_lipids_glucose_metabolism/3_gao_mi_du_zhi_dan_bai_dan_gu_chun_jue_dui_ji_shu_orange.png",
+  "red": "01_lab_tests/03_lipids_glucose_metabolism/3_gao_mi_du_zhi_dan_bai_dan_gu_chun_jue_dui_ji_shu_red.png",
+  "green": "01_lab_tests/03_lipids_glucose_metabolism/3_gao_mi_du_zhi_dan_bai_dan_gu_chun_jue_dui_ji_shu_green.png"
+ },
+ "4_di_mi_du_zhi_dan_bai_dan_gu_chun_-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/03_lipids_glucose_metabolism/4_di_mi_du_zhi_dan_bai_dan_gu_chun_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/03_lipids_glucose_metabolism/4_di_mi_du_zhi_dan_bai_dan_gu_chun_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/03_lipids_glucose_metabolism/4_di_mi_du_zhi_dan_bai_dan_gu_chun_shu_zhi_lei_xing_green.png"
+ },
+ "4_di_mi_du_zhi_dan_bai_dan_gu_chun_-_sheng_hua_nong_du": {
+  "orange": "01_lab_tests/03_lipids_glucose_metabolism/4_di_mi_du_zhi_dan_bai_dan_gu_chun_sheng_hua_nong_du_orange.png",
+  "red": "01_lab_tests/03_lipids_glucose_metabolism/4_di_mi_du_zhi_dan_bai_dan_gu_chun_sheng_hua_nong_du_red.png",
+  "green": "01_lab_tests/03_lipids_glucose_metabolism/4_di_mi_du_zhi_dan_bai_dan_gu_chun_sheng_hua_nong_du_green.png"
+ },
+ "4_di_mi_du_zhi_dan_bai_dan_gu_chun_-_jue_dui_ji_shu": {
+  "orange": "01_lab_tests/03_lipids_glucose_metabolism/4_di_mi_du_zhi_dan_bai_dan_gu_chun_jue_dui_ji_shu_orange.png",
+  "red": "01_lab_tests/03_lipids_glucose_metabolism/4_di_mi_du_zhi_dan_bai_dan_gu_chun_jue_dui_ji_shu_red.png",
+  "green": "01_lab_tests/03_lipids_glucose_metabolism/4_di_mi_du_zhi_dan_bai_dan_gu_chun_jue_dui_ji_shu_green.png"
+ },
+ "5_xue_tang_ (_han_can_hou_)-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/03_lipids_glucose_metabolism/5_xue_tang_han_can_hou_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/03_lipids_glucose_metabolism/5_xue_tang_han_can_hou_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/03_lipids_glucose_metabolism/5_xue_tang_han_can_hou_shu_zhi_lei_xing_green.png"
+ },
+ "5_xue_tang_ (_han_can_hou_)-_sheng_hua_nong_du": {
+  "orange": "01_lab_tests/03_lipids_glucose_metabolism/5_xue_tang_han_can_hou_sheng_hua_nong_du_orange.png",
+  "red": "01_lab_tests/03_lipids_glucose_metabolism/5_xue_tang_han_can_hou_sheng_hua_nong_du_red.png",
+  "green": "01_lab_tests/03_lipids_glucose_metabolism/5_xue_tang_han_can_hou_sheng_hua_nong_du_green.png"
+ },
+ "5_xue_tang_ (_han_can_hou_)-_jue_dui_ji_shu": {
+  "orange": "01_lab_tests/03_lipids_glucose_metabolism/5_xue_tang_han_can_hou_jue_dui_ji_shu_orange.png",
+  "red": "01_lab_tests/03_lipids_glucose_metabolism/5_xue_tang_han_can_hou_jue_dui_ji_shu_red.png",
+  "green": "01_lab_tests/03_lipids_glucose_metabolism/5_xue_tang_han_can_hou_jue_dui_ji_shu_green.png"
+ },
+ "6_kong_fu_xue_tang_-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/03_lipids_glucose_metabolism/6_kong_fu_xue_tang_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/03_lipids_glucose_metabolism/6_kong_fu_xue_tang_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/03_lipids_glucose_metabolism/6_kong_fu_xue_tang_shu_zhi_lei_xing_green.png"
+ },
+ "6_kong_fu_xue_tang_-_sheng_hua_nong_du": {
+  "orange": "01_lab_tests/03_lipids_glucose_metabolism/6_kong_fu_xue_tang_sheng_hua_nong_du_orange.png",
+  "green": "01_lab_tests/03_lipids_glucose_metabolism/6_kong_fu_xue_tang_sheng_hua_nong_du_green.png",
+  "red": "01_lab_tests/03_lipids_glucose_metabolism/6_kong_fu_xue_tang_sheng_hua_nong_du_red.png"
+ },
+ "6_kong_fu_xue_tang_-_jue_dui_ji_shu": {
+  "orange": "01_lab_tests/03_lipids_glucose_metabolism/6_kong_fu_xue_tang_jue_dui_ji_shu_orange.png",
+  "red": "01_lab_tests/03_lipids_glucose_metabolism/6_kong_fu_xue_tang_jue_dui_ji_shu_red.png",
+  "green": "01_lab_tests/03_lipids_glucose_metabolism/6_kong_fu_xue_tang_jue_dui_ji_shu_green.png"
+ },
+ "7_tang_hua_xue_hong_dan_bai_-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/03_lipids_glucose_metabolism/7_tang_hua_xue_hong_dan_bai_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/03_lipids_glucose_metabolism/7_tang_hua_xue_hong_dan_bai_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/03_lipids_glucose_metabolism/7_tang_hua_xue_hong_dan_bai_shu_zhi_lei_xing_green.png"
+ },
+ "7_tang_hua_xue_hong_dan_bai_-_bai_fen_bi": {
+  "orange": "01_lab_tests/03_lipids_glucose_metabolism/7_tang_hua_xue_hong_dan_bai_bai_fen_bi_orange.png",
+  "red": "01_lab_tests/03_lipids_glucose_metabolism/7_tang_hua_xue_hong_dan_bai_bai_fen_bi_red.png",
+  "green": "01_lab_tests/03_lipids_glucose_metabolism/7_tang_hua_xue_hong_dan_bai_bai_fen_bi_green.png"
+ },
+ "8_yi_nian_qian_xue_tang_shu_zhi_-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/03_lipids_glucose_metabolism/8_yi_nian_qian_xue_tang_shu_zhi_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/03_lipids_glucose_metabolism/8_yi_nian_qian_xue_tang_shu_zhi_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/03_lipids_glucose_metabolism/8_yi_nian_qian_xue_tang_shu_zhi_shu_zhi_lei_xing_green.png"
+ },
+ "8_yi_nian_qian_xue_tang_shu_zhi_-_sheng_hua_nong_du": {
+  "orange": "01_lab_tests/03_lipids_glucose_metabolism/8_yi_nian_qian_xue_tang_shu_zhi_sheng_hua_nong_du_orange.png",
+  "red": "01_lab_tests/03_lipids_glucose_metabolism/8_yi_nian_qian_xue_tang_shu_zhi_sheng_hua_nong_du_red.png",
+  "green": "01_lab_tests/03_lipids_glucose_metabolism/8_yi_nian_qian_xue_tang_shu_zhi_sheng_hua_nong_du_green.png"
+ },
+ "8_yi_nian_qian_xue_tang_shu_zhi_-_jue_dui_ji_shu": {
+  "orange": "01_lab_tests/03_lipids_glucose_metabolism/8_yi_nian_qian_xue_tang_shu_zhi_jue_dui_ji_shu_orange.png",
+  "red": "01_lab_tests/03_lipids_glucose_metabolism/8_yi_nian_qian_xue_tang_shu_zhi_jue_dui_ji_shu_red.png",
+  "green": "01_lab_tests/03_lipids_glucose_metabolism/8_yi_nian_qian_xue_tang_shu_zhi_jue_dui_ji_shu_green.png"
+ },
+ "2_xue_ji_gan_-_jue_dui_ji_shu": {
+  "green": "01_lab_tests/04_renal_function_electrolytes/2_xue_ji_gan_jue_dui_ji_shu_green.png",
+  "orange": "01_lab_tests/04_renal_function_electrolytes/2_xue_ji_gan_jue_dui_ji_shu_orange.png",
+  "red": "01_lab_tests/04_renal_function_electrolytes/2_xue_ji_gan_jue_dui_ji_shu_red.png"
+ },
+ "4_xue_gai_-_jue_dui_ji_shu": {
+  "green": "01_lab_tests/04_renal_function_electrolytes/4_xue_gai_jue_dui_ji_shu_green.png",
+  "orange": "01_lab_tests/04_renal_function_electrolytes/4_xue_gai_jue_dui_ji_shu_orange.png",
+  "red": "01_lab_tests/04_renal_function_electrolytes/4_xue_gai_jue_dui_ji_shu_red.png"
+ },
+ "1eGFR_shen_xiao_qiu_lv_guo_lv_- _zhi_shu": {
+  "orange": "01_lab_tests/04_renal_function_electrolytes/1eGFR_shen_xiao_qiu_lv_guo_lv_zhi_shu_orange.png",
+  "red": "01_lab_tests/04_renal_function_electrolytes/1eGFR_shen_xiao_qiu_lv_guo_lv_zhi_shu_red.png",
+  "green": "01_lab_tests/04_renal_function_electrolytes/1eGFR_shen_xiao_qiu_lv_guo_lv_zhi_shu_green.png"
+ },
+ "1eGFR_shen_xiao_qiu_lv_guo_lv_-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/04_renal_function_electrolytes/1eGFR_shen_xiao_qiu_lv_guo_lv_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/04_renal_function_electrolytes/1eGFR_shen_xiao_qiu_lv_guo_lv_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/04_renal_function_electrolytes/1eGFR_shen_xiao_qiu_lv_guo_lv_shu_zhi_lei_xing_green.png"
+ },
+ "1eGFR_shen_xiao_qiu_lv_guo_lv_-_yan_sheng_bi_zhi": {
+  "orange": "01_lab_tests/04_renal_function_electrolytes/1eGFR_shen_xiao_qiu_lv_guo_lv_yan_sheng_bi_zhi_orange.png",
+  "red": "01_lab_tests/04_renal_function_electrolytes/1eGFR_shen_xiao_qiu_lv_guo_lv_yan_sheng_bi_zhi_red.png",
+  "green": "01_lab_tests/04_renal_function_electrolytes/1eGFR_shen_xiao_qiu_lv_guo_lv_yan_sheng_bi_zhi_green.png"
+ },
+ "2_xue_ji_gan_-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/04_renal_function_electrolytes/2_xue_ji_gan_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/04_renal_function_electrolytes/2_xue_ji_gan_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/04_renal_function_electrolytes/2_xue_ji_gan_shu_zhi_lei_xing_green.png"
+ },
+ "2_xue_ji_gan_-_sheng_hua_nong_du": {
+  "orange": "01_lab_tests/04_renal_function_electrolytes/2_xue_ji_gan_sheng_hua_nong_du_orange.png",
+  "red": "01_lab_tests/04_renal_function_electrolytes/2_xue_ji_gan_sheng_hua_nong_du_red.png",
+  "green": "01_lab_tests/04_renal_function_electrolytes/2_xue_ji_gan_sheng_hua_nong_du_green.png"
+ },
+ "3_xue_niao_suan_-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/04_renal_function_electrolytes/3_xue_niao_suan_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/04_renal_function_electrolytes/3_xue_niao_suan_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/04_renal_function_electrolytes/3_xue_niao_suan_shu_zhi_lei_xing_green.png"
+ },
+ "3_xue_niao_suan_-_sheng_hua_nong_du": {
+  "orange": "01_lab_tests/04_renal_function_electrolytes/3_xue_niao_suan_sheng_hua_nong_du_orange.png",
+  "red": "01_lab_tests/04_renal_function_electrolytes/3_xue_niao_suan_sheng_hua_nong_du_red.png",
+  "green": "01_lab_tests/04_renal_function_electrolytes/3_xue_niao_suan_sheng_hua_nong_du_green.png"
+ },
+ "3_xue_niao_suan_-_jue_dui_ji_shu": {
+  "orange": "01_lab_tests/04_renal_function_electrolytes/3_xue_niao_suan_jue_dui_ji_shu_orange.png",
+  "red": "01_lab_tests/04_renal_function_electrolytes/3_xue_niao_suan_jue_dui_ji_shu_red.png",
+  "green": "01_lab_tests/04_renal_function_electrolytes/3_xue_niao_suan_jue_dui_ji_shu_green.png"
+ },
+ "4_xue_gai_-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/04_renal_function_electrolytes/4_xue_gai_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/04_renal_function_electrolytes/4_xue_gai_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/04_renal_function_electrolytes/4_xue_gai_shu_zhi_lei_xing_green.png"
+ },
+ "4_xue_gai_-_sheng_hua_nong_du": {
+  "orange": "01_lab_tests/04_renal_function_electrolytes/4_xue_gai_sheng_hua_nong_du_orange.png",
+  "red": "01_lab_tests/04_renal_function_electrolytes/4_xue_gai_sheng_hua_nong_du_red.png",
+  "green": "01_lab_tests/04_renal_function_electrolytes/4_xue_gai_sheng_hua_nong_du_green.png"
+ },
+ "5_xue_lin_-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/04_renal_function_electrolytes/5_xue_lin_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/04_renal_function_electrolytes/5_xue_lin_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/04_renal_function_electrolytes/5_xue_lin_shu_zhi_lei_xing_green.png"
+ },
+ "5_xue_lin_-_sheng_hua_nong_du": {
+  "orange": "01_lab_tests/04_renal_function_electrolytes/5_xue_lin_sheng_hua_nong_du_orange.png",
+  "red": "01_lab_tests/04_renal_function_electrolytes/5_xue_lin_sheng_hua_nong_du_red.png",
+  "green": "01_lab_tests/04_renal_function_electrolytes/5_xue_lin_sheng_hua_nong_du_green.png"
+ },
+ "5_xue_lin_-_jue_dui_ji_shu": {
+  "orange": "01_lab_tests/04_renal_function_electrolytes/5_xue_lin_jue_dui_ji_shu_orange.png",
+  "red": "01_lab_tests/04_renal_function_electrolytes/5_xue_lin_jue_dui_ji_shu_red.png",
+  "green": "01_lab_tests/04_renal_function_electrolytes/5_xue_lin_jue_dui_ji_shu_green.png"
+ },
+ "6_tan_suan_gen_-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/04_renal_function_electrolytes/6_tan_suan_gen_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/04_renal_function_electrolytes/6_tan_suan_gen_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/04_renal_function_electrolytes/6_tan_suan_gen_shu_zhi_lei_xing_green.png"
+ },
+ "6_tan_suan_gen_-_sheng_hua_nong_du": {
+  "orange": "01_lab_tests/04_renal_function_electrolytes/6_tan_suan_gen_sheng_hua_nong_du_orange.png",
+  "red": "01_lab_tests/04_renal_function_electrolytes/6_tan_suan_gen_sheng_hua_nong_du_red.png",
+  "green": "01_lab_tests/04_renal_function_electrolytes/6_tan_suan_gen_sheng_hua_nong_du_green.png"
+ },
+ "6_tan_suan_gen_-_jue_dui_ji_shu": {
+  "orange": "01_lab_tests/04_renal_function_electrolytes/6_tan_suan_gen_jue_dui_ji_shu_orange.png",
+  "red": "01_lab_tests/04_renal_function_electrolytes/6_tan_suan_gen_jue_dui_ji_shu_red.png",
+  "green": "01_lab_tests/04_renal_function_electrolytes/6_tan_suan_gen_jue_dui_ji_shu_green.png"
+ },
+ "7_zong_er_yang_hua_tan_-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/04_renal_function_electrolytes/7_zong_er_yang_hua_tan_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/04_renal_function_electrolytes/7_zong_er_yang_hua_tan_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/04_renal_function_electrolytes/7_zong_er_yang_hua_tan_shu_zhi_lei_xing_green.png"
+ },
+ "7_zong_er_yang_hua_tan_-_sheng_hua_nong_du": {
+  "orange": "01_lab_tests/04_renal_function_electrolytes/7_zong_er_yang_hua_tan_sheng_hua_nong_du_orange.png",
+  "red": "01_lab_tests/04_renal_function_electrolytes/7_zong_er_yang_hua_tan_sheng_hua_nong_du_red.png",
+  "green": "01_lab_tests/04_renal_function_electrolytes/7_zong_er_yang_hua_tan_sheng_hua_nong_du_green.png"
+ },
+ "7_zong_er_yang_hua_tan_-_jue_dui_ji_shu": {
+  "orange": "01_lab_tests/04_renal_function_electrolytes/7_zong_er_yang_hua_tan_jue_dui_ji_shu_orange.png",
+  "red": "01_lab_tests/04_renal_function_electrolytes/7_zong_er_yang_hua_tan_jue_dui_ji_shu_red.png",
+  "green": "01_lab_tests/04_renal_function_electrolytes/7_zong_er_yang_hua_tan_jue_dui_ji_shu_green.png"
+ },
+ "3_wei_dan_bai_mei_yuan_Ⅰ-_shu_zhi_lei_xing": {
+  "red": "01_lab_tests/05_gastric_function_infection/3_wei_dan_bai_mei_yuan_shu_zhi_lei_xing_red.png",
+  "orange": "01_lab_tests/05_gastric_function_infection/3_wei_dan_bai_mei_yuan_shu_zhi_lei_xing_orange.png",
+  "green": "01_lab_tests/05_gastric_function_infection/3_wei_dan_bai_mei_yuan_shu_zhi_lei_xing_green.png"
+ },
+ "1_you_men_luo_xuan_gan_jun_-_er_fen_lei_-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/05_gastric_function_infection/1_you_men_luo_xuan_gan_jun_er_fen_lei_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/05_gastric_function_infection/1_you_men_luo_xuan_gan_jun_er_fen_lei_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/05_gastric_function_infection/1_you_men_luo_xuan_gan_jun_er_fen_lei_shu_zhi_lei_xing_green.png"
+ },
+ "1_you_men_luo_xuan_gan_jun_-_bu_er_xing_-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/05_gastric_function_infection/1_you_men_luo_xuan_gan_jun_bu_er_xing_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/05_gastric_function_infection/1_you_men_luo_xuan_gan_jun_bu_er_xing_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/05_gastric_function_infection/1_you_men_luo_xuan_gan_jun_bu_er_xing_shu_zhi_lei_xing_green.png"
+ },
+ "2_wei_dan_bai_mei_yuan_Ⅰ_he_Ⅱ_de_bi_zhi_-_zhi_shu": {
+  "orange": "01_lab_tests/05_gastric_function_infection/2_wei_dan_bai_mei_yuan_he_de_bi_zhi_zhi_shu_orange.png",
+  "red": "01_lab_tests/05_gastric_function_infection/2_wei_dan_bai_mei_yuan_he_de_bi_zhi_zhi_shu_red.png",
+  "green": "01_lab_tests/05_gastric_function_infection/2_wei_dan_bai_mei_yuan_he_de_bi_zhi_zhi_shu_green.png"
+ },
+ "2_wei_dan_bai_mei_yuan_Ⅰ_he_Ⅱ_de_bi_zhi_-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/05_gastric_function_infection/2_wei_dan_bai_mei_yuan_he_de_bi_zhi_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/05_gastric_function_infection/2_wei_dan_bai_mei_yuan_he_de_bi_zhi_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/05_gastric_function_infection/2_wei_dan_bai_mei_yuan_he_de_bi_zhi_shu_zhi_lei_xing_green.png"
+ },
+ "2_wei_dan_bai_mei_yuan_Ⅰ_he_Ⅱ_de_bi_zhi_-_yan_sheng_bi_zhi": {
+  "orange": "01_lab_tests/05_gastric_function_infection/2_wei_dan_bai_mei_yuan_he_de_bi_zhi_yan_sheng_bi_zhi_orange.png",
+  "red": "01_lab_tests/05_gastric_function_infection/2_wei_dan_bai_mei_yuan_he_de_bi_zhi_yan_sheng_bi_zhi_red.png",
+  "green": "01_lab_tests/05_gastric_function_infection/2_wei_dan_bai_mei_yuan_he_de_bi_zhi_yan_sheng_bi_zhi_green.png"
+ },
+ "3_wei_dan_bai_mei_yuan_Ⅰ-_sheng_hua_nong_du": {
+  "orange": "01_lab_tests/05_gastric_function_infection/3_wei_dan_bai_mei_yuan_sheng_hua_nong_du_orange.png",
+  "red": "01_lab_tests/05_gastric_function_infection/3_wei_dan_bai_mei_yuan_sheng_hua_nong_du_red.png",
+  "green": "01_lab_tests/05_gastric_function_infection/3_wei_dan_bai_mei_yuan_sheng_hua_nong_du_green.png"
+ },
+ "3_wei_dan_bai_mei_yuan_Ⅰ-_jue_dui_ji_shu": {
+  "orange": "01_lab_tests/05_gastric_function_infection/3_wei_dan_bai_mei_yuan_jue_dui_ji_shu_orange.png",
+  "red": "01_lab_tests/05_gastric_function_infection/3_wei_dan_bai_mei_yuan_jue_dui_ji_shu_red.png",
+  "green": "01_lab_tests/05_gastric_function_infection/3_wei_dan_bai_mei_yuan_jue_dui_ji_shu_green.png"
+ },
+ "4_wei_dan_bai_mei_yuan_ⅠⅠ-_sheng_hua_nong_du": {
+  "orange": "01_lab_tests/05_gastric_function_infection/4_wei_dan_bai_mei_yuan_sheng_hua_nong_du_orange.png",
+  "red": "01_lab_tests/05_gastric_function_infection/4_wei_dan_bai_mei_yuan_sheng_hua_nong_du_red.png",
+  "green": "01_lab_tests/05_gastric_function_infection/4_wei_dan_bai_mei_yuan_sheng_hua_nong_du_green.png"
+ },
+ "4_wei_dan_bai_mei_yuan_ⅠⅠ-_jue_dui_ji_shu": {
+  "orange": "01_lab_tests/05_gastric_function_infection/4_wei_dan_bai_mei_yuan_jue_dui_ji_shu_orange.png",
+  "red": "01_lab_tests/05_gastric_function_infection/4_wei_dan_bai_mei_yuan_jue_dui_ji_shu_red.png",
+  "green": "01_lab_tests/05_gastric_function_infection/4_wei_dan_bai_mei_yuan_jue_dui_ji_shu_green.png"
+ },
+ "4_wei_dan_bai_mei_yuan_Ⅱ-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/05_gastric_function_infection/4_wei_dan_bai_mei_yuan_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/05_gastric_function_infection/4_wei_dan_bai_mei_yuan_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/05_gastric_function_infection/4_wei_dan_bai_mei_yuan_shu_zhi_lei_xing_green.png"
+ },
+ "5_wei_mi_su_17-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/05_gastric_function_infection/5_wei_mi_su_17_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/05_gastric_function_infection/5_wei_mi_su_17_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/05_gastric_function_infection/5_wei_mi_su_17_shu_zhi_lei_xing_green.png"
+ },
+ "5_wei_mi_su_17-_sheng_hua_nong_du": {
+  "orange": "01_lab_tests/05_gastric_function_infection/5_wei_mi_su_17_sheng_hua_nong_du_orange.png",
+  "red": "01_lab_tests/05_gastric_function_infection/5_wei_mi_su_17_sheng_hua_nong_du_red.png",
+  "green": "01_lab_tests/05_gastric_function_infection/5_wei_mi_su_17_sheng_hua_nong_du_green.png"
+ },
+ "5_wei_mi_su_17-_jue_dui_ji_shu": {
+  "orange": "01_lab_tests/05_gastric_function_infection/5_wei_mi_su_17_jue_dui_ji_shu_orange.png",
+  "red": "01_lab_tests/05_gastric_function_infection/5_wei_mi_su_17_jue_dui_ji_shu_red.png",
+  "green": "01_lab_tests/05_gastric_function_infection/5_wei_mi_su_17_jue_dui_ji_shu_green.png"
+ },
+ "3_ai_pei_kang_yuan_ (CEA)-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/06_tumor_markers/3_ai_pei_kang_yuan_CEA_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/06_tumor_markers/3_ai_pei_kang_yuan_CEA_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/06_tumor_markers/3_ai_pei_kang_yuan_CEA_shu_zhi_lei_xing_green.png"
+ },
+ "4_jia_tai_dan_bai_ (AFP)-_jue_dui_ji_shu": {
+  "red": "01_lab_tests/06_tumor_markers/4_jia_tai_dan_bai_AFP_jue_dui_ji_shu_red.png",
+  "orange": "01_lab_tests/06_tumor_markers/4_jia_tai_dan_bai_AFP_jue_dui_ji_shu_orange.png",
+  "green": "01_lab_tests/06_tumor_markers/4_jia_tai_dan_bai_AFP_jue_dui_ji_shu_green.png"
+ },
+ "1_zong_qian_lie_xian_te_yi_xing_kang_yuan_ (PSA)-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/06_tumor_markers/1_zong_qian_lie_xian_te_yi_xing_kang_yuan_PSA_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/06_tumor_markers/1_zong_qian_lie_xian_te_yi_xing_kang_yuan_PSA_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/06_tumor_markers/1_zong_qian_lie_xian_te_yi_xing_kang_yuan_PSA_shu_zhi_lei_xing_green.png"
+ },
+ "1_zong_qian_lie_xian_te_yi_xing_kang_yuan_ (PSA)-_sheng_hua_nong_du": {
+  "orange": "01_lab_tests/06_tumor_markers/1_zong_qian_lie_xian_te_yi_xing_kang_yuan_PSA_sheng_hua_nong_du_orange.png",
+  "red": "01_lab_tests/06_tumor_markers/1_zong_qian_lie_xian_te_yi_xing_kang_yuan_PSA_sheng_hua_nong_du_red.png",
+  "green": "01_lab_tests/06_tumor_markers/1_zong_qian_lie_xian_te_yi_xing_kang_yuan_PSA_sheng_hua_nong_du_green.png"
+ },
+ "1_zong_qian_lie_xian_te_yi_xing_kang_yuan_ (PSA)-_jue_dui_ji_shu": {
+  "orange": "01_lab_tests/06_tumor_markers/1_zong_qian_lie_xian_te_yi_xing_kang_yuan_PSA_jue_dui_ji_shu_orange.png",
+  "red": "01_lab_tests/06_tumor_markers/1_zong_qian_lie_xian_te_yi_xing_kang_yuan_PSA_jue_dui_ji_shu_red.png",
+  "green": "01_lab_tests/06_tumor_markers/1_zong_qian_lie_xian_te_yi_xing_kang_yuan_PSA_jue_dui_ji_shu_green.png"
+ },
+ "2_you_li_PSA_bi_lv_-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/06_tumor_markers/2_you_li_PSA_bi_lv_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/06_tumor_markers/2_you_li_PSA_bi_lv_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/06_tumor_markers/2_you_li_PSA_bi_lv_shu_zhi_lei_xing_green.png"
+ },
+ "2_you_li_PSA_bi_lv_-_bai_fen_bi": {
+  "orange": "01_lab_tests/06_tumor_markers/2_you_li_PSA_bi_lv_bai_fen_bi_orange.png",
+  "red": "01_lab_tests/06_tumor_markers/2_you_li_PSA_bi_lv_bai_fen_bi_red.png",
+  "green": "01_lab_tests/06_tumor_markers/2_you_li_PSA_bi_lv_bai_fen_bi_green.png"
+ },
+ "3_ai_pei_kang_yuan_ (CEA)-_sheng_hua_nong_du": {
+  "orange": "01_lab_tests/06_tumor_markers/3_ai_pei_kang_yuan_CEA_sheng_hua_nong_du_orange.png",
+  "red": "01_lab_tests/06_tumor_markers/3_ai_pei_kang_yuan_CEA_sheng_hua_nong_du_red.png",
+  "green": "01_lab_tests/06_tumor_markers/3_ai_pei_kang_yuan_CEA_sheng_hua_nong_du_green.png"
+ },
+ "3_ai_pei_kang_yuan_ (CEA-_jue_dui_ji_shu": {
+  "orange": "01_lab_tests/06_tumor_markers/3_ai_pei_kang_yuan_CEA_jue_dui_ji_shu_orange.png",
+  "red": "01_lab_tests/06_tumor_markers/3_ai_pei_kang_yuan_CEA_jue_dui_ji_shu_red.png",
+  "green": "01_lab_tests/06_tumor_markers/3_ai_pei_kang_yuan_CEA_jue_dui_ji_shu_green.png"
+ },
+ "4_jia_tai_dan_bai_ (AFP)-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/06_tumor_markers/4_jia_tai_dan_bai_AFP_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/06_tumor_markers/4_jia_tai_dan_bai_AFP_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/06_tumor_markers/4_jia_tai_dan_bai_AFP_shu_zhi_lei_xing_green.png"
+ },
+ "4_jia_tai_dan_bai_ (AFP)-_sheng_hua_nong_du": {
+  "orange": "01_lab_tests/06_tumor_markers/4_jia_tai_dan_bai_AFP_sheng_hua_nong_du_orange.png",
+  "red": "01_lab_tests/06_tumor_markers/4_jia_tai_dan_bai_AFP_sheng_hua_nong_du_red.png",
+  "green": "01_lab_tests/06_tumor_markers/4_jia_tai_dan_bai_AFP_sheng_hua_nong_du_green.png"
+ },
+ "5_tang_lei_kang_yuan_CA125-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/06_tumor_markers/5_tang_lei_kang_yuan_CA125_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/06_tumor_markers/5_tang_lei_kang_yuan_CA125_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/06_tumor_markers/5_tang_lei_kang_yuan_CA125_shu_zhi_lei_xing_green.png"
+ },
+ "5_tang_lei_kang_yuan_CA125-_sheng_hua_nong_du": {
+  "orange": "01_lab_tests/06_tumor_markers/5_tang_lei_kang_yuan_CA125_sheng_hua_nong_du_orange.png",
+  "red": "01_lab_tests/06_tumor_markers/5_tang_lei_kang_yuan_CA125_sheng_hua_nong_du_red.png",
+  "green": "01_lab_tests/06_tumor_markers/5_tang_lei_kang_yuan_CA125_sheng_hua_nong_du_green.png"
+ },
+ "5_tang_lei_kang_yuan_CA125-_jue_dui_ji_shu": {
+  "orange": "01_lab_tests/06_tumor_markers/5_tang_lei_kang_yuan_CA125_jue_dui_ji_shu_orange.png",
+  "red": "01_lab_tests/06_tumor_markers/5_tang_lei_kang_yuan_CA125_jue_dui_ji_shu_red.png",
+  "green": "01_lab_tests/06_tumor_markers/5_tang_lei_kang_yuan_CA125_jue_dui_ji_shu_green.png"
+ },
+ "6_ren_fu_gao_dan_bai_4 (HE4)-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/06_tumor_markers/6_ren_fu_gao_dan_bai_4_HE4_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/06_tumor_markers/6_ren_fu_gao_dan_bai_4_HE4_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/06_tumor_markers/6_ren_fu_gao_dan_bai_4_HE4_shu_zhi_lei_xing_green.png"
+ },
+ "6_ren_fu_gao_dan_bai_4 (HE4)-_sheng_hua_nong_du": {
+  "orange": "01_lab_tests/06_tumor_markers/6_ren_fu_gao_dan_bai_4_HE4_sheng_hua_nong_du_orange.png",
+  "red": "01_lab_tests/06_tumor_markers/6_ren_fu_gao_dan_bai_4_HE4_sheng_hua_nong_du_red.png",
+  "green": "01_lab_tests/06_tumor_markers/6_ren_fu_gao_dan_bai_4_HE4_sheng_hua_nong_du_green.png"
+ },
+ "6_ren_fu_gao_dan_bai_4 (HE4)-_jue_dui_ji_shu": {
+  "orange": "01_lab_tests/06_tumor_markers/6_ren_fu_gao_dan_bai_4_HE4_jue_dui_ji_shu_orange.png",
+  "red": "01_lab_tests/06_tumor_markers/6_ren_fu_gao_dan_bai_4_HE4_jue_dui_ji_shu_red.png",
+  "green": "01_lab_tests/06_tumor_markers/6_ren_fu_gao_dan_bai_4_HE4_jue_dui_ji_shu_green.png"
+ },
+ "7_yi_chang_ning_xue_mei_yuan_-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/06_tumor_markers/7_yi_chang_ning_xue_mei_yuan_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/06_tumor_markers/7_yi_chang_ning_xue_mei_yuan_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/06_tumor_markers/7_yi_chang_ning_xue_mei_yuan_shu_zhi_lei_xing_green.png"
+ },
+ "7_yi_chang_ning_xue_mei_yuan_-_sheng_hua_nong_du": {
+  "orange": "01_lab_tests/06_tumor_markers/7_yi_chang_ning_xue_mei_yuan_sheng_hua_nong_du_orange.png",
+  "red": "01_lab_tests/06_tumor_markers/7_yi_chang_ning_xue_mei_yuan_sheng_hua_nong_du_red.png",
+  "green": "01_lab_tests/06_tumor_markers/7_yi_chang_ning_xue_mei_yuan_sheng_hua_nong_du_green.png"
+ },
+ "7_yi_chang_ning_xue_mei_yuan_-_jue_dui_ji_shu": {
+  "orange": "01_lab_tests/06_tumor_markers/7_yi_chang_ning_xue_mei_yuan_jue_dui_ji_shu_orange.png",
+  "red": "01_lab_tests/06_tumor_markers/7_yi_chang_ning_xue_mei_yuan_jue_dui_ji_shu_red.png",
+  "green": "01_lab_tests/06_tumor_markers/7_yi_chang_ning_xue_mei_yuan_jue_dui_ji_shu_green.png"
+ },
+ "2_yi_gan_bing_du_zai_liang_ (HBV DNA)-_sheng_hua_nong_du": {
+  "orange": "01_lab_tests/07_infectious_cardiac/2_yi_gan_bing_du_zai_liang_HBV_DNA_sheng_hua_nong_du_orange.png",
+  "red": "01_lab_tests/07_infectious_cardiac/2_yi_gan_bing_du_zai_liang_HBV_DNA_sheng_hua_nong_du_red.png",
+  "green": "01_lab_tests/07_infectious_cardiac/2_yi_gan_bing_du_zai_liang_HBV_DNA_sheng_hua_nong_du_green.png"
+ },
+ "1N_duan_nao_na_tai_qian_ti_ (NT-proBNP)-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/07_infectious_cardiac/1N_duan_nao_na_tai_qian_ti_NT_proBNP_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/07_infectious_cardiac/1N_duan_nao_na_tai_qian_ti_NT_proBNP_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/07_infectious_cardiac/1N_duan_nao_na_tai_qian_ti_NT_proBNP_shu_zhi_lei_xing_green.png"
+ },
+ "1_yi_gan_biao_mian_kang_yuan_-_er_fen_lei": {
+  "orange": "01_lab_tests/07_infectious_cardiac/1_yi_gan_biao_mian_kang_yuan_er_fen_lei_orange.png",
+  "red": "01_lab_tests/07_infectious_cardiac/1_yi_gan_biao_mian_kang_yuan_er_fen_lei_red.png",
+  "green": "01_lab_tests/07_infectious_cardiac/1_yi_gan_biao_mian_kang_yuan_er_fen_lei_green.png"
+ },
+ "1_yi_gan_biao_mian_kang_yuan_-_bu_er_xing": {
+  "orange": "01_lab_tests/07_infectious_cardiac/1_yi_gan_biao_mian_kang_yuan_bu_er_xing_orange.png",
+  "red": "01_lab_tests/07_infectious_cardiac/1_yi_gan_biao_mian_kang_yuan_bu_er_xing_red.png",
+  "green": "01_lab_tests/07_infectious_cardiac/1_yi_gan_biao_mian_kang_yuan_bu_er_xing_green.png"
+ },
+ "1_yi_gan_biao_mian_kang_yuan_-_yang_xing": {
+  "orange": "01_lab_tests/07_infectious_cardiac/1_yi_gan_biao_mian_kang_yuan_yang_xing_orange.png",
+  "red": "01_lab_tests/07_infectious_cardiac/1_yi_gan_biao_mian_kang_yuan_yang_xing_red.png",
+  "green": "01_lab_tests/07_infectious_cardiac/1_yi_gan_biao_mian_kang_yuan_yang_xing_green.png"
+ },
+ "1_yi_gan_biao_mian_kang_yuan_-_yin_xing": {
+  "orange": "01_lab_tests/07_infectious_cardiac/1_yi_gan_biao_mian_kang_yuan_yin_xing_orange.png",
+  "red": "01_lab_tests/07_infectious_cardiac/1_yi_gan_biao_mian_kang_yuan_yin_xing_red.png",
+  "green": "01_lab_tests/07_infectious_cardiac/1_yi_gan_biao_mian_kang_yuan_yin_xing_green.png"
+ },
+ "2_yi_gan_bing_du_zai_liang_ (HBV DNA)-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/07_infectious_cardiac/2_yi_gan_bing_du_zai_liang_HBV_DNA_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/07_infectious_cardiac/2_yi_gan_bing_du_zai_liang_HBV_DNA_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/07_infectious_cardiac/2_yi_gan_bing_du_zai_liang_HBV_DNA_shu_zhi_lei_xing_green.png"
+ },
+ "2_yi_gan_bing_du_zai_liang_ (HBV DNA)-_jue_dui_ji_shu": {
+  "orange": "01_lab_tests/07_infectious_cardiac/2_yi_gan_bing_du_zai_liang_HBV_DNA_jue_dui_ji_shu_orange.png",
+  "red": "01_lab_tests/07_infectious_cardiac/2_yi_gan_bing_du_zai_liang_HBV_DNA_jue_dui_ji_shu_red.png",
+  "green": "01_lab_tests/07_infectious_cardiac/2_yi_gan_bing_du_zai_liang_HBV_DNA_jue_dui_ji_shu_green.png"
+ },
+ "3III_xing_jiao_yuan_N_duan_qian_tai_-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/07_infectious_cardiac/3III_xing_jiao_yuan_N_duan_qian_tai_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/07_infectious_cardiac/3III_xing_jiao_yuan_N_duan_qian_tai_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/07_infectious_cardiac/3III_xing_jiao_yuan_N_duan_qian_tai_shu_zhi_lei_xing_green.png"
+ },
+ "3III_xing_jiao_yuan_N_duan_qian_tai_-_sheng_hua_nong_du": {
+  "orange": "01_lab_tests/07_infectious_cardiac/3III_xing_jiao_yuan_N_duan_qian_tai_sheng_hua_nong_du_orange.png",
+  "red": "01_lab_tests/07_infectious_cardiac/3III_xing_jiao_yuan_N_duan_qian_tai_sheng_hua_nong_du_red.png",
+  "green": "01_lab_tests/07_infectious_cardiac/3III_xing_jiao_yuan_N_duan_qian_tai_sheng_hua_nong_du_green.png"
+ },
+ "3III_xing_jiao_yuan_N_duan_qian_tai_-_jue_dui_ji_shu": {
+  "orange": "01_lab_tests/07_infectious_cardiac/3III_xing_jiao_yuan_N_duan_qian_tai_jue_dui_ji_shu_orange.png",
+  "red": "01_lab_tests/07_infectious_cardiac/3III_xing_jiao_yuan_N_duan_qian_tai_jue_dui_ji_shu_red.png",
+  "green": "01_lab_tests/07_infectious_cardiac/3III_xing_jiao_yuan_N_duan_qian_tai_jue_dui_ji_shu_green.png"
+ },
+ "1N_duan_nao_na_tai_qian_ti_ (NT-proBNP)-_sheng_hua_nong_du": {
+  "orange": "01_lab_tests/07_infectious_cardiac/1N_duan_nao_na_tai_qian_ti_NT_proBNP_sheng_hua_nong_du_orange.png",
+  "red": "01_lab_tests/07_infectious_cardiac/1N_duan_nao_na_tai_qian_ti_NT_proBNP_sheng_hua_nong_du_red.png",
+  "green": "01_lab_tests/07_infectious_cardiac/1N_duan_nao_na_tai_qian_ti_NT_proBNP_sheng_hua_nong_du_green.png"
+ },
+ "1N_duan_nao_na_tai_qian_ti_ (NT-proBNP)-_jue_dui_ji_shu": {
+  "orange": "01_lab_tests/07_infectious_cardiac/1N_duan_nao_na_tai_qian_ti_NT_proBNP_jue_dui_ji_shu_orange.png",
+  "red": "01_lab_tests/07_infectious_cardiac/1N_duan_nao_na_tai_qian_ti_NT_proBNP_jue_dui_ji_shu_red.png",
+  "green": "01_lab_tests/07_infectious_cardiac/1N_duan_nao_na_tai_qian_ti_NT_proBNP_jue_dui_ji_shu_green.png"
+ },
+ "2_nao_na_tai_ (BNP)-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/07_infectious_cardiac/2_nao_na_tai_BNP_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/07_infectious_cardiac/2_nao_na_tai_BNP_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/07_infectious_cardiac/2_nao_na_tai_BNP_shu_zhi_lei_xing_green.png"
+ },
+ "2_nao_na_tai_ (BNP)-_sheng_hua_nong_du": {
+  "orange": "01_lab_tests/07_infectious_cardiac/2_nao_na_tai_BNP_sheng_hua_nong_du_orange.png",
+  "red": "01_lab_tests/07_infectious_cardiac/2_nao_na_tai_BNP_sheng_hua_nong_du_red.png",
+  "green": "01_lab_tests/07_infectious_cardiac/2_nao_na_tai_BNP_sheng_hua_nong_du_green.png"
+ },
+ "2_nao_na_tai_ (BNP)-_jue_dui_ji_shu": {
+  "orange": "01_lab_tests/07_infectious_cardiac/2_nao_na_tai_BNP_jue_dui_ji_shu_orange.png",
+  "red": "01_lab_tests/07_infectious_cardiac/2_nao_na_tai_BNP_jue_dui_ji_shu_red.png",
+  "green": "01_lab_tests/07_infectious_cardiac/2_nao_na_tai_BNP_jue_dui_ji_shu_green.png"
+ },
+ "1_cu_luan_pao_sheng_cheng_su_-_shu_zhi_lei_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/1_cu_luan_pao_sheng_cheng_su_shu_zhi_lei_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/1_cu_luan_pao_sheng_cheng_su_shu_zhi_lei_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/1_cu_luan_pao_sheng_cheng_su_shu_zhi_lei_xing_green.png"
+ },
+ "1_cu_luan_pao_sheng_cheng_su_-_sheng_hua_nong_du": {
+  "orange": "01_lab_tests/09_gynecology_cytology/1_cu_luan_pao_sheng_cheng_su_sheng_hua_nong_du_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/1_cu_luan_pao_sheng_cheng_su_sheng_hua_nong_du_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/1_cu_luan_pao_sheng_cheng_su_sheng_hua_nong_du_green.png"
+ },
+ "1_cu_luan_pao_sheng_cheng_su_-_jue_dui_ji_shu": {
+  "orange": "01_lab_tests/09_gynecology_cytology/1_cu_luan_pao_sheng_cheng_su_jue_dui_ji_shu_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/1_cu_luan_pao_sheng_cheng_su_jue_dui_ji_shu_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/1_cu_luan_pao_sheng_cheng_su_jue_dui_ji_shu_green.png"
+ },
+ "2_gao_wei_HPV_gan_ran_zong_ti_qing_kuang_-_er_fen_lei": {
+  "orange": "01_lab_tests/09_gynecology_cytology/2_gao_wei_HPV_gan_ran_zong_ti_qing_kuang_er_fen_lei_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/2_gao_wei_HPV_gan_ran_zong_ti_qing_kuang_er_fen_lei_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/2_gao_wei_HPV_gan_ran_zong_ti_qing_kuang_er_fen_lei_green.png"
+ },
+ "2_gao_wei_HPV_gan_ran_zong_ti_qing_kuang_-_bu_er_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/2_gao_wei_HPV_gan_ran_zong_ti_qing_kuang_bu_er_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/2_gao_wei_HPV_gan_ran_zong_ti_qing_kuang_bu_er_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/2_gao_wei_HPV_gan_ran_zong_ti_qing_kuang_bu_er_xing_green.png"
+ },
+ "2_gao_wei_HPV_gan_ran_zong_ti_qing_kuang_-_yang_xing": {
+  "red": "01_lab_tests/09_gynecology_cytology/2_gao_wei_HPV_gan_ran_zong_ti_qing_kuang_yang_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/2_gao_wei_HPV_gan_ran_zong_ti_qing_kuang_yang_xing_green.png",
+  "orange": "01_lab_tests/09_gynecology_cytology/2_gao_wei_HPV_gan_ran_zong_ti_qing_kuang_yang_xing_orange.png"
+ },
+ "2_gao_wei_HPV_gan_ran_zong_ti_qing_kuang_-_yin_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/2_gao_wei_HPV_gan_ran_zong_ti_qing_kuang_yin_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/2_gao_wei_HPV_gan_ran_zong_ti_qing_kuang_yin_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/2_gao_wei_HPV_gan_ran_zong_ti_qing_kuang_yin_xing_green.png"
+ },
+ "10_gao_wei_HPV_ya_xing_dan_du_jian_ce_56-_er_fen_lei": {
+  "orange": "01_lab_tests/09_gynecology_cytology/10_gao_wei_HPV_ya_xing_dan_du_jian_ce_56_er_fen_lei_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/10_gao_wei_HPV_ya_xing_dan_du_jian_ce_56_er_fen_lei_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/10_gao_wei_HPV_ya_xing_dan_du_jian_ce_56_er_fen_lei_green.png"
+ },
+ "10_gao_wei_HPV_ya_xing_dan_du_jian_ce_56-_bu_er_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/10_gao_wei_HPV_ya_xing_dan_du_jian_ce_56_bu_er_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/10_gao_wei_HPV_ya_xing_dan_du_jian_ce_56_bu_er_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/10_gao_wei_HPV_ya_xing_dan_du_jian_ce_56_bu_er_xing_green.png"
+ },
+ "10_gao_wei_HPV_ya_xing_dan_du_jian_ce_56-_yang_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/10_gao_wei_HPV_ya_xing_dan_du_jian_ce_56_yang_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/10_gao_wei_HPV_ya_xing_dan_du_jian_ce_56_yang_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/10_gao_wei_HPV_ya_xing_dan_du_jian_ce_56_yang_xing_green.png"
+ },
+ "10_gao_wei_HPV_ya_xing_dan_du_jian_ce_56-_yin_xing": {
+  "red": "01_lab_tests/09_gynecology_cytology/10_gao_wei_HPV_ya_xing_dan_du_jian_ce_56_yin_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/10_gao_wei_HPV_ya_xing_dan_du_jian_ce_56_yin_xing_green.png",
+  "orange": "01_lab_tests/09_gynecology_cytology/10_gao_wei_HPV_ya_xing_dan_du_jian_ce_56_yin_xing_orange.png"
+ },
+ "11_gao_wei_HPV_ya_xing_dan_du_jian_ce_58-_er_fen_lei": {
+  "orange": "01_lab_tests/09_gynecology_cytology/11_gao_wei_HPV_ya_xing_dan_du_jian_ce_58_er_fen_lei_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/11_gao_wei_HPV_ya_xing_dan_du_jian_ce_58_er_fen_lei_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/11_gao_wei_HPV_ya_xing_dan_du_jian_ce_58_er_fen_lei_green.png"
+ },
+ "11_gao_wei_HPV_ya_xing_dan_du_jian_ce_58-_bu_er_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/11_gao_wei_HPV_ya_xing_dan_du_jian_ce_58_bu_er_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/11_gao_wei_HPV_ya_xing_dan_du_jian_ce_58_bu_er_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/11_gao_wei_HPV_ya_xing_dan_du_jian_ce_58_bu_er_xing_green.png"
+ },
+ "11_gao_wei_HPV_ya_xing_dan_du_jian_ce_58-_yang_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/11_gao_wei_HPV_ya_xing_dan_du_jian_ce_58_yang_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/11_gao_wei_HPV_ya_xing_dan_du_jian_ce_58_yang_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/11_gao_wei_HPV_ya_xing_dan_du_jian_ce_58_yang_xing_green.png"
+ },
+ "11_gao_wei_HPV_ya_xing_dan_du_jian_ce_58-_yin_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/11_gao_wei_HPV_ya_xing_dan_du_jian_ce_58_yin_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/11_gao_wei_HPV_ya_xing_dan_du_jian_ce_58_yin_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/11_gao_wei_HPV_ya_xing_dan_du_jian_ce_58_yin_xing_green.png"
+ },
+ "12_gao_wei_HPV_ya_xing_dan_du_jian_ce_59-_er_fen_lei": {
+  "red": "01_lab_tests/09_gynecology_cytology/12_gao_wei_HPV_ya_xing_dan_du_jian_ce_59_er_fen_lei_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/12_gao_wei_HPV_ya_xing_dan_du_jian_ce_59_er_fen_lei_green.png",
+  "orange": "01_lab_tests/09_gynecology_cytology/12_gao_wei_HPV_ya_xing_dan_du_jian_ce_59_er_fen_lei_orange.png"
+ },
+ "12_gao_wei_HPV_ya_xing_dan_du_jian_ce_59-_bu_er_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/12_gao_wei_HPV_ya_xing_dan_du_jian_ce_59_bu_er_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/12_gao_wei_HPV_ya_xing_dan_du_jian_ce_59_bu_er_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/12_gao_wei_HPV_ya_xing_dan_du_jian_ce_59_bu_er_xing_green.png"
+ },
+ "12_gao_wei_HPV_ya_xing_dan_du_jian_ce_59-_yang_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/12_gao_wei_HPV_ya_xing_dan_du_jian_ce_59_yang_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/12_gao_wei_HPV_ya_xing_dan_du_jian_ce_59_yang_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/12_gao_wei_HPV_ya_xing_dan_du_jian_ce_59_yang_xing_green.png"
+ },
+ "12_gao_wei_HPV_ya_xing_dan_du_jian_ce_59-_yin_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/12_gao_wei_HPV_ya_xing_dan_du_jian_ce_59_yin_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/12_gao_wei_HPV_ya_xing_dan_du_jian_ce_59_yin_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/12_gao_wei_HPV_ya_xing_dan_du_jian_ce_59_yin_xing_green.png"
+ },
+ "13_gao_wei_HPV_ya_xing_dan_du_jian_ce_66-_er_fen_lei": {
+  "orange": "01_lab_tests/09_gynecology_cytology/13_gao_wei_HPV_ya_xing_dan_du_jian_ce_66_er_fen_lei_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/13_gao_wei_HPV_ya_xing_dan_du_jian_ce_66_er_fen_lei_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/13_gao_wei_HPV_ya_xing_dan_du_jian_ce_66_er_fen_lei_green.png"
+ },
+ "13_gao_wei_HPV_ya_xing_dan_du_jian_ce_66-_bu_er_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/13_gao_wei_HPV_ya_xing_dan_du_jian_ce_66_bu_er_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/13_gao_wei_HPV_ya_xing_dan_du_jian_ce_66_bu_er_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/13_gao_wei_HPV_ya_xing_dan_du_jian_ce_66_bu_er_xing_green.png"
+ },
+ "14_gao_wei_HPV_ya_xing_dan_du_jian_ce_68-_yang_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/14_gao_wei_HPV_ya_xing_dan_du_jian_ce_68_yang_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/14_gao_wei_HPV_ya_xing_dan_du_jian_ce_68_yang_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/14_gao_wei_HPV_ya_xing_dan_du_jian_ce_68_yang_xing_green.png"
+ },
+ "1_gao_wei_HPV_ya_xing_dan_du_jian_ce_16-_yin_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/1_gao_wei_HPV_ya_xing_dan_du_jian_ce_16_yin_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/1_gao_wei_HPV_ya_xing_dan_du_jian_ce_16_yin_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/1_gao_wei_HPV_ya_xing_dan_du_jian_ce_16_yin_xing_green.png"
+ },
+ "3_gao_wei_HPV_ya_xing_dan_du_jian_ce_31-_er_fen_lei": {
+  "orange": "01_lab_tests/09_gynecology_cytology/3_gao_wei_HPV_ya_xing_dan_du_jian_ce_31_er_fen_lei_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/3_gao_wei_HPV_ya_xing_dan_du_jian_ce_31_er_fen_lei_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/3_gao_wei_HPV_ya_xing_dan_du_jian_ce_31_er_fen_lei_green.png"
+ },
+ "4_gao_wei_HPV_ya_xing_dan_du_jian_ce_33-_bu_er_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/4_gao_wei_HPV_ya_xing_dan_du_jian_ce_33_bu_er_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/4_gao_wei_HPV_ya_xing_dan_du_jian_ce_33_bu_er_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/4_gao_wei_HPV_ya_xing_dan_du_jian_ce_33_bu_er_xing_green.png"
+ },
+ "5_gao_wei_HPV_ya_xing_dan_du_jian_ce_35-_yang_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/5_gao_wei_HPV_ya_xing_dan_du_jian_ce_35_yang_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/5_gao_wei_HPV_ya_xing_dan_du_jian_ce_35_yang_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/5_gao_wei_HPV_ya_xing_dan_du_jian_ce_35_yang_xing_green.png"
+ },
+ "6_gao_wei_HPV_ya_xing_dan_du_jian_ce_39-_yin_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/6_gao_wei_HPV_ya_xing_dan_du_jian_ce_39_yin_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/6_gao_wei_HPV_ya_xing_dan_du_jian_ce_39_yin_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/6_gao_wei_HPV_ya_xing_dan_du_jian_ce_39_yin_xing_green.png"
+ },
+ "8_gao_wei_HPV_ya_xing_dan_du_jian_ce_51-_er_fen_lei": {
+  "orange": "01_lab_tests/09_gynecology_cytology/8_gao_wei_HPV_ya_xing_dan_du_jian_ce_51_er_fen_lei_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/8_gao_wei_HPV_ya_xing_dan_du_jian_ce_51_er_fen_lei_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/8_gao_wei_HPV_ya_xing_dan_du_jian_ce_51_er_fen_lei_green.png"
+ },
+ "9_gao_wei_HPV_ya_xing_dan_du_jian_ce_52-_bu_er_xing": {
+  "red": "01_lab_tests/09_gynecology_cytology/9_gao_wei_HPV_ya_xing_dan_du_jian_ce_52_bu_er_xing_red.png",
+  "orange": "01_lab_tests/09_gynecology_cytology/9_gao_wei_HPV_ya_xing_dan_du_jian_ce_52_bu_er_xing_orange.png",
+  "green": "01_lab_tests/09_gynecology_cytology/9_gao_wei_HPV_ya_xing_dan_du_jian_ce_52_bu_er_xing_green.png"
+ },
+ "13_gao_wei_HPV_ya_xing_dan_du_jian_ce_66-_yang_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/13_gao_wei_HPV_ya_xing_dan_du_jian_ce_66_yang_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/13_gao_wei_HPV_ya_xing_dan_du_jian_ce_66_yang_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/13_gao_wei_HPV_ya_xing_dan_du_jian_ce_66_yang_xing_green.png"
+ },
+ "13_gao_wei_HPV_ya_xing_dan_du_jian_ce_66-_yin_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/13_gao_wei_HPV_ya_xing_dan_du_jian_ce_66_yin_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/13_gao_wei_HPV_ya_xing_dan_du_jian_ce_66_yin_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/13_gao_wei_HPV_ya_xing_dan_du_jian_ce_66_yin_xing_green.png"
+ },
+ "14_gao_wei_HPV_ya_xing_dan_du_jian_ce_68-_er_fen_lei": {
+  "orange": "01_lab_tests/09_gynecology_cytology/14_gao_wei_HPV_ya_xing_dan_du_jian_ce_68_er_fen_lei_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/14_gao_wei_HPV_ya_xing_dan_du_jian_ce_68_er_fen_lei_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/14_gao_wei_HPV_ya_xing_dan_du_jian_ce_68_er_fen_lei_green.png"
+ },
+ "14_gao_wei_HPV_ya_xing_dan_du_jian_ce_68-_bu_er_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/14_gao_wei_HPV_ya_xing_dan_du_jian_ce_68_bu_er_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/14_gao_wei_HPV_ya_xing_dan_du_jian_ce_68_bu_er_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/14_gao_wei_HPV_ya_xing_dan_du_jian_ce_68_bu_er_xing_green.png"
+ },
+ "14_gao_wei_HPV_ya_xing_dan_du_jian_ce_68-_yin_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/14_gao_wei_HPV_ya_xing_dan_du_jian_ce_68_yin_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/14_gao_wei_HPV_ya_xing_dan_du_jian_ce_68_yin_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/14_gao_wei_HPV_ya_xing_dan_du_jian_ce_68_yin_xing_green.png"
+ },
+ "1_gao_wei_HPV_ya_xing_dan_du_jian_ce_16-_er_fen_lei_-_lv": {
+  "red": "01_lab_tests/09_gynecology_cytology/1_gao_wei_HPV_ya_xing_dan_du_jian_ce_16_er_fen_lei_lv_red.png"
+ },
+ "1_gao_wei_HPV_ya_xing_dan_du_jian_ce_16-_er_fen_lei": {
+  "green": "01_lab_tests/09_gynecology_cytology/1_gao_wei_HPV_ya_xing_dan_du_jian_ce_16_er_fen_lei_green.png"
+ },
+ "1_gao_wei_HPV_ya_xing_dan_du_jian_ce_16-_bu_er_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/1_gao_wei_HPV_ya_xing_dan_du_jian_ce_16_bu_er_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/1_gao_wei_HPV_ya_xing_dan_du_jian_ce_16_bu_er_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/1_gao_wei_HPV_ya_xing_dan_du_jian_ce_16_bu_er_xing_green.png"
+ },
+ "1_gao_wei_HPV_ya_xing_dan_du_jian_ce_16-_yang_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/1_gao_wei_HPV_ya_xing_dan_du_jian_ce_16_yang_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/1_gao_wei_HPV_ya_xing_dan_du_jian_ce_16_yang_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/1_gao_wei_HPV_ya_xing_dan_du_jian_ce_16_yang_xing_green.png"
+ },
+ "2_gao_wei_HPV_ya_xing_dan_du_jian_ce_18-_er_fen_lei": {
+  "orange": "01_lab_tests/09_gynecology_cytology/2_gao_wei_HPV_ya_xing_dan_du_jian_ce_18_er_fen_lei_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/2_gao_wei_HPV_ya_xing_dan_du_jian_ce_18_er_fen_lei_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/2_gao_wei_HPV_ya_xing_dan_du_jian_ce_18_er_fen_lei_green.png"
+ },
+ "2_gao_wei_HPV_ya_xing_dan_du_jian_ce_18-_bu_er_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/2_gao_wei_HPV_ya_xing_dan_du_jian_ce_18_bu_er_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/2_gao_wei_HPV_ya_xing_dan_du_jian_ce_18_bu_er_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/2_gao_wei_HPV_ya_xing_dan_du_jian_ce_18_bu_er_xing_green.png"
+ },
+ "2_gao_wei_HPV_ya_xing_dan_du_jian_ce_18-_yang_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/2_gao_wei_HPV_ya_xing_dan_du_jian_ce_18_yang_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/2_gao_wei_HPV_ya_xing_dan_du_jian_ce_18_yang_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/2_gao_wei_HPV_ya_xing_dan_du_jian_ce_18_yang_xing_green.png"
+ },
+ "2_gao_wei_HPV_ya_xing_dan_du_jian_ce_18-_yin_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/2_gao_wei_HPV_ya_xing_dan_du_jian_ce_18_yin_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/2_gao_wei_HPV_ya_xing_dan_du_jian_ce_18_yin_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/2_gao_wei_HPV_ya_xing_dan_du_jian_ce_18_yin_xing_green.png"
+ },
+ "3_gao_wei_HPV_ya_xing_dan_du_jian_ce_31-_bu_er_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/3_gao_wei_HPV_ya_xing_dan_du_jian_ce_31_bu_er_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/3_gao_wei_HPV_ya_xing_dan_du_jian_ce_31_bu_er_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/3_gao_wei_HPV_ya_xing_dan_du_jian_ce_31_bu_er_xing_green.png"
+ },
+ "3_gao_wei_HPV_ya_xing_dan_du_jian_ce_31-_yang_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/3_gao_wei_HPV_ya_xing_dan_du_jian_ce_31_yang_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/3_gao_wei_HPV_ya_xing_dan_du_jian_ce_31_yang_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/3_gao_wei_HPV_ya_xing_dan_du_jian_ce_31_yang_xing_green.png"
+ },
+ "3_gao_wei_HPV_ya_xing_dan_du_jian_ce_31-_yin_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/3_gao_wei_HPV_ya_xing_dan_du_jian_ce_31_yin_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/3_gao_wei_HPV_ya_xing_dan_du_jian_ce_31_yin_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/3_gao_wei_HPV_ya_xing_dan_du_jian_ce_31_yin_xing_green.png"
+ },
+ "4_gao_wei_HPV_ya_xing_dan_du_jian_ce_33-_er_fen_lei": {
+  "orange": "01_lab_tests/09_gynecology_cytology/4_gao_wei_HPV_ya_xing_dan_du_jian_ce_33_er_fen_lei_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/4_gao_wei_HPV_ya_xing_dan_du_jian_ce_33_er_fen_lei_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/4_gao_wei_HPV_ya_xing_dan_du_jian_ce_33_er_fen_lei_green.png"
+ },
+ "4_gao_wei_HPV_ya_xing_dan_du_jian_ce_33-_yang_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/4_gao_wei_HPV_ya_xing_dan_du_jian_ce_33_yang_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/4_gao_wei_HPV_ya_xing_dan_du_jian_ce_33_yang_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/4_gao_wei_HPV_ya_xing_dan_du_jian_ce_33_yang_xing_green.png"
+ },
+ "4_gao_wei_HPV_ya_xing_dan_du_jian_ce_33-_yin_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/4_gao_wei_HPV_ya_xing_dan_du_jian_ce_33_yin_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/4_gao_wei_HPV_ya_xing_dan_du_jian_ce_33_yin_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/4_gao_wei_HPV_ya_xing_dan_du_jian_ce_33_yin_xing_green.png"
+ },
+ "5_gao_wei_HPV_ya_xing_dan_du_jian_ce_35-_er_fen_lei": {
+  "orange": "01_lab_tests/09_gynecology_cytology/5_gao_wei_HPV_ya_xing_dan_du_jian_ce_35_er_fen_lei_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/5_gao_wei_HPV_ya_xing_dan_du_jian_ce_35_er_fen_lei_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/5_gao_wei_HPV_ya_xing_dan_du_jian_ce_35_er_fen_lei_green.png"
+ },
+ "5_gao_wei_HPV_ya_xing_dan_du_jian_ce_35-_bu_er_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/5_gao_wei_HPV_ya_xing_dan_du_jian_ce_35_bu_er_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/5_gao_wei_HPV_ya_xing_dan_du_jian_ce_35_bu_er_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/5_gao_wei_HPV_ya_xing_dan_du_jian_ce_35_bu_er_xing_green.png"
+ },
+ "5_gao_wei_HPV_ya_xing_dan_du_jian_ce_35-_yin_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/5_gao_wei_HPV_ya_xing_dan_du_jian_ce_35_yin_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/5_gao_wei_HPV_ya_xing_dan_du_jian_ce_35_yin_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/5_gao_wei_HPV_ya_xing_dan_du_jian_ce_35_yin_xing_green.png"
+ },
+ "6_gao_wei_HPV_ya_xing_dan_du_jian_ce_39-_er_fen_lei": {
+  "orange": "01_lab_tests/09_gynecology_cytology/6_gao_wei_HPV_ya_xing_dan_du_jian_ce_39_er_fen_lei_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/6_gao_wei_HPV_ya_xing_dan_du_jian_ce_39_er_fen_lei_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/6_gao_wei_HPV_ya_xing_dan_du_jian_ce_39_er_fen_lei_green.png"
+ },
+ "6_gao_wei_HPV_ya_xing_dan_du_jian_ce_39-_bu_er_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/6_gao_wei_HPV_ya_xing_dan_du_jian_ce_39_bu_er_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/6_gao_wei_HPV_ya_xing_dan_du_jian_ce_39_bu_er_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/6_gao_wei_HPV_ya_xing_dan_du_jian_ce_39_bu_er_xing_green.png"
+ },
+ "6_gao_wei_HPV_ya_xing_dan_du_jian_ce_39-_yang_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/6_gao_wei_HPV_ya_xing_dan_du_jian_ce_39_yang_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/6_gao_wei_HPV_ya_xing_dan_du_jian_ce_39_yang_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/6_gao_wei_HPV_ya_xing_dan_du_jian_ce_39_yang_xing_green.png"
+ },
+ "7_gao_wei_HPV_ya_xing_dan_du_jian_ce_45-_er_fen_lei": {
+  "orange": "01_lab_tests/09_gynecology_cytology/7_gao_wei_HPV_ya_xing_dan_du_jian_ce_45_er_fen_lei_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/7_gao_wei_HPV_ya_xing_dan_du_jian_ce_45_er_fen_lei_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/7_gao_wei_HPV_ya_xing_dan_du_jian_ce_45_er_fen_lei_green.png"
+ },
+ "7_gao_wei_HPV_ya_xing_dan_du_jian_ce_45-_bu_er_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/7_gao_wei_HPV_ya_xing_dan_du_jian_ce_45_bu_er_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/7_gao_wei_HPV_ya_xing_dan_du_jian_ce_45_bu_er_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/7_gao_wei_HPV_ya_xing_dan_du_jian_ce_45_bu_er_xing_green.png"
+ },
+ "7_gao_wei_HPV_ya_xing_dan_du_jian_ce_45-_yang_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/7_gao_wei_HPV_ya_xing_dan_du_jian_ce_45_yang_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/7_gao_wei_HPV_ya_xing_dan_du_jian_ce_45_yang_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/7_gao_wei_HPV_ya_xing_dan_du_jian_ce_45_yang_xing_green.png"
+ },
+ "7_gao_wei_HPV_ya_xing_dan_du_jian_ce_45-_yin_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/7_gao_wei_HPV_ya_xing_dan_du_jian_ce_45_yin_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/7_gao_wei_HPV_ya_xing_dan_du_jian_ce_45_yin_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/7_gao_wei_HPV_ya_xing_dan_du_jian_ce_45_yin_xing_green.png"
+ },
+ "8_gao_wei_HPV_ya_xing_dan_du_jian_ce_51-_bu_er_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/8_gao_wei_HPV_ya_xing_dan_du_jian_ce_51_bu_er_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/8_gao_wei_HPV_ya_xing_dan_du_jian_ce_51_bu_er_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/8_gao_wei_HPV_ya_xing_dan_du_jian_ce_51_bu_er_xing_green.png"
+ },
+ "8_gao_wei_HPV_ya_xing_dan_du_jian_ce_51-_yang_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/8_gao_wei_HPV_ya_xing_dan_du_jian_ce_51_yang_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/8_gao_wei_HPV_ya_xing_dan_du_jian_ce_51_yang_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/8_gao_wei_HPV_ya_xing_dan_du_jian_ce_51_yang_xing_green.png"
+ },
+ "8_gao_wei_HPV_ya_xing_dan_du_jian_ce_51-_yin_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/8_gao_wei_HPV_ya_xing_dan_du_jian_ce_51_yin_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/8_gao_wei_HPV_ya_xing_dan_du_jian_ce_51_yin_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/8_gao_wei_HPV_ya_xing_dan_du_jian_ce_51_yin_xing_green.png"
+ },
+ "9_gao_wei_HPV_ya_xing_dan_du_jian_ce_52-_er_fen_lei": {
+  "orange": "01_lab_tests/09_gynecology_cytology/9_gao_wei_HPV_ya_xing_dan_du_jian_ce_52_er_fen_lei_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/9_gao_wei_HPV_ya_xing_dan_du_jian_ce_52_er_fen_lei_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/9_gao_wei_HPV_ya_xing_dan_du_jian_ce_52_er_fen_lei_green.png"
+ },
+ "9_gao_wei_HPV_ya_xing_dan_du_jian_ce_52-_yang_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/9_gao_wei_HPV_ya_xing_dan_du_jian_ce_52_yang_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/9_gao_wei_HPV_ya_xing_dan_du_jian_ce_52_yang_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/9_gao_wei_HPV_ya_xing_dan_du_jian_ce_52_yang_xing_green.png"
+ },
+ "9_gao_wei_HPV_ya_xing_dan_du_jian_ce_52-_yin_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/9_gao_wei_HPV_ya_xing_dan_du_jian_ce_52_yin_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/9_gao_wei_HPV_ya_xing_dan_du_jian_ce_52_yin_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/9_gao_wei_HPV_ya_xing_dan_du_jian_ce_52_yin_xing_green.png"
+ },
+ "HPV_ya_xing_gan_ran_zong_shu_liang_-_li_san": {
+  "orange": "01_lab_tests/09_gynecology_cytology/HPV_ya_xing_gan_ran_zong_shu_liang_li_san_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/HPV_ya_xing_gan_ran_zong_shu_liang_li_san_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/HPV_ya_xing_gan_ran_zong_shu_liang_li_san_green.png"
+ },
+ "HPV_ya_xing_gan_ran_zong_shu_liang_-_ji_shu_xing": {
+  "orange": "01_lab_tests/09_gynecology_cytology/HPV_ya_xing_gan_ran_zong_shu_liang_ji_shu_xing_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/HPV_ya_xing_gan_ran_zong_shu_liang_ji_shu_xing_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/HPV_ya_xing_gan_ran_zong_shu_liang_ji_shu_xing_green.png"
+ },
+ "xi_bao_xue_jian_cha_-_wu_xu_duo_fen_lei": {
+  "orange": "01_lab_tests/09_gynecology_cytology/xi_bao_xue_jian_cha_wu_xu_duo_fen_lei_orange.png",
+  "red": "01_lab_tests/09_gynecology_cytology/xi_bao_xue_jian_cha_wu_xu_duo_fen_lei_red.png",
+  "green": "01_lab_tests/09_gynecology_cytology/xi_bao_xue_jian_cha_wu_xu_duo_fen_lei_green.png"
+ },
+ "3_guo_qu_12_ge_yue_nei_shi_fou_you_guo_xiao_chuan_fa_zuo_-_bu_er_xing": {
+  "orange": "02_questionnaires/01_asthma_questionnaire/3_guo_qu_12_ge_yue_nei_shi_fou_you_guo_xiao_chuan_fa_zuo_bu_er_xing_orange.png",
+  "red": "02_questionnaires/01_asthma_questionnaire/3_guo_qu_12_ge_yue_nei_shi_fou_you_guo_xiao_chuan_fa_zuo_bu_er_xing_red.png",
+  "green": "02_questionnaires/01_asthma_questionnaire/3_guo_qu_12_ge_yue_nei_shi_fou_you_guo_xiao_chuan_fa_zuo_bu_er_xing_green.png"
+ },
+ "6_fei_gan_mao_shi_shi_fou_you_chuan_xi_huo_shao_yin_-_er_fen_lei": {
+  "orange": "02_questionnaires/01_asthma_questionnaire/6_fei_gan_mao_shi_shi_fou_you_chuan_xi_huo_shao_yin_er_fen_lei_orange.png",
+  "red": "02_questionnaires/01_asthma_questionnaire/6_fei_gan_mao_shi_shi_fou_you_chuan_xi_huo_shao_yin_er_fen_lei_red.png",
+  "green": "02_questionnaires/01_asthma_questionnaire/6_fei_gan_mao_shi_shi_fou_you_chuan_xi_huo_shao_yin_er_fen_lei_green.png"
+ },
+ "1_yi_sheng_shi_fou_ceng_zheng_shi_nin_huan_you_xiao_chuan_-_er_fen_lei": {
+  "orange": "02_questionnaires/01_asthma_questionnaire/1_yi_sheng_shi_fou_ceng_zheng_shi_nin_huan_you_xiao_chuan_er_fen_lei_orange.png",
+  "red": "02_questionnaires/01_asthma_questionnaire/1_yi_sheng_shi_fou_ceng_zheng_shi_nin_huan_you_xiao_chuan_er_fen_lei_red.png",
+  "green": "02_questionnaires/01_asthma_questionnaire/1_yi_sheng_shi_fou_ceng_zheng_shi_nin_huan_you_xiao_chuan_er_fen_lei_green.png"
+ },
+ "1_yi_sheng_shi_fou_ceng_zheng_shi_nin_huan_you_xiao_chuan_-_bu_er_xing": {
+  "orange": "02_questionnaires/01_asthma_questionnaire/1_yi_sheng_shi_fou_ceng_zheng_shi_nin_huan_you_xiao_chuan_bu_er_xing_orange.png",
+  "red": "02_questionnaires/01_asthma_questionnaire/1_yi_sheng_shi_fou_ceng_zheng_shi_nin_huan_you_xiao_chuan_bu_er_xing_red.png",
+  "green": "02_questionnaires/01_asthma_questionnaire/1_yi_sheng_shi_fou_ceng_zheng_shi_nin_huan_you_xiao_chuan_bu_er_xing_green.png"
+ },
+ "2_xian_zai_shi_fou_reng_you_xiao_chuan_-_er_fen_lei": {
+  "orange": "02_questionnaires/01_asthma_questionnaire/2_xian_zai_shi_fou_reng_you_xiao_chuan_er_fen_lei_orange.png",
+  "red": "02_questionnaires/01_asthma_questionnaire/2_xian_zai_shi_fou_reng_you_xiao_chuan_er_fen_lei_red.png",
+  "green": "02_questionnaires/01_asthma_questionnaire/2_xian_zai_shi_fou_reng_you_xiao_chuan_er_fen_lei_green.png"
+ },
+ "2_xian_zai_shi_fou_reng_you_xiao_chuan_-_bu_er_xing": {
+  "orange": "02_questionnaires/01_asthma_questionnaire/2_xian_zai_shi_fou_reng_you_xiao_chuan_bu_er_xing_orange.png",
+  "red": "02_questionnaires/01_asthma_questionnaire/2_xian_zai_shi_fou_reng_you_xiao_chuan_bu_er_xing_red.png",
+  "green": "02_questionnaires/01_asthma_questionnaire/2_xian_zai_shi_fou_reng_you_xiao_chuan_bu_er_xing_green.png"
+ },
+ "3_guo_qu_12_ge_yue_nei_shi_fou_you_guo_xiao_chuan_fa_zuo_-_er_fen_lei": {
+  "orange": "02_questionnaires/01_asthma_questionnaire/3_guo_qu_12_ge_yue_nei_shi_fou_you_guo_xiao_chuan_fa_zuo_er_fen_lei_orange.png",
+  "red": "02_questionnaires/01_asthma_questionnaire/3_guo_qu_12_ge_yue_nei_shi_fou_you_guo_xiao_chuan_fa_zuo_er_fen_lei_red.png",
+  "green": "02_questionnaires/01_asthma_questionnaire/3_guo_qu_12_ge_yue_nei_shi_fou_you_guo_xiao_chuan_fa_zuo_er_fen_lei_green.png"
+ },
+ "4_mu_qian_shi_fou_zheng_zai_fu_yong_zhi_liao_xiao_chuan_de_yao_wu_-_er_fen_lei": {
+  "orange": "02_questionnaires/01_asthma_questionnaire/4_mu_qian_shi_fou_zheng_zai_fu_yong_zhi_liao_xiao_chuan_de_yao_wu_er_fen_lei_orange.png",
+  "red": "02_questionnaires/01_asthma_questionnaire/4_mu_qian_shi_fou_zheng_zai_fu_yong_zhi_liao_xiao_chuan_de_yao_wu_er_fen_lei_red.png",
+  "green": "02_questionnaires/01_asthma_questionnaire/4_mu_qian_shi_fou_zheng_zai_fu_yong_zhi_liao_xiao_chuan_de_yao_wu_er_fen_lei_green.png"
+ },
+ "4_mu_qian_shi_fou_zheng_zai_fu_yong_zhi_liao_xiao_chuan_de_yao_wu_-_bu_er_xing": {
+  "orange": "02_questionnaires/01_asthma_questionnaire/4_mu_qian_shi_fou_zheng_zai_fu_yong_zhi_liao_xiao_chuan_de_yao_wu_bu_er_xing_orange.png",
+  "red": "02_questionnaires/01_asthma_questionnaire/4_mu_qian_shi_fou_zheng_zai_fu_yong_zhi_liao_xiao_chuan_de_yao_wu_bu_er_xing_red.png",
+  "green": "02_questionnaires/01_asthma_questionnaire/4_mu_qian_shi_fou_zheng_zai_fu_yong_zhi_liao_xiao_chuan_de_yao_wu_bu_er_xing_green.png"
+ },
+ "5_guo_qu_12_ge_yue_nei_xiong_bu_shi_fou_you_guo_chuan_xi_huo_shao_yin_-_er_fen_lei": {
+  "orange": "02_questionnaires/01_asthma_questionnaire/5_guo_qu_12_ge_yue_nei_xiong_bu_shi_fou_you_guo_chuan_xi_huo_shao_yin_er_fen_lei_orange.png",
+  "red": "02_questionnaires/01_asthma_questionnaire/5_guo_qu_12_ge_yue_nei_xiong_bu_shi_fou_you_guo_chuan_xi_huo_shao_yin_er_fen_lei_red.png",
+  "green": "02_questionnaires/01_asthma_questionnaire/5_guo_qu_12_ge_yue_nei_xiong_bu_shi_fou_you_guo_chuan_xi_huo_shao_yin_er_fen_lei_green.png"
+ },
+ "5_guo_qu_12_ge_yue_nei_xiong_bu_shi_fou_you_guo_chuan_xi_huo_shao_yin_-_bu_er_xing": {
+  "orange": "02_questionnaires/01_asthma_questionnaire/5_guo_qu_12_ge_yue_nei_xiong_bu_shi_fou_you_guo_chuan_xi_huo_shao_yin_bu_er_xing_orange.png",
+  "red": "02_questionnaires/01_asthma_questionnaire/5_guo_qu_12_ge_yue_nei_xiong_bu_shi_fou_you_guo_chuan_xi_huo_shao_yin_bu_er_xing_red.png",
+  "green": "02_questionnaires/01_asthma_questionnaire/5_guo_qu_12_ge_yue_nei_xiong_bu_shi_fou_you_guo_chuan_xi_huo_shao_yin_bu_er_xing_green.png"
+ },
+ "6_fei_gan_mao_shi_shi_fou_you_chuan_xi_huo_shao_yin_-_bu_er_xing": {
+  "orange": "02_questionnaires/01_asthma_questionnaire/6_fei_gan_mao_shi_shi_fou_you_chuan_xi_huo_shao_yin_bu_er_xing_orange.png",
+  "red": "02_questionnaires/01_asthma_questionnaire/6_fei_gan_mao_shi_shi_fou_you_chuan_xi_huo_shao_yin_bu_er_xing_red.png",
+  "green": "02_questionnaires/01_asthma_questionnaire/6_fei_gan_mao_shi_shi_fou_you_chuan_xi_huo_shao_yin_bu_er_xing_green.png"
+ },
+ "7_chuan_xi_shi_shi_fou_gan_dao_hu_xi_kun_nan_-_er_fen_lei": {
+  "orange": "02_questionnaires/01_asthma_questionnaire/7_chuan_xi_shi_shi_fou_gan_dao_hu_xi_kun_nan_er_fen_lei_orange.png",
+  "red": "02_questionnaires/01_asthma_questionnaire/7_chuan_xi_shi_shi_fou_gan_dao_hu_xi_kun_nan_er_fen_lei_red.png",
+  "green": "02_questionnaires/01_asthma_questionnaire/7_chuan_xi_shi_shi_fou_gan_dao_hu_xi_kun_nan_er_fen_lei_green.png"
+ },
+ "7_chuan_xi_shi_shi_fou_gan_dao_hu_xi_kun_nan_-_bu_er_xing": {
+  "orange": "02_questionnaires/01_asthma_questionnaire/7_chuan_xi_shi_shi_fou_gan_dao_hu_xi_kun_nan_bu_er_xing_orange.png",
+  "red": "02_questionnaires/01_asthma_questionnaire/7_chuan_xi_shi_shi_fou_gan_dao_hu_xi_kun_nan_bu_er_xing_red.png",
+  "green": "02_questionnaires/01_asthma_questionnaire/7_chuan_xi_shi_shi_fou_gan_dao_hu_xi_kun_nan_bu_er_xing_green.png"
+ },
+ "8_bai_tian_xiu_xi_shi_shi_fou_tu_fa_qi_duan_huo_hu_xi_kun_nan_-_er_fen_lei": {
+  "orange": "02_questionnaires/01_asthma_questionnaire/8_bai_tian_xiu_xi_shi_shi_fou_tu_fa_qi_duan_huo_hu_xi_kun_nan_er_fen_lei_orange.png",
+  "red": "02_questionnaires/01_asthma_questionnaire/8_bai_tian_xiu_xi_shi_shi_fou_tu_fa_qi_duan_huo_hu_xi_kun_nan_er_fen_lei_red.png",
+  "green": "02_questionnaires/01_asthma_questionnaire/8_bai_tian_xiu_xi_shi_shi_fou_tu_fa_qi_duan_huo_hu_xi_kun_nan_er_fen_lei_green.png"
+ },
+ "8_bai_tian_xiu_xi_shi_shi_fou_tu_fa_qi_duan_huo_hu_xi_kun_nan_-_bu_er_xing": {
+  "orange": "02_questionnaires/01_asthma_questionnaire/8_bai_tian_xiu_xi_shi_shi_fou_tu_fa_qi_duan_huo_hu_xi_kun_nan_bu_er_xing_orange.png",
+  "red": "02_questionnaires/01_asthma_questionnaire/8_bai_tian_xiu_xi_shi_shi_fou_tu_fa_qi_duan_huo_hu_xi_kun_nan_bu_er_xing_red.png",
+  "green": "02_questionnaires/01_asthma_questionnaire/8_bai_tian_xiu_xi_shi_shi_fou_tu_fa_qi_duan_huo_hu_xi_kun_nan_bu_er_xing_green.png"
+ },
+ "3_wei_suan_gan_jue_fa_sheng_de_pin_lv_-_deng_ji": {
+  "red": "02_questionnaires/02_gastric_symptoms/3_wei_suan_gan_jue_fa_sheng_de_pin_lv_deng_ji_red.png",
+  "orange": "02_questionnaires/02_gastric_symptoms/3_wei_suan_gan_jue_fa_sheng_de_pin_lv_deng_ji_orange.png",
+  "green": "02_questionnaires/02_gastric_symptoms/3_wei_suan_gan_jue_fa_sheng_de_pin_lv_deng_ji_green.png"
+ },
+ "1_wei_zhuo_re_fa_sheng_de_pin_lv_-_you_xu_duo_fen_lei": {
+  "orange": "02_questionnaires/02_gastric_symptoms/1_wei_zhuo_re_fa_sheng_de_pin_lv_you_xu_duo_fen_lei_orange.png",
+  "red": "02_questionnaires/02_gastric_symptoms/1_wei_zhuo_re_fa_sheng_de_pin_lv_you_xu_duo_fen_lei_red.png",
+  "green": "02_questionnaires/02_gastric_symptoms/1_wei_zhuo_re_fa_sheng_de_pin_lv_you_xu_duo_fen_lei_green.png"
+ },
+ "1_wei_zhuo_re_fa_sheng_de_pin_lv_-_deng_ji": {
+  "orange": "02_questionnaires/02_gastric_symptoms/1_wei_zhuo_re_fa_sheng_de_pin_lv_deng_ji_orange.png",
+  "red": "02_questionnaires/02_gastric_symptoms/1_wei_zhuo_re_fa_sheng_de_pin_lv_deng_ji_red.png",
+  "green": "02_questionnaires/02_gastric_symptoms/1_wei_zhuo_re_fa_sheng_de_pin_lv_deng_ji_green.png"
+ },
+ "2_wei_zhuo_re_de_yan_zhong_cheng_du_-_you_xu_duo_fen_lei": {
+  "orange": "02_questionnaires/02_gastric_symptoms/2_wei_zhuo_re_de_yan_zhong_cheng_du_you_xu_duo_fen_lei_orange.png",
+  "red": "02_questionnaires/02_gastric_symptoms/2_wei_zhuo_re_de_yan_zhong_cheng_du_you_xu_duo_fen_lei_red.png",
+  "green": "02_questionnaires/02_gastric_symptoms/2_wei_zhuo_re_de_yan_zhong_cheng_du_you_xu_duo_fen_lei_green.png"
+ },
+ "2_wei_zhuo_re_de_yan_zhong_cheng_du_-_deng_ji": {
+  "orange": "02_questionnaires/02_gastric_symptoms/2_wei_zhuo_re_de_yan_zhong_cheng_du_deng_ji_orange.png",
+  "red": "02_questionnaires/02_gastric_symptoms/2_wei_zhuo_re_de_yan_zhong_cheng_du_deng_ji_red.png",
+  "green": "02_questionnaires/02_gastric_symptoms/2_wei_zhuo_re_de_yan_zhong_cheng_du_deng_ji_green.png"
+ },
+ "3_wei_suan_gan_jue_fa_sheng_de_pin_lv_-_you_xu_duo_fen_lei": {
+  "orange": "02_questionnaires/02_gastric_symptoms/3_wei_suan_gan_jue_fa_sheng_de_pin_lv_you_xu_duo_fen_lei_orange.png",
+  "red": "02_questionnaires/02_gastric_symptoms/3_wei_suan_gan_jue_fa_sheng_de_pin_lv_you_xu_duo_fen_lei_red.png",
+  "green": "02_questionnaires/02_gastric_symptoms/3_wei_suan_gan_jue_fa_sheng_de_pin_lv_you_xu_duo_fen_lei_green.png"
+ },
+ "4_wei_suan_gan_jue_de_yan_zhong_cheng_du_-_you_xu_duo_fen_lei": {
+  "orange": "02_questionnaires/02_gastric_symptoms/4_wei_suan_gan_jue_de_yan_zhong_cheng_du_you_xu_duo_fen_lei_orange.png",
+  "red": "02_questionnaires/02_gastric_symptoms/4_wei_suan_gan_jue_de_yan_zhong_cheng_du_you_xu_duo_fen_lei_red.png",
+  "green": "02_questionnaires/02_gastric_symptoms/4_wei_suan_gan_jue_de_yan_zhong_cheng_du_you_xu_duo_fen_lei_green.png"
+ },
+ "4_wei_suan_gan_jue_de_yan_zhong_cheng_du_-_deng_ji": {
+  "orange": "02_questionnaires/02_gastric_symptoms/4_wei_suan_gan_jue_de_yan_zhong_cheng_du_deng_ji_orange.png",
+  "red": "02_questionnaires/02_gastric_symptoms/4_wei_suan_gan_jue_de_yan_zhong_cheng_du_deng_ji_red.png",
+  "green": "02_questionnaires/02_gastric_symptoms/4_wei_suan_gan_jue_de_yan_zhong_cheng_du_deng_ji_green.png"
+ },
+ "5_suan_fan_liu_fa_sheng_de_pin_lv_-_you_xu_duo_fen_lei": {
+  "orange": "02_questionnaires/02_gastric_symptoms/5_suan_fan_liu_fa_sheng_de_pin_lv_you_xu_duo_fen_lei_orange.png",
+  "red": "02_questionnaires/02_gastric_symptoms/5_suan_fan_liu_fa_sheng_de_pin_lv_you_xu_duo_fen_lei_red.png",
+  "green": "02_questionnaires/02_gastric_symptoms/5_suan_fan_liu_fa_sheng_de_pin_lv_you_xu_duo_fen_lei_green.png"
+ },
+ "5_suan_fan_liu_fa_sheng_de_pin_lv_-_deng_ji": {
+  "orange": "02_questionnaires/02_gastric_symptoms/5_suan_fan_liu_fa_sheng_de_pin_lv_deng_ji_orange.png",
+  "red": "02_questionnaires/02_gastric_symptoms/5_suan_fan_liu_fa_sheng_de_pin_lv_deng_ji_red.png",
+  "green": "02_questionnaires/02_gastric_symptoms/5_suan_fan_liu_fa_sheng_de_pin_lv_deng_ji_green.png"
+ },
+ "6_suan_fan_liu_de_yan_zhong_cheng_du_-_you_xu_duo_fen_lei": {
+  "orange": "02_questionnaires/02_gastric_symptoms/6_suan_fan_liu_de_yan_zhong_cheng_du_you_xu_duo_fen_lei_orange.png",
+  "red": "02_questionnaires/02_gastric_symptoms/6_suan_fan_liu_de_yan_zhong_cheng_du_you_xu_duo_fen_lei_red.png",
+  "green": "02_questionnaires/02_gastric_symptoms/6_suan_fan_liu_de_yan_zhong_cheng_du_you_xu_duo_fen_lei_green.png"
+ },
+ "6_suan_fan_liu_de_yan_zhong_cheng_du_-_deng_ji": {
+  "orange": "02_questionnaires/02_gastric_symptoms/6_suan_fan_liu_de_yan_zhong_cheng_du_deng_ji_orange.png",
+  "red": "02_questionnaires/02_gastric_symptoms/6_suan_fan_liu_de_yan_zhong_cheng_du_deng_ji_red.png",
+  "green": "02_questionnaires/02_gastric_symptoms/6_suan_fan_liu_de_yan_zhong_cheng_du_deng_ji_green.png"
+ },
+ "7_shi_yong_kang_suan_ji_de_pin_lv_-_you_xu_duo_fen_lei": {
+  "orange": "02_questionnaires/02_gastric_symptoms/7_shi_yong_kang_suan_ji_de_pin_lv_you_xu_duo_fen_lei_orange.png",
+  "red": "02_questionnaires/02_gastric_symptoms/7_shi_yong_kang_suan_ji_de_pin_lv_you_xu_duo_fen_lei_red.png",
+  "green": "02_questionnaires/02_gastric_symptoms/7_shi_yong_kang_suan_ji_de_pin_lv_you_xu_duo_fen_lei_green.png"
+ },
+ "7_shi_yong_kang_suan_ji_de_pin_lv_-_deng_ji": {
+  "orange": "02_questionnaires/02_gastric_symptoms/7_shi_yong_kang_suan_ji_de_pin_lv_deng_ji_orange.png",
+  "red": "02_questionnaires/02_gastric_symptoms/7_shi_yong_kang_suan_ji_de_pin_lv_deng_ji_red.png",
+  "green": "02_questionnaires/02_gastric_symptoms/7_shi_yong_kang_suan_ji_de_pin_lv_deng_ji_green.png"
+ },
+ "1_sheng_huo_man_yi_du_ping_fen_-_you_xu_duo_fen_lei": {
+  "orange": "02_questionnaires/03_scores/1_sheng_huo_man_yi_du_ping_fen_you_xu_duo_fen_lei_orange.png",
+  "red": "02_questionnaires/03_scores/1_sheng_huo_man_yi_du_ping_fen_you_xu_duo_fen_lei_red.png",
+  "green": "02_questionnaires/03_scores/1_sheng_huo_man_yi_du_ping_fen_you_xu_duo_fen_lei_green.png"
+ },
+ "1_sheng_huo_man_yi_du_ping_fen_-_deng_ji": {
+  "orange": "02_questionnaires/03_scores/1_sheng_huo_man_yi_du_ping_fen_deng_ji_orange.png",
+  "red": "02_questionnaires/03_scores/1_sheng_huo_man_yi_du_ping_fen_deng_ji_red.png",
+  "green": "02_questionnaires/03_scores/1_sheng_huo_man_yi_du_ping_fen_deng_ji_green.png"
+ },
+ "1_min_zu_-_wu_xu_duo_fen_lei": {
+  "orange": "03_non_lab/01_demographics/1_min_zu_wu_xu_duo_fen_lei_orange.png",
+  "red": "03_non_lab/01_demographics/1_min_zu_wu_xu_duo_fen_lei_red.png",
+  "green": "03_non_lab/01_demographics/1_min_zu_wu_xu_duo_fen_lei_green.png"
+ },
+ "2_nian_ling_-_li_san": {
+  "orange": "03_non_lab/01_demographics/2_nian_ling_li_san_orange.png",
+  "red": "03_non_lab/01_demographics/2_nian_ling_li_san_red.png",
+  "green": "03_non_lab/01_demographics/2_nian_ling_li_san_green.png"
+ },
+ "2_nian_ling_-_ji_suan_xing": {
+  "orange": "03_non_lab/01_demographics/2_nian_ling_ji_suan_xing_orange.png",
+  "red": "03_non_lab/01_demographics/2_nian_ling_ji_suan_xing_red.png",
+  "green": "03_non_lab/01_demographics/2_nian_ling_ji_suan_xing_green.png"
+ },
+ "3_xing_bie_-_er_fen_lei": {
+  "orange": "03_non_lab/01_demographics/3_xing_bie_er_fen_lei_orange.png",
+  "red": "03_non_lab/01_demographics/3_xing_bie_er_fen_lei_red.png",
+  "green": "03_non_lab/01_demographics/3_xing_bie_er_fen_lei_green.png"
+ },
+ "3_xing_bie_-_bu_er_xing": {
+  "orange": "03_non_lab/01_demographics/3_xing_bie_bu_er_xing_orange.png",
+  "red": "03_non_lab/01_demographics/3_xing_bie_bu_er_xing_red.png",
+  "green": "03_non_lab/01_demographics/3_xing_bie_bu_er_xing_green.png"
+ },
+ "4_ju_zhu_di_-_wu_xu_duo_fen_lei": {
+  "orange": "03_non_lab/01_demographics/4_ju_zhu_di_wu_xu_duo_fen_lei_orange.png",
+  "red": "03_non_lab/01_demographics/4_ju_zhu_di_wu_xu_duo_fen_lei_red.png",
+  "green": "03_non_lab/01_demographics/4_ju_zhu_di_wu_xu_duo_fen_lei_green.png"
+ },
+ "10_man_xing_hu_xi_xi_tong_ji_bing_shi_ (_ru_man_zu_fei_、_jie_he_deng_)-_er_fen_lei": {
+  "orange": "03_non_lab/02_past_medical_history/10_man_xing_hu_xi_xi_tong_ji_bing_shi_ru_man_zu_fei_jie_he_deng_er_fen_lei_orange.png",
+  "red": "03_non_lab/02_past_medical_history/10_man_xing_hu_xi_xi_tong_ji_bing_shi_ru_man_zu_fei_jie_he_deng_er_fen_lei_red.png",
+  "green": "03_non_lab/02_past_medical_history/10_man_xing_hu_xi_xi_tong_ji_bing_shi_ru_man_zu_fei_jie_he_deng_er_fen_lei_green.png"
+ },
+ "10_man_xing_hu_xi_xi_tong_ji_bing_shi_ (_ru_man_zu_fei_、_jie_he_deng_)-_bu_er_xing": {
+  "orange": "03_non_lab/02_past_medical_history/10_man_xing_hu_xi_xi_tong_ji_bing_shi_ru_man_zu_fei_jie_he_deng_bu_er_xing_orange.png",
+  "red": "03_non_lab/02_past_medical_history/10_man_xing_hu_xi_xi_tong_ji_bing_shi_ru_man_zu_fei_jie_he_deng_bu_er_xing_red.png",
+  "green": "03_non_lab/02_past_medical_history/10_man_xing_hu_xi_xi_tong_ji_bing_shi_ru_man_zu_fei_jie_he_deng_bu_er_xing_green.png"
+ },
+ "11_shi_fou_you_man_xing_zhi_qi_guan_yan_-_er_fen_lei": {
+  "orange": "03_non_lab/02_past_medical_history/11_shi_fou_you_man_xing_zhi_qi_guan_yan_er_fen_lei_orange.png",
+  "red": "03_non_lab/02_past_medical_history/11_shi_fou_you_man_xing_zhi_qi_guan_yan_er_fen_lei_red.png",
+  "green": "03_non_lab/02_past_medical_history/11_shi_fou_you_man_xing_zhi_qi_guan_yan_er_fen_lei_green.png"
+ },
+ "11_shi_fou_you_man_xing_zhi_qi_guan_yan_-_bu_er_xing": {
+  "orange": "03_non_lab/02_past_medical_history/11_shi_fou_you_man_xing_zhi_qi_guan_yan_bu_er_xing_orange.png",
+  "red": "03_non_lab/02_past_medical_history/11_shi_fou_you_man_xing_zhi_qi_guan_yan_bu_er_xing_red.png",
+  "green": "03_non_lab/02_past_medical_history/11_shi_fou_you_man_xing_zhi_qi_guan_yan_bu_er_xing_green.png"
+ },
+ "12_shi_fou_you_fei_qi_zhong_-_er_fen_lei": {
+  "orange": "03_non_lab/02_past_medical_history/12_shi_fou_you_fei_qi_zhong_er_fen_lei_orange.png",
+  "red": "03_non_lab/02_past_medical_history/12_shi_fou_you_fei_qi_zhong_er_fen_lei_red.png",
+  "green": "03_non_lab/02_past_medical_history/12_shi_fou_you_fei_qi_zhong_er_fen_lei_green.png"
+ },
+ "12_shi_fou_you_fei_qi_zhong_-_bu_er_xing": {
+  "red": "03_non_lab/02_past_medical_history/12_shi_fou_you_fei_qi_zhong_bu_er_xing_red.png",
+  "green": "03_non_lab/02_past_medical_history/12_shi_fou_you_fei_qi_zhong_bu_er_xing_green.png",
+  "orange": "03_non_lab/02_past_medical_history/12_shi_fou_you_fei_qi_zhong_bu_er_xing_orange.png"
+ },
+ "13_shi_fou_wei_man_xing_yi_gan_huan_zhe_-_er_fen_lei": {
+  "orange": "03_non_lab/02_past_medical_history/13_shi_fou_wei_man_xing_yi_gan_huan_zhe_er_fen_lei_orange.png",
+  "red": "03_non_lab/02_past_medical_history/13_shi_fou_wei_man_xing_yi_gan_huan_zhe_er_fen_lei_red.png",
+  "green": "03_non_lab/02_past_medical_history/13_shi_fou_wei_man_xing_yi_gan_huan_zhe_er_fen_lei_green.png"
+ },
+ "13_shi_fou_wei_man_xing_yi_gan_huan_zhe_-_bu_er_xing": {
+  "orange": "03_non_lab/02_past_medical_history/13_shi_fou_wei_man_xing_yi_gan_huan_zhe_bu_er_xing_orange.png",
+  "red": "03_non_lab/02_past_medical_history/13_shi_fou_wei_man_xing_yi_gan_huan_zhe_bu_er_xing_red.png",
+  "green": "03_non_lab/02_past_medical_history/13_shi_fou_wei_man_xing_yi_gan_huan_zhe_bu_er_xing_green.png"
+ },
+ "13_shi_fou_you_gan_ying_hua_-_er_fen_lei": {
+  "orange": "03_non_lab/02_past_medical_history/13_shi_fou_you_gan_ying_hua_er_fen_lei_orange.png",
+  "red": "03_non_lab/02_past_medical_history/13_shi_fou_you_gan_ying_hua_er_fen_lei_red.png",
+  "green": "03_non_lab/02_past_medical_history/13_shi_fou_you_gan_ying_hua_er_fen_lei_green.png"
+ },
+ "13_shi_fou_you_gan_ying_hua_-_bu_er_xing": {
+  "orange": "03_non_lab/02_past_medical_history/13_shi_fou_you_gan_ying_hua_bu_er_xing_orange.png",
+  "red": "03_non_lab/02_past_medical_history/13_shi_fou_you_gan_ying_hua_bu_er_xing_red.png",
+  "green": "03_non_lab/02_past_medical_history/13_shi_fou_you_gan_ying_hua_bu_er_xing_green.png"
+ },
+ "14_shi_fou_you_gan_ying_hua_-_er_fen_lei": {
+  "orange": "03_non_lab/02_past_medical_history/14_shi_fou_you_gan_ying_hua_er_fen_lei_orange.png",
+  "red": "03_non_lab/02_past_medical_history/14_shi_fou_you_gan_ying_hua_er_fen_lei_red.png",
+  "green": "03_non_lab/02_past_medical_history/14_shi_fou_you_gan_ying_hua_er_fen_lei_green.png"
+ },
+ "14_shi_fou_you_gan_ying_hua_-_bu_er_xing": {
+  "orange": "03_non_lab/02_past_medical_history/14_shi_fou_you_gan_ying_hua_bu_er_xing_orange.png",
+  "red": "03_non_lab/02_past_medical_history/14_shi_fou_you_gan_ying_hua_bu_er_xing_red.png",
+  "green": "03_non_lab/02_past_medical_history/14_shi_fou_you_gan_ying_hua_bu_er_xing_green.png"
+ },
+ "14_zhi_fang_gan_bing_shi_-_er_fen_lei": {
+  "orange": "03_non_lab/02_past_medical_history/14_zhi_fang_gan_bing_shi_er_fen_lei_orange.png",
+  "red": "03_non_lab/02_past_medical_history/14_zhi_fang_gan_bing_shi_er_fen_lei_red.png",
+  "green": "03_non_lab/02_past_medical_history/14_zhi_fang_gan_bing_shi_er_fen_lei_green.png"
+ },
+ "14_zhi_fang_gan_bing_shi_-_bu_er_xing": {
+  "orange": "03_non_lab/02_past_medical_history/14_zhi_fang_gan_bing_shi_bu_er_xing_orange.png",
+  "red": "03_non_lab/02_past_medical_history/14_zhi_fang_gan_bing_shi_bu_er_xing_red.png",
+  "green": "03_non_lab/02_past_medical_history/14_zhi_fang_gan_bing_shi_bu_er_xing_green.png"
+ },
+ "15_zhi_fang_gan_bing_shi_-_er_fen_lei": {
+  "orange": "03_non_lab/02_past_medical_history/15_zhi_fang_gan_bing_shi_er_fen_lei_orange.png",
+  "red": "03_non_lab/02_past_medical_history/15_zhi_fang_gan_bing_shi_er_fen_lei_red.png",
+  "green": "03_non_lab/02_past_medical_history/15_zhi_fang_gan_bing_shi_er_fen_lei_green.png"
+ },
+ "15_zhi_fang_gan_bing_shi_-_bu_er_xing": {
+  "orange": "03_non_lab/02_past_medical_history/15_zhi_fang_gan_bing_shi_bu_er_xing_orange.png",
+  "red": "03_non_lab/02_past_medical_history/15_zhi_fang_gan_bing_shi_bu_er_xing_red.png",
+  "green": "03_non_lab/02_past_medical_history/15_zhi_fang_gan_bing_shi_bu_er_xing_green.png"
+ },
+ "16_man_xing_dan_dao_ji_bing_shi_ (_dan_nang_yan___jie_shi_deng_)-_er_fen_lei": {
+  "red": "03_non_lab/02_past_medical_history/16_man_xing_dan_dao_ji_bing_shi_dan_nang_yan_jie_shi_deng_er_fen_lei_red.png",
+  "green": "03_non_lab/02_past_medical_history/16_man_xing_dan_dao_ji_bing_shi_dan_nang_yan_jie_shi_deng_er_fen_lei_green.png",
+  "orange": "03_non_lab/02_past_medical_history/16_man_xing_dan_dao_ji_bing_shi_dan_nang_yan_jie_shi_deng_er_fen_lei_orange.png"
+ },
+ "16_man_xing_dan_dao_ji_bing_shi_ (_dan_nang_yan___jie_shi_deng_)-_bu_er_xing": {
+  "orange": "03_non_lab/02_past_medical_history/16_man_xing_dan_dao_ji_bing_shi_dan_nang_yan_jie_shi_deng_bu_er_xing_orange.png",
+  "red": "03_non_lab/02_past_medical_history/16_man_xing_dan_dao_ji_bing_shi_dan_nang_yan_jie_shi_deng_bu_er_xing_red.png",
+  "green": "03_non_lab/02_past_medical_history/16_man_xing_dan_dao_ji_bing_shi_dan_nang_yan_jie_shi_deng_bu_er_xing_green.png"
+ },
+ "17_dan_jie_shi_shi_)-_er_fen_lei": {
+  "orange": "03_non_lab/02_past_medical_history/17_dan_jie_shi_shi_er_fen_lei_orange.png",
+  "red": "03_non_lab/02_past_medical_history/17_dan_jie_shi_shi_er_fen_lei_red.png",
+  "green": "03_non_lab/02_past_medical_history/17_dan_jie_shi_shi_er_fen_lei_green.png"
+ },
+ "17_dan_jie_shi_shi_-_bu_er_xing": {
+  "orange": "03_non_lab/02_past_medical_history/17_dan_jie_shi_shi_bu_er_xing_orange.png",
+  "red": "03_non_lab/02_past_medical_history/17_dan_jie_shi_shi_bu_er_xing_red.png",
+  "green": "03_non_lab/02_past_medical_history/17_dan_jie_shi_shi_bu_er_xing_green.png"
+ },
+ "18_man_xing_lan_wei_yan_huo_lan_wei_qie_chu_shi_-_er_fen_lei": {
+  "orange": "03_non_lab/02_past_medical_history/18_man_xing_lan_wei_yan_huo_lan_wei_qie_chu_shi_er_fen_lei_orange.png",
+  "red": "03_non_lab/02_past_medical_history/18_man_xing_lan_wei_yan_huo_lan_wei_qie_chu_shi_er_fen_lei_red.png",
+  "green": "03_non_lab/02_past_medical_history/18_man_xing_lan_wei_yan_huo_lan_wei_qie_chu_shi_er_fen_lei_green.png"
+ },
+ "18_man_xing_lan_wei_yan_huo_lan_wei_qie_chu_shi_-_bu_er_xing": {
+  "orange": "03_non_lab/02_past_medical_history/18_man_xing_lan_wei_yan_huo_lan_wei_qie_chu_shi_bu_er_xing_orange.png",
+  "red": "03_non_lab/02_past_medical_history/18_man_xing_lan_wei_yan_huo_lan_wei_qie_chu_shi_bu_er_xing_red.png",
+  "green": "03_non_lab/02_past_medical_history/18_man_xing_lan_wei_yan_huo_lan_wei_qie_chu_shi_bu_er_xing_green.png"
+ },
+ "1_ji_wang_ai_zheng_shi_-_bu_er_xing": {
+  "red": "03_non_lab/02_past_medical_history/1_ji_wang_ai_zheng_shi_bu_er_xing_red.png",
+  "orange": "03_non_lab/02_past_medical_history/1_ji_wang_ai_zheng_shi_bu_er_xing_orange.png",
+  "green": "03_non_lab/02_past_medical_history/1_ji_wang_ai_zheng_shi_bu_er_xing_green.png"
+ },
+ "22_yi_yu_shi_-_bu_er_xing": {
+  "orange": "03_non_lab/02_past_medical_history/22_yi_yu_shi_bu_er_xing_orange.png",
+  "red": "03_non_lab/02_past_medical_history/22_yi_yu_shi_bu_er_xing_red.png",
+  "green": "03_non_lab/02_past_medical_history/22_yi_yu_shi_bu_er_xing_green.png"
+ },
+ "2_shi_fou_you_ren_shen_gao_xue_ya_-_er_fen_lei": {
+  "green": "03_non_lab/02_past_medical_history/2_shi_fou_you_ren_shen_gao_xue_ya_er_fen_lei_green.png",
+  "orange": "03_non_lab/02_past_medical_history/2_shi_fou_you_ren_shen_gao_xue_ya_er_fen_lei_orange.png",
+  "red": "03_non_lab/02_past_medical_history/2_shi_fou_you_ren_shen_gao_xue_ya_er_fen_lei_red.png"
+ },
+ "5_shi_fou_you_xin_xue_guan_ji_bing_-_er_fen_lei": {
+  "red": "03_non_lab/02_past_medical_history/5_shi_fou_you_xin_xue_guan_ji_bing_er_fen_lei_red.png",
+  "orange": "03_non_lab/02_past_medical_history/5_shi_fou_you_xin_xue_guan_ji_bing_er_fen_lei_orange.png",
+  "green": "03_non_lab/02_past_medical_history/5_shi_fou_you_xin_xue_guan_ji_bing_er_fen_lei_green.png"
+ },
+ "19_ben_ren_chang_dao_xi_rou_shi_-_er_fen_lei": {
+  "orange": "03_non_lab/02_past_medical_history/19_ben_ren_chang_dao_xi_rou_shi_er_fen_lei_orange.png",
+  "red": "03_non_lab/02_past_medical_history/19_ben_ren_chang_dao_xi_rou_shi_er_fen_lei_red.png",
+  "green": "03_non_lab/02_past_medical_history/19_ben_ren_chang_dao_xi_rou_shi_er_fen_lei_green.png"
+ },
+ "19_ben_ren_chang_dao_xi_rou_shi_-_bu_er_xing": {
+  "orange": "03_non_lab/02_past_medical_history/19_ben_ren_chang_dao_xi_rou_shi_bu_er_xing_orange.png",
+  "red": "03_non_lab/02_past_medical_history/19_ben_ren_chang_dao_xi_rou_shi_bu_er_xing_red.png",
+  "green": "03_non_lab/02_past_medical_history/19_ben_ren_chang_dao_xi_rou_shi_bu_er_xing_green.png"
+ },
+ "1_shi_fou_you_gao_xue_ya_-_er_fen_lei": {
+  "orange": "03_non_lab/02_past_medical_history/1_shi_fou_you_gao_xue_ya_er_fen_lei_orange.png",
+  "red": "03_non_lab/02_past_medical_history/1_shi_fou_you_gao_xue_ya_er_fen_lei_red.png",
+  "green": "03_non_lab/02_past_medical_history/1_shi_fou_you_gao_xue_ya_er_fen_lei_green.png"
+ },
+ "1_shi_fou_you_gao_xue_ya_-_bu_er_xing": {
+  "orange": "03_non_lab/02_past_medical_history/1_shi_fou_you_gao_xue_ya_bu_er_xing_orange.png",
+  "red": "03_non_lab/02_past_medical_history/1_shi_fou_you_gao_xue_ya_bu_er_xing_red.png",
+  "green": "03_non_lab/02_past_medical_history/1_shi_fou_you_gao_xue_ya_bu_er_xing_green.png"
+ },
+ "1_ji_wang_ai_zheng_shi_-_er_fen_lei": {
+  "orange": "03_non_lab/02_past_medical_history/1_ji_wang_ai_zheng_shi_er_fen_lei_orange.png",
+  "red": "03_non_lab/02_past_medical_history/1_ji_wang_ai_zheng_shi_er_fen_lei_red.png",
+  "green": "03_non_lab/02_past_medical_history/1_ji_wang_ai_zheng_shi_er_fen_lei_green.png"
+ },
+ "2_e_xing_zhong_liu_bing_shi_-_er_fen_lei": {
+  "orange": "03_non_lab/02_past_medical_history/2_e_xing_zhong_liu_bing_shi_er_fen_lei_orange.png",
+  "red": "03_non_lab/02_past_medical_history/2_e_xing_zhong_liu_bing_shi_er_fen_lei_red.png",
+  "green": "03_non_lab/02_past_medical_history/2_e_xing_zhong_liu_bing_shi_er_fen_lei_green.png"
+ },
+ "2_ji_wang_ai_zheng_shi_-_bu_er_xing": {
+  "orange": "03_non_lab/02_past_medical_history/2_ji_wang_ai_zheng_shi_bu_er_xing_orange.png",
+  "red": "03_non_lab/02_past_medical_history/2_ji_wang_ai_zheng_shi_bu_er_xing_red.png",
+  "green": "03_non_lab/02_past_medical_history/2_ji_wang_ai_zheng_shi_bu_er_xing_green.png"
+ },
+ "21_ru_xian_liang_xing_bing_shi_-_er_fen_lei": {
+  "orange": "03_non_lab/02_past_medical_history/21_ru_xian_liang_xing_bing_shi_er_fen_lei_orange.png",
+  "green": "03_non_lab/02_past_medical_history/21_ru_xian_liang_xing_bing_shi_er_fen_lei_green.png"
+ },
+ "21_ru_xian_liang_xing_bing_shi_-_bu_er_xing": {
+  "orange": "03_non_lab/02_past_medical_history/21_ru_xian_liang_xing_bing_shi_bu_er_xing_orange.png",
+  "red": "03_non_lab/02_past_medical_history/21_ru_xian_liang_xing_bing_shi_bu_er_xing_red.png",
+  "green": "03_non_lab/02_past_medical_history/21_ru_xian_liang_xing_bing_shi_bu_er_xing_green.png"
+ },
+ "22_yi_yu_shi_-_er_fen_lei": {
+  "orange": "03_non_lab/02_past_medical_history/22_yi_yu_shi_er_fen_lei_orange.png",
+  "red": "03_non_lab/02_past_medical_history/22_yi_yu_shi_er_fen_lei_red.png",
+  "green": "03_non_lab/02_past_medical_history/22_yi_yu_shi_er_fen_lei_green.png"
+ },
+ "23_duo_nang_luan_chao_shi_-_er_fen_lei": {
+  "orange": "03_non_lab/02_past_medical_history/23_duo_nang_luan_chao_shi_er_fen_lei_orange.png",
+  "red": "03_non_lab/02_past_medical_history/23_duo_nang_luan_chao_shi_er_fen_lei_red.png",
+  "green": "03_non_lab/02_past_medical_history/23_duo_nang_luan_chao_shi_er_fen_lei_green.png"
+ },
+ "23_duo_nang_luan_chao_shi_-_bu_er_xing": {
+  "orange": "03_non_lab/02_past_medical_history/23_duo_nang_luan_chao_shi_bu_er_xing_orange.png",
+  "red": "03_non_lab/02_past_medical_history/23_duo_nang_luan_chao_shi_bu_er_xing_red.png",
+  "green": "03_non_lab/02_past_medical_history/23_duo_nang_luan_chao_shi_bu_er_xing_green.png"
+ },
+ "24_te_ying_xing_pi_yan_shi_-_er_fen_lei": {
+  "orange": "03_non_lab/02_past_medical_history/24_te_ying_xing_pi_yan_shi_er_fen_lei_orange.png",
+  "red": "03_non_lab/02_past_medical_history/24_te_ying_xing_pi_yan_shi_er_fen_lei_red.png",
+  "green": "03_non_lab/02_past_medical_history/24_te_ying_xing_pi_yan_shi_er_fen_lei_green.png"
+ },
+ "24_te_ying_xing_pi_yan_shi_-_bu_er_xing": {
+  "orange": "03_non_lab/02_past_medical_history/24_te_ying_xing_pi_yan_shi_bu_er_xing_orange.png",
+  "red": "03_non_lab/02_past_medical_history/24_te_ying_xing_pi_yan_shi_bu_er_xing_red.png",
+  "green": "03_non_lab/02_past_medical_history/24_te_ying_xing_pi_yan_shi_bu_er_xing_green.png"
+ },
+ "2_shi_fou_you_ren_shen_gao_xue_ya_-_bu_er_xing": {
+  "orange": "03_non_lab/02_past_medical_history/2_shi_fou_you_ren_shen_gao_xue_ya_bu_er_xing_orange.png",
+  "red": "03_non_lab/02_past_medical_history/2_shi_fou_you_ren_shen_gao_xue_ya_bu_er_xing_red.png",
+  "green": "03_non_lab/02_past_medical_history/2_shi_fou_you_ren_shen_gao_xue_ya_bu_er_xing_green.png"
+ },
+ "3_ji_wang_shi_fou_you_Ⅱ_xing_tang_niao_bing_-_er_fen_lei": {
+  "orange": "03_non_lab/02_past_medical_history/3_ji_wang_shi_fou_you_xing_tang_niao_bing_er_fen_lei_orange.png",
+  "red": "03_non_lab/02_past_medical_history/3_ji_wang_shi_fou_you_xing_tang_niao_bing_er_fen_lei_red.png",
+  "green": "03_non_lab/02_past_medical_history/3_ji_wang_shi_fou_you_xing_tang_niao_bing_er_fen_lei_green.png"
+ },
+ "3_ji_wang_shi_fou_you_Ⅱ_xing_tang_niao_bing_-_bu_er_xing": {
+  "orange": "03_non_lab/02_past_medical_history/3_ji_wang_shi_fou_you_xing_tang_niao_bing_bu_er_xing_orange.png",
+  "red": "03_non_lab/02_past_medical_history/3_ji_wang_shi_fou_you_xing_tang_niao_bing_bu_er_xing_red.png",
+  "green": "03_non_lab/02_past_medical_history/3_ji_wang_shi_fou_you_xing_tang_niao_bing_bu_er_xing_green.png"
+ },
+ "4_tang_niao_bing_que_zhen_huan_bing_nian_ling_-_li_san": {
+  "orange": "03_non_lab/02_past_medical_history/4_tang_niao_bing_que_zhen_huan_bing_nian_ling_li_san_orange.png",
+  "red": "03_non_lab/02_past_medical_history/4_tang_niao_bing_que_zhen_huan_bing_nian_ling_li_san_red.png",
+  "green": "03_non_lab/02_past_medical_history/4_tang_niao_bing_que_zhen_huan_bing_nian_ling_li_san_green.png"
+ },
+ "4_tang_niao_bing_que_zhen_huan_bing_nian_ling_-_ji_shu_xing": {
+  "orange": "03_non_lab/02_past_medical_history/4_tang_niao_bing_que_zhen_huan_bing_nian_ling_ji_shu_xing_orange.png",
+  "red": "03_non_lab/02_past_medical_history/4_tang_niao_bing_que_zhen_huan_bing_nian_ling_ji_shu_xing_red.png",
+  "green": "03_non_lab/02_past_medical_history/4_tang_niao_bing_que_zhen_huan_bing_nian_ling_ji_shu_xing_green.png"
+ },
+ "5_shi_fou_you_xin_xue_guan_ji_bing_-_bu_er_xing": {
+  "orange": "03_non_lab/02_past_medical_history/5_shi_fou_you_xin_xue_guan_ji_bing_bu_er_xing_orange.png",
+  "red": "03_non_lab/02_past_medical_history/5_shi_fou_you_xin_xue_guan_ji_bing_bu_er_xing_red.png",
+  "green": "03_non_lab/02_past_medical_history/5_shi_fou_you_xin_xue_guan_ji_bing_bu_er_xing_green.png"
+ },
+ "6_shi_fou_you_fang_chan_-_er_fen_lei": {
+  "orange": "03_non_lab/02_past_medical_history/6_shi_fou_you_fang_chan_er_fen_lei_orange.png",
+  "red": "03_non_lab/02_past_medical_history/6_shi_fou_you_fang_chan_er_fen_lei_red.png",
+  "green": "03_non_lab/02_past_medical_history/6_shi_fou_you_fang_chan_er_fen_lei_green.png"
+ },
+ "6_shi_fou_you_fang_chan_-_bu_er_xing": {
+  "orange": "03_non_lab/02_past_medical_history/6_shi_fou_you_fang_chan_bu_er_xing_orange.png",
+  "red": "03_non_lab/02_past_medical_history/6_shi_fou_you_fang_chan_bu_er_xing_red.png",
+  "green": "03_non_lab/02_past_medical_history/6_shi_fou_you_fang_chan_bu_er_xing_green.png"
+ },
+ "7_shi_fou_you_zuo_xin_shi_fei_hou_-_er_fen_lei": {
+  "orange": "03_non_lab/02_past_medical_history/7_shi_fou_you_zuo_xin_shi_fei_hou_er_fen_lei_orange.png",
+  "red": "03_non_lab/02_past_medical_history/7_shi_fou_you_zuo_xin_shi_fei_hou_er_fen_lei_red.png",
+  "green": "03_non_lab/02_past_medical_history/7_shi_fou_you_zuo_xin_shi_fei_hou_er_fen_lei_green.png"
+ },
+ "7_shi_fou_you_zuo_xin_shi_fei_hou_-_bu_er_xing": {
+  "orange": "03_non_lab/02_past_medical_history/7_shi_fou_you_zuo_xin_shi_fei_hou_bu_er_xing_orange.png",
+  "red": "03_non_lab/02_past_medical_history/7_shi_fou_you_zuo_xin_shi_fei_hou_bu_er_xing_red.png",
+  "green": "03_non_lab/02_past_medical_history/7_shi_fou_you_zuo_xin_shi_fei_hou_bu_er_xing_green.png"
+ },
+ "8_shi_fou_you_zhong_feng_-_er_fen_lei": {
+  "orange": "03_non_lab/02_past_medical_history/8_shi_fou_you_zhong_feng_er_fen_lei_orange.png",
+  "red": "03_non_lab/02_past_medical_history/8_shi_fou_you_zhong_feng_er_fen_lei_red.png",
+  "green": "03_non_lab/02_past_medical_history/8_shi_fou_you_zhong_feng_er_fen_lei_green.png"
+ },
+ "8_shi_fou_you_zhong_feng_-_bu_er_xing": {
+  "orange": "03_non_lab/02_past_medical_history/8_shi_fou_you_zhong_feng_bu_er_xing_orange.png",
+  "red": "03_non_lab/02_past_medical_history/8_shi_fou_you_zhong_feng_bu_er_xing_red.png",
+  "green": "03_non_lab/02_past_medical_history/8_shi_fou_you_zhong_feng_bu_er_xing_green.png"
+ },
+ "9_shi_fou_you_wai_zhou_xue_guan_ji_bing_-_er_fen_lei": {
+  "orange": "03_non_lab/02_past_medical_history/9_shi_fou_you_wai_zhou_xue_guan_ji_bing_er_fen_lei_orange.png",
+  "red": "03_non_lab/02_past_medical_history/9_shi_fou_you_wai_zhou_xue_guan_ji_bing_er_fen_lei_red.png",
+  "green": "03_non_lab/02_past_medical_history/9_shi_fou_you_wai_zhou_xue_guan_ji_bing_er_fen_lei_green.png"
+ },
+ "9_shi_fou_you_wai_zhou_xue_guan_ji_bing_-_bu_er_xing": {
+  "orange": "03_non_lab/02_past_medical_history/9_shi_fou_you_wai_zhou_xue_guan_ji_bing_bu_er_xing_orange.png",
+  "red": "03_non_lab/02_past_medical_history/9_shi_fou_you_wai_zhou_xue_guan_ji_bing_bu_er_xing_red.png",
+  "green": "03_non_lab/02_past_medical_history/9_shi_fou_you_wai_zhou_xue_guan_ji_bing_bu_er_xing_green.png"
+ },
+ "10_man_xing_bian_mi_- _bu_er_xing": {
+  "orange": "03_non_lab/03_symptoms_signs/10_man_xing_bian_mi_bu_er_xing_orange.png",
+  "red": "03_non_lab/03_symptoms_signs/10_man_xing_bian_mi_bu_er_xing_red.png",
+  "green": "03_non_lab/03_symptoms_signs/10_man_xing_bian_mi_bu_er_xing_green.png"
+ },
+ "10_man_xing_bian_mi_-_er_fen_lei": {
+  "orange": "03_non_lab/03_symptoms_signs/10_man_xing_bian_mi_er_fen_lei_orange.png",
+  "red": "03_non_lab/03_symptoms_signs/10_man_xing_bian_mi_er_fen_lei_red.png",
+  "green": "03_non_lab/03_symptoms_signs/10_man_xing_bian_mi_er_fen_lei_green.png"
+ },
+ "11_man_xing_fu_xie_- _bu_er_xing": {
+  "orange": "03_non_lab/03_symptoms_signs/11_man_xing_fu_xie_bu_er_xing_orange.png",
+  "red": "03_non_lab/03_symptoms_signs/11_man_xing_fu_xie_bu_er_xing_red.png",
+  "green": "03_non_lab/03_symptoms_signs/11_man_xing_fu_xie_bu_er_xing_green.png"
+ },
+ "11_man_xing_fu_xie_-_er_fen_lei": {
+  "orange": "03_non_lab/03_symptoms_signs/11_man_xing_fu_xie_er_fen_lei_orange.png",
+  "red": "03_non_lab/03_symptoms_signs/11_man_xing_fu_xie_er_fen_lei_red.png",
+  "green": "03_non_lab/03_symptoms_signs/11_man_xing_fu_xie_er_fen_lei_green.png"
+ },
+ "12_nian_ye_xue_bian_- _bu_er_xing": {
+  "orange": "03_non_lab/03_symptoms_signs/12_nian_ye_xue_bian_bu_er_xing_orange.png",
+  "red": "03_non_lab/03_symptoms_signs/12_nian_ye_xue_bian_bu_er_xing_red.png",
+  "green": "03_non_lab/03_symptoms_signs/12_nian_ye_xue_bian_bu_er_xing_green.png"
+ },
+ "12_nian_ye_xue_bian_-_er_fen_lei": {
+  "orange": "03_non_lab/03_symptoms_signs/12_nian_ye_xue_bian_er_fen_lei_orange.png",
+  "green": "03_non_lab/03_symptoms_signs/12_nian_ye_xue_bian_er_fen_lei_green.png",
+  "red": "03_non_lab/03_symptoms_signs/12_nian_ye_xue_bian_er_fen_lei_red.png"
+ },
+ "13_bu_ming_yuan_yin_xiao_shou_- _bu_er_xing": {
+  "orange": "03_non_lab/03_symptoms_signs/13_bu_ming_yuan_yin_xiao_shou_bu_er_xing_orange.png",
+  "red": "03_non_lab/03_symptoms_signs/13_bu_ming_yuan_yin_xiao_shou_bu_er_xing_red.png",
+  "green": "03_non_lab/03_symptoms_signs/13_bu_ming_yuan_yin_xiao_shou_bu_er_xing_green.png"
+ },
+ "13_bu_ming_yuan_yin_xiao_shou_-_er_fen_lei": {
+  "orange": "03_non_lab/03_symptoms_signs/13_bu_ming_yuan_yin_xiao_shou_er_fen_lei_orange.png",
+  "red": "03_non_lab/03_symptoms_signs/13_bu_ming_yuan_yin_xiao_shou_er_fen_lei_red.png",
+  "green": "03_non_lab/03_symptoms_signs/13_bu_ming_yuan_yin_xiao_shou_er_fen_lei_green.png"
+ },
+ "14_da_han_- _bu_er_xing": {
+  "orange": "03_non_lab/03_symptoms_signs/14_da_han_bu_er_xing_orange.png",
+  "red": "03_non_lab/03_symptoms_signs/14_da_han_bu_er_xing_red.png",
+  "green": "03_non_lab/03_symptoms_signs/14_da_han_bu_er_xing_green.png"
+ },
+ "14_da_han_-_er_fen_lei": {
+  "orange": "03_non_lab/03_symptoms_signs/14_da_han_er_fen_lei_orange.png",
+  "red": "03_non_lab/03_symptoms_signs/14_da_han_er_fen_lei_red.png",
+  "green": "03_non_lab/03_symptoms_signs/14_da_han_er_fen_lei_green.png"
+ },
+ "15_ya_chi_que_shi_- _bu_er_xing": {
+  "orange": "03_non_lab/03_symptoms_signs/15_ya_chi_que_shi_bu_er_xing_orange.png",
+  "red": "03_non_lab/03_symptoms_signs/15_ya_chi_que_shi_bu_er_xing_red.png",
+  "green": "03_non_lab/03_symptoms_signs/15_ya_chi_que_shi_bu_er_xing_green.png"
+ },
+ "15_ya_chi_que_shi_-_er_fen_lei": {
+  "red": "03_non_lab/03_symptoms_signs/15_ya_chi_que_shi_er_fen_lei_red.png",
+  "green": "03_non_lab/03_symptoms_signs/15_ya_chi_que_shi_er_fen_lei_green.png",
+  "orange": "03_non_lab/03_symptoms_signs/15_ya_chi_que_shi_er_fen_lei_orange.png"
+ },
+ "16_yi_nian_qian_de_ti_zhong_shu_zhi_-_chi_cun": {
+  "orange": "03_non_lab/03_symptoms_signs/16_yi_nian_qian_de_ti_zhong_shu_zhi_chi_cun_orange.png",
+  "red": "03_non_lab/03_symptoms_signs/16_yi_nian_qian_de_ti_zhong_shu_zhi_chi_cun_red.png",
+  "green": "03_non_lab/03_symptoms_signs/16_yi_nian_qian_de_ti_zhong_shu_zhi_chi_cun_green.png"
+ },
+ "16_yi_nian_qian_de_ti_zhong_shu_zhi_-_xing_tai": {
+  "orange": "03_non_lab/03_symptoms_signs/16_yi_nian_qian_de_ti_zhong_shu_zhi_xing_tai_orange.png",
+  "red": "03_non_lab/03_symptoms_signs/16_yi_nian_qian_de_ti_zhong_shu_zhi_xing_tai_red.png",
+  "green": "03_non_lab/03_symptoms_signs/16_yi_nian_qian_de_ti_zhong_shu_zhi_xing_tai_green.png"
+ },
+ "16_yi_nian_qian_de_ti_zhong_shu_zhi_-_she_ru_liang": {
+  "orange": "03_non_lab/03_symptoms_signs/16_yi_nian_qian_de_ti_zhong_shu_zhi_she_ru_liang_orange.png",
+  "red": "03_non_lab/03_symptoms_signs/16_yi_nian_qian_de_ti_zhong_shu_zhi_she_ru_liang_red.png",
+  "green": "03_non_lab/03_symptoms_signs/16_yi_nian_qian_de_ti_zhong_shu_zhi_she_ru_liang_green.png"
+ },
+ "16_yi_nian_qian_de_ti_zhong_shu_zhi_-_lian_xu_shu_zhi_xing": {
+  "orange": "03_non_lab/03_symptoms_signs/16_yi_nian_qian_de_ti_zhong_shu_zhi_lian_xu_shu_zhi_xing_orange.png",
+  "red": "03_non_lab/03_symptoms_signs/16_yi_nian_qian_de_ti_zhong_shu_zhi_lian_xu_shu_zhi_xing_red.png",
+  "green": "03_non_lab/03_symptoms_signs/16_yi_nian_qian_de_ti_zhong_shu_zhi_lian_xu_shu_zhi_xing_green.png"
+ },
+ "17_ti_zhong_bian_hua_qing_kuang_-_chi_cun": {
+  "orange": "03_non_lab/03_symptoms_signs/17_ti_zhong_bian_hua_qing_kuang_chi_cun_orange.png",
+  "red": "03_non_lab/03_symptoms_signs/17_ti_zhong_bian_hua_qing_kuang_chi_cun_red.png",
+  "green": "03_non_lab/03_symptoms_signs/17_ti_zhong_bian_hua_qing_kuang_chi_cun_green.png"
+ },
+ "17_ti_zhong_bian_hua_qing_kuang_-_xing_tai": {
+  "orange": "03_non_lab/03_symptoms_signs/17_ti_zhong_bian_hua_qing_kuang_xing_tai_orange.png",
+  "red": "03_non_lab/03_symptoms_signs/17_ti_zhong_bian_hua_qing_kuang_xing_tai_red.png",
+  "green": "03_non_lab/03_symptoms_signs/17_ti_zhong_bian_hua_qing_kuang_xing_tai_green.png"
+ },
+ "17_ti_zhong_bian_hua_qing_kuang_-_she_ru_liang": {
+  "orange": "03_non_lab/03_symptoms_signs/17_ti_zhong_bian_hua_qing_kuang_she_ru_liang_orange.png",
+  "red": "03_non_lab/03_symptoms_signs/17_ti_zhong_bian_hua_qing_kuang_she_ru_liang_red.png",
+  "green": "03_non_lab/03_symptoms_signs/17_ti_zhong_bian_hua_qing_kuang_she_ru_liang_green.png"
+ },
+ "17_ti_zhong_bian_hua_qing_kuang_-_lian_xu_shu_zhi_xing": {
+  "orange": "03_non_lab/03_symptoms_signs/17_ti_zhong_bian_hua_qing_kuang_lian_xu_shu_zhi_xing_orange.png",
+  "red": "03_non_lab/03_symptoms_signs/17_ti_zhong_bian_hua_qing_kuang_lian_xu_shu_zhi_xing_red.png",
+  "green": "03_non_lab/03_symptoms_signs/17_ti_zhong_bian_hua_qing_kuang_lian_xu_shu_zhi_xing_green.png"
+ },
+ "1_san_sui_qian_shi_fou_you_shi_zhen_-_er_fen_lei": {
+  "orange": "03_non_lab/03_symptoms_signs/1_san_sui_qian_shi_fou_you_shi_zhen_er_fen_lei_orange.png",
+  "red": "03_non_lab/03_symptoms_signs/1_san_sui_qian_shi_fou_you_shi_zhen_er_fen_lei_red.png",
+  "green": "03_non_lab/03_symptoms_signs/1_san_sui_qian_shi_fou_you_shi_zhen_er_fen_lei_green.png"
+ },
+ "1_san_sui_qian_shi_fou_you_shi_zhen_-_bu_er_xing": {
+  "orange": "03_non_lab/03_symptoms_signs/1_san_sui_qian_shi_fou_you_shi_zhen_bu_er_xing_orange.png",
+  "red": "03_non_lab/03_symptoms_signs/1_san_sui_qian_shi_fou_you_shi_zhen_bu_er_xing_red.png",
+  "green": "03_non_lab/03_symptoms_signs/1_san_sui_qian_shi_fou_you_shi_zhen_bu_er_xing_green.png"
+ },
+ "3_sui_yi_qian_ceng_chu_xian_guo_chuan_xi_-_er_fen_lei": {
+  "orange": "03_non_lab/03_symptoms_signs/3_sui_yi_qian_ceng_chu_xian_guo_chuan_xi_er_fen_lei_orange.png",
+  "red": "03_non_lab/03_symptoms_signs/3_sui_yi_qian_ceng_chu_xian_guo_chuan_xi_er_fen_lei_red.png",
+  "green": "03_non_lab/03_symptoms_signs/3_sui_yi_qian_ceng_chu_xian_guo_chuan_xi_er_fen_lei_green.png"
+ },
+ "5_pin_fan_ke_sou_-_er_fen_lei": {
+  "orange": "03_non_lab/03_symptoms_signs/5_pin_fan_ke_sou_er_fen_lei_orange.png",
+  "red": "03_non_lab/03_symptoms_signs/5_pin_fan_ke_sou_er_fen_lei_red.png",
+  "green": "03_non_lab/03_symptoms_signs/5_pin_fan_ke_sou_er_fen_lei_green.png"
+ },
+ "7_tun_yan_kun_nan_- _bu_er_xing": {
+  "orange": "03_non_lab/03_symptoms_signs/7_tun_yan_kun_nan_bu_er_xing_orange.png",
+  "red": "03_non_lab/03_symptoms_signs/7_tun_yan_kun_nan_bu_er_xing_red.png",
+  "green": "03_non_lab/03_symptoms_signs/7_tun_yan_kun_nan_bu_er_xing_green.png"
+ },
+ "3_sui_yi_qian_ceng_chu_xian_guo_chuan_xi_-_bu_er_xing": {
+  "orange": "03_non_lab/03_symptoms_signs/3_sui_yi_qian_ceng_chu_xian_guo_chuan_xi_bu_er_xing_orange.png",
+  "red": "03_non_lab/03_symptoms_signs/3_sui_yi_qian_ceng_chu_xian_guo_chuan_xi_bu_er_xing_red.png",
+  "green": "03_non_lab/03_symptoms_signs/3_sui_yi_qian_ceng_chu_xian_guo_chuan_xi_bu_er_xing_green.png"
+ },
+ "3_gan_mao_yi_wai_de_chuan_xi_-_er_fen_lei": {
+  "orange": "03_non_lab/03_symptoms_signs/3_gan_mao_yi_wai_de_chuan_xi_er_fen_lei_orange.png",
+  "red": "03_non_lab/03_symptoms_signs/3_gan_mao_yi_wai_de_chuan_xi_er_fen_lei_red.png",
+  "green": "03_non_lab/03_symptoms_signs/3_gan_mao_yi_wai_de_chuan_xi_er_fen_lei_green.png"
+ },
+ "3_gan_mao_yi_wai_de_chuan_xi_-_bu_er_xing": {
+  "orange": "03_non_lab/03_symptoms_signs/3_gan_mao_yi_wai_de_chuan_xi_bu_er_xing_orange.png",
+  "red": "03_non_lab/03_symptoms_signs/3_gan_mao_yi_wai_de_chuan_xi_bu_er_xing_red.png",
+  "green": "03_non_lab/03_symptoms_signs/3_gan_mao_yi_wai_de_chuan_xi_bu_er_xing_green.png"
+ },
+ "4_yi_nian_nei_chuan_xi_fa_zuo_ci_shu_-_li_san": {
+  "orange": "03_non_lab/03_symptoms_signs/4_yi_nian_nei_chuan_xi_fa_zuo_ci_shu_li_san_orange.png",
+  "red": "03_non_lab/03_symptoms_signs/4_yi_nian_nei_chuan_xi_fa_zuo_ci_shu_li_san_red.png",
+  "green": "03_non_lab/03_symptoms_signs/4_yi_nian_nei_chuan_xi_fa_zuo_ci_shu_li_san_green.png"
+ },
+ "4_yi_nian_nei_chuan_xi_fa_zuo_ci_shu_-_ji_shu_xing": {
+  "orange": "03_non_lab/03_symptoms_signs/4_yi_nian_nei_chuan_xi_fa_zuo_ci_shu_ji_shu_xing_orange.png",
+  "red": "03_non_lab/03_symptoms_signs/4_yi_nian_nei_chuan_xi_fa_zuo_ci_shu_ji_shu_xing_red.png",
+  "green": "03_non_lab/03_symptoms_signs/4_yi_nian_nei_chuan_xi_fa_zuo_ci_shu_ji_shu_xing_green.png"
+ },
+ "5_pin_fan_ke_sou_-_bu_er_xing": {
+  "orange": "03_non_lab/03_symptoms_signs/5_pin_fan_ke_sou_bu_er_xing_orange.png",
+  "red": "03_non_lab/03_symptoms_signs/5_pin_fan_ke_sou_bu_er_xing_red.png",
+  "green": "03_non_lab/03_symptoms_signs/5_pin_fan_ke_sou_bu_er_xing_green.png"
+ },
+ "1_qi_cu_-_you_xu_duo_fen_lei": {
+  "orange": "03_non_lab/03_symptoms_signs/1_qi_cu_you_xu_duo_fen_lei_orange.png",
+  "red": "03_non_lab/03_symptoms_signs/1_qi_cu_you_xu_duo_fen_lei_red.png",
+  "green": "03_non_lab/03_symptoms_signs/1_qi_cu_you_xu_duo_fen_lei_green.png"
+ },
+ "1_qi_cu_-_deng_ji": {
+  "orange": "03_non_lab/03_symptoms_signs/1_qi_cu_deng_ji_orange.png",
+  "red": "03_non_lab/03_symptoms_signs/1_qi_cu_deng_ji_red.png",
+  "green": "03_non_lab/03_symptoms_signs/1_qi_cu_deng_ji_green.png"
+ },
+ "2_hu_xi_kun_nan_cheng_du_-_you_xu_duo_fen_lei": {
+  "orange": "03_non_lab/03_symptoms_signs/2_hu_xi_kun_nan_cheng_du_you_xu_duo_fen_lei_orange.png",
+  "red": "03_non_lab/03_symptoms_signs/2_hu_xi_kun_nan_cheng_du_you_xu_duo_fen_lei_red.png",
+  "green": "03_non_lab/03_symptoms_signs/2_hu_xi_kun_nan_cheng_du_you_xu_duo_fen_lei_green.png"
+ },
+ "2_hu_xi_kun_nan_cheng_du_-_deng_ji": {
+  "orange": "03_non_lab/03_symptoms_signs/2_hu_xi_kun_nan_cheng_du_deng_ji_orange.png",
+  "red": "03_non_lab/03_symptoms_signs/2_hu_xi_kun_nan_cheng_du_deng_ji_red.png",
+  "green": "03_non_lab/03_symptoms_signs/2_hu_xi_kun_nan_cheng_du_deng_ji_green.png"
+ },
+ "7_tun_yan_kun_nan_-_er_fen_lei": {
+  "orange": "03_non_lab/03_symptoms_signs/7_tun_yan_kun_nan_er_fen_lei_orange.png",
+  "red": "03_non_lab/03_symptoms_signs/7_tun_yan_kun_nan_er_fen_lei_red.png",
+  "green": "03_non_lab/03_symptoms_signs/7_tun_yan_kun_nan_er_fen_lei_green.png"
+ },
+ "8_xiong_gu_hou_teng_tong_- _bu_er_xing": {
+  "orange": "03_non_lab/03_symptoms_signs/8_xiong_gu_hou_teng_tong_bu_er_xing_orange.png",
+  "red": "03_non_lab/03_symptoms_signs/8_xiong_gu_hou_teng_tong_bu_er_xing_red.png",
+  "green": "03_non_lab/03_symptoms_signs/8_xiong_gu_hou_teng_tong_bu_er_xing_green.png"
+ },
+ "8_xiong_gu_hou_teng_tong_-_er_fen_lei": {
+  "orange": "03_non_lab/03_symptoms_signs/8_xiong_gu_hou_teng_tong_er_fen_lei_orange.png",
+  "red": "03_non_lab/03_symptoms_signs/8_xiong_gu_hou_teng_tong_er_fen_lei_red.png",
+  "green": "03_non_lab/03_symptoms_signs/8_xiong_gu_hou_teng_tong_er_fen_lei_green.png"
+ },
+ "9_shang_fu_teng_tong_- _bu_er_xing": {
+  "orange": "03_non_lab/03_symptoms_signs/9_shang_fu_teng_tong_bu_er_xing_orange.png",
+  "red": "03_non_lab/03_symptoms_signs/9_shang_fu_teng_tong_bu_er_xing_red.png",
+  "green": "03_non_lab/03_symptoms_signs/9_shang_fu_teng_tong_bu_er_xing_green.png"
+ },
+ "9_shang_fu_teng_tong_-_er_fen_lei": {
+  "orange": "03_non_lab/03_symptoms_signs/9_shang_fu_teng_tong_er_fen_lei_orange.png",
+  "red": "03_non_lab/03_symptoms_signs/9_shang_fu_teng_tong_er_fen_lei_red.png",
+  "green": "03_non_lab/03_symptoms_signs/9_shang_fu_teng_tong_er_fen_lei_green.png"
+ },
+ "3_chu_ci_sheng_yu_nian_ling_-_ji_shu_xing": {
+  "green": "03_non_lab/04_female_reproductive_history/3_chu_ci_sheng_yu_nian_ling_ji_shu_xing_green.png",
+  "orange": "03_non_lab/04_female_reproductive_history/3_chu_ci_sheng_yu_nian_ling_ji_shu_xing_orange.png",
+  "red": "03_non_lab/04_female_reproductive_history/3_chu_ci_sheng_yu_nian_ling_ji_shu_xing_red.png"
+ },
+ "1_chu_chao_nian_ling_-_li_san": {
+  "orange": "03_non_lab/04_female_reproductive_history/1_chu_chao_nian_ling_li_san_orange.png",
+  "red": "03_non_lab/04_female_reproductive_history/1_chu_chao_nian_ling_li_san_red.png",
+  "green": "03_non_lab/04_female_reproductive_history/1_chu_chao_nian_ling_li_san_green.png"
+ },
+ "1_chu_chao_nian_ling_-_ji_shu_xing": {
+  "orange": "03_non_lab/04_female_reproductive_history/1_chu_chao_nian_ling_ji_shu_xing_orange.png",
+  "red": "03_non_lab/04_female_reproductive_history/1_chu_chao_nian_ling_ji_shu_xing_red.png",
+  "green": "03_non_lab/04_female_reproductive_history/1_chu_chao_nian_ling_ji_shu_xing_green.png"
+ },
+ "2_liu_chan_ci_shu_-_li_san": {
+  "orange": "03_non_lab/04_female_reproductive_history/2_liu_chan_ci_shu_li_san_orange.png",
+  "red": "03_non_lab/04_female_reproductive_history/2_liu_chan_ci_shu_li_san_red.png",
+  "green": "03_non_lab/04_female_reproductive_history/2_liu_chan_ci_shu_li_san_green.png"
+ },
+ "2_liu_chan_ci_shu_-_ji_shu_xing": {
+  "orange": "03_non_lab/04_female_reproductive_history/2_liu_chan_ci_shu_ji_shu_xing_orange.png",
+  "red": "03_non_lab/04_female_reproductive_history/2_liu_chan_ci_shu_ji_shu_xing_red.png",
+  "green": "03_non_lab/04_female_reproductive_history/2_liu_chan_ci_shu_ji_shu_xing_green.png"
+ },
+ "3_chu_ci_sheng_yu_nian_ling_-_li_san": {
+  "orange": "03_non_lab/04_female_reproductive_history/3_chu_ci_sheng_yu_nian_ling_li_san_orange.png",
+  "red": "03_non_lab/04_female_reproductive_history/3_chu_ci_sheng_yu_nian_ling_li_san_red.png",
+  "green": "03_non_lab/04_female_reproductive_history/3_chu_ci_sheng_yu_nian_ling_li_san_green.png"
+ },
+ "4_huo_chan_shu_-_li_san": {
+  "orange": "03_non_lab/04_female_reproductive_history/4_huo_chan_shu_li_san_orange.png",
+  "red": "03_non_lab/04_female_reproductive_history/4_huo_chan_shu_li_san_red.png",
+  "green": "03_non_lab/04_female_reproductive_history/4_huo_chan_shu_li_san_green.png"
+ },
+ "4_huo_chan_shu_-_ji_shu_xing": {
+  "orange": "03_non_lab/04_female_reproductive_history/4_huo_chan_shu_ji_shu_xing_orange.png",
+  "red": "03_non_lab/04_female_reproductive_history/4_huo_chan_shu_ji_shu_xing_red.png",
+  "green": "03_non_lab/04_female_reproductive_history/4_huo_chan_shu_ji_shu_xing_green.png"
+ },
+ "5_shi_fou_jue_jing_-_er_fen_lei": {
+  "orange": "03_non_lab/04_female_reproductive_history/5_shi_fou_jue_jing_er_fen_lei_orange.png",
+  "red": "03_non_lab/04_female_reproductive_history/5_shi_fou_jue_jing_er_fen_lei_red.png",
+  "green": "03_non_lab/04_female_reproductive_history/5_shi_fou_jue_jing_er_fen_lei_green.png"
+ },
+ "5_shi_fou_jue_jing_-_bu_er_xing": {
+  "orange": "03_non_lab/04_female_reproductive_history/5_shi_fou_jue_jing_bu_er_xing_orange.png",
+  "red": "03_non_lab/04_female_reproductive_history/5_shi_fou_jue_jing_bu_er_xing_red.png",
+  "green": "03_non_lab/04_female_reproductive_history/5_shi_fou_jue_jing_bu_er_xing_green.png"
+ },
+ "6_ru_xian_huo_jian_ci_shu_-_li_san": {
+  "orange": "03_non_lab/04_female_reproductive_history/6_ru_xian_huo_jian_ci_shu_li_san_orange.png",
+  "red": "03_non_lab/04_female_reproductive_history/6_ru_xian_huo_jian_ci_shu_li_san_red.png",
+  "green": "03_non_lab/04_female_reproductive_history/6_ru_xian_huo_jian_ci_shu_li_san_green.png"
+ },
+ "6_ru_xian_huo_jian_ci_shu_-_ji_shu_xing": {
+  "orange": "03_non_lab/04_female_reproductive_history/6_ru_xian_huo_jian_ci_shu_ji_shu_xing_orange.png",
+  "red": "03_non_lab/04_female_reproductive_history/6_ru_xian_huo_jian_ci_shu_ji_shu_xing_red.png",
+  "green": "03_non_lab/04_female_reproductive_history/6_ru_xian_huo_jian_ci_shu_ji_shu_xing_green.png"
+ },
+ "10_shi_fou_you_2_wei_huo_yi_shang_yi_ji_qin_shu_huan_ai_ (_zong_ti_)-_er_fen_lei": {
+  "orange": "03_non_lab/05_family_genetic_history/10_shi_fou_you_2_wei_huo_yi_shang_yi_ji_qin_shu_huan_ai_zong_ti_er_fen_lei_orange.png",
+  "red": "03_non_lab/05_family_genetic_history/10_shi_fou_you_2_wei_huo_yi_shang_yi_ji_qin_shu_huan_ai_zong_ti_er_fen_lei_red.png",
+  "green": "03_non_lab/05_family_genetic_history/10_shi_fou_you_2_wei_huo_yi_shang_yi_ji_qin_shu_huan_ai_zong_ti_er_fen_lei_green.png"
+ },
+ "10_shi_fou_you_2_wei_huo_yi_shang_yi_ji_qin_shu_huan_ai_ (_zong_ti_)-_bu_er_xing": {
+  "orange": "03_non_lab/05_family_genetic_history/10_shi_fou_you_2_wei_huo_yi_shang_yi_ji_qin_shu_huan_ai_zong_ti_bu_er_xing_orange.png",
+  "red": "03_non_lab/05_family_genetic_history/10_shi_fou_you_2_wei_huo_yi_shang_yi_ji_qin_shu_huan_ai_zong_ti_bu_er_xing_red.png",
+  "green": "03_non_lab/05_family_genetic_history/10_shi_fou_you_2_wei_huo_yi_shang_yi_ji_qin_shu_huan_ai_zong_ti_bu_er_xing_green.png"
+ },
+ "1_gao_xue_ya_jia_zu_shi_-_er_fen_lei": {
+  "orange": "03_non_lab/05_family_genetic_history/1_gao_xue_ya_jia_zu_shi_er_fen_lei_orange.png",
+  "red": "03_non_lab/05_family_genetic_history/1_gao_xue_ya_jia_zu_shi_er_fen_lei_red.png",
+  "green": "03_non_lab/05_family_genetic_history/1_gao_xue_ya_jia_zu_shi_er_fen_lei_green.png"
+ },
+ "1_gao_xue_ya_jia_zu_shi_-_bu_er_xing": {
+  "orange": "03_non_lab/05_family_genetic_history/1_gao_xue_ya_jia_zu_shi_bu_er_xing_orange.png",
+  "red": "03_non_lab/05_family_genetic_history/1_gao_xue_ya_jia_zu_shi_bu_er_xing_red.png",
+  "green": "03_non_lab/05_family_genetic_history/1_gao_xue_ya_jia_zu_shi_bu_er_xing_green.png"
+ },
+ "2_tang_niao_bing_jia_zu_shi_-_er_fen_lei": {
+  "orange": "03_non_lab/05_family_genetic_history/2_tang_niao_bing_jia_zu_shi_er_fen_lei_orange.png",
+  "red": "03_non_lab/05_family_genetic_history/2_tang_niao_bing_jia_zu_shi_er_fen_lei_red.png",
+  "green": "03_non_lab/05_family_genetic_history/2_tang_niao_bing_jia_zu_shi_er_fen_lei_green.png"
+ },
+ "2_tang_niao_bing_jia_zu_shi_-_bu_er_xing": {
+  "red": "03_non_lab/05_family_genetic_history/2_tang_niao_bing_jia_zu_shi_bu_er_xing_red.png",
+  "green": "03_non_lab/05_family_genetic_history/2_tang_niao_bing_jia_zu_shi_bu_er_xing_green.png",
+  "orange": "03_non_lab/05_family_genetic_history/2_tang_niao_bing_jia_zu_shi_bu_er_xing_orange.png"
+ },
+ "3_dong_mai_zhou_yang_ying_hua_xing_xin_xue_guan_ji_bing_ (ASCVD) _jia_zu_shi_-_er_fen_lei": {
+  "orange": "03_non_lab/05_family_genetic_history/3_dong_mai_zhou_yang_ying_hua_xing_xin_xue_guan_ji_bing_ASCVD_jia_zu_shi_er_fen_lei_orange.png",
+  "red": "03_non_lab/05_family_genetic_history/3_dong_mai_zhou_yang_ying_hua_xing_xin_xue_guan_ji_bing_ASCVD_jia_zu_shi_er_fen_lei_red.png",
+  "green": "03_non_lab/05_family_genetic_history/3_dong_mai_zhou_yang_ying_hua_xing_xin_xue_guan_ji_bing_ASCVD_jia_zu_shi_er_fen_lei_green.png"
+ },
+ "3_dong_mai_zhou_yang_ying_hua_xing_xin_xue_guan_ji_bing_ (ASCVD) _jia_zu_shi_-_bu_er_xing": {
+  "orange": "03_non_lab/05_family_genetic_history/3_dong_mai_zhou_yang_ying_hua_xing_xin_xue_guan_ji_bing_ASCVD_jia_zu_shi_bu_er_xing_orange.png",
+  "red": "03_non_lab/05_family_genetic_history/3_dong_mai_zhou_yang_ying_hua_xing_xin_xue_guan_ji_bing_ASCVD_jia_zu_shi_bu_er_xing_red.png",
+  "green": "03_non_lab/05_family_genetic_history/3_dong_mai_zhou_yang_ying_hua_xing_xin_xue_guan_ji_bing_ASCVD_jia_zu_shi_bu_er_xing_green.png"
+ },
+ "4_fei_ai_jia_zu_shi_-_er_fen_lei": {
+  "orange": "03_non_lab/05_family_genetic_history/4_fei_ai_jia_zu_shi_er_fen_lei_orange.png",
+  "red": "03_non_lab/05_family_genetic_history/4_fei_ai_jia_zu_shi_er_fen_lei_red.png",
+  "green": "03_non_lab/05_family_genetic_history/4_fei_ai_jia_zu_shi_er_fen_lei_green.png"
+ },
+ "4_fei_ai_jia_zu_shi_-_bu_er_xing": {
+  "orange": "03_non_lab/05_family_genetic_history/4_fei_ai_jia_zu_shi_bu_er_xing_orange.png",
+  "red": "03_non_lab/05_family_genetic_history/4_fei_ai_jia_zu_shi_bu_er_xing_red.png",
+  "green": "03_non_lab/05_family_genetic_history/4_fei_ai_jia_zu_shi_bu_er_xing_green.png"
+ },
+ "5_shi_guan_ai_jia_zu_shi_-_er_fen_lei": {
+  "orange": "03_non_lab/05_family_genetic_history/5_shi_guan_ai_jia_zu_shi_er_fen_lei_orange.png",
+  "green": "03_non_lab/05_family_genetic_history/5_shi_guan_ai_jia_zu_shi_er_fen_lei_green.png",
+  "red": "03_non_lab/05_family_genetic_history/5_shi_guan_ai_jia_zu_shi_er_fen_lei_red.png"
+ },
+ "5_shi_guan_ai_jia_zu_shi_-_bu_er_xing": {
+  "orange": "03_non_lab/05_family_genetic_history/5_shi_guan_ai_jia_zu_shi_bu_er_xing_orange.png",
+  "red": "03_non_lab/05_family_genetic_history/5_shi_guan_ai_jia_zu_shi_bu_er_xing_red.png",
+  "green": "03_non_lab/05_family_genetic_history/5_shi_guan_ai_jia_zu_shi_bu_er_xing_green.png"
+ },
+ "1_yi_ji_qin_shu_huan_jie_zhi_chang_ai_de_shu_liang_-_er_fen_lei": {
+  "orange": "03_non_lab/05_family_genetic_history/1_yi_ji_qin_shu_huan_jie_zhi_chang_ai_de_shu_liang_er_fen_lei_orange.png",
+  "red": "03_non_lab/05_family_genetic_history/1_yi_ji_qin_shu_huan_jie_zhi_chang_ai_de_shu_liang_er_fen_lei_red.png",
+  "green": "03_non_lab/05_family_genetic_history/1_yi_ji_qin_shu_huan_jie_zhi_chang_ai_de_shu_liang_er_fen_lei_green.png"
+ },
+ "1_yi_ji_qin_shu_huan_jie_zhi_chang_ai_de_shu_liang_-_li_san": {
+  "orange": "03_non_lab/05_family_genetic_history/1_yi_ji_qin_shu_huan_jie_zhi_chang_ai_de_shu_liang_li_san_orange.png",
+  "red": "03_non_lab/05_family_genetic_history/1_yi_ji_qin_shu_huan_jie_zhi_chang_ai_de_shu_liang_li_san_red.png",
+  "green": "03_non_lab/05_family_genetic_history/1_yi_ji_qin_shu_huan_jie_zhi_chang_ai_de_shu_liang_li_san_green.png"
+ },
+ "1_yi_ji_qin_shu_huan_jie_zhi_chang_ai_de_shu_liang_-_ji_shu_xing": {
+  "orange": "03_non_lab/05_family_genetic_history/1_yi_ji_qin_shu_huan_jie_zhi_chang_ai_de_shu_liang_ji_shu_xing_orange.png",
+  "red": "03_non_lab/05_family_genetic_history/1_yi_ji_qin_shu_huan_jie_zhi_chang_ai_de_shu_liang_ji_shu_xing_red.png",
+  "green": "03_non_lab/05_family_genetic_history/1_yi_ji_qin_shu_huan_jie_zhi_chang_ai_de_shu_liang_ji_shu_xing_green.png"
+ },
+ "2_yi_ji_qin_shu_huan_jie_zhi_chang_ai_de_li_shi_-_er_fen_lei": {
+  "orange": "03_non_lab/05_family_genetic_history/2_yi_ji_qin_shu_huan_jie_zhi_chang_ai_de_li_shi_er_fen_lei_orange.png",
+  "red": "03_non_lab/05_family_genetic_history/2_yi_ji_qin_shu_huan_jie_zhi_chang_ai_de_li_shi_er_fen_lei_red.png",
+  "green": "03_non_lab/05_family_genetic_history/2_yi_ji_qin_shu_huan_jie_zhi_chang_ai_de_li_shi_er_fen_lei_green.png"
+ },
+ "2_yi_ji_qin_shu_huan_jie_zhi_chang_ai_de_li_shi_-_li_san": {
+  "orange": "03_non_lab/05_family_genetic_history/2_yi_ji_qin_shu_huan_jie_zhi_chang_ai_de_li_shi_li_san_orange.png",
+  "red": "03_non_lab/05_family_genetic_history/2_yi_ji_qin_shu_huan_jie_zhi_chang_ai_de_li_shi_li_san_red.png",
+  "green": "03_non_lab/05_family_genetic_history/2_yi_ji_qin_shu_huan_jie_zhi_chang_ai_de_li_shi_li_san_green.png"
+ },
+ "2_yi_ji_qin_shu_huan_jie_zhi_chang_ai_de_li_shi_-_ji_shu_xing": {
+  "orange": "03_non_lab/05_family_genetic_history/2_yi_ji_qin_shu_huan_jie_zhi_chang_ai_de_li_shi_ji_shu_xing_orange.png",
+  "red": "03_non_lab/05_family_genetic_history/2_yi_ji_qin_shu_huan_jie_zhi_chang_ai_de_li_shi_ji_shu_xing_red.png",
+  "green": "03_non_lab/05_family_genetic_history/2_yi_ji_qin_shu_huan_jie_zhi_chang_ai_de_li_shi_ji_shu_xing_green.png"
+ },
+ "7_man_zu_fei_jia_zu_shi_-_er_fen_lei": {
+  "orange": "03_non_lab/05_family_genetic_history/7_man_zu_fei_jia_zu_shi_er_fen_lei_orange.png",
+  "red": "03_non_lab/05_family_genetic_history/7_man_zu_fei_jia_zu_shi_er_fen_lei_red.png",
+  "green": "03_non_lab/05_family_genetic_history/7_man_zu_fei_jia_zu_shi_er_fen_lei_green.png"
+ },
+ "7_man_zu_fei_jia_zu_shi_-_bu_er_xing": {
+  "orange": "03_non_lab/05_family_genetic_history/7_man_zu_fei_jia_zu_shi_bu_er_xing_orange.png",
+  "red": "03_non_lab/05_family_genetic_history/7_man_zu_fei_jia_zu_shi_bu_er_xing_red.png",
+  "green": "03_non_lab/05_family_genetic_history/7_man_zu_fei_jia_zu_shi_bu_er_xing_green.png"
+ },
+ "8_fu_mu_xiao_chuan_shi_-_er_fen_lei": {
+  "orange": "03_non_lab/05_family_genetic_history/8_fu_mu_xiao_chuan_shi_er_fen_lei_orange.png",
+  "red": "03_non_lab/05_family_genetic_history/8_fu_mu_xiao_chuan_shi_er_fen_lei_red.png",
+  "green": "03_non_lab/05_family_genetic_history/8_fu_mu_xiao_chuan_shi_er_fen_lei_green.png"
+ },
+ "8_fu_mu_xiao_chuan_shi_-_bu_er_xing": {
+  "orange": "03_non_lab/05_family_genetic_history/8_fu_mu_xiao_chuan_shi_bu_er_xing_orange.png",
+  "red": "03_non_lab/05_family_genetic_history/8_fu_mu_xiao_chuan_shi_bu_er_xing_red.png",
+  "green": "03_non_lab/05_family_genetic_history/8_fu_mu_xiao_chuan_shi_bu_er_xing_green.png"
+ },
+ "9_ru_xian_ai_jia_zu_shi_-_er_fen_lei": {
+  "orange": "03_non_lab/05_family_genetic_history/9_ru_xian_ai_jia_zu_shi_er_fen_lei_orange.png",
+  "red": "03_non_lab/05_family_genetic_history/9_ru_xian_ai_jia_zu_shi_er_fen_lei_red.png",
+  "green": "03_non_lab/05_family_genetic_history/9_ru_xian_ai_jia_zu_shi_er_fen_lei_green.png"
+ },
+ "9_ru_xian_ai_jia_zu_shi_-_bu_er_xing": {
+  "orange": "03_non_lab/05_family_genetic_history/9_ru_xian_ai_jia_zu_shi_bu_er_xing_orange.png",
+  "red": "03_non_lab/05_family_genetic_history/9_ru_xian_ai_jia_zu_shi_bu_er_xing_red.png",
+  "green": "03_non_lab/05_family_genetic_history/9_ru_xian_ai_jia_zu_shi_bu_er_xing_green.png"
+ },
+ "1_shi_fou_fu_yong_jiang_ya_yao_-_bu_er_xing": {
+  "orange": "03_non_lab/06_treatment_medication/1_shi_fou_fu_yong_jiang_ya_yao_bu_er_xing_orange.png",
+  "red": "03_non_lab/06_treatment_medication/1_shi_fou_fu_yong_jiang_ya_yao_bu_er_xing_red.png",
+  "green": "03_non_lab/06_treatment_medication/1_shi_fou_fu_yong_jiang_ya_yao_bu_er_xing_green.png"
+ },
+ "1_shi_fou_jie_shou_guo_yi_gan_kang_bing_du_zhi_liao_ (ETV_TDF)-_er_fen_lei": {
+  "orange": "03_non_lab/06_treatment_medication/1_shi_fou_jie_shou_guo_yi_gan_kang_bing_du_zhi_liao_ETV_TDF_er_fen_lei_orange.png",
+  "red": "03_non_lab/06_treatment_medication/1_shi_fou_jie_shou_guo_yi_gan_kang_bing_du_zhi_liao_ETV_TDF_er_fen_lei_red.png",
+  "green": "03_non_lab/06_treatment_medication/1_shi_fou_jie_shou_guo_yi_gan_kang_bing_du_zhi_liao_ETV_TDF_er_fen_lei_green.png"
+ },
+ "1_shi_fou_jie_shou_guo_yi_gan_kang_bing_du_zhi_liao_ (ETV_TDF)-_bu_er_xing": {
+  "orange": "03_non_lab/06_treatment_medication/1_shi_fou_jie_shou_guo_yi_gan_kang_bing_du_zhi_liao_ETV_TDF_bu_er_xing_orange.png",
+  "red": "03_non_lab/06_treatment_medication/1_shi_fou_jie_shou_guo_yi_gan_kang_bing_du_zhi_liao_ETV_TDF_bu_er_xing_red.png",
+  "green": "03_non_lab/06_treatment_medication/1_shi_fou_jie_shou_guo_yi_gan_kang_bing_du_zhi_liao_ETV_TDF_bu_er_xing_green.png"
+ },
+ "1_shi_fou_you_jiang_ya_zhi_liao_-_er_fen_lei": {
+  "orange": "03_non_lab/06_treatment_medication/1_shi_fou_you_jiang_ya_zhi_liao_er_fen_lei_orange.png",
+  "red": "03_non_lab/06_treatment_medication/1_shi_fou_you_jiang_ya_zhi_liao_er_fen_lei_red.png",
+  "green": "03_non_lab/06_treatment_medication/1_shi_fou_you_jiang_ya_zhi_liao_er_fen_lei_green.png"
+ },
+ "1_shi_fou_you_jiang_ya_zhi_liao_-_bu_er_xing": {
+  "orange": "03_non_lab/06_treatment_medication/1_shi_fou_you_jiang_ya_zhi_liao_bu_er_xing_orange.png",
+  "red": "03_non_lab/06_treatment_medication/1_shi_fou_you_jiang_ya_zhi_liao_bu_er_xing_red.png",
+  "green": "03_non_lab/06_treatment_medication/1_shi_fou_you_jiang_ya_zhi_liao_bu_er_xing_green.png"
+ },
+ "1_shi_fou_fu_yong_jiang_ya_yao_-_er_fen_lei": {
+  "orange": "03_non_lab/06_treatment_medication/1_shi_fou_fu_yong_jiang_ya_yao_er_fen_lei_orange.png",
+  "red": "03_non_lab/06_treatment_medication/1_shi_fou_fu_yong_jiang_ya_yao_er_fen_lei_red.png",
+  "green": "03_non_lab/06_treatment_medication/1_shi_fou_fu_yong_jiang_ya_yao_er_fen_lei_green.png"
+ },
+ "3_shi_fou_fu_yong_jiang_zhi_yao_-_er_fen_lei": {
+  "orange": "03_non_lab/06_treatment_medication/3_shi_fou_fu_yong_jiang_zhi_yao_er_fen_lei_orange.png",
+  "red": "03_non_lab/06_treatment_medication/3_shi_fou_fu_yong_jiang_zhi_yao_er_fen_lei_red.png",
+  "green": "03_non_lab/06_treatment_medication/3_shi_fou_fu_yong_jiang_zhi_yao_er_fen_lei_green.png"
+ },
+ "3_shi_fou_fu_yong_jiang_zhi_yao_-_bu_er_xing": {
+  "orange": "03_non_lab/06_treatment_medication/3_shi_fou_fu_yong_jiang_zhi_yao_bu_er_xing_orange.png",
+  "red": "03_non_lab/06_treatment_medication/3_shi_fou_fu_yong_jiang_zhi_yao_bu_er_xing_red.png",
+  "green": "03_non_lab/06_treatment_medication/3_shi_fou_fu_yong_jiang_zhi_yao_bu_er_xing_green.png"
+ },
+ "4_shi_fou_fu_yong_kou_fu_yao_wu_-_er_fen_lei": {
+  "orange": "03_non_lab/06_treatment_medication/4_shi_fou_fu_yong_kou_fu_yao_wu_er_fen_lei_orange.png",
+  "red": "03_non_lab/06_treatment_medication/4_shi_fou_fu_yong_kou_fu_yao_wu_er_fen_lei_red.png",
+  "green": "03_non_lab/06_treatment_medication/4_shi_fou_fu_yong_kou_fu_yao_wu_er_fen_lei_green.png"
+ },
+ "4_shi_fou_fu_yong_kou_fu_yao_wu_-_bu_er_xing": {
+  "orange": "03_non_lab/06_treatment_medication/4_shi_fou_fu_yong_kou_fu_yao_wu_bu_er_xing_orange.png",
+  "red": "03_non_lab/06_treatment_medication/4_shi_fou_fu_yong_kou_fu_yao_wu_bu_er_xing_red.png",
+  "green": "03_non_lab/06_treatment_medication/4_shi_fou_fu_yong_kou_fu_yao_wu_bu_er_xing_green.png"
+ },
+ "5_shi_fou_shi_yong_yi_dao_su_-_er_fen_lei": {
+  "orange": "03_non_lab/06_treatment_medication/5_shi_fou_shi_yong_yi_dao_su_er_fen_lei_orange.png",
+  "red": "03_non_lab/06_treatment_medication/5_shi_fou_shi_yong_yi_dao_su_er_fen_lei_red.png",
+  "green": "03_non_lab/06_treatment_medication/5_shi_fou_shi_yong_yi_dao_su_er_fen_lei_green.png"
+ },
+ "5_shi_fou_shi_yong_yi_dao_su_-_bu_er_xing": {
+  "orange": "03_non_lab/06_treatment_medication/5_shi_fou_shi_yong_yi_dao_su_bu_er_xing_orange.png",
+  "red": "03_non_lab/06_treatment_medication/5_shi_fou_shi_yong_yi_dao_su_bu_er_xing_red.png",
+  "green": "03_non_lab/06_treatment_medication/5_shi_fou_shi_yong_yi_dao_su_bu_er_xing_green.png"
+ },
+ "10_jia_gong_rou_lei_she_ru_qing_kuang_-_er_fen_lei": {
+  "orange": "03_non_lab/07_diet_lifestyle/10_jia_gong_rou_lei_she_ru_qing_kuang_er_fen_lei_orange.png",
+  "red": "03_non_lab/07_diet_lifestyle/10_jia_gong_rou_lei_she_ru_qing_kuang_er_fen_lei_red.png",
+  "green": "03_non_lab/07_diet_lifestyle/10_jia_gong_rou_lei_she_ru_qing_kuang_er_fen_lei_green.png"
+ },
+ "10_jia_gong_rou_lei_she_ru_qing_kuang_-_bu_er_xing": {
+  "orange": "03_non_lab/07_diet_lifestyle/10_jia_gong_rou_lei_she_ru_qing_kuang_bu_er_xing_orange.png",
+  "red": "03_non_lab/07_diet_lifestyle/10_jia_gong_rou_lei_she_ru_qing_kuang_bu_er_xing_red.png",
+  "green": "03_non_lab/07_diet_lifestyle/10_jia_gong_rou_lei_she_ru_qing_kuang_bu_er_xing_green.png"
+ },
+ "11_mei_ri_tang_guo_dian_xin_she_ru_qing_kuang_-_er_fen_lei": {
+  "orange": "03_non_lab/07_diet_lifestyle/11_mei_ri_tang_guo_dian_xin_she_ru_qing_kuang_er_fen_lei_orange.png",
+  "red": "03_non_lab/07_diet_lifestyle/11_mei_ri_tang_guo_dian_xin_she_ru_qing_kuang_er_fen_lei_red.png",
+  "green": "03_non_lab/07_diet_lifestyle/11_mei_ri_tang_guo_dian_xin_she_ru_qing_kuang_er_fen_lei_green.png"
+ },
+ "11_mei_ri_tang_guo_dian_xin_she_ru_qing_kuang_-_bu_er_xing": {
+  "orange": "03_non_lab/07_diet_lifestyle/11_mei_ri_tang_guo_dian_xin_she_ru_qing_kuang_bu_er_xing_orange.png",
+  "red": "03_non_lab/07_diet_lifestyle/11_mei_ri_tang_guo_dian_xin_she_ru_qing_kuang_bu_er_xing_red.png",
+  "green": "03_non_lab/07_diet_lifestyle/11_mei_ri_tang_guo_dian_xin_she_ru_qing_kuang_bu_er_xing_green.png"
+ },
+ "12_chang_chi_yan_zhi_shi_wu_-_er_fen_lei": {
+  "orange": "03_non_lab/07_diet_lifestyle/12_chang_chi_yan_zhi_shi_wu_er_fen_lei_orange.png",
+  "red": "03_non_lab/07_diet_lifestyle/12_chang_chi_yan_zhi_shi_wu_er_fen_lei_red.png",
+  "green": "03_non_lab/07_diet_lifestyle/12_chang_chi_yan_zhi_shi_wu_er_fen_lei_green.png"
+ },
+ "12_chang_chi_yan_zhi_shi_wu_-_bu_er_xing": {
+  "orange": "03_non_lab/07_diet_lifestyle/12_chang_chi_yan_zhi_shi_wu_bu_er_xing_orange.png",
+  "green": "03_non_lab/07_diet_lifestyle/12_chang_chi_yan_zhi_shi_wu_bu_er_xing_green.png",
+  "red": "03_non_lab/07_diet_lifestyle/12_chang_chi_yan_zhi_shi_wu_bu_er_xing_red.png"
+ },
+ "13_chang_chi_sheng_cai_-_er_fen_lei": {
+  "orange": "03_non_lab/07_diet_lifestyle/13_chang_chi_sheng_cai_er_fen_lei_orange.png",
+  "red": "03_non_lab/07_diet_lifestyle/13_chang_chi_sheng_cai_er_fen_lei_red.png",
+  "green": "03_non_lab/07_diet_lifestyle/13_chang_chi_sheng_cai_er_fen_lei_green.png"
+ },
+ "13_chang_chi_sheng_cai_-_bu_er_xing": {
+  "orange": "03_non_lab/07_diet_lifestyle/13_chang_chi_sheng_cai_bu_er_xing_orange.png",
+  "red": "03_non_lab/07_diet_lifestyle/13_chang_chi_sheng_cai_bu_er_xing_red.png",
+  "green": "03_non_lab/07_diet_lifestyle/13_chang_chi_sheng_cai_bu_er_xing_green.png"
+ },
+ "14_shi_fou_you_yi_shi_di_ding_qi_duan_lian_-_er_fen_lei": {
+  "orange": "03_non_lab/07_diet_lifestyle/14_shi_fou_you_yi_shi_di_ding_qi_duan_lian_er_fen_lei_orange.png",
+  "red": "03_non_lab/07_diet_lifestyle/14_shi_fou_you_yi_shi_di_ding_qi_duan_lian_er_fen_lei_red.png",
+  "green": "03_non_lab/07_diet_lifestyle/14_shi_fou_you_yi_shi_di_ding_qi_duan_lian_er_fen_lei_green.png"
+ },
+ "14_shi_fou_you_yi_shi_di_ding_qi_duan_lian_-_bu_er_xing": {
+  "orange": "03_non_lab/07_diet_lifestyle/14_shi_fou_you_yi_shi_di_ding_qi_duan_lian_bu_er_xing_orange.png",
+  "red": "03_non_lab/07_diet_lifestyle/14_shi_fou_you_yi_shi_di_ding_qi_duan_lian_bu_er_xing_red.png",
+  "green": "03_non_lab/07_diet_lifestyle/14_shi_fou_you_yi_shi_di_ding_qi_duan_lian_bu_er_xing_green.png"
+ },
+ "1_shi_fou_you_shi_nei_sheng_wu_ran_liao_-_er_fen_lei": {
+  "orange": "03_non_lab/07_diet_lifestyle/1_shi_fou_you_shi_nei_sheng_wu_ran_liao_er_fen_lei_orange.png",
+  "red": "03_non_lab/07_diet_lifestyle/1_shi_fou_you_shi_nei_sheng_wu_ran_liao_er_fen_lei_red.png",
+  "green": "03_non_lab/07_diet_lifestyle/1_shi_fou_you_shi_nei_sheng_wu_ran_liao_er_fen_lei_green.png"
+ },
+ "1_shi_fou_you_shi_nei_sheng_wu_ran_liao_-_bu_er_xing": {
+  "orange": "03_non_lab/07_diet_lifestyle/1_shi_fou_you_shi_nei_sheng_wu_ran_liao_bu_er_xing_orange.png",
+  "red": "03_non_lab/07_diet_lifestyle/1_shi_fou_you_shi_nei_sheng_wu_ran_liao_bu_er_xing_red.png",
+  "green": "03_non_lab/07_diet_lifestyle/1_shi_fou_you_shi_nei_sheng_wu_ran_liao_bu_er_xing_green.png"
+ },
+ "2_shi_fou_chai_cao_peng_ren_bao_lu_-_er_fen_lei": {
+  "orange": "03_non_lab/07_diet_lifestyle/2_shi_fou_chai_cao_peng_ren_bao_lu_er_fen_lei_orange.png",
+  "red": "03_non_lab/07_diet_lifestyle/2_shi_fou_chai_cao_peng_ren_bao_lu_er_fen_lei_red.png",
+  "green": "03_non_lab/07_diet_lifestyle/2_shi_fou_chai_cao_peng_ren_bao_lu_er_fen_lei_green.png"
+ },
+ "2_shi_fou_chai_cao_peng_ren_bao_lu_-_bu_er_xing": {
+  "orange": "03_non_lab/07_diet_lifestyle/2_shi_fou_chai_cao_peng_ren_bao_lu_bu_er_xing_orange.png",
+  "red": "03_non_lab/07_diet_lifestyle/2_shi_fou_chai_cao_peng_ren_bao_lu_bu_er_xing_red.png",
+  "green": "03_non_lab/07_diet_lifestyle/2_shi_fou_chai_cao_peng_ren_bao_lu_bu_er_xing_green.png"
+ },
+ "16_jing_shen_chuang_shang_huo_zhong_da_sheng_huo_bian_gu_shi_-_er_fen_lei": {
+  "orange": "03_non_lab/07_diet_lifestyle/16_jing_shen_chuang_shang_huo_zhong_da_sheng_huo_bian_gu_shi_er_fen_lei_orange.png",
+  "red": "03_non_lab/07_diet_lifestyle/16_jing_shen_chuang_shang_huo_zhong_da_sheng_huo_bian_gu_shi_er_fen_lei_red.png",
+  "green": "03_non_lab/07_diet_lifestyle/16_jing_shen_chuang_shang_huo_zhong_da_sheng_huo_bian_gu_shi_er_fen_lei_green.png"
+ },
+ "16_jing_shen_chuang_shang_huo_zhong_da_sheng_huo_bian_gu_shi_-_bu_er_xing": {
+  "orange": "03_non_lab/07_diet_lifestyle/16_jing_shen_chuang_shang_huo_zhong_da_sheng_huo_bian_gu_shi_bu_er_xing_orange.png",
+  "red": "03_non_lab/07_diet_lifestyle/16_jing_shen_chuang_shang_huo_zhong_da_sheng_huo_bian_gu_shi_bu_er_xing_red.png",
+  "green": "03_non_lab/07_diet_lifestyle/16_jing_shen_chuang_shang_huo_zhong_da_sheng_huo_bian_gu_shi_bu_er_xing_green.png"
+ },
+ "1_xi_yan_shi_-_er_fen_lei": {
+  "orange": "03_non_lab/07_diet_lifestyle/1_xi_yan_shi_er_fen_lei_orange.png",
+  "green": "03_non_lab/07_diet_lifestyle/1_xi_yan_shi_er_fen_lei_green.png",
+  "red": "03_non_lab/07_diet_lifestyle/1_xi_yan_shi_er_fen_lei_red.png"
+ },
+ "1_xi_yan_shi_-_bu_er_xing": {
+  "orange": "03_non_lab/07_diet_lifestyle/1_xi_yan_shi_bu_er_xing_orange.png",
+  "red": "03_non_lab/07_diet_lifestyle/1_xi_yan_shi_bu_er_xing_red.png",
+  "green": "03_non_lab/07_diet_lifestyle/1_xi_yan_shi_bu_er_xing_green.png"
+ },
+ "2_jie_yan_nian_shu_-_li_san": {
+  "orange": "03_non_lab/07_diet_lifestyle/2_jie_yan_nian_shu_li_san_orange.png",
+  "green": "03_non_lab/07_diet_lifestyle/2_jie_yan_nian_shu_li_san_green.png"
+ },
+ "2_jie_yan_nian_shu_-_ji_shu_xing": {
+  "orange": "03_non_lab/07_diet_lifestyle/2_jie_yan_nian_shu_ji_shu_xing_orange.png",
+  "red": "03_non_lab/07_diet_lifestyle/2_jie_yan_nian_shu_ji_shu_xing_red.png",
+  "green": "03_non_lab/07_diet_lifestyle/2_jie_yan_nian_shu_ji_shu_xing_green.png"
+ },
+ "3_mei_tian_xi_yan_liang_-_li_san": {
+  "orange": "03_non_lab/07_diet_lifestyle/3_mei_tian_xi_yan_liang_li_san_orange.png",
+  "red": "03_non_lab/07_diet_lifestyle/3_mei_tian_xi_yan_liang_li_san_red.png",
+  "green": "03_non_lab/07_diet_lifestyle/3_mei_tian_xi_yan_liang_li_san_green.png"
+ },
+ "3_mei_tian_xi_yan_liang_-_ji_shu_xing": {
+  "orange": "03_non_lab/07_diet_lifestyle/3_mei_tian_xi_yan_liang_ji_shu_xing_orange.png",
+  "red": "03_non_lab/07_diet_lifestyle/3_mei_tian_xi_yan_liang_ji_shu_xing_red.png",
+  "green": "03_non_lab/07_diet_lifestyle/3_mei_tian_xi_yan_liang_ji_shu_xing_green.png"
+ },
+ "4_lei_ji_xi_yan_nian_shu_-_li_san": {
+  "orange": "03_non_lab/07_diet_lifestyle/4_lei_ji_xi_yan_nian_shu_li_san_orange.png",
+  "red": "03_non_lab/07_diet_lifestyle/4_lei_ji_xi_yan_nian_shu_li_san_red.png",
+  "green": "03_non_lab/07_diet_lifestyle/4_lei_ji_xi_yan_nian_shu_li_san_green.png"
+ },
+ "6_yin_cha_xi_guan_ji_cha_wen_ (_ru_tang_cha___re_cha_)-_deng_ji": {
+  "green": "03_non_lab/07_diet_lifestyle/6_yin_cha_xi_guan_ji_cha_wen_ru_tang_cha_re_cha_deng_ji_green.png",
+  "orange": "03_non_lab/07_diet_lifestyle/6_yin_cha_xi_guan_ji_cha_wen_ru_tang_cha_re_cha_deng_ji_orange.png",
+  "red": "03_non_lab/07_diet_lifestyle/6_yin_cha_xi_guan_ji_cha_wen_ru_tang_cha_re_cha_deng_ji_red.png"
+ },
+ "4_lei_ji_xi_yan_nian_shu_-_ji_shu_xing": {
+  "orange": "03_non_lab/07_diet_lifestyle/4_lei_ji_xi_yan_nian_shu_ji_shu_xing_orange.png",
+  "red": "03_non_lab/07_diet_lifestyle/4_lei_ji_xi_yan_nian_shu_ji_shu_xing_red.png",
+  "green": "03_non_lab/07_diet_lifestyle/4_lei_ji_xi_yan_nian_shu_ji_shu_xing_green.png"
+ },
+ "5_mei_tian_he_jiu_liang_-_li_san": {
+  "orange": "03_non_lab/07_diet_lifestyle/5_mei_tian_he_jiu_liang_li_san_orange.png",
+  "red": "03_non_lab/07_diet_lifestyle/5_mei_tian_he_jiu_liang_li_san_red.png",
+  "green": "03_non_lab/07_diet_lifestyle/5_mei_tian_he_jiu_liang_li_san_green.png"
+ },
+ "5_mei_tian_he_jiu_liang_-_ji_shu_xing": {
+  "orange": "03_non_lab/07_diet_lifestyle/5_mei_tian_he_jiu_liang_ji_shu_xing_orange.png",
+  "red": "03_non_lab/07_diet_lifestyle/5_mei_tian_he_jiu_liang_ji_shu_xing_red.png",
+  "green": "03_non_lab/07_diet_lifestyle/5_mei_tian_he_jiu_liang_ji_shu_xing_green.png"
+ },
+ "6_yin_cha_xi_guan_ji_cha_wen_ (_ru_tang_cha___re_cha_)-_you_xu_duo_fen_lei": {
+  "orange": "03_non_lab/07_diet_lifestyle/6_yin_cha_xi_guan_ji_cha_wen_ru_tang_cha_re_cha_you_xu_duo_fen_lei_orange.png",
+  "red": "03_non_lab/07_diet_lifestyle/6_yin_cha_xi_guan_ji_cha_wen_ru_tang_cha_re_cha_you_xu_duo_fen_lei_red.png",
+  "green": "03_non_lab/07_diet_lifestyle/6_yin_cha_xi_guan_ji_cha_wen_ru_tang_cha_re_cha_you_xu_duo_fen_lei_green.png"
+ },
+ "7_mei_ri_shu_cai_she_ru_liang_-_chi_cun": {
+  "orange": "03_non_lab/07_diet_lifestyle/7_mei_ri_shu_cai_she_ru_liang_chi_cun_orange.png",
+  "red": "03_non_lab/07_diet_lifestyle/7_mei_ri_shu_cai_she_ru_liang_chi_cun_red.png",
+  "green": "03_non_lab/07_diet_lifestyle/7_mei_ri_shu_cai_she_ru_liang_chi_cun_green.png"
+ },
+ "7_mei_ri_shu_cai_she_ru_liang_-_xing_tai": {
+  "orange": "03_non_lab/07_diet_lifestyle/7_mei_ri_shu_cai_she_ru_liang_xing_tai_orange.png",
+  "red": "03_non_lab/07_diet_lifestyle/7_mei_ri_shu_cai_she_ru_liang_xing_tai_red.png",
+  "green": "03_non_lab/07_diet_lifestyle/7_mei_ri_shu_cai_she_ru_liang_xing_tai_green.png"
+ },
+ "7_mei_ri_shu_cai_she_ru_liang_-_she_ru_liang": {
+  "orange": "03_non_lab/07_diet_lifestyle/7_mei_ri_shu_cai_she_ru_liang_she_ru_liang_orange.png",
+  "red": "03_non_lab/07_diet_lifestyle/7_mei_ri_shu_cai_she_ru_liang_she_ru_liang_red.png",
+  "green": "03_non_lab/07_diet_lifestyle/7_mei_ri_shu_cai_she_ru_liang_she_ru_liang_green.png"
+ },
+ "7_mei_ri_shu_cai_she_ru_liang_-_lian_xu_shu_zhi_xing": {
+  "orange": "03_non_lab/07_diet_lifestyle/7_mei_ri_shu_cai_she_ru_liang_lian_xu_shu_zhi_xing_orange.png",
+  "red": "03_non_lab/07_diet_lifestyle/7_mei_ri_shu_cai_she_ru_liang_lian_xu_shu_zhi_xing_red.png",
+  "green": "03_non_lab/07_diet_lifestyle/7_mei_ri_shu_cai_she_ru_liang_lian_xu_shu_zhi_xing_green.png"
+ },
+ "8_mei_ri_xin_xian_shui_guo_she_ru_pin_lv_-_you_xu_duo_fen_lei": {
+  "orange": "03_non_lab/07_diet_lifestyle/8_mei_ri_xin_xian_shui_guo_she_ru_pin_lv_you_xu_duo_fen_lei_orange.png",
+  "red": "03_non_lab/07_diet_lifestyle/8_mei_ri_xin_xian_shui_guo_she_ru_pin_lv_you_xu_duo_fen_lei_red.png",
+  "green": "03_non_lab/07_diet_lifestyle/8_mei_ri_xin_xian_shui_guo_she_ru_pin_lv_you_xu_duo_fen_lei_green.png"
+ },
+ "8_mei_ri_xin_xian_shui_guo_she_ru_pin_lv_-_deng_ji": {
+  "orange": "03_non_lab/07_diet_lifestyle/8_mei_ri_xin_xian_shui_guo_she_ru_pin_lv_deng_ji_orange.png",
+  "red": "03_non_lab/07_diet_lifestyle/8_mei_ri_xin_xian_shui_guo_she_ru_pin_lv_deng_ji_red.png",
+  "green": "03_non_lab/07_diet_lifestyle/8_mei_ri_xin_xian_shui_guo_she_ru_pin_lv_deng_ji_green.png"
+ },
+ "9_mei_ri_ru_zhi_pin_she_ru_liang_-_chi_cun": {
+  "orange": "03_non_lab/07_diet_lifestyle/9_mei_ri_ru_zhi_pin_she_ru_liang_chi_cun_orange.png",
+  "red": "03_non_lab/07_diet_lifestyle/9_mei_ri_ru_zhi_pin_she_ru_liang_chi_cun_red.png",
+  "green": "03_non_lab/07_diet_lifestyle/9_mei_ri_ru_zhi_pin_she_ru_liang_chi_cun_green.png"
+ },
+ "9_mei_ri_ru_zhi_pin_she_ru_liang_-_xing_tai": {
+  "orange": "03_non_lab/07_diet_lifestyle/9_mei_ri_ru_zhi_pin_she_ru_liang_xing_tai_orange.png",
+  "red": "03_non_lab/07_diet_lifestyle/9_mei_ri_ru_zhi_pin_she_ru_liang_xing_tai_red.png",
+  "green": "03_non_lab/07_diet_lifestyle/9_mei_ri_ru_zhi_pin_she_ru_liang_xing_tai_green.png"
+ },
+ "9_mei_ri_ru_zhi_pin_she_ru_liang_-_she_ru_liang": {
+  "orange": "03_non_lab/07_diet_lifestyle/9_mei_ri_ru_zhi_pin_she_ru_liang_she_ru_liang_orange.png",
+  "red": "03_non_lab/07_diet_lifestyle/9_mei_ri_ru_zhi_pin_she_ru_liang_she_ru_liang_red.png",
+  "green": "03_non_lab/07_diet_lifestyle/9_mei_ri_ru_zhi_pin_she_ru_liang_she_ru_liang_green.png"
+ },
+ "9_mei_ri_ru_zhi_pin_she_ru_liang_-_lian_xu_shu_zhi_xing": {
+  "orange": "03_non_lab/07_diet_lifestyle/9_mei_ri_ru_zhi_pin_she_ru_liang_lian_xu_shu_zhi_xing_orange.png",
+  "red": "03_non_lab/07_diet_lifestyle/9_mei_ri_ru_zhi_pin_she_ru_liang_lian_xu_shu_zhi_xing_red.png",
+  "green": "03_non_lab/07_diet_lifestyle/9_mei_ri_ru_zhi_pin_she_ru_liang_lian_xu_shu_zhi_xing_green.png"
+ }
+}
